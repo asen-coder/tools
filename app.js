@@ -10,51 +10,102 @@ const state = {
 const CAT_LABELS = { ai: 'AI', programming: '编程', music: '音乐', daily: '日常', general: '通用' };
 
 /* ── 语音 ──────────────────────────────────────────────────────────────── */
-let cachedVoice = null;
+// 语音合成初始化
+const tts = {
+  ready: false,
+  voices: [],
+  preferredVoice: null,
 
-function pickVoice() {
-  const voices = window.speechSynthesis.getVoices();
-  // 优先英文本地 → 英文云端 → 任意英文 → 兜底用第一个可用声音
-  return (
-    voices.find((v) => v.lang === 'en-US' && v.localService) ||
-    voices.find((v) => v.lang === 'en-US') ||
-    voices.find((v) => v.lang.startsWith('en')) ||
-    voices[0] ||
-    null
-  );
-}
+  init() {
+    if (!('speechSynthesis' in window)) return;
 
-if ('speechSynthesis' in window) {
-  window.speechSynthesis.addEventListener('voiceschanged', () => {
-    cachedVoice = pickVoice();
-  });
-  cachedVoice = pickVoice();
-}
+    const loadVoices = () => {
+      this.voices = window.speechSynthesis.getVoices();
+      this.ready = this.voices.length > 0;
+      this.pickPreferredVoice();
+    };
 
-window.speak = function (text, btnEl) {
-  if (!('speechSynthesis' in window)) return;
+    // 立即加载（可能返回空）
+    loadVoices();
 
-  const u = new SpeechSynthesisUtterance(text);
-  u.rate = 0.85;
-  u.pitch = 1;
+    // 监听 voiceschanged 事件（异步加载）
+    window.speechSynthesis.addEventListener('voiceschanged', () => {
+      loadVoices();
+      console.log(`[TTS] 已加载 ${this.voices.length} 个声音`);
+    });
+  },
 
-  const voice = cachedVoice || pickVoice();
-  if (voice) {
-    u.voice = voice;
-    // 只在确认是英文声音时才锁定语言，否则让系统自行匹配
-    if (voice.lang.startsWith('en')) u.lang = 'en-US';
-  } else {
+  pickPreferredVoice() {
+    if (!this.ready) return;
+
+    // 按优先级查找：英文本地 → 英文云端 → 任意英文 → 第一个可用
+    this.preferredVoice =
+      this.voices.find(v => v.lang === 'en-US' && v.localService) ||
+      this.voices.find(v => v.lang === 'en-US') ||
+      this.voices.find(v => v.lang.startsWith('en')) ||
+      this.voices.find(v => v.lang.startsWith('en-')) ||
+      this.voices[0] ||
+      null;
+
+    if (this.preferredVoice) {
+      console.log(`[TTS] 选择声音: ${this.preferredVoice.name} (${this.preferredVoice.lang})`);
+    }
+  },
+
+  speak(text, btnEl) {
+    if (!('speechSynthesis' in window)) {
+      console.warn('[TTS] 浏览器不支持语音合成');
+      return;
+    }
+
+    if (!this.ready) {
+      // 如果还没准备好，强制刷新一次
+      this.voices = window.speechSynthesis.getVoices();
+      this.ready = this.voices.length > 0;
+      this.pickPreferredVoice();
+    }
+
+    const u = new SpeechSynthesisUtterance(text);
+    u.rate = 0.85;
+    u.pitch = 1;
+
+    // 强制使用英文，即使系统没有英文声音也会尝试朗读
     u.lang = 'en-US';
-  }
 
-  if (btnEl) {
-    btnEl.classList.add('speaking');
-    u.onend = () => btnEl.classList.remove('speaking');
-    u.onerror = () => btnEl.classList.remove('speaking');
-  }
+    // 如果有选中的声音就使用
+    if (this.preferredVoice) {
+      u.voice = this.preferredVoice;
+    }
 
-  window.speechSynthesis.cancel();
-  setTimeout(() => window.speechSynthesis.speak(u), 50);
+    // 按钮动画
+    if (btnEl) {
+      btnEl.classList.add('speaking');
+      u.onend = () => btnEl.classList.remove('speaking');
+      u.onerror = (e) => {
+        console.error('[TTS] 播放错误:', e);
+        btnEl.classList.remove('speaking');
+      };
+    }
+
+    // 取消当前播放，延迟 50ms 避免 Chrome bug
+    window.speechSynthesis.cancel();
+    setTimeout(() => {
+      try {
+        window.speechSynthesis.speak(u);
+        console.log(`[TTS] 正在播放: "${text}"`);
+      } catch (err) {
+        console.error('[TTS] 播放失败:', err);
+      }
+    }, 50);
+  }
+};
+
+// 页面加载时初始化
+tts.init();
+
+// 全局 speak 函数
+window.speak = function (text, btnEl) {
+  tts.speak(text, btnEl);
 };
 
 /* ── 工具函数 ───────────────────────────────────────────────────────────── */
