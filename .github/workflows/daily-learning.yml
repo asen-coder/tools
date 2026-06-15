@@ -4,7 +4,15 @@ on:
   schedule:
     # 00:00 UTC = 08:00 CST（北京时间）
     - cron: '0 0 * * *'
-  workflow_dispatch: # 允许手动触发
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      # 代码变更自动部署；数据文件排除在外（防止 bot 提交触发死循环）
+      - 'daily-learning/docs/index.html'
+      - 'daily-learning/docs/style.css'
+      - 'daily-learning/docs/app.js'
+      - 'daily-learning/scripts/**'
 
 permissions:
   contents: write
