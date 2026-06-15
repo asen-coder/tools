@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-15，共 772 条词汇。
+> 更新于 2026-06-15，共 1247 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1402,7 +1402,7 @@ React 18's concurrent mode can pause rendering to handle user input first
 C, D, E, F, G, A, B are the 7 natural notes
 ```
 
-*状态：✓ 已开始学习*
+*状态：○ 待学习*
 
 ### beat · 拍  ★
 
@@ -1412,7 +1412,7 @@ C, D, E, F, G, A, B are the 7 natural notes
 A 4/4 time signature has 4 beats per measure
 ```
 
-*状态：✓ 已开始学习*
+*状态：○ 待学习*
 
 ### tempo · 速度  ★
 
@@ -1422,7 +1422,7 @@ A 4/4 time signature has 4 beats per measure
 120 BPM is a common tempo; 60 BPM feels like a slow heartbeat
 ```
 
-*状态：✓ 已开始学习*
+*状态：○ 待学习*
 
 ### melody · 旋律  ★
 
