@@ -10,37 +10,51 @@ const state = {
 const CAT_LABELS = { ai: 'AI', programming: '编程', music: '音乐', daily: '日常' };
 
 /* ── 语音 ──────────────────────────────────────────────────────────────── */
-let preferredVoice = null;
+let cachedVoice = null;
 
-function initVoice() {
-  const pick = () => {
-    const voices = speechSynthesis.getVoices();
-    preferredVoice =
-      voices.find((v) => v.lang === 'en-US' && v.localService) ||
-      voices.find((v) => v.lang === 'en-US') ||
-      voices.find((v) => v.lang.startsWith('en')) ||
-      null;
-  };
-  speechSynthesis.addEventListener('voiceschanged', pick);
-  pick();
+function pickVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  // 优先英文本地 → 英文云端 → 任意英文 → 兜底用第一个可用声音
+  return (
+    voices.find((v) => v.lang === 'en-US' && v.localService) ||
+    voices.find((v) => v.lang === 'en-US') ||
+    voices.find((v) => v.lang.startsWith('en')) ||
+    voices[0] ||
+    null
+  );
+}
+
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.addEventListener('voiceschanged', () => {
+    cachedVoice = pickVoice();
+  });
+  cachedVoice = pickVoice();
 }
 
 window.speak = function (text, btnEl) {
   if (!('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel();
 
   const u = new SpeechSynthesisUtterance(text);
-  u.lang = 'en-US';
   u.rate = 0.85;
   u.pitch = 1;
-  if (preferredVoice) u.voice = preferredVoice;
+
+  const voice = cachedVoice || pickVoice();
+  if (voice) {
+    u.voice = voice;
+    // 只在确认是英文声音时才锁定语言，否则让系统自行匹配
+    if (voice.lang.startsWith('en')) u.lang = 'en-US';
+  } else {
+    u.lang = 'en-US';
+  }
 
   if (btnEl) {
     btnEl.classList.add('speaking');
     u.onend = () => btnEl.classList.remove('speaking');
     u.onerror = () => btnEl.classList.remove('speaking');
   }
-  window.speechSynthesis.speak(u);
+
+  window.speechSynthesis.cancel();
+  setTimeout(() => window.speechSynthesis.speak(u), 50);
 };
 
 /* ── 工具函数 ───────────────────────────────────────────────────────────── */
@@ -253,6 +267,250 @@ function renderProgress() {
     </div>`;
 }
 
+/* ── 练习模式 ────────────────────────────────────────────────────────────── */
+const quiz = {
+  words: [],
+  phase: 'idle',  // 'idle' | 'choice' | 'spell' | 'done'
+  idx: 0,
+  correct: 0,
+  wrong: 0,
+  answered: false,
+  lastOk: null,
+};
+
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function getOptions(word) {
+  const correct = word.zh;
+  const pool = shuffle(quiz.words.map((w) => w.zh).filter((zh) => zh !== correct));
+  const distractors = pool.slice(0, 3);
+  while (distractors.length < 3) distractors.push('—');
+  return shuffle([correct, ...distractors]);
+}
+
+function startQuiz() {
+  const d = state.todayData;
+  const all = [...(d.new_words || []), ...(d.vocab_reviews || [])];
+  if (all.length === 0) {
+    document.getElementById('quiz-content').innerHTML = `
+      <div class="state-box">
+        <div class="state-icon">○</div>
+        <p>今日暂无词汇，明天再来练习！</p>
+      </div>`;
+    return;
+  }
+  quiz.words = shuffle(all);
+  quiz.phase = 'choice';
+  quiz.idx = 0;
+  quiz.correct = 0;
+  quiz.wrong = 0;
+  quiz.answered = false;
+  quiz.lastOk = null;
+  renderQuizCard();
+}
+
+function renderQuizStart() {
+  const d = state.todayData;
+  const total = (d.new_words || []).length + (d.vocab_reviews || []).length;
+  const el = document.getElementById('quiz-content');
+  el.innerHTML = `
+    <div class="quiz-start">
+      <div class="quiz-start-icon">✦</div>
+      <h2 class="quiz-start-title">今日练习</h2>
+      <p class="quiz-start-sub">共 <strong>${total}</strong> 个词汇 · 先选择后拼写</p>
+      <div class="quiz-flow-steps">
+        <div class="quiz-flow-step active">
+          <span class="qfs-num">1</span>
+          <span>选择题</span>
+        </div>
+        <div class="qfs-arrow">→</div>
+        <div class="quiz-flow-step">
+          <span class="qfs-num">2</span>
+          <span>拼写题</span>
+        </div>
+        <div class="qfs-arrow">→</div>
+        <div class="quiz-flow-step">
+          <span class="qfs-num">3</span>
+          <span>结果</span>
+        </div>
+      </div>
+      <button class="btn-primary quiz-start-btn" onclick="startQuiz()">开始练习</button>
+    </div>`;
+}
+
+function renderQuizCard() {
+  const el = document.getElementById('quiz-content');
+  const word = quiz.words[quiz.idx];
+  const total = quiz.words.length;
+  const pct = Math.round(((quiz.idx) / total) * 100);
+
+  const progressBar = `
+    <div class="quiz-progress">
+      <div class="quiz-progress-bar" style="width:${pct}%"></div>
+    </div>
+    <div class="quiz-progress-label">${quiz.phase === 'choice' ? '选择题' : '拼写题'} · ${quiz.idx + 1} / ${total}</div>`;
+
+  if (quiz.phase === 'choice') {
+    const options = getOptions(word);
+    const optBtns = options.map((opt) => {
+      let cls = 'quiz-option';
+      if (quiz.answered) {
+        if (opt === word.zh) cls += ' correct';
+        else if (opt === quiz._chosen && !quiz.lastOk) cls += ' wrong';
+      }
+      const disabled = quiz.answered ? 'disabled' : '';
+      return `<button class="${cls}" ${disabled} onclick="answerChoice(${JSON.stringify(opt)})">${esc(opt)}</button>`;
+    }).join('');
+
+    const feedback = quiz.answered
+      ? `<div class="quiz-feedback ${quiz.lastOk ? 'ok' : 'fail'}">${quiz.lastOk ? '正确！' : `正确答案：${esc(word.zh)}`}</div>`
+      : '';
+
+    const nextBtn = quiz.answered
+      ? `<button class="btn-primary quiz-next-btn" onclick="nextQuizCard()">下一题 →</button>`
+      : '';
+
+    el.innerHTML = `
+      ${progressBar}
+      <div class="quiz-card">
+        <div class="quiz-card-meta">
+          <span class="badge cat-${esc(word.category)}">${CAT_LABELS[word.category] || word.category}</span>
+          <button class="speak-btn" onclick="speak(${JSON.stringify(word.en)}, this)" aria-label="朗读">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            </svg>
+          </button>
+        </div>
+        <div class="quiz-word">${esc(word.en)}</div>
+        <div class="quiz-def">${esc(word.definition)}</div>
+        <div class="quiz-options">${optBtns}</div>
+        ${feedback}
+        ${nextBtn}
+      </div>`;
+  } else {
+    // 拼写题（仅非 daily 分类）
+    const vocabOnly = quiz.words.filter((w) => w.category !== 'daily');
+    const spellIdx = quiz.idx;
+    const spellWord = vocabOnly[spellIdx];
+    if (!spellWord) {
+      finishQuiz();
+      return;
+    }
+
+    const feedback = quiz.answered
+      ? `<div class="quiz-feedback ${quiz.lastOk ? 'ok' : 'fail'}">${quiz.lastOk ? '正确！' : `正确答案：${esc(spellWord.en)}`}</div>`
+      : '';
+
+    const nextBtn = quiz.answered
+      ? `<button class="btn-primary quiz-next-btn" onclick="nextSpellCard()">下一题 →</button>`
+      : '';
+
+    el.innerHTML = `
+      ${progressBar}
+      <div class="quiz-card">
+        <div class="quiz-card-meta">
+          <span class="badge cat-${esc(spellWord.category)}">${CAT_LABELS[spellWord.category] || spellWord.category}</span>
+          <span class="quiz-phase-tag">拼写</span>
+        </div>
+        <div class="quiz-word zh">${esc(spellWord.zh)}</div>
+        <div class="quiz-def">${esc(spellWord.definition)}</div>
+        ${!quiz.answered ? `
+        <div class="quiz-spell-row">
+          <input class="quiz-spell-input" id="spellInput" type="text" placeholder="输入英文…" autocomplete="off" autocorrect="off" spellcheck="false" />
+          <button class="btn-primary" onclick="answerSpell()">提交</button>
+        </div>` : ''}
+        ${feedback}
+        ${nextBtn}
+      </div>`;
+
+    if (!quiz.answered) {
+      const inp = document.getElementById('spellInput');
+      if (inp) {
+        inp.focus();
+        inp.addEventListener('keydown', (e) => { if (e.key === 'Enter') answerSpell(); });
+      }
+    }
+  }
+}
+
+window.answerChoice = function (chosen) {
+  if (quiz.answered) return;
+  quiz._chosen = chosen;
+  quiz.lastOk = chosen === quiz.words[quiz.idx].zh;
+  quiz.answered = true;
+  if (quiz.lastOk) quiz.correct++; else quiz.wrong++;
+  renderQuizCard();
+};
+
+window.answerSpell = function () {
+  if (quiz.answered) return;
+  const inp = document.getElementById('spellInput');
+  if (!inp) return;
+  const vocabOnly = quiz.words.filter((w) => w.category !== 'daily');
+  const spellWord = vocabOnly[quiz.idx];
+  if (!spellWord) return;
+  const typed = inp.value.trim().toLowerCase();
+  const correct = spellWord.en.toLowerCase();
+  quiz.lastOk = typed === correct;
+  quiz.answered = true;
+  if (quiz.lastOk) quiz.correct++; else quiz.wrong++;
+  renderQuizCard();
+};
+
+window.nextQuizCard = function () {
+  quiz.idx++;
+  quiz.answered = false;
+  quiz.lastOk = null;
+  if (quiz.idx >= quiz.words.length) {
+    // 选择题结束，切换到拼写题
+    const vocabOnly = quiz.words.filter((w) => w.category !== 'daily');
+    if (vocabOnly.length === 0) {
+      finishQuiz();
+      return;
+    }
+    quiz.phase = 'spell';
+    quiz.idx = 0;
+    quiz.words = shuffle(vocabOnly);
+  }
+  renderQuizCard();
+};
+
+window.nextSpellCard = function () {
+  const vocabOnly = quiz.words.filter((w) => w.category !== 'daily');
+  quiz.idx++;
+  quiz.answered = false;
+  quiz.lastOk = null;
+  if (quiz.idx >= vocabOnly.length) {
+    finishQuiz();
+    return;
+  }
+  renderQuizCard();
+};
+
+function finishQuiz() {
+  quiz.phase = 'done';
+  const total = quiz.correct + quiz.wrong;
+  const pct = total > 0 ? Math.round((quiz.correct / total) * 100) : 0;
+  const emoji = pct >= 90 ? '完美' : pct >= 70 ? '不错' : '继续加油';
+  document.getElementById('quiz-content').innerHTML = `
+    <div class="quiz-done">
+      <div class="quiz-done-icon">${pct >= 90 ? '★' : pct >= 70 ? '○' : '△'}</div>
+      <h2 class="quiz-done-title">${emoji}！</h2>
+      <div class="quiz-done-score">${quiz.correct} / ${total}</div>
+      <div class="quiz-done-pct">正确率 ${pct}%</div>
+      <button class="btn-primary" style="margin-top:1.5rem" onclick="startQuiz()">再练一遍</button>
+    </div>`;
+}
+
 /* ── 标签切换 ────────────────────────────────────────────────────────────── */
 function switchTab(tab) {
   state.tab = tab;
@@ -268,6 +526,7 @@ function switchTab(tab) {
 
   if (tab === 'words' && !state.allWordsData) loadWordBank();
   if (tab === 'progress' && state.todayData) renderProgress();
+  if (tab === 'quiz' && state.todayData && quiz.phase === 'idle') renderQuizStart();
 }
 
 document.querySelectorAll('.tab-btn').forEach((btn) => {
@@ -291,8 +550,6 @@ document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 
 /* ── 启动 ────────────────────────────────────────────────────────────────── */
 async function init() {
-  initVoice();
-
   try {
     state.todayData = await fetch('./today.json').then((r) => {
       if (!r.ok) throw new Error(r.status);
