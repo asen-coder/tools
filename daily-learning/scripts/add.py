@@ -15,8 +15,14 @@ SCRIPTS_DIR = os.path.dirname(os.path.abspath(__file__))
 PROJECT_DIR = os.path.dirname(SCRIPTS_DIR)
 WORDS_FILE = os.path.join(PROJECT_DIR, "data", "words.json")
 
-CATEGORIES = {"programming", "ai", "music", "daily"}
-PREFIXES = {"programming": "prog", "ai": "ai", "music": "music", "daily": "daily"}
+CATEGORIES = {"programming", "ai", "music", "daily", "general"}
+PREFIXES = {
+    "programming": "prog",
+    "ai": "ai",
+    "music": "music",
+    "daily": "daily",
+    "general": "gen",
+}
 
 
 def load_words():

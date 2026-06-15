@@ -24,6 +24,8 @@
   --c-music-bg: rgba(34, 197, 94, 0.1);
   --c-daily: #f59e0b;
   --c-daily-bg: rgba(245, 158, 11, 0.1);
+  --c-general: #14b8a6;
+  --c-general-bg: rgba(20, 184, 166, 0.1);
 }
 
 [data-theme='light'] {
@@ -320,6 +322,9 @@ code {
 .card.cat-daily {
   --cat-color: var(--c-daily);
 }
+.card.cat-general {
+  --cat-color: var(--c-general);
+}
 
 .card-meta {
   display: flex;
@@ -351,6 +356,10 @@ code {
 .badge.cat-daily {
   background: var(--c-daily-bg);
   color: var(--c-daily);
+}
+.badge.cat-general {
+  background: var(--c-general-bg);
+  color: var(--c-general);
 }
 
 .review-tag {

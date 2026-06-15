@@ -7,7 +7,7 @@ const state = {
   category: 'all',
 };
 
-const CAT_LABELS = { ai: 'AI', programming: '编程', music: '音乐', daily: '日常' };
+const CAT_LABELS = { ai: 'AI', programming: '编程', music: '音乐', daily: '日常', general: '通用' };
 
 /* ── 语音 ──────────────────────────────────────────────────────────────── */
 let cachedVoice = null;
@@ -189,7 +189,7 @@ function renderWordBank() {
   // 按难度、再按 id 排序
   filtered.sort((a, b) => a.difficulty - b.difficulty || a.id.localeCompare(b.id));
 
-  const pills = ['all', 'ai', 'programming', 'music', 'daily']
+  const pills = ['all', 'ai', 'programming', 'music', 'daily', 'general']
     .map((c) => {
       const label = c === 'all' ? '全部' : CAT_LABELS[c];
       return `<button class="pill ${state.category === c ? 'active' : ''}" data-cat="${c}">${label}</button>`;
