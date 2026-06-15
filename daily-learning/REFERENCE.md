@@ -1,80 +1,9 @@
 # 词汇参考文档
 
-> 更新于 2026-06-15，共 1247 条词汇。
+> 更新于 2026-06-15，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
-
-### LLM · 大语言模型  ★
-
-基于海量文本训练、能理解和生成自然语言的大型神经网络模型
-
-```
-from langchain_openai import ChatOpenAI
-llm = ChatOpenAI(model='gpt-4o')
-```
-
-*状态：✓ 已开始学习*
-
-### prompt · 提示词  ★
-
-发送给语言模型的输入文本，直接决定模型输出质量
-
-```
-prompt = 'Summarize the following text in one sentence: {text}'
-```
-
-*状态：✓ 已开始学习*
-
-### token · 词元  ★
-
-LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字
-
-```
-'Hello world' is typically 2 tokens; pricing is per token
-```
-
-*状态：✓ 已开始学习*
-
-### chain · 链  ★
-
-LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联
-
-```
-chain = prompt | llm | output_parser
-```
-
-*状态：✓ 已开始学习*
-
-### inference · 推理  ★
-
-使用已训练好的模型对新输入进行预测或生成的过程
-
-```
-response = llm.invoke('What is RAG?')  # inference call
-```
-
-*状态：✓ 已开始学习*
-
-### model · 模型  ★
-
-从数据中学习规律并做出预测或生成的数学系统
-
-```
-llm = ChatOpenAI(model='gpt-4o-mini')  # select a model
-```
-
-*状态：✓ 已开始学习*
-
-### system prompt · 系统提示词  ★
-
-对话开始前设置 AI 角色、规则和约束的特殊指令
-
-```
-You are a helpful assistant. Always respond in Chinese.
-```
-
-*状态：✓ 已开始学习*
 
 ### prompt template · 提示模板  ★★
 
@@ -682,99 +611,78 @@ Self-attention allows 'bank' to attend to 'river' or 'money' based on context
 
 *状态：○ 待学习*
 
+### LLM · 大语言模型  ★★★★★
+
+基于海量文本训练、能理解和生成自然语言的大型神经网络模型
+
+```
+from langchain_openai import ChatOpenAI
+llm = ChatOpenAI(model='gpt-4o')
+```
+
+*状态：✓ 已开始学习*
+
+### prompt · 提示词  ★★★★★
+
+发送给语言模型的输入文本，直接决定模型输出质量
+
+```
+prompt = 'Summarize the following text in one sentence: {text}'
+```
+
+*状态：✓ 已开始学习*
+
+### token · 词元  ★★★★★
+
+LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字
+
+```
+'Hello world' is typically 2 tokens; pricing is per token
+```
+
+*状态：✓ 已开始学习*
+
+### chain · 链  ★★★★★
+
+LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联
+
+```
+chain = prompt | llm | output_parser
+```
+
+*状态：✓ 已开始学习*
+
+### inference · 推理  ★★★★★
+
+使用已训练好的模型对新输入进行预测或生成的过程
+
+```
+response = llm.invoke('What is RAG?')  # inference call
+```
+
+*状态：✓ 已开始学习*
+
+### model · 模型  ★★★★★
+
+从数据中学习规律并做出预测或生成的数学系统
+
+```
+llm = ChatOpenAI(model='gpt-4o-mini')  # select a model
+```
+
+*状态：✓ 已开始学习*
+
+### system prompt · 系统提示词  ★★★★★
+
+对话开始前设置 AI 角色、规则和约束的特殊指令
+
+```
+You are a helpful assistant. Always respond in Chinese.
+```
+
+*状态：✓ 已开始学习*
+
 ## 编程 / 前端
-
-### component · 组件  ★
-
-封装了模板、逻辑和样式的可复用独立 UI 单元
-
-```
-<UserCard :name='user.name' @click='handleClick' />
-```
-
-*状态：○ 待学习*
-
-### props · 属性  ★
-
-父组件向子组件传递数据的机制，单向数据流
-
-```
-defineProps<{ title: string; count: number }>()
-```
-
-*状态：○ 待学习*
-
-### callback · 回调函数  ★
-
-作为参数传给另一个函数、在某个时机被调用的函数
-
-```
-setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback
-```
-
-*状态：○ 待学习*
-
-### API · 应用编程接口  ★
-
-允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据
-
-```
-const data = await fetch('/api/users').then(r => r.json())
-```
-
-*状态：○ 待学习*
-
-### async · 异步  ★
-
-不阻塞主线程、允许其他代码继续运行的操作方式
-
-```
-async function fetchUser(id) { return await api.get(`/users/${id}`) }
-```
-
-*状态：○ 待学习*
-
-### DOM · 文档对象模型  ★
-
-浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面
-
-```
-document.getElementById('app')  // access DOM node
-```
-
-*状态：○ 待学习*
-
-### ref · 响应式引用  ★
-
-Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改
-
-```
-const count = ref(0)
-count.value++
-console.log(count.value) // 1
-```
-
-*状态：○ 待学习*
-
-### Vite · Vite（前端构建工具）  ★
-
-基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包
-
-```
-npm create vite@latest my-app -- --template vue-ts
-```
-
-*状态：○ 待学习*
-
-### REST · REST 架构风格  ★
-
-基于 HTTP 方法（GET/POST/PUT/DELETE）设计 API 的架构风格，无状态、资源导向
-
-```
-GET /users/123  →  { id: 123, name: 'Alice' }
-```
-
-*状态：○ 待学习*
 
 ### event delegation · 事件委托  ★★
 
@@ -1392,67 +1300,99 @@ React 18's concurrent mode can pause rendering to handle user input first
 
 *状态：○ 待学习*
 
+### component · 组件  ★★★★★
+
+封装了模板、逻辑和样式的可复用独立 UI 单元
+
+```
+<UserCard :name='user.name' @click='handleClick' />
+```
+
+*状态：○ 待学习*
+
+### props · 属性  ★★★★★
+
+父组件向子组件传递数据的机制，单向数据流
+
+```
+defineProps<{ title: string; count: number }>()
+```
+
+*状态：○ 待学习*
+
+### callback · 回调函数  ★★★★★
+
+作为参数传给另一个函数、在某个时机被调用的函数
+
+```
+setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback
+```
+
+*状态：○ 待学习*
+
+### API · 应用编程接口  ★★★★★
+
+允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据
+
+```
+const data = await fetch('/api/users').then(r => r.json())
+```
+
+*状态：○ 待学习*
+
+### async · 异步  ★★★★★
+
+不阻塞主线程、允许其他代码继续运行的操作方式
+
+```
+async function fetchUser(id) { return await api.get(`/users/${id}`) }
+```
+
+*状态：○ 待学习*
+
+### DOM · 文档对象模型  ★★★★★
+
+浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面
+
+```
+document.getElementById('app')  // access DOM node
+```
+
+*状态：○ 待学习*
+
+### ref · 响应式引用  ★★★★★
+
+Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改
+
+```
+const count = ref(0)
+count.value++
+console.log(count.value) // 1
+```
+
+*状态：○ 待学习*
+
+### Vite · Vite（前端构建工具）  ★★★★★
+
+基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包
+
+```
+npm create vite@latest my-app -- --template vue-ts
+```
+
+*状态：○ 待学习*
+
+### REST · REST 架构风格  ★★★★★
+
+基于 HTTP 方法（GET/POST/PUT/DELETE）设计 API 的架构风格，无状态、资源导向
+
+```
+GET /users/123  →  { id: 123, name: 'Alice' }
+```
+
+*状态：○ 待学习*
+
 ## 音乐
-
-### note · 音符  ★
-
-表示特定音高和时值的音乐符号，是音乐的基本构成单位
-
-```
-C, D, E, F, G, A, B are the 7 natural notes
-```
-
-*状态：○ 待学习*
-
-### beat · 拍  ★
-
-音乐中规律性重复的基本时间单位，就像心跳的节律
-
-```
-A 4/4 time signature has 4 beats per measure
-```
-
-*状态：○ 待学习*
-
-### tempo · 速度  ★
-
-音乐演奏的快慢，用 BPM（每分钟拍数）表示
-
-```
-120 BPM is a common tempo; 60 BPM feels like a slow heartbeat
-```
-
-*状态：○ 待学习*
-
-### melody · 旋律  ★
-
-一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'
-
-```
-The melody is what you hum when you remember a song
-```
-
-*状态：○ 待学习*
-
-### chord · 和弦  ★
-
-三个或更多不同音高的音符同时发声的组合
-
-```
-C major chord = C + E + G played together
-```
-
-*状态：○ 待学习*
-
-### rhythm · 节奏  ★
-
-音符时值长短和强弱的规律性排列模式
-
-```
-A drum kit primarily provides the rhythm in a band
-```
-
-*状态：○ 待学习*
 
 ### pitch · 音高  ★★
 
@@ -1844,6 +1784,66 @@ Chopin's nocturnes are meant to be played with rubato—feel the music, not the 
 
 *状态：○ 待学习*
 
+### note · 音符  ★★★★★
+
+表示特定音高和时值的音乐符号，是音乐的基本构成单位
+
+```
+C, D, E, F, G, A, B are the 7 natural notes
+```
+
+*状态：○ 待学习*
+
+### beat · 拍  ★★★★★
+
+音乐中规律性重复的基本时间单位，就像心跳的节律
+
+```
+A 4/4 time signature has 4 beats per measure
+```
+
+*状态：○ 待学习*
+
+### tempo · 速度  ★★★★★
+
+音乐演奏的快慢，用 BPM（每分钟拍数）表示
+
+```
+120 BPM is a common tempo; 60 BPM feels like a slow heartbeat
+```
+
+*状态：○ 待学习*
+
+### melody · 旋律  ★★★★★
+
+一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'
+
+```
+The melody is what you hum when you remember a song
+```
+
+*状态：○ 待学习*
+
+### chord · 和弦  ★★★★★
+
+三个或更多不同音高的音符同时发声的组合
+
+```
+C major chord = C + E + G played together
+```
+
+*状态：○ 待学习*
+
+### rhythm · 节奏  ★★★★★
+
+音符时值长短和强弱的规律性排列模式
+
+```
+A drum kit primarily provides the rhythm in a band
+```
+
+*状态：○ 待学习*
+
 ### counterpoint · 对位法  ★★★★★
 
 两条或多条旋律线同时演奏并保持和声关系的作曲技术，巴赫是最杰出的代表
@@ -1866,146 +1866,6 @@ Bach's 'Crab Canon' is a masterpiece of counterpoint
 
 ## 日常沟通
 
-### Could you repeat that? · 你能再说一遍吗？  ★
-
-礼貌请求对方重复刚才说的内容
-
-```
-Sorry, could you repeat that? The connection was breaking up.
-```
-
-*状态：✓ 已开始学习*
-
-### I understand. · 我明白了。  ★
-
-表示你已理解对方说的内容
-
-```
-I understand the requirements. I'll start working on it today.
-```
-
-*状态：✓ 已开始学习*
-
-### That's a good point. · 这是个好观点。  ★
-
-表达对对方意见的认可和肯定
-
-```
-That's a good point about performance. We should optimize the query.
-```
-
-*状态：✓ 已开始学习*
-
-### I agree. · 我同意。  ★
-
-表示与对方观点一致
-
-```
-I agree. Using TypeScript would reduce runtime errors significantly.
-```
-
-*状态：○ 待学习*
-
-### Please go ahead. · 请继续。  ★
-
-邀请对方继续发言或开始做某件事
-
-```
-You wanted to share the test results? Please go ahead.
-```
-
-*状态：○ 待学习*
-
-### Let's sync up. · 我们对齐一下（信息同步）。  ★
-
-约定一次短暂会面或通话，让团队成员了解彼此的最新进展
-
-```
-Before the sprint review, let's sync up for 15 minutes to align on the demo flow.
-```
-
-*状态：○ 待学习*
-
-### We're behind schedule. · 我们落后于计划了。  ★
-
-说明项目进度滞后，没有按原定时间线推进
-
-```
-We're behind schedule by two days. Should we cut scope or add resources?
-```
-
-*状态：○ 待学习*
-
-### That's a fair point. · 这是个合理的观点。  ★
-
-认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意
-
-```
-That's a fair point about test coverage. Let's add more unit tests before merging.
-```
-
-*状态：○ 待学习*
-
-### This is a known issue. · 这是个已知问题。  ★
-
-说明某个 bug 或问题已被记录在案，团队清楚其存在
-
-```
-The lag on the search page is a known issue. It's tracked as BUG-421.
-```
-
-*状态：○ 待学习*
-
-### This is on the right track. · 这个方向对了。  ★
-
-给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化
-
-```
-Your proposal is on the right track. Let's flesh out the implementation details.
-```
-
-*状态：○ 待学习*
-
-### Can you elaborate on that? · 你能详细展开说说吗？  ★
-
-请求对方对某个观点或说法做更详细的解释
-
-```
-You mentioned scalability concerns—can you elaborate on that?
-```
-
-*状态：○ 待学习*
-
-### I'll follow up on this. · 我来跟进这件事。  ★
-
-表示自己会继续推进某个事项，并在适当时候反馈进展
-
-```
-I don't have the answer right now, but I'll follow up on this by Thursday.
-```
-
-*状态：○ 待学习*
-
-### I'm not sure I follow. · 我不太确定是否理解你的意思。  ★
-
-礼貌地表示没有理解对方说的内容，请求重新解释
-
-```
-I'm not sure I follow—could you walk me through the flow again with an example?
-```
-
-*状态：○ 待学习*
-
-### We're good to go. · 我们可以开始了 / 都准备好了。  ★
-
-表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段
-
-```
-Tests are passing, staging looks clean—we're good to go for the release.
-```
-
-*状态：○ 待学习*
-
 ### Could you elaborate on that? · 你能详细说明一下吗？  ★★
 
 请求对方对某个观点或情况提供更多细节和解释
@@ -2014,7 +1874,7 @@ Tests are passing, staging looks clean—we're good to go for the release.
 Could you elaborate on that performance issue you mentioned?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let me clarify. · 让我来说清楚一下。  ★★
 
@@ -2024,7 +1884,7 @@ Could you elaborate on that performance issue you mentioned?
 Let me clarify — I meant the staging environment, not production.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'll get back to you on that. · 关于这个我稍后回复你。  ★★
 
@@ -2034,7 +1894,7 @@ Let me clarify — I meant the staging environment, not production.
 I'll get back to you on that timeline after checking with the team.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### That makes sense. · 这说得通。  ★★
 
@@ -2372,6 +2232,146 @@ This is getting detailed. Let's table this for now and take it offline.
 
 ```
 The CSS error might be a red herring. The real bug is in the data fetching.
+```
+
+*状态：○ 待学习*
+
+### Could you repeat that? · 你能再说一遍吗？  ★★★★★
+
+礼貌请求对方重复刚才说的内容
+
+```
+Sorry, could you repeat that? The connection was breaking up.
+```
+
+*状态：✓ 已开始学习*
+
+### I understand. · 我明白了。  ★★★★★
+
+表示你已理解对方说的内容
+
+```
+I understand the requirements. I'll start working on it today.
+```
+
+*状态：✓ 已开始学习*
+
+### That's a good point. · 这是个好观点。  ★★★★★
+
+表达对对方意见的认可和肯定
+
+```
+That's a good point about performance. We should optimize the query.
+```
+
+*状态：✓ 已开始学习*
+
+### I agree. · 我同意。  ★★★★★
+
+表示与对方观点一致
+
+```
+I agree. Using TypeScript would reduce runtime errors significantly.
+```
+
+*状态：✓ 已开始学习*
+
+### Please go ahead. · 请继续。  ★★★★★
+
+邀请对方继续发言或开始做某件事
+
+```
+You wanted to share the test results? Please go ahead.
+```
+
+*状态：✓ 已开始学习*
+
+### Let's sync up. · 我们对齐一下（信息同步）。  ★★★★★
+
+约定一次短暂会面或通话，让团队成员了解彼此的最新进展
+
+```
+Before the sprint review, let's sync up for 15 minutes to align on the demo flow.
+```
+
+*状态：✓ 已开始学习*
+
+### We're behind schedule. · 我们落后于计划了。  ★★★★★
+
+说明项目进度滞后，没有按原定时间线推进
+
+```
+We're behind schedule by two days. Should we cut scope or add resources?
+```
+
+*状态：✓ 已开始学习*
+
+### That's a fair point. · 这是个合理的观点。  ★★★★★
+
+认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意
+
+```
+That's a fair point about test coverage. Let's add more unit tests before merging.
+```
+
+*状态：✓ 已开始学习*
+
+### This is a known issue. · 这是个已知问题。  ★★★★★
+
+说明某个 bug 或问题已被记录在案，团队清楚其存在
+
+```
+The lag on the search page is a known issue. It's tracked as BUG-421.
+```
+
+*状态：✓ 已开始学习*
+
+### This is on the right track. · 这个方向对了。  ★★★★★
+
+给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化
+
+```
+Your proposal is on the right track. Let's flesh out the implementation details.
+```
+
+*状态：○ 待学习*
+
+### Can you elaborate on that? · 你能详细展开说说吗？  ★★★★★
+
+请求对方对某个观点或说法做更详细的解释
+
+```
+You mentioned scalability concerns—can you elaborate on that?
+```
+
+*状态：○ 待学习*
+
+### I'll follow up on this. · 我来跟进这件事。  ★★★★★
+
+表示自己会继续推进某个事项，并在适当时候反馈进展
+
+```
+I don't have the answer right now, but I'll follow up on this by Thursday.
+```
+
+*状态：○ 待学习*
+
+### I'm not sure I follow. · 我不太确定是否理解你的意思。  ★★★★★
+
+礼貌地表示没有理解对方说的内容，请求重新解释
+
+```
+I'm not sure I follow—could you walk me through the flow again with an example?
+```
+
+*状态：○ 待学习*
+
+### We're good to go. · 我们可以开始了 / 都准备好了。  ★★★★★
+
+表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段
+
+```
+Tests are passing, staging looks clean—we're good to go for the release.
 ```
 
 *状态：○ 待学习*
