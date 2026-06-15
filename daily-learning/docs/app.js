@@ -10,37 +10,48 @@ const state = {
 const CAT_LABELS = { ai: 'AI', programming: '编程', music: '音乐', daily: '日常' };
 
 /* ── 语音 ──────────────────────────────────────────────────────────────── */
-let preferredVoice = null;
+let cachedVoice = null;
 
-function initVoice() {
-  const pick = () => {
-    const voices = speechSynthesis.getVoices();
-    preferredVoice =
-      voices.find((v) => v.lang === 'en-US' && v.localService) ||
-      voices.find((v) => v.lang === 'en-US') ||
-      voices.find((v) => v.lang.startsWith('en')) ||
-      null;
-  };
-  speechSynthesis.addEventListener('voiceschanged', pick);
-  pick();
+function pickEnglishVoice() {
+  const voices = window.speechSynthesis.getVoices();
+  return (
+    voices.find((v) => v.lang === 'en-US' && v.localService) ||
+    voices.find((v) => v.lang === 'en-US') ||
+    voices.find((v) => v.lang.startsWith('en')) ||
+    null
+  );
+}
+
+// 浏览器异步加载声音列表，提前缓存
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.addEventListener('voiceschanged', () => {
+    cachedVoice = pickEnglishVoice();
+  });
+  // Safari / Firefox 首次同步可用
+  cachedVoice = pickEnglishVoice();
 }
 
 window.speak = function (text, btnEl) {
   if (!('speechSynthesis' in window)) return;
-  window.speechSynthesis.cancel();
 
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'en-US';
   u.rate = 0.85;
   u.pitch = 1;
-  if (preferredVoice) u.voice = preferredVoice;
+
+  // 每次调用时也尝试取一次，防止缓存未就绪
+  const voice = cachedVoice || pickEnglishVoice();
+  if (voice) u.voice = voice;
 
   if (btnEl) {
     btnEl.classList.add('speaking');
     u.onend = () => btnEl.classList.remove('speaking');
     u.onerror = () => btnEl.classList.remove('speaking');
   }
-  window.speechSynthesis.speak(u);
+
+  // Chrome bug：cancel() 后立即 speak() 会被丢弃，加 50ms 延迟
+  window.speechSynthesis.cancel();
+  setTimeout(() => window.speechSynthesis.speak(u), 50);
 };
 
 /* ── 工具函数 ───────────────────────────────────────────────────────────── */
@@ -291,8 +302,6 @@ document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 
 /* ── 启动 ────────────────────────────────────────────────────────────────── */
 async function init() {
-  initVoice();
-
   try {
     state.todayData = await fetch('./today.json').then((r) => {
       if (!r.ok) throw new Error(r.status);
