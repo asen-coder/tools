@@ -72,18 +72,27 @@ const tts = {
     // 强制使用英文，即使系统没有英文声音也会尝试朗读
     u.lang = 'en-US';
 
-    // 如果有选中的声音就使用
+    // 如果有选中的声音就使用，否则使用第一个可用声音
     if (this.preferredVoice) {
       u.voice = this.preferredVoice;
+    } else if (this.voices.length > 0) {
+      u.voice = this.voices[0];
     }
 
     // 按钮动画
     if (btnEl) {
       btnEl.classList.add('speaking');
-      u.onend = () => btnEl.classList.remove('speaking');
-      u.onerror = (e) => {
-        console.error('[TTS] 播放错误:', e);
+      u.onend = () => {
+        console.log(`[TTS] 播放完成: "${text}"`);
         btnEl.classList.remove('speaking');
+      };
+      u.onerror = (e) => {
+        console.error('[TTS] 播放错误事件:', e);
+        btnEl.classList.remove('speaking');
+        // 只有真正的错误才提示用户，某些浏览器的"interrupted"不算错误
+        if (e.error !== 'interrupted' && e.error !== 'canceled') {
+          console.error('[TTS] 播放错误:', e.error);
+        }
       };
     }
 
@@ -92,9 +101,12 @@ const tts = {
     setTimeout(() => {
       try {
         window.speechSynthesis.speak(u);
-        console.log(`[TTS] 正在播放: "${text}"`);
+        console.log(`[TTS] 正在播放: "${text}" 使用声音: ${u.voice ? u.voice.name : 'default'}`);
       } catch (err) {
         console.error('[TTS] 播放失败:', err);
+        if (btnEl) {
+          btnEl.classList.remove('speaking');
+        }
       }
     }, 50);
   }
@@ -103,9 +115,15 @@ const tts = {
 // 页面加载时初始化
 tts.init();
 
-// 全局 speak 函数
+// 全局 speak 函数 - 确保能正常调用
 window.speak = function (text, btnEl) {
-  tts.speak(text, btnEl);
+  console.log('[speak] 被调用，文本:', text);
+  try {
+    tts.speak(text, btnEl);
+  } catch (error) {
+    console.error('[speak] 发音错误:', error);
+    // 只在控制台记录错误，不弹窗打扰用户
+  }
 };
 
 /* ── 工具函数 ───────────────────────────────────────────────────────────── */
@@ -132,36 +150,98 @@ function cardHtml(word, type = 'new') {
       ? `<span class="review-tag">第 ${word.review_count} 次复习</span>`
       : '';
 
-  const exampleBlock = word.example
-    ? `<div class="example">
-         <span class="example-label">例句</span>
-         <pre class="example-code">${esc(word.example)}</pre>
-       </div>`
-    : '';
+  // 判断是否为专业词典格式（有 parts 字段）
+  const isDictFormat = word.parts && Array.isArray(word.parts) && word.parts.length > 0;
 
-  return `
-    <div class="card cat-${esc(word.category)}">
-      <div class="card-meta">
-        <span class="badge cat-${esc(word.category)}">${label}</span>
-        <span class="dots">${dots(word.difficulty)}</span>
-        ${reviewTag}
-      </div>
-      <div class="word-row">
-        <div style="flex:1;min-width:0">
-          <span class="word-en">${esc(word.en)}</span>
-          <p class="word-zh">${esc(word.zh)}</p>
+  if (isDictFormat) {
+    // 专业词典格式
+    const phoneticDisplay = word.phonetic
+      ? `<span class="word-phonetic">${esc(word.phonetic)}</span>`
+      : '';
+
+    // 构建词性部分 HTML
+    const partsHtml = word.parts.map((part, idx) => {
+      const posLabel = part.pos || '';
+      const definitions = part.definitions || [];
+      const examples = part.examples || [];
+
+      const defsHtml = definitions.map((def, defIdx) =>
+        `<div class="dict-def">
+          <span class="def-num">${defIdx + 1}.</span>
+          <span class="def-text">${esc(def)}</span>
+        </div>`
+      ).join('');
+
+      const examplesHtml = examples.map((ex) =>
+        `<div class="dict-example">${esc(ex)}</div>`
+      ).join('');
+
+      return `
+        <div class="dict-part" style="margin-bottom: ${idx < word.parts.length - 1 ? '12px' : '0'}">
+          <span class="dict-pos">${esc(posLabel)}</span>
+          ${defsHtml}
+          ${examplesHtml ? `<div class="dict-examples">${examplesHtml}</div>` : ''}
         </div>
-        <button class="speak-btn" onclick="speak(${JSON.stringify(word.en)}, this)" aria-label="朗读 ${esc(word.en)}">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-            <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
-            <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
-          </svg>
-        </button>
-      </div>
-      <p class="word-def">${esc(word.definition)}</p>
-      ${exampleBlock}
-    </div>`;
+      `;
+    }).join('');
+
+    return `
+      <div class="card cat-${esc(word.category)} dict-card">
+        <div class="card-meta">
+          <span class="badge cat-${esc(word.category)}">${label}</span>
+          <span class="dots">${dots(word.difficulty)}</span>
+          ${reviewTag}
+        </div>
+        <div class="word-row">
+          <div style="flex:1;min-width:0">
+            <span class="word-en">${esc(word.en)}</span>
+            ${phoneticDisplay}
+          </div>
+          <button class="speak-btn" onclick="window.speak('${esc(word.en)}', this)" aria-label="朗读 ${esc(word.en)}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            </svg>
+          </button>
+        </div>
+        <div class="dict-content">
+          ${partsHtml}
+        </div>
+      </div>`;
+  } else {
+    // 旧格式兼容（zh + definition）
+    const exampleBlock = word.example
+      ? `<div class="example">
+           <span class="example-label">例句</span>
+           <pre class="example-code">${esc(word.example)}</pre>
+         </div>`
+      : '';
+
+    return `
+      <div class="card cat-${esc(word.category)}">
+        <div class="card-meta">
+          <span class="badge cat-${esc(word.category)}">${label}</span>
+          <span class="dots">${dots(word.difficulty)}</span>
+          ${reviewTag}
+        </div>
+        <div class="word-row">
+          <div style="flex:1;min-width:0">
+            <span class="word-en">${esc(word.en)}</span>
+            <p class="word-zh">${esc(word.zh || '')}</p>
+          </div>
+          <button class="speak-btn" onclick="window.speak('${esc(word.en)}', this)" aria-label="朗读 ${esc(word.en)}">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+              <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+              <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+            </svg>
+          </button>
+        </div>
+        <p class="word-def">${esc(word.definition || '')}</p>
+        ${exampleBlock}
+      </div>`;
+  }
 }
 
 /* ── 今日页 ─────────────────────────────────────────────────────────────── */
@@ -229,11 +309,33 @@ function renderWordBank() {
   const filtered = allWords.filter((w) => {
     const q = search.toLowerCase();
     const matchCat = category === 'all' || w.category === category;
-    const matchSearch =
-      !q ||
-      w.en.toLowerCase().includes(q) ||
-      w.zh.includes(search) ||
-      w.definition.includes(search);
+
+    // 搜索逻辑：支持新旧格式
+    let matchSearch = !q;
+    if (q) {
+      // 英文搜索
+      if (w.en.toLowerCase().includes(q)) {
+        matchSearch = true;
+      } else {
+        // 判断是否为专业词典格式
+        const isDictFormat = w.parts && Array.isArray(w.parts) && w.parts.length > 0;
+
+        if (isDictFormat) {
+          // 专业词典格式：搜索 parts 数组中的释义
+          matchSearch = w.parts.some(part => {
+            const defs = part.definitions || [];
+            const examples = part.examples || [];
+            return defs.some(def => def.toLowerCase().includes(q)) ||
+                   examples.some(ex => ex.toLowerCase().includes(q));
+          });
+        } else {
+          // 旧格式：搜索 zh 和 definition
+          matchSearch = (w.zh && w.zh.includes(search)) ||
+                       (w.definition && w.definition.includes(search));
+        }
+      }
+    }
+
     return matchCat && matchSearch;
   });
 
@@ -433,7 +535,7 @@ function renderQuizCard() {
       <div class="quiz-card">
         <div class="quiz-card-meta">
           <span class="badge cat-${esc(word.category)}">${CAT_LABELS[word.category] || word.category}</span>
-          <button class="speak-btn" onclick="speak(${JSON.stringify(word.en)}, this)" aria-label="朗读">
+          <button class="speak-btn" onclick="window.speak('${esc(word.en)}', this)" aria-label="朗读">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
               <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
               <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
