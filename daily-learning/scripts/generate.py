@@ -113,9 +113,65 @@ def main():
     }
     save_json(os.path.join(DOCS_DIR, "all_words.json"), all_words_data)
 
+    # 生成 REFERENCE.md（可通读的词汇参考文档，按分类 + 难度排列）
+    build_reference(words, today_str)
+
     print(
         f"{today_str} 生成完成：新词 {len(todays_new)} | 复习 {len(due_reviews)} | 连续打卡 {stats['streak']} 天"
     )
+
+
+DIFF_MARKS = ["", "★", "★★", "★★★", "★★★★", "★★★★★"]
+CAT_ORDER = ["ai", "programming", "music", "daily"]
+CAT_NAMES = {
+    "ai": "AI / LangChain / LangGraph",
+    "programming": "编程 / 前端",
+    "music": "音乐",
+    "daily": "日常沟通",
+}
+
+
+def build_reference(words, today_str):
+    lines = [
+        "# 词汇参考文档",
+        "",
+        f"> 更新于 {today_str}，共 {len(words)} 条词汇。",
+        "> 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。",
+        "",
+    ]
+
+    by_cat = {c: [] for c in CAT_ORDER}
+    for w in words:
+        if w["category"] in by_cat:
+            by_cat[w["category"]].append(w)
+
+    for cat in CAT_ORDER:
+        group = sorted(by_cat[cat], key=lambda x: (x["difficulty"], x["id"]))
+        if not group:
+            continue
+
+        lines += [f"## {CAT_NAMES[cat]}", ""]
+
+        for w in group:
+            diff = DIFF_MARKS[w["difficulty"]]
+            status_mark = "✓" if w["status"] == "learning" else "○"
+            lines.append(f"### {w['en']} · {w['zh']}  {diff}")
+            lines.append("")
+            lines.append(f"{w['definition']}")
+            if w.get("example"):
+                lines.append("")
+                lines.append("```")
+                lines.append(w["example"])
+                lines.append("```")
+            lines.append("")
+            lines.append(
+                f"*状态：{status_mark} {'已开始学习' if w['status'] == 'learning' else '待学习'}*"
+            )
+            lines.append("")
+
+    ref_path = os.path.join(PROJECT_DIR, "REFERENCE.md")
+    with open(ref_path, "w", encoding="utf-8") as f:
+        f.write("\n".join(lines))
 
 
 if __name__ == "__main__":

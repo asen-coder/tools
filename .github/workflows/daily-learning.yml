@@ -31,7 +31,8 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email 'github-actions[bot]@users.noreply.github.com'
           git add daily-learning/data/words.json daily-learning/data/stats.json \
-                  daily-learning/docs/today.json daily-learning/docs/all_words.json
+                  daily-learning/docs/today.json daily-learning/docs/all_words.json \
+                  daily-learning/REFERENCE.md
           git diff --cached --quiet || git commit -m "daily: $(date -u +%Y-%m-%d)"
           git push
 
