@@ -424,6 +424,88 @@ code {
   margin-bottom: 0.75rem;
 }
 
+/* ── 专业词典格式样式 ───────────────────────────────────────────────────── */
+.word-phonetic {
+  font-size: 0.875rem;
+  color: var(--text-dim);
+  font-family: 'Lucida Sans Unicode', 'Arial Unicode MS', sans-serif;
+  margin-left: 0.5rem;
+  font-weight: 400;
+}
+
+.dict-card {
+  padding: 1.25rem !important;
+}
+
+.dict-content {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid var(--border);
+}
+
+.dict-part {
+  margin-bottom: 12px;
+}
+
+.dict-part:last-child {
+  margin-bottom: 0;
+}
+
+.dict-pos {
+  display: inline-block;
+  padding: 0.15rem 0.4rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 0.4rem;
+  margin-right: 0.5rem;
+  font-family: 'Consolas', 'Monaco', monospace;
+}
+
+.dict-def {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 0.25rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.def-num {
+  color: var(--text-dim);
+  font-weight: 600;
+  min-width: 1.2rem;
+  flex-shrink: 0;
+}
+
+.def-text {
+  color: var(--text-muted);
+  flex: 1;
+}
+
+.dict-examples {
+  margin-top: 0.4rem;
+  padding-left: 1.6rem;
+}
+
+.dict-example {
+  font-size: 0.8125rem;
+  color: var(--text-dim);
+  line-height: 1.5;
+  margin-bottom: 0.25rem;
+  font-style: italic;
+  position: relative;
+}
+
+.dict-example::before {
+  content: '—';
+  position: absolute;
+  left: -1.2rem;
+  color: var(--border);
+}
+
 /* 朗读按钮 */
 .speak-btn {
   width: 30px;
@@ -977,4 +1059,102 @@ code {
   .quiz-options { grid-template-columns: 1fr; }
   .quiz-word { font-size: 1.375rem; }
   .quiz-card { padding: 1.25rem; }
+}
+
+/* 移动端优化 */
+@media (max-width: 480px) {
+  .card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  /* 移动端发音按钮增大 - 符合移动端触摸目标标准 */
+  .speak-btn {
+    width: 44px;
+    height: 44px;
+  }
+
+  /* 移动端优化专业词典格式 */
+  .dict-card {
+    padding: 1rem !important;
+  }
+
+  .word-en {
+    font-size: 1.1rem;
+  }
+
+  .word-phonetic {
+    font-size: 0.8rem;
+    display: block;
+    margin-left: 0;
+    margin-top: 0.2rem;
+  }
+
+  .dict-pos {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.3rem;
+  }
+
+  .dict-def {
+    font-size: 0.85rem;
+  }
+
+  .dict-example {
+    font-size: 0.75rem;
+  }
+
+  /* 移动端头部优化 */
+  .header-inner {
+    padding: 0.75rem 1rem;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+  }
+
+  /* 移动端标签页优化 */
+  .tab-btn {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.85rem;
+  }
+}
+
+/* 移动端横屏优化 */
+@media (max-width: 767px) and (orientation: landscape) {
+  .container {
+    padding: 1rem;
+  }
+
+  .card {
+    padding: 0.8rem !important;
+  }
+
+  .today-header {
+    margin-bottom: 1rem;
+  }
+
+  .section-title {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .stats-row {
+    gap: 0.5rem;
+  }
+
+  .stat-chip {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.75rem;
+  }
+}
+
+/* 平板设备优化 */
+@media (min-width: 481px) and (max-width: 768px) {
+  .card-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .speak-btn {
+    width: 38px;
+    height: 38px;
+  }
 }

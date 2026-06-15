@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS发音测试</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+        }
+        .test-section {
+            margin: 20px 0;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .test-btn {
+            background: #4CAF50;
+            color: white;
+        }
+        .test-btn:hover {
+            background: #45a049;
+        }
+        .log-area {
+            background: #f5f5f5;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 10px;
+            font-family: monospace;
+            font-size: 14px;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .status {
+            padding: 8px 12px;
+            border-radius: 4px;
+            margin: 5px 0;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+        }
+        .info {
+            background: #d1ecf1;
+            color: #0c5460;
+        }
+        .voice-list {
+            margin: 10px 0;
+        }
+        .voice-item {
+            padding: 8px;
+            margin: 5px 0;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🔊 TTS发音功能测试</h1>
+
+    <div class="test-section">
+        <h2>1. 浏览器支持检测</h2>
+        <div id="support-status"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>2. 可用声音列表</h2>
+        <div id="voices-status"></div>
+        <button class="test-btn" onclick="loadVoices()">🔄 刷新声音列表</button>
+        <div id="voices-list" class="voice-list"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>3. 发音测试</h2>
+        <button class="test-btn" onclick="testSpeak('hello')">🔊 测试1: hello</button>
+        <button class="test-btn" onclick="testSpeak('find')">🔊 测试2: find</button>
+        <button class="test-btn" onclick="testSpeak('I found my lost keys.')">🔊 测试3: 句子</button>
+        <button class="test-btn" onclick="testSpeak('run')">🔊 测试4: run</button>
+        <div id="speak-status"></div>
+    </div>
+
+    <div class="test-section">
+        <h2>4. 详细日志</h2>
+        <button class="test-btn" onclick="clearLog()">🗑️ 清空日志</button>
+        <div id="log" class="log-area"></div>
+    </div>
+
+    <script>
+        // 全局变量
+        let voices = [];
+        let preferredVoice = null;
+
+        // 日志函数
+        function log(message, type) {
+            type = type || 'info';
+            const logDiv = document.getElementById('log');
+            const timestamp = new Date().toLocaleTimeString();
+            const color = type === 'error' ? 'red' : type === 'success' ? 'green' : 'black';
+            logDiv.innerHTML = logDiv.innerHTML + '<div style="color: ' + color + '">[' + timestamp + '] ' + message + '</div>';
+            logDiv.scrollTop = logDiv.scrollHeight;
+            console.log('[TTS-Test] ' + message);
+        }
+
+        function clearLog() {
+            document.getElementById('log').innerHTML = '';
+        }
+
+        // 检测浏览器支持
+        function checkSupport() {
+            var statusDiv = document.getElementById('support-status');
+
+            if ('speechSynthesis' in window) {
+                statusDiv.innerHTML = '<div class="status success">✅ 浏览器支持语音合成</div>';
+                log('浏览器支持 Web Speech API', 'success');
+                return true;
+            } else {
+                statusDiv.innerHTML = '<div class="status error">❌ 浏览器不支持语音合成</div>';
+                log('浏览器不支持 Web Speech API', 'error');
+                return false;
+            }
+        }
+
+        // 加载声音列表
+        function loadVoices() {
+            log('开始加载声音列表...', 'info');
+
+            voices = window.speechSynthesis.getVoices();
+            log('找到 ' + voices.length + ' 个声音', voices.length > 0 ? 'success' : 'error');
+
+            if (voices.length === 0) {
+                document.getElementById('voices-status').innerHTML =
+                    '<div class="status error">❌ 未找到可用声音，可能需要等待浏览器加载</div>';
+                return;
+            }
+
+            // 找到英文声音
+            var englishVoices = voices.filter(function(v) {
+                return v.lang.startsWith('en');
+            });
+            log('找到 ' + englishVoices.length + ' 个英文声音', 'info');
+
+            // 选择优先声音
+            preferredVoice = voices.find(function(v) {
+                return v.lang === 'en-US' && v.localService;
+            }) || voices.find(function(v) {
+                return v.lang === 'en-US';
+            }) || voices.find(function(v) {
+                return v.lang.startsWith('en');
+            }) || voices[0];
+
+            log('选择声音: ' + preferredVoice.name + ' (' + preferredVoice.lang + ')', 'success');
+
+            // 显示声音列表
+            var voicesHtml = '<div class="status success">✅ 共 ' + voices.length + ' 个声音，' + englishVoices.length + ' 个英文声音</div>';
+            voicesHtml = voicesHtml + '<div style="max-height: 200px; overflow-y: auto;">';
+
+            for (var i = 0; i < voices.length; i++) {
+                var v = voices[i];
+                var isEnglish = v.lang.startsWith('en');
+                var isPreferred = preferredVoice === v;
+                var flag = isPreferred ? '⭐ ' : '';
+                var style = isEnglish ? 'border-left: 3px solid #4CAF50;' : '';
+                var langStyle = isEnglish ? 'color: #4CAF50; font-weight: bold;' : 'color: #666;';
+
+                voicesHtml = voicesHtml + '<div class="voice-item" style="' + style + '">';
+                voicesHtml = voicesHtml + '<div>' + flag + '<strong>' + v.name + '</strong></div>';
+                voicesHtml = voicesHtml + '<div style="' + langStyle + '">语言: ' + v.lang + ' | 本地: ' + (v.localService ? '是' : '否') + '</div>';
+                voicesHtml = voicesHtml + '<div style="font-size: 12px; color: #666;">默认: ' + (v.default ? '是' : '否') + '</div>';
+                voicesHtml = voicesHtml + '</div>';
+            }
+
+            voicesHtml = voicesHtml + '</div>';
+            document.getElementById('voices-status').innerHTML = voicesHtml;
+
+            // 显示详细列表
+            var listHtml = '';
+            for (var i = 0; i < voices.length; i++) {
+                var v = voices[i];
+                listHtml = listHtml + '<div style="padding: 5px; border-bottom: 1px solid #eee;">';
+                listHtml = listHtml + '<strong>' + v.name + '</strong> - ' + v.lang + ' ' + (v.localService ? '(本地)' : '(云端)');
+                listHtml = listHtml + '</div>';
+            }
+            document.getElementById('voices-list').innerHTML = listHtml;
+        }
+
+        // 测试发音
+        function testSpeak(text) {
+            log('开始测试发音: "' + text + '"', 'info');
+            var statusDiv = document.getElementById('speak-status');
+
+            if (!('speechSynthesis' in window)) {
+                statusDiv.innerHTML = '<div class="status error">❌ 浏览器不支持语音合成</div>';
+                log('浏览器不支持语音合成', 'error');
+                return;
+            }
+
+            if (voices.length === 0) {
+                loadVoices();
+                if (voices.length === 0) {
+                    statusDiv.innerHTML = '<div class="status error">❌ 没有可用声音</div>';
+                    log('没有可用声音', 'error');
+                    return;
+                }
+            }
+
+            try {
+                var u = new SpeechSynthesisUtterance(text);
+                u.rate = 0.85;
+                u.pitch = 1;
+                u.lang = 'en-US';
+
+                if (preferredVoice) {
+                    u.voice = preferredVoice;
+                    log('使用声音: ' + preferredVoice.name, 'info');
+                }
+
+                statusDiv.innerHTML = '<div class="status info">🔊 正在播放...</div>';
+
+                u.onstart = function() {
+                    log('开始播放: "' + text + '"', 'success');
+                    statusDiv.innerHTML = '<div class="status success">🔊 正在播放...</div>';
+                };
+
+                u.onend = function() {
+                    log('播放完成: "' + text + '"', 'success');
+                    statusDiv.innerHTML = '<div class="status success">✅ 播放完成</div>';
+                };
+
+                u.onerror = function(e) {
+                    log('播放错误: ' + e.error + ' - "' + text + '"', 'error');
+                    statusDiv.innerHTML = '<div class="status error">❌ 播放错误: ' + e.error + '</div>';
+                    console.error('Speech error:', e);
+                };
+
+                // 取消当前播放，避免冲突
+                window.speechSynthesis.cancel();
+
+                // 播放
+                window.speechSynthesis.speak(u);
+                log('已发送播放指令', 'info');
+
+            } catch (error) {
+                log('播放失败: ' + error.message, 'error');
+                statusDiv.innerHTML = '<div class="status error">❌ 播放失败: ' + error.message + '</div>';
+                console.error('Speak error:', error);
+            }
+        }
+
+        // 页面加载时执行
+        window.addEventListener('DOMContentLoaded', function() {
+            log('页面加载完成', 'info');
+            checkSupport();
+
+            if ('speechSynthesis' in window) {
+                // 立即加载一次
+                loadVoices();
+
+                // 监听声音变化
+                window.speechSynthesis.addEventListener('voiceschanged', function() {
+                    log('检测到声音列表变化，重新加载', 'info');
+                    loadVoices();
+                });
+
+                // 延迟加载，确保声音列表完全加载
+                setTimeout(function() {
+                    if (voices.length === 0) {
+                        log('延迟加载声音列表...', 'info');
+                        loadVoices();
+                    }
+                }, 100);
+            }
+        });
+
+        // 页面卸载时清理
+        window.addEventListener('beforeunload', function() {
+            window.speechSynthesis.cancel();
+        });
+    </script>
+</body>
+</html>

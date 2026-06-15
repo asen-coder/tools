@@ -169,15 +169,45 @@ def build_reference(words, today_str):
         for w in group:
             diff = DIFF_MARKS[w["difficulty"]]
             status_mark = "✓" if w["status"] == "learning" else "○"
-            lines.append(f"### {w['en']} · {w['zh']}  {diff}")
-            lines.append("")
-            lines.append(f"{w['definition']}")
-            if w.get("example"):
+
+            # 判断是否为专业词典格式
+            if w.get("parts") and isinstance(w["parts"], list) and len(w["parts"]) > 0:
+                # 专业词典格式
+                phonetic = f" · {w['phonetic']}" if w.get("phonetic") else ""
+                lines.append(f"### {w['en']}{phonetic}  {diff}")
                 lines.append("")
-                lines.append("```")
-                lines.append(w["example"])
-                lines.append("```")
-            lines.append("")
+
+                # 构建词性和释义
+                for part in w["parts"]:
+                    pos = part.get("pos", "")
+                    definitions = part.get("definitions", [])
+                    examples = part.get("examples", [])
+
+                    if pos:
+                        lines.append(f"**{pos}**")
+                        lines.append("")
+
+                    for i, definition in enumerate(definitions, 1):
+                        lines.append(f"{i}. {definition}")
+
+                    if examples:
+                        lines.append("")
+                        lines.append("例句：")
+                        for example in examples:
+                            lines.append(f"- {example}")
+                    lines.append("")
+            else:
+                # 旧格式兼容
+                lines.append(f"### {w['en']} · {w['zh']}  {diff}")
+                lines.append("")
+                lines.append(f"{w['definition']}")
+                if w.get("example"):
+                    lines.append("")
+                    lines.append("```")
+                    lines.append(w["example"])
+                    lines.append("```")
+                lines.append("")
+
             lines.append(
                 f"*状态：{status_mark} {'已开始学习' if w['status'] == 'learning' else '待学习'}*"
             )

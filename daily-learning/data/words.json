@@ -6,7 +6,7 @@
     "zh": "大语言模型",
     "definition": "基于海量文本训练、能理解和生成自然语言的大型神经网络模型",
     "example": "from langchain_openai import ChatOpenAI\nllm = ChatOpenAI(model='gpt-4o')",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -18,7 +18,7 @@
     "zh": "提示词",
     "definition": "发送给语言模型的输入文本，直接决定模型输出质量",
     "example": "prompt = 'Summarize the following text in one sentence: {text}'",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -30,7 +30,7 @@
     "zh": "词元",
     "definition": "LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字",
     "example": "'Hello world' is typically 2 tokens; pricing is per token",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -42,7 +42,7 @@
     "zh": "链",
     "definition": "LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联",
     "example": "chain = prompt | llm | output_parser",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -54,7 +54,7 @@
     "zh": "推理",
     "definition": "使用已训练好的模型对新输入进行预测或生成的过程",
     "example": "response = llm.invoke('What is RAG?')  # inference call",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -66,7 +66,7 @@
     "zh": "模型",
     "definition": "从数据中学习规律并做出预测或生成的数学系统",
     "example": "llm = ChatOpenAI(model='gpt-4o-mini')  # select a model",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -390,7 +390,7 @@
     "zh": "组件",
     "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
     "example": "<UserCard :name='user.name' @click='handleClick' />",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -402,7 +402,7 @@
     "zh": "属性",
     "definition": "父组件向子组件传递数据的机制，单向数据流",
     "example": "defineProps<{ title: string; count: number }>()",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -414,7 +414,7 @@
     "zh": "回调函数",
     "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
     "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -426,7 +426,7 @@
     "zh": "应用编程接口",
     "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
     "example": "const data = await fetch('/api/users').then(r => r.json())",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -438,7 +438,7 @@
     "zh": "异步",
     "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
     "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -450,7 +450,7 @@
     "zh": "文档对象模型",
     "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
     "example": "document.getElementById('app')  // access DOM node",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -702,7 +702,7 @@
     "zh": "音符",
     "definition": "表示特定音高和时值的音乐符号，是音乐的基本构成单位",
     "example": "C, D, E, F, G, A, B are the 7 natural notes",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -714,7 +714,7 @@
     "zh": "拍",
     "definition": "音乐中规律性重复的基本时间单位，就像心跳的节律",
     "example": "A 4/4 time signature has 4 beats per measure",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -726,7 +726,7 @@
     "zh": "速度",
     "definition": "音乐演奏的快慢，用 BPM（每分钟拍数）表示",
     "example": "120 BPM is a common tempo; 60 BPM feels like a slow heartbeat",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -738,7 +738,7 @@
     "zh": "旋律",
     "definition": "一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'",
     "example": "The melody is what you hum when you remember a song",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -750,7 +750,7 @@
     "zh": "和弦",
     "definition": "三个或更多不同音高的音符同时发声的组合",
     "example": "C major chord = C + E + G played together",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -762,7 +762,7 @@
     "zh": "节奏",
     "definition": "音符时值长短和强弱的规律性排列模式",
     "example": "A drum kit primarily provides the rhythm in a band",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -966,7 +966,7 @@
     "zh": "你能再说一遍吗？",
     "definition": "礼貌请求对方重复刚才说的内容",
     "example": "Sorry, could you repeat that? The connection was breaking up.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -978,7 +978,7 @@
     "zh": "我明白了。",
     "definition": "表示你已理解对方说的内容",
     "example": "I understand the requirements. I'll start working on it today.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -990,7 +990,7 @@
     "zh": "这是个好观点。",
     "definition": "表达对对方意见的认可和肯定",
     "example": "That's a good point about performance. We should optimize the query.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -1002,10 +1002,10 @@
     "zh": "我同意。",
     "definition": "表示与对方观点一致",
     "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_005",
@@ -1014,10 +1014,10 @@
     "zh": "请继续。",
     "definition": "邀请对方继续发言或开始做某件事",
     "example": "You wanted to share the test results? Please go ahead.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_006",
@@ -1027,9 +1027,9 @@
     "definition": "请求对方对某个观点或情况提供更多细节和解释",
     "example": "Could you elaborate on that performance issue you mentioned?",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_007",
@@ -1039,9 +1039,9 @@
     "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
     "example": "Let me clarify — I meant the staging environment, not production.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_008",
@@ -1051,9 +1051,9 @@
     "definition": "表示需要时间确认后再回答，不立即给出答案",
     "example": "I'll get back to you on that timeline after checking with the team.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_009",
@@ -1422,7 +1422,7 @@
     "zh": "系统提示词",
     "definition": "对话开始前设置 AI 角色、规则和约束的特殊指令",
     "example": "You are a helpful assistant. Always respond in Chinese.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -1638,7 +1638,7 @@
     "zh": "响应式引用",
     "definition": "Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改",
     "example": "const count = ref(0)\ncount.value++\nconsole.log(count.value) // 1",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -1818,7 +1818,7 @@
     "zh": "Vite（前端构建工具）",
     "definition": "基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包",
     "example": "npm create vite@latest my-app -- --template vue-ts",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -1902,7 +1902,7 @@
     "zh": "REST 架构风格",
     "definition": "基于 HTTP 方法（GET/POST/PUT/DELETE）设计 API 的架构风格，无状态、资源导向",
     "example": "GET /users/123  →  { id: 123, name: 'Alice' }",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -2490,10 +2490,10 @@
     "zh": "我们对齐一下（信息同步）。",
     "definition": "约定一次短暂会面或通话，让团队成员了解彼此的最新进展",
     "example": "Before the sprint review, let's sync up for 15 minutes to align on the demo flow.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_026",
@@ -2526,10 +2526,10 @@
     "zh": "我们落后于计划了。",
     "definition": "说明项目进度滞后，没有按原定时间线推进",
     "example": "We're behind schedule by two days. Should we cut scope or add resources?",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_029",
@@ -2550,10 +2550,10 @@
     "zh": "这是个合理的观点。",
     "definition": "认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意",
     "example": "That's a fair point about test coverage. Let's add more unit tests before merging.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_031",
@@ -2634,10 +2634,10 @@
     "zh": "这是个已知问题。",
     "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
     "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_038",
@@ -2682,7 +2682,7 @@
     "zh": "这个方向对了。",
     "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
     "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -2694,7 +2694,7 @@
     "zh": "你能详细展开说说吗？",
     "definition": "请求对方对某个观点或说法做更详细的解释",
     "example": "You mentioned scalability concerns—can you elaborate on that?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -2718,7 +2718,7 @@
     "zh": "我来跟进这件事。",
     "definition": "表示自己会继续推进某个事项，并在适当时候反馈进展",
     "example": "I don't have the answer right now, but I'll follow up on this by Thursday.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -2742,7 +2742,7 @@
     "zh": "我不太确定是否理解你的意思。",
     "definition": "礼貌地表示没有理解对方说的内容，请求重新解释",
     "example": "I'm not sure I follow—could you walk me through the flow again with an example?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -2766,7 +2766,7 @@
     "zh": "我们可以开始了 / 都准备好了。",
     "definition": "表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段",
     "example": "Tests are passing, staging looks clean—we're good to go for the release.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -2814,7 +2814,7 @@
     "zh": "苹果",
     "definition": "常见水果",
     "example": "A apple can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -2826,7 +2826,7 @@
     "zh": "香蕉",
     "definition": "黄色长形水果",
     "example": "The banana is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -2838,7 +2838,7 @@
     "zh": "橙子",
     "definition": "橙色水果",
     "example": "I have a orange.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-16",
     "review_count": 1,
     "status": "learning"
@@ -2850,10 +2850,10 @@
     "zh": "梨",
     "definition": "水果",
     "example": "The pear is important.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_005",
@@ -2862,10 +2862,10 @@
     "zh": "葡萄",
     "definition": "小颗粒水果",
     "example": "The grape is important.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_006",
@@ -2874,10 +2874,10 @@
     "zh": "西瓜",
     "definition": "大型夏季水果",
     "example": "This is a watermelon.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_007",
@@ -2886,10 +2886,10 @@
     "zh": "草莓",
     "definition": "红色小水果",
     "example": "The strawberry is important.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_008",
@@ -2898,10 +2898,10 @@
     "zh": "面包",
     "definition": "主食",
     "example": "The bread is important.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_009",
@@ -2910,10 +2910,10 @@
     "zh": "米饭",
     "definition": "亚洲主食",
     "example": "I have a rice.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_010",
@@ -2922,10 +2922,10 @@
     "zh": "面条",
     "definition": "长条状食物",
     "example": "This is a noodle.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_011",
@@ -2934,10 +2934,10 @@
     "zh": "牛奶",
     "definition": "白色饮料",
     "example": "The milk is important.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_012",
@@ -2946,10 +2946,10 @@
     "zh": "鸡蛋",
     "definition": "常见食材",
     "example": "This is a egg.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_013",
@@ -2958,10 +2958,10 @@
     "zh": "肉",
     "definition": "食物总称",
     "example": "This is a meat.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_014",
@@ -2970,10 +2970,10 @@
     "zh": "鸡肉",
     "definition": "常见肉类",
     "example": "This is a chicken.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_015",
@@ -2982,10 +2982,10 @@
     "zh": "鱼",
     "definition": "水产",
     "example": "I have a fish.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_016",
@@ -2994,10 +2994,10 @@
     "zh": "牛肉",
     "definition": "红色肉类",
     "example": "I have a beef.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_017",
@@ -3006,10 +3006,10 @@
     "zh": "猪肉",
     "definition": "常见肉类",
     "example": "This is a pork.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_018",
@@ -3018,10 +3018,10 @@
     "zh": "蛋糕",
     "definition": "甜点",
     "example": "The cake is important.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_019",
@@ -3030,10 +3030,10 @@
     "zh": "饼干",
     "definition": "零食",
     "example": "This is a cookie.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_020",
@@ -3042,10 +3042,10 @@
     "zh": "巧克力",
     "definition": "甜食",
     "example": "I have a chocolate.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_021",
@@ -3054,10 +3054,10 @@
     "zh": "糖果",
     "definition": "甜食",
     "example": "This is a candy.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_022",
@@ -3066,10 +3066,10 @@
     "zh": "糖",
     "definition": "调味品",
     "example": "A sugar can help you.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_023",
@@ -3078,10 +3078,10 @@
     "zh": "盐",
     "definition": "调味品",
     "example": "A salt can help you.",
-    "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "difficulty": 5,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_024",
@@ -3090,7 +3090,7 @@
     "zh": "水",
     "definition": "生命必需",
     "example": "A water can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3102,7 +3102,7 @@
     "zh": "果汁",
     "definition": "饮料",
     "example": "The juice is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3114,7 +3114,7 @@
     "zh": "茶",
     "definition": "饮品",
     "example": "The tea is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3126,7 +3126,7 @@
     "zh": "咖啡",
     "definition": "提神饮品",
     "example": "A coffee can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3138,7 +3138,7 @@
     "zh": "汤",
     "definition": "液体食物",
     "example": "The soup is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3150,7 +3150,7 @@
     "zh": "沙拉",
     "definition": "蔬菜混合",
     "example": "This is a salad.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3162,7 +3162,7 @@
     "zh": "蔬菜",
     "definition": "植物食物",
     "example": "This is a vegetable.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3174,7 +3174,7 @@
     "zh": "番茄",
     "definition": "红色蔬菜",
     "example": "I have a tomato.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3186,7 +3186,7 @@
     "zh": "土豆",
     "definition": "块茎类蔬菜",
     "example": "The potato is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3198,7 +3198,7 @@
     "zh": "胡萝卜",
     "definition": "橙色根茎",
     "example": "A carrot can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3210,7 +3210,7 @@
     "zh": "洋葱",
     "definition": "调味蔬菜",
     "example": "The onion is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3222,7 +3222,7 @@
     "zh": "卷心菜",
     "definition": "叶菜类",
     "example": "This is a cabbage.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3234,7 +3234,7 @@
     "zh": "辣椒",
     "definition": "调味蔬菜",
     "example": "This is a pepper.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3246,7 +3246,7 @@
     "zh": "黄油",
     "definition": "奶制品",
     "example": "The butter is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3258,7 +3258,7 @@
     "zh": "奶酪",
     "definition": "奶制品",
     "example": "A cheese can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3270,7 +3270,7 @@
     "zh": "冰淇淋",
     "definition": "冷冻甜食",
     "example": "This is a ice cream.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3282,7 +3282,7 @@
     "zh": "早餐",
     "definition": "第一餐",
     "example": "This is a breakfast.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3294,7 +3294,7 @@
     "zh": "午餐",
     "definition": "第二餐",
     "example": "A lunch can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3306,7 +3306,7 @@
     "zh": "晚餐",
     "definition": "最后一餐",
     "example": "A dinner can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3318,7 +3318,7 @@
     "zh": "晚饭",
     "definition": "晚间餐",
     "example": "The supper is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3330,7 +3330,7 @@
     "zh": "一餐",
     "definition": "食物单位",
     "example": "The meal is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3342,7 +3342,7 @@
     "zh": "餐厅",
     "definition": "用餐场所",
     "example": "The restaurant is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3354,7 +3354,7 @@
     "zh": "厨房",
     "definition": "做饭房间",
     "example": "I have a kitchen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3366,7 +3366,7 @@
     "zh": "冰箱",
     "definition": "冷藏设备",
     "example": "I have a fridge.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3378,7 +3378,7 @@
     "zh": "杯子",
     "definition": "饮水器具",
     "example": "This is a cup.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3390,7 +3390,7 @@
     "zh": "玻璃杯",
     "definition": "透明杯子",
     "example": "I have a glass.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3402,7 +3402,7 @@
     "zh": "碗",
     "definition": "餐具",
     "example": "The bowl is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3414,7 +3414,7 @@
     "zh": "盘子",
     "definition": "餐具",
     "example": "I have a plate.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3426,7 +3426,7 @@
     "zh": "叉子",
     "definition": "餐具",
     "example": "I have a fork.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3438,7 +3438,7 @@
     "zh": "勺子",
     "definition": "餐具",
     "example": "This is a spoon.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3450,7 +3450,7 @@
     "zh": "刀",
     "definition": "切割工具",
     "example": "The knife is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3462,7 +3462,7 @@
     "zh": "筷子",
     "definition": "东方餐具",
     "example": "A chopsticks can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3474,7 +3474,7 @@
     "zh": "餐巾",
     "definition": "擦拭用品",
     "example": "A napkin can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3486,7 +3486,7 @@
     "zh": "家庭",
     "definition": "亲属群体",
     "example": "I have a family.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3498,7 +3498,7 @@
     "zh": "父亲",
     "definition": "爸爸",
     "example": "This is a father.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3510,7 +3510,7 @@
     "zh": "母亲",
     "definition": "妈妈",
     "example": "This is a mother.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3522,7 +3522,7 @@
     "zh": "父母",
     "definition": "双亲",
     "example": "I have a parent.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3534,7 +3534,7 @@
     "zh": "兄弟",
     "definition": "哥哥弟弟",
     "example": "A brother can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3546,7 +3546,7 @@
     "zh": "姐妹",
     "definition": "姐姐妹妹",
     "example": "A sister can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3558,7 +3558,7 @@
     "zh": "儿子",
     "definition": "男性孩子",
     "example": "I have a son.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3570,7 +3570,7 @@
     "zh": "女儿",
     "definition": "女性孩子",
     "example": "The daughter is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3582,7 +3582,7 @@
     "zh": "孩子",
     "definition": "儿童",
     "example": "The child is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3594,7 +3594,7 @@
     "zh": "婴儿",
     "definition": "幼童",
     "example": "This is a baby.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3606,7 +3606,7 @@
     "zh": "男孩",
     "definition": "男性儿童",
     "example": "I have a boy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3618,7 +3618,7 @@
     "zh": "女孩",
     "definition": "女性儿童",
     "example": "The girl is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3630,7 +3630,7 @@
     "zh": "男人",
     "definition": "成年男性",
     "example": "The man is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3642,7 +3642,7 @@
     "zh": "女人",
     "definition": "成年女性",
     "example": "I have a woman.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3654,7 +3654,7 @@
     "zh": "祖父",
     "definition": "爷爷外公",
     "example": "This is a grandfather.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3666,7 +3666,7 @@
     "zh": "祖母",
     "definition": "奶奶外婆",
     "example": "This is a grandmother.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3678,7 +3678,7 @@
     "zh": "爷爷",
     "definition": "祖父昵称",
     "example": "The grandpa is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3690,7 +3690,7 @@
     "zh": "奶奶",
     "definition": "祖母昵称",
     "example": "A grandma can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3702,7 +3702,7 @@
     "zh": "叔叔",
     "definition": "父辈男性",
     "example": "The uncle is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3714,7 +3714,7 @@
     "zh": "阿姨",
     "definition": "母辈女性",
     "example": "This is a aunt.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3726,7 +3726,7 @@
     "zh": "堂表亲",
     "definition": "姑姨子女",
     "example": "I have a cousin.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3738,7 +3738,7 @@
     "zh": "朋友",
     "definition": "好友",
     "example": "The friend is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3750,7 +3750,7 @@
     "zh": "同学",
     "definition": "同班同学",
     "example": "The classmate is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3762,7 +3762,7 @@
     "zh": "老师",
     "definition": "教育者",
     "example": "A teacher can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3774,7 +3774,7 @@
     "zh": "学生",
     "definition": "学习者",
     "example": "I have a student.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3786,7 +3786,7 @@
     "zh": "医生",
     "definition": "医疗工作者",
     "example": "This is a doctor.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3798,7 +3798,7 @@
     "zh": "护士",
     "definition": "护理工作者",
     "example": "This is a nurse.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3810,7 +3810,7 @@
     "zh": "警察",
     "definition": "执法人员",
     "example": "A police can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3822,7 +3822,7 @@
     "zh": "司机",
     "definition": "驾驶者",
     "example": "A driver can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3834,7 +3834,7 @@
     "zh": "农民",
     "definition": "农业工作者",
     "example": "This is a farmer.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3846,7 +3846,7 @@
     "zh": "工人",
     "definition": "劳动者",
     "example": "The worker is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3858,7 +3858,7 @@
     "zh": "厨师",
     "definition": "烹饪者",
     "example": "This is a cook.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3870,7 +3870,7 @@
     "zh": "歌手",
     "definition": "歌唱者",
     "example": "I have a singer.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3882,7 +3882,7 @@
     "zh": "舞者",
     "definition": "舞蹈者",
     "example": "A dancer can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3894,7 +3894,7 @@
     "zh": "选手",
     "definition": "运动员",
     "example": "I have a player.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3906,7 +3906,7 @@
     "zh": "明星",
     "definition": "名人",
     "example": "The star is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3918,7 +3918,7 @@
     "zh": "英雄",
     "definition": "英雄人物",
     "example": "I have a hero.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3930,7 +3930,7 @@
     "zh": "身体",
     "definition": "躯体",
     "example": "The body is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3942,7 +3942,7 @@
     "zh": "头",
     "definition": "身体顶部",
     "example": "The head is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3954,7 +3954,7 @@
     "zh": "脸",
     "definition": "面部",
     "example": "I have a face.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3966,7 +3966,7 @@
     "zh": "眼睛",
     "definition": "视觉器官",
     "example": "A eye can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3978,7 +3978,7 @@
     "zh": "耳朵",
     "definition": "听觉器官",
     "example": "A ear can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -3990,7 +3990,7 @@
     "zh": "鼻子",
     "definition": "嗅觉器官",
     "example": "A nose can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4002,7 +4002,7 @@
     "zh": "嘴巴",
     "definition": "说话进食",
     "example": "I have a mouth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4014,7 +4014,7 @@
     "zh": "牙齿",
     "definition": "咀嚼器官",
     "example": "I have a tooth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4026,7 +4026,7 @@
     "zh": "舌头",
     "definition": "味觉器官",
     "example": "A tongue can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4038,7 +4038,7 @@
     "zh": "头发",
     "definition": "头部毛发",
     "example": "The hair is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4050,7 +4050,7 @@
     "zh": "脖子",
     "definition": "头部与身体连接",
     "example": "I have a neck.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4062,7 +4062,7 @@
     "zh": "肩膀",
     "definition": "上肢连接处",
     "example": "I have a shoulder.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4074,7 +4074,7 @@
     "zh": "手臂",
     "definition": "上肢",
     "example": "The arm is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4086,7 +4086,7 @@
     "zh": "手",
     "definition": "上肢末端",
     "example": "I have a hand.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4098,7 +4098,7 @@
     "zh": "手指",
     "definition": "手部分支",
     "example": "The finger is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4110,7 +4110,7 @@
     "zh": "拇指",
     "definition": "第一指",
     "example": "A thumb can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4122,7 +4122,7 @@
     "zh": "胸",
     "definition": "躯干上部",
     "example": "A chest can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4134,7 +4134,7 @@
     "zh": "背",
     "definition": "躯干后部",
     "example": "This is a back.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4146,7 +4146,7 @@
     "zh": "胃",
     "definition": "消化器官",
     "example": "This is a stomach.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4158,7 +4158,7 @@
     "zh": "腿",
     "definition": "下肢",
     "example": "The leg is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4170,7 +4170,7 @@
     "zh": "膝盖",
     "definition": "腿部关节",
     "example": "A knee can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4182,7 +4182,7 @@
     "zh": "脚",
     "definition": "下肢末端",
     "example": "The foot is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4194,7 +4194,7 @@
     "zh": "脚趾",
     "definition": "足部分支",
     "example": "A toe can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4206,7 +4206,7 @@
     "zh": "皮肤",
     "definition": "身体表层",
     "example": "A skin can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4218,7 +4218,7 @@
     "zh": "血液",
     "definition": "体液",
     "example": "The blood is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4230,7 +4230,7 @@
     "zh": "心脏",
     "definition": "循环器官",
     "example": "The heart is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4242,7 +4242,7 @@
     "zh": "大脑",
     "definition": "思维器官",
     "example": "I have a brain.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4254,7 +4254,7 @@
     "zh": "衣服",
     "definition": "服装总称",
     "example": "I have a clothes.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4266,7 +4266,7 @@
     "zh": "衬衫",
     "definition": "上装",
     "example": "A shirt can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4278,7 +4278,7 @@
     "zh": "T恤",
     "definition": "短袖上衣",
     "example": "This is a T-shirt.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4290,7 +4290,7 @@
     "zh": "外套",
     "definition": "外衣",
     "example": "A coat can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4302,7 +4302,7 @@
     "zh": "夹克",
     "definition": "短外套",
     "example": "I have a jacket.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4314,7 +4314,7 @@
     "zh": "连衣裙",
     "definition": "女装",
     "example": "This is a dress.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4326,7 +4326,7 @@
     "zh": "裙子",
     "definition": "女装下装",
     "example": "A skirt can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4338,7 +4338,7 @@
     "zh": "裤子",
     "definition": "下装",
     "example": "I have a pants.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4350,7 +4350,7 @@
     "zh": "牛仔裤",
     "definition": "蓝色长裤",
     "example": "The jeans is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4362,7 +4362,7 @@
     "zh": "短裤",
     "definition": "短下装",
     "example": "The shorts is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4374,7 +4374,7 @@
     "zh": "鞋子",
     "definition": "足部服装",
     "example": "This is a shoes.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4386,7 +4386,7 @@
     "zh": "袜子",
     "definition": "足部用品",
     "example": "I have a sock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4398,7 +4398,7 @@
     "zh": "帽子",
     "definition": "头部服装",
     "example": "This is a hat.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4410,7 +4410,7 @@
     "zh": "鸭舌帽",
     "definition": "有帽檐帽子",
     "example": "I have a cap.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4422,7 +4422,7 @@
     "zh": "手套",
     "definition": "手部服装",
     "example": "This is a glove.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4434,7 +4434,7 @@
     "zh": "围巾",
     "definition": "颈部用品",
     "example": "The scarf is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4446,7 +4446,7 @@
     "zh": "皮带",
     "definition": "腰部用品",
     "example": "A belt can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4458,7 +4458,7 @@
     "zh": "包",
     "definition": "携带容器",
     "example": "This is a bag.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4470,7 +4470,7 @@
     "zh": "钱包",
     "definition": "女性钱包",
     "example": "A purse can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4482,7 +4482,7 @@
     "zh": "钱包",
     "definition": "男性钱包",
     "example": "I have a wallet.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4494,7 +4494,7 @@
     "zh": "戒指",
     "definition": "手指饰品",
     "example": "This is a ring.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4506,7 +4506,7 @@
     "zh": "眼镜",
     "definition": "视力矫正",
     "example": "This is a glasses.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4518,7 +4518,7 @@
     "zh": "房子",
     "definition": "居住建筑",
     "example": "The house is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4530,7 +4530,7 @@
     "zh": "家",
     "definition": "居住地",
     "example": "This is a home.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4542,7 +4542,7 @@
     "zh": "房间",
     "definition": "室内空间",
     "example": "The room is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4554,7 +4554,7 @@
     "zh": "卧室",
     "definition": "睡眠房间",
     "example": "A bedroom can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4566,7 +4566,7 @@
     "zh": "客厅",
     "definition": "活动房间",
     "example": "The living room is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4578,7 +4578,7 @@
     "zh": "浴室",
     "definition": "洗浴房间",
     "example": "I have a bathroom.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4590,7 +4590,7 @@
     "zh": "厕所",
     "definition": "卫生间",
     "example": "The toilet is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4602,7 +4602,7 @@
     "zh": "地板",
     "definition": "室内地面",
     "example": "The floor is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4614,7 +4614,7 @@
     "zh": "天花板",
     "definition": "室内顶部",
     "example": "I have a ceiling.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4626,7 +4626,7 @@
     "zh": "墙",
     "definition": "分隔结构",
     "example": "The wall is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4638,7 +4638,7 @@
     "zh": "门",
     "definition": "出入口",
     "example": "This is a door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4650,7 +4650,7 @@
     "zh": "窗户",
     "definition": "采光口",
     "example": "The window is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4662,7 +4662,7 @@
     "zh": "床",
     "definition": "睡眠家具",
     "example": "I have a bed.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4674,7 +4674,7 @@
     "zh": "书桌",
     "definition": "学习办公",
     "example": "I have a desk.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4686,7 +4686,7 @@
     "zh": "桌子",
     "definition": "平面家具",
     "example": "This is a table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4698,7 +4698,7 @@
     "zh": "椅子",
     "definition": "坐具",
     "example": "I have a chair.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4710,7 +4710,7 @@
     "zh": "沙发",
     "definition": "软座椅",
     "example": "The sofa is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4722,7 +4722,7 @@
     "zh": "书架",
     "definition": "藏书家具",
     "example": "This is a bookshelf.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4734,7 +4734,7 @@
     "zh": "灯",
     "definition": "照明器具",
     "example": "A lamp can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4746,7 +4746,7 @@
     "zh": "时钟",
     "definition": "计时器具",
     "example": "I have a clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4758,7 +4758,7 @@
     "zh": "镜子",
     "definition": "反射器具",
     "example": "A mirror can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4770,7 +4770,7 @@
     "zh": "地毯",
     "definition": "地面装饰",
     "example": "A rug can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4782,7 +4782,7 @@
     "zh": "窗帘",
     "definition": "遮光装饰",
     "example": "This is a curtain.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4794,7 +4794,7 @@
     "zh": "毯子",
     "definition": "保暖用品",
     "example": "I have a blanket.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4806,7 +4806,7 @@
     "zh": "枕头",
     "definition": "睡眠支撑",
     "example": "The pillow is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4818,7 +4818,7 @@
     "zh": "学校",
     "definition": "教育场所",
     "example": "A school can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4830,7 +4830,7 @@
     "zh": "教室",
     "definition": "学习房间",
     "example": "A classroom can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4842,7 +4842,7 @@
     "zh": "图书馆",
     "definition": "藏书场所",
     "example": "The library is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4854,7 +4854,7 @@
     "zh": "操场",
     "definition": "运动场所",
     "example": "The playground is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4866,7 +4866,7 @@
     "zh": "办公室",
     "definition": "工作房间",
     "example": "The office is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4878,7 +4878,7 @@
     "zh": "黑板",
     "definition": "教学板",
     "example": "The blackboard is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4890,7 +4890,7 @@
     "zh": "粉笔",
     "definition": "书写工具",
     "example": "I have a chalk.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4902,7 +4902,7 @@
     "zh": "书",
     "definition": "阅读材料",
     "example": "I have a book.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4914,7 +4914,7 @@
     "zh": "钢笔",
     "definition": "书写工具",
     "example": "This is a pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4926,7 +4926,7 @@
     "zh": "铅笔",
     "definition": "绘画工具",
     "example": "I have a pencil.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4938,7 +4938,7 @@
     "zh": "橡皮",
     "definition": "修改工具",
     "example": "I have a eraser.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4950,7 +4950,7 @@
     "zh": "尺子",
     "definition": "测量工具",
     "example": "I have a ruler.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4962,7 +4962,7 @@
     "zh": "笔记本",
     "definition": "记录本",
     "example": "I have a notebook.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4974,7 +4974,7 @@
     "zh": "书包",
     "definition": "携带用品",
     "example": "This is a backpack.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4986,7 +4986,7 @@
     "zh": "作业",
     "definition": "课后任务",
     "example": "A homework can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -4998,7 +4998,7 @@
     "zh": "课程",
     "definition": "教学单元",
     "example": "The lesson is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5010,7 +5010,7 @@
     "zh": "科目",
     "definition": "学科",
     "example": "This is a subject.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5022,7 +5022,7 @@
     "zh": "数学",
     "definition": "计算学科",
     "example": "This is a math.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5034,7 +5034,7 @@
     "zh": "英语",
     "definition": "语言学科",
     "example": "I have a English.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5046,7 +5046,7 @@
     "zh": "语文",
     "definition": "语言学科",
     "example": "I have a Chinese.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5058,7 +5058,7 @@
     "zh": "科学",
     "definition": "自然学科",
     "example": "This is a science.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5070,7 +5070,7 @@
     "zh": "美术",
     "definition": "艺术学科",
     "example": "The art is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5082,7 +5082,7 @@
     "zh": "音乐",
     "definition": "声音艺术",
     "example": "This is a music.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5094,7 +5094,7 @@
     "zh": "体育",
     "definition": "运动课程",
     "example": "This is a PE.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5106,7 +5106,7 @@
     "zh": "考试",
     "definition": "测试评估",
     "example": "The exam is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5118,7 +5118,7 @@
     "zh": "测验",
     "definition": "检验",
     "example": "A test can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5130,7 +5130,7 @@
     "zh": "年级/成绩",
     "definition": "年级或分数",
     "example": "This is a grade.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5142,7 +5142,7 @@
     "zh": "分数",
     "definition": "成绩",
     "example": "This is a score.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5154,7 +5154,7 @@
     "zh": "答案",
     "definition": "解答",
     "example": "This is a answer.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5166,7 +5166,7 @@
     "zh": "问题",
     "definition": "疑问",
     "example": "The question is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5178,7 +5178,7 @@
     "zh": "学习",
     "definition": "研习",
     "example": "Can you study?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5190,7 +5190,7 @@
     "zh": "学习",
     "definition": "获得知识",
     "example": "Can you learn?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5202,7 +5202,7 @@
     "zh": "教",
     "definition": "传授知识",
     "example": "You should teach it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5214,7 +5214,7 @@
     "zh": "阅读",
     "definition": "看文字",
     "example": "You should read it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5226,7 +5226,7 @@
     "zh": "写",
     "definition": "文字表达",
     "example": "Let's write together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5238,7 +5238,7 @@
     "zh": "画",
     "definition": "图形表达",
     "example": "You should draw it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5250,7 +5250,7 @@
     "zh": "数数",
     "definition": "计算数量",
     "example": "Can you count?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5262,7 +5262,7 @@
     "zh": "思考",
     "definition": "思维",
     "example": "Can you think?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5274,7 +5274,7 @@
     "zh": "理解",
     "definition": "领会",
     "example": "You should understand it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5286,7 +5286,7 @@
     "zh": "记住",
     "definition": "记忆",
     "example": "You should remember it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5298,7 +5298,7 @@
     "zh": "忘记",
     "definition": "遗忘",
     "example": "You should forget it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5310,7 +5310,7 @@
     "zh": "知道",
     "definition": "了解",
     "example": "You should know it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5322,7 +5322,7 @@
     "zh": "颜色",
     "definition": "视觉属性",
     "example": "I have a color.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5334,7 +5334,7 @@
     "zh": "红色",
     "definition": "像血",
     "example": "This is red.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5346,7 +5346,7 @@
     "zh": "蓝色",
     "definition": "像天空",
     "example": "A blue {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5358,7 +5358,7 @@
     "zh": "绿色",
     "definition": "像植物",
     "example": "This is green.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5370,7 +5370,7 @@
     "zh": "黄色",
     "definition": "像太阳",
     "example": "This is yellow.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5382,7 +5382,7 @@
     "zh": "紫色",
     "definition": "紫葡萄色",
     "example": "This is purple.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5394,7 +5394,7 @@
     "zh": "粉色",
     "definition": "浅红色",
     "example": "It is very pink.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5406,7 +5406,7 @@
     "zh": "棕色",
     "definition": "像大地",
     "example": "It is very brown.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5418,7 +5418,7 @@
     "zh": "黑色",
     "definition": "像夜晚",
     "example": "This is black.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5430,7 +5430,7 @@
     "zh": "白色",
     "definition": "像雪",
     "example": "It is very white.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5442,7 +5442,7 @@
     "zh": "灰色",
     "definition": "中性色",
     "example": "This is gray.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5454,7 +5454,7 @@
     "zh": "浅色",
     "definition": "明亮",
     "example": "This is light.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5466,7 +5466,7 @@
     "zh": "深色",
     "definition": "暗淡",
     "example": "A dark {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5478,7 +5478,7 @@
     "zh": "圆形",
     "definition": "圆的",
     "example": "A round {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5490,7 +5490,7 @@
     "zh": "方形",
     "definition": "方的",
     "example": "A square {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5502,7 +5502,7 @@
     "zh": "长",
     "definition": "长度大",
     "example": "A long {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5514,7 +5514,7 @@
     "zh": "短",
     "definition": "长度小",
     "example": "It is very short.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5526,7 +5526,7 @@
     "zh": "高",
     "definition": "高度大",
     "example": "A tall {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5538,7 +5538,7 @@
     "zh": "大",
     "definition": "体积大",
     "example": "A big {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5550,7 +5550,7 @@
     "zh": "小",
     "definition": "体积小",
     "example": "It is very small.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5562,7 +5562,7 @@
     "zh": "巨大",
     "definition": "尺寸大",
     "example": "A large {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5574,7 +5574,7 @@
     "zh": "小",
     "definition": "尺寸小",
     "example": "It is very little.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5586,7 +5586,7 @@
     "zh": "重",
     "definition": "重量大",
     "example": "A heavy {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5598,7 +5598,7 @@
     "zh": "厚",
     "definition": "厚度大",
     "example": "A thick {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5610,7 +5610,7 @@
     "zh": "薄",
     "definition": "厚度小",
     "example": "This is thin.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5622,7 +5622,7 @@
     "zh": "宽",
     "definition": "宽度大",
     "example": "This is wide.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5634,7 +5634,7 @@
     "zh": "窄",
     "definition": "宽度小",
     "example": "A narrow {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5646,7 +5646,7 @@
     "zh": "动物",
     "definition": "生物",
     "example": "A animal can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5658,7 +5658,7 @@
     "zh": "狗",
     "definition": "宠物",
     "example": "A dog can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5670,7 +5670,7 @@
     "zh": "猫",
     "definition": "宠物",
     "example": "I have a cat.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5682,7 +5682,7 @@
     "zh": "鸟",
     "definition": "飞行动物",
     "example": "I have a bird.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5694,7 +5694,7 @@
     "zh": "兔子",
     "definition": "小动物",
     "example": "I have a rabbit.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5706,7 +5706,7 @@
     "zh": "鸭子",
     "definition": "水禽",
     "example": "The duck is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5718,7 +5718,7 @@
     "zh": "猪",
     "definition": "家畜",
     "example": "The pig is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5730,7 +5730,7 @@
     "zh": "牛",
     "definition": "家畜",
     "example": "This is a cow.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5742,7 +5742,7 @@
     "zh": "马",
     "definition": "家畜",
     "example": "I have a horse.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5754,7 +5754,7 @@
     "zh": "羊",
     "definition": "家畜",
     "example": "A sheep can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5766,7 +5766,7 @@
     "zh": "山羊",
     "definition": "家畜",
     "example": "I have a goat.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5778,7 +5778,7 @@
     "zh": "老鼠",
     "definition": "啮齿动物",
     "example": "A mouse can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5790,7 +5790,7 @@
     "zh": "大象",
     "definition": "大型动物",
     "example": "A elephant can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5802,7 +5802,7 @@
     "zh": "狮子",
     "definition": "猛兽",
     "example": "The lion is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5814,7 +5814,7 @@
     "zh": "老虎",
     "definition": "猛兽",
     "example": "The tiger is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5826,7 +5826,7 @@
     "zh": "猴子",
     "definition": "灵长类",
     "example": "A monkey can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5838,7 +5838,7 @@
     "zh": "熊猫",
     "definition": "中国国宝",
     "example": "This is a panda.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5850,7 +5850,7 @@
     "zh": "熊",
     "definition": "大型动物",
     "example": "The bear is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5862,7 +5862,7 @@
     "zh": "狐狸",
     "definition": "犬科",
     "example": "I have a fox.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5874,7 +5874,7 @@
     "zh": "狼",
     "definition": "犬科",
     "example": "I have a wolf.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5886,7 +5886,7 @@
     "zh": "鹿",
     "definition": "草食动物",
     "example": "The deer is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5898,7 +5898,7 @@
     "zh": "斑马",
     "definition": "条纹马",
     "example": "This is a zebra.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5910,7 +5910,7 @@
     "zh": "长颈鹿",
     "definition": "长脖子",
     "example": "A giraffe can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5922,7 +5922,7 @@
     "zh": "袋鼠",
     "definition": "有袋类",
     "example": "I have a kangaroo.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5934,7 +5934,7 @@
     "zh": "企鹅",
     "definition": "南极鸟",
     "example": "I have a penguin.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5946,7 +5946,7 @@
     "zh": "鹰",
     "definition": "猛禽",
     "example": "The eagle is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5958,7 +5958,7 @@
     "zh": "猫头鹰",
     "definition": "夜行猛禽",
     "example": "The owl is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5970,7 +5970,7 @@
     "zh": "蛇",
     "definition": "爬行动物",
     "example": "A snake can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5982,7 +5982,7 @@
     "zh": "青蛙",
     "definition": "两栖动物",
     "example": "This is a frog.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -5994,7 +5994,7 @@
     "zh": "乌龟",
     "definition": "爬行动物",
     "example": "This is a turtle.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6006,7 +6006,7 @@
     "zh": "蝴蝶",
     "definition": "昆虫",
     "example": "A butterfly can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6018,7 +6018,7 @@
     "zh": "蜜蜂",
     "definition": "昆虫",
     "example": "This is a bee.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6030,7 +6030,7 @@
     "zh": "蚂蚁",
     "definition": "昆虫",
     "example": "The ant is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6042,7 +6042,7 @@
     "zh": "蜘蛛",
     "definition": "节肢动物",
     "example": "A spider can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6054,7 +6054,7 @@
     "zh": "苍蝇",
     "definition": "昆虫",
     "example": "This is a fly.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6066,7 +6066,7 @@
     "zh": "蚊子",
     "definition": "昆虫",
     "example": "I have a mosquito.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6078,7 +6078,7 @@
     "zh": "自然",
     "definition": "自然界",
     "example": "This is a nature.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6090,7 +6090,7 @@
     "zh": "太阳",
     "definition": "恒星",
     "example": "A sun can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6102,7 +6102,7 @@
     "zh": "月亮",
     "definition": "卫星",
     "example": "This is a moon.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6114,7 +6114,7 @@
     "zh": "天空",
     "definition": "苍穹",
     "example": "I have a sky.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6126,7 +6126,7 @@
     "zh": "云",
     "definition": "水汽凝结",
     "example": "I have a cloud.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6138,7 +6138,7 @@
     "zh": "雨",
     "definition": "降水",
     "example": "A rain can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6150,7 +6150,7 @@
     "zh": "雪",
     "definition": "固态降水",
     "example": "This is a snow.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6162,7 +6162,7 @@
     "zh": "风",
     "definition": "空气流动",
     "example": "I have a wind.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6174,7 +6174,7 @@
     "zh": "暴风雨",
     "definition": "恶劣天气",
     "example": "A storm can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6186,7 +6186,7 @@
     "zh": "闪电",
     "definition": "大气放电",
     "example": "A lightning can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6198,7 +6198,7 @@
     "zh": "雷",
     "definition": "大气声响",
     "example": "A thunder can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6210,7 +6210,7 @@
     "zh": "彩虹",
     "definition": "大气光学",
     "example": "The rainbow is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6222,7 +6222,7 @@
     "zh": "雾",
     "definition": "能见度低",
     "example": "I have a fog.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6234,7 +6234,7 @@
     "zh": "冰",
     "definition": "固态水",
     "example": "This is a ice.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6246,7 +6246,7 @@
     "zh": "火",
     "definition": "燃烧",
     "example": "A fire can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6258,7 +6258,7 @@
     "zh": "河",
     "definition": "水体",
     "example": "The river is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6270,7 +6270,7 @@
     "zh": "湖",
     "definition": "水体",
     "example": "The lake is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6282,7 +6282,7 @@
     "zh": "海",
     "definition": "水体",
     "example": "A sea can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6294,7 +6294,7 @@
     "zh": "海洋",
     "definition": "水域",
     "example": "This is a ocean.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6306,7 +6306,7 @@
     "zh": "海滩",
     "definition": "海岸",
     "example": "The beach is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6318,7 +6318,7 @@
     "zh": "岛屿",
     "definition": "陆地",
     "example": "A island can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6330,7 +6330,7 @@
     "zh": "山",
     "definition": "高地",
     "example": "The mountain is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6342,7 +6342,7 @@
     "zh": "小山",
     "definition": "隆起",
     "example": "I have a hill.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6354,7 +6354,7 @@
     "zh": "森林",
     "definition": "树木密集",
     "example": "This is a forest.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6366,7 +6366,7 @@
     "zh": "树",
     "definition": "木本植物",
     "example": "I have a tree.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6378,7 +6378,7 @@
     "zh": "草",
     "definition": "草本植物",
     "example": "I have a grass.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6390,7 +6390,7 @@
     "zh": "花",
     "definition": "植物器官",
     "example": "A flower can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6402,7 +6402,7 @@
     "zh": "叶子",
     "definition": "植物器官",
     "example": "The leaf is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6414,7 +6414,7 @@
     "zh": "岩石",
     "definition": "矿物",
     "example": "I have a rock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6426,7 +6426,7 @@
     "zh": "石头",
     "definition": "石材",
     "example": "I have a stone.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6438,7 +6438,7 @@
     "zh": "沙子",
     "definition": "颗粒物",
     "example": "I have a sand.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6450,7 +6450,7 @@
     "zh": "泥土",
     "definition": "土壤",
     "example": "I have a dirt.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6462,7 +6462,7 @@
     "zh": "地球",
     "definition": "星球",
     "example": "The earth is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6474,7 +6474,7 @@
     "zh": "世界",
     "definition": "全球",
     "example": "I have a world.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6486,7 +6486,7 @@
     "zh": "时间",
     "definition": "时刻或时长",
     "example": "The time is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6498,7 +6498,7 @@
     "zh": "天",
     "definition": "24小时",
     "example": "This is a day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6510,7 +6510,7 @@
     "zh": "夜",
     "definition": "黑暗时段",
     "example": "I have a night.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6522,7 +6522,7 @@
     "zh": "早上",
     "definition": "一天开始",
     "example": "A morning can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6534,7 +6534,7 @@
     "zh": "下午",
     "definition": "中午后",
     "example": "A afternoon can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6546,7 +6546,7 @@
     "zh": "晚上",
     "definition": "日落后",
     "example": "I have a evening.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6558,7 +6558,7 @@
     "zh": "中午",
     "definition": "正午",
     "example": "This is a noon.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6570,7 +6570,7 @@
     "zh": "午夜",
     "definition": "零点",
     "example": "The midnight is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6582,7 +6582,7 @@
     "zh": "今天",
     "definition": "当前日",
     "example": "The today is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6594,7 +6594,7 @@
     "zh": "明天",
     "definition": "次日",
     "example": "A tomorrow can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6606,7 +6606,7 @@
     "zh": "昨天",
     "definition": "前日",
     "example": "This is a yesterday.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6618,7 +6618,7 @@
     "zh": "周",
     "definition": "七天",
     "example": "I have a week.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6630,7 +6630,7 @@
     "zh": "周末",
     "definition": "周六日",
     "example": "The weekend is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6642,7 +6642,7 @@
     "zh": "月",
     "definition": "月份",
     "example": "The month is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6654,7 +6654,7 @@
     "zh": "年",
     "definition": "年份",
     "example": "I have a year.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6666,7 +6666,7 @@
     "zh": "季节",
     "definition": "四季",
     "example": "I have a season.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6678,7 +6678,7 @@
     "zh": "春天",
     "definition": "生长季节",
     "example": "This is a spring.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6690,7 +6690,7 @@
     "zh": "夏天",
     "definition": "炎热季节",
     "example": "A summer can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6702,7 +6702,7 @@
     "zh": "秋天",
     "definition": "收获季节",
     "example": "This is a autumn.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6714,7 +6714,7 @@
     "zh": "冬天",
     "definition": "寒冷季节",
     "example": "The winter is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6726,7 +6726,7 @@
     "zh": "天气",
     "definition": "气象",
     "example": "The weather is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6738,7 +6738,7 @@
     "zh": "晴朗",
     "definition": "阳光充足",
     "example": "It is very sunny.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6750,7 +6750,7 @@
     "zh": "多云",
     "definition": "云多",
     "example": "It is very cloudy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6762,7 +6762,7 @@
     "zh": "有风",
     "definition": "风大",
     "example": "This is windy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6774,7 +6774,7 @@
     "zh": "下雨",
     "definition": "降雨",
     "example": "This is rainy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6786,7 +6786,7 @@
     "zh": "下雪",
     "definition": "降雪",
     "example": "This is snowy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6798,7 +6798,7 @@
     "zh": "热",
     "definition": "温度高",
     "example": "This is hot.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6810,7 +6810,7 @@
     "zh": "暖",
     "definition": "温度适中",
     "example": "It is very warm.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6822,7 +6822,7 @@
     "zh": "凉",
     "definition": "温度略低",
     "example": "A cool {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6834,7 +6834,7 @@
     "zh": "冷",
     "definition": "温度低",
     "example": "This is cold.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6846,7 +6846,7 @@
     "zh": "湿",
     "definition": "水分多",
     "example": "A wet {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6858,7 +6858,7 @@
     "zh": "干",
     "definition": "水分少",
     "example": "A dry {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6870,7 +6870,7 @@
     "zh": "周一",
     "definition": "星期一",
     "example": "The Monday is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6882,7 +6882,7 @@
     "zh": "周二",
     "definition": "星期二",
     "example": "A Tuesday can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6894,7 +6894,7 @@
     "zh": "周三",
     "definition": "星期三",
     "example": "A Wednesday can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6906,7 +6906,7 @@
     "zh": "周四",
     "definition": "星期四",
     "example": "I have a Thursday.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6918,7 +6918,7 @@
     "zh": "周五",
     "definition": "星期五",
     "example": "A Friday can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6930,7 +6930,7 @@
     "zh": "周六",
     "definition": "星期六",
     "example": "I have a Saturday.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6942,7 +6942,7 @@
     "zh": "周日",
     "definition": "星期日",
     "example": "I have a Sunday.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6954,7 +6954,7 @@
     "zh": "一月",
     "definition": "第一个月",
     "example": "This is a January.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6966,7 +6966,7 @@
     "zh": "二月",
     "definition": "第二个月",
     "example": "I have a February.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6978,7 +6978,7 @@
     "zh": "三月",
     "definition": "第三个月",
     "example": "This is a March.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -6990,7 +6990,7 @@
     "zh": "四月",
     "definition": "第四个月",
     "example": "I have a April.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7002,7 +7002,7 @@
     "zh": "五月",
     "definition": "第五个月",
     "example": "This is a May.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7014,7 +7014,7 @@
     "zh": "六月",
     "definition": "第六个月",
     "example": "The June is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7026,7 +7026,7 @@
     "zh": "七月",
     "definition": "第七个月",
     "example": "A July can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7038,7 +7038,7 @@
     "zh": "八月",
     "definition": "第八个月",
     "example": "I have a August.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7050,7 +7050,7 @@
     "zh": "九月",
     "definition": "第九个月",
     "example": "A September can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7062,7 +7062,7 @@
     "zh": "十月",
     "definition": "第十个月",
     "example": "A October can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7074,7 +7074,7 @@
     "zh": "十一月",
     "definition": "第十一月",
     "example": "This is a November.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7086,7 +7086,7 @@
     "zh": "十二月",
     "definition": "第十二月",
     "example": "The December is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7098,7 +7098,7 @@
     "zh": "一",
     "definition": "数字1",
     "example": "It's one o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7110,7 +7110,7 @@
     "zh": "二",
     "definition": "数字2",
     "example": "It's two o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7122,7 +7122,7 @@
     "zh": "三",
     "definition": "数字3",
     "example": "I have three books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7134,7 +7134,7 @@
     "zh": "四",
     "definition": "数字4",
     "example": "It's four o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7146,7 +7146,7 @@
     "zh": "五",
     "definition": "数字5",
     "example": "I have five books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7158,7 +7158,7 @@
     "zh": "六",
     "definition": "数字6",
     "example": "It's six o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7170,7 +7170,7 @@
     "zh": "七",
     "definition": "数字7",
     "example": "I have seven books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7182,7 +7182,7 @@
     "zh": "八",
     "definition": "数字8",
     "example": "I have eight books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7194,7 +7194,7 @@
     "zh": "九",
     "definition": "数字9",
     "example": "I have nine books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7206,7 +7206,7 @@
     "zh": "十",
     "definition": "数字10",
     "example": "I have ten books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7218,7 +7218,7 @@
     "zh": "十一",
     "definition": "数字11",
     "example": "It's eleven o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7230,7 +7230,7 @@
     "zh": "十二",
     "definition": "数字12",
     "example": "I have twelve books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7242,7 +7242,7 @@
     "zh": "十三",
     "definition": "数字13",
     "example": "It's thirteen o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7254,7 +7254,7 @@
     "zh": "十四",
     "definition": "数字14",
     "example": "I have fourteen books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7266,7 +7266,7 @@
     "zh": "十五",
     "definition": "数字15",
     "example": "It's fifteen o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7278,7 +7278,7 @@
     "zh": "十六",
     "definition": "数字16",
     "example": "It's sixteen o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7290,7 +7290,7 @@
     "zh": "十七",
     "definition": "数字17",
     "example": "I have seventeen books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7302,7 +7302,7 @@
     "zh": "十八",
     "definition": "数字18",
     "example": "It's eighteen o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7314,7 +7314,7 @@
     "zh": "十九",
     "definition": "数字19",
     "example": "It's nineteen o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7326,7 +7326,7 @@
     "zh": "二十",
     "definition": "数字20",
     "example": "I have twenty books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7338,7 +7338,7 @@
     "zh": "三十",
     "definition": "数字30",
     "example": "I have thirty books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7350,7 +7350,7 @@
     "zh": "四十",
     "definition": "数字40",
     "example": "It's forty o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7362,7 +7362,7 @@
     "zh": "五十",
     "definition": "数字50",
     "example": "I have fifty books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7374,7 +7374,7 @@
     "zh": "六十",
     "definition": "数字60",
     "example": "It's sixty o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7386,7 +7386,7 @@
     "zh": "七十",
     "definition": "数字70",
     "example": "It's seventy o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7398,7 +7398,7 @@
     "zh": "八十",
     "definition": "数字80",
     "example": "It's eighty o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7410,7 +7410,7 @@
     "zh": "九十",
     "definition": "数字90",
     "example": "I have ninety books.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7422,7 +7422,7 @@
     "zh": "百",
     "definition": "数字100",
     "example": "It's hundred o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7434,7 +7434,7 @@
     "zh": "千",
     "definition": "数字1000",
     "example": "It's thousand o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7446,7 +7446,7 @@
     "zh": "百万",
     "definition": "数字1000000",
     "example": "It's million o'clock.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7458,7 +7458,7 @@
     "zh": "第一",
     "definition": "序数词1",
     "example": "It is very first.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7470,7 +7470,7 @@
     "zh": "第二",
     "definition": "序数词2",
     "example": "A second {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7482,7 +7482,7 @@
     "zh": "第三",
     "definition": "序数词3",
     "example": "A third {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7494,7 +7494,7 @@
     "zh": "第四",
     "definition": "序数词4",
     "example": "This is fourth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7506,7 +7506,7 @@
     "zh": "第五",
     "definition": "序数词5",
     "example": "It is very fifth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7518,7 +7518,7 @@
     "zh": "第六",
     "definition": "序数词6",
     "example": "A sixth {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7530,7 +7530,7 @@
     "zh": "第七",
     "definition": "序数词7",
     "example": "It is very seventh.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7542,7 +7542,7 @@
     "zh": "第八",
     "definition": "序数词8",
     "example": "This is eighth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7554,7 +7554,7 @@
     "zh": "第九",
     "definition": "序数词9",
     "example": "This is ninth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7566,7 +7566,7 @@
     "zh": "第十",
     "definition": "序数词10",
     "example": "It is very tenth.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7578,7 +7578,7 @@
     "zh": "在...里",
     "definition": "位置介词",
     "example": "Go in the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7590,7 +7590,7 @@
     "zh": "在...上",
     "definition": "位置介词",
     "example": "Go on the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7602,7 +7602,7 @@
     "zh": "在...下",
     "definition": "位置介词",
     "example": "The book is under the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7614,7 +7614,7 @@
     "zh": "在...上",
     "definition": "位置介词",
     "example": "The book is above the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7626,7 +7626,7 @@
     "zh": "在...下",
     "definition": "位置介词",
     "example": "The book is below the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7638,7 +7638,7 @@
     "zh": "在...附近",
     "definition": "位置介词",
     "example": "Go near the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7650,7 +7650,7 @@
     "zh": "远",
     "definition": "距离大",
     "example": "It is very far.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7662,7 +7662,7 @@
     "zh": "这里",
     "definition": "位置副词",
     "example": "Do it here.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7674,7 +7674,7 @@
     "zh": "那里",
     "definition": "位置副词",
     "example": "Do it there.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7686,7 +7686,7 @@
     "zh": "哪里",
     "definition": "疑问副词",
     "example": "He runs where.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7698,7 +7698,7 @@
     "zh": "左边",
     "definition": "方向",
     "example": "This is left.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7710,7 +7710,7 @@
     "zh": "右边",
     "definition": "方向",
     "example": "This is right.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7722,7 +7722,7 @@
     "zh": "前面",
     "definition": "位置",
     "example": "I have a front.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7734,7 +7734,7 @@
     "zh": "中心",
     "definition": "中间",
     "example": "I have a center.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7746,7 +7746,7 @@
     "zh": "角落",
     "definition": "转角",
     "example": "The corner is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7758,7 +7758,7 @@
     "zh": "侧面",
     "definition": "旁边",
     "example": "The side is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7770,7 +7770,7 @@
     "zh": "中间",
     "definition": "中部",
     "example": "The middle is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7782,7 +7782,7 @@
     "zh": "顶部",
     "definition": "上面",
     "example": "A top can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7794,7 +7794,7 @@
     "zh": "底部",
     "definition": "下面",
     "example": "The bottom is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7806,7 +7806,7 @@
     "zh": "里面",
     "definition": "内部",
     "example": "The inside is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7818,7 +7818,7 @@
     "zh": "外面",
     "definition": "外部",
     "example": "I have a outside.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7830,7 +7830,7 @@
     "zh": "向上",
     "definition": "方向",
     "example": "He runs up.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7842,7 +7842,7 @@
     "zh": "向下",
     "definition": "方向",
     "example": "He runs down.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7854,7 +7854,7 @@
     "zh": "楼上",
     "definition": "位置",
     "example": "This is upstairs.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7866,7 +7866,7 @@
     "zh": "楼下",
     "definition": "位置",
     "example": "This is downstairs.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7878,7 +7878,7 @@
     "zh": "汽车",
     "definition": "交通工具",
     "example": "I have a car.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7890,7 +7890,7 @@
     "zh": "公交车",
     "definition": "公共交通",
     "example": "This is a bus.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7902,7 +7902,7 @@
     "zh": "火车",
     "definition": "轨道交通",
     "example": "A train can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7914,7 +7914,7 @@
     "zh": "地铁",
     "definition": "城市轨道交通",
     "example": "The subway is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7926,7 +7926,7 @@
     "zh": "飞机",
     "definition": "空中交通",
     "example": "This is a plane.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7938,7 +7938,7 @@
     "zh": "船",
     "definition": "水上交通",
     "example": "A ship can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7950,7 +7950,7 @@
     "zh": "小船",
     "definition": "水上载具",
     "example": "A boat can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7962,7 +7962,7 @@
     "zh": "自行车",
     "definition": "个人交通",
     "example": "A bike can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7974,7 +7974,7 @@
     "zh": "自行车",
     "definition": "两轮车",
     "example": "This is a bicycle.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7986,7 +7986,7 @@
     "zh": "摩托车",
     "definition": "机动车",
     "example": "I have a motorcycle.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -7998,7 +7998,7 @@
     "zh": "出租车",
     "definition": "付费交通",
     "example": "The taxi is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8010,7 +8010,7 @@
     "zh": "卡车",
     "definition": "货车",
     "example": "A truck can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8022,7 +8022,7 @@
     "zh": "救护车",
     "definition": "医疗车辆",
     "example": "I have a ambulance.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8034,7 +8034,7 @@
     "zh": "消防车",
     "definition": "消防车辆",
     "example": "A fire engine can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8046,7 +8046,7 @@
     "zh": "警车",
     "definition": "执法车辆",
     "example": "This is a police car.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8058,7 +8058,7 @@
     "zh": "道路",
     "definition": "行车通道",
     "example": "I have a road.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8070,7 +8070,7 @@
     "zh": "街道",
     "definition": "城市道路",
     "example": "This is a street.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8082,7 +8082,7 @@
     "zh": "路",
     "definition": "路径",
     "example": "I have a way.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8094,7 +8094,7 @@
     "zh": "小路",
     "definition": "步行道",
     "example": "A path can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8106,7 +8106,7 @@
     "zh": "桥",
     "definition": "跨越建筑",
     "example": "A bridge can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8118,7 +8118,7 @@
     "zh": "隧道",
     "definition": "地下通道",
     "example": "This is a tunnel.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8130,7 +8130,7 @@
     "zh": "穿过",
     "definition": "跨越",
     "example": "Can you cross?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8142,7 +8142,7 @@
     "zh": "转弯",
     "definition": "改变方向",
     "example": "Can you turn?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8154,7 +8154,7 @@
     "zh": "停止",
     "definition": "停下",
     "example": "Let's stop together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8166,7 +8166,7 @@
     "zh": "走",
     "definition": "前往",
     "example": "You should go it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8178,7 +8178,7 @@
     "zh": "来",
     "definition": "靠近",
     "example": "I come every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8190,7 +8190,7 @@
     "zh": "离开",
     "definition": "离去",
     "example": "I leave every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8202,7 +8202,7 @@
     "zh": "到达",
     "definition": "抵达",
     "example": "Let's arrive together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8214,7 +8214,7 @@
     "zh": "进入",
     "definition": "进去",
     "example": "Can you enter?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8226,7 +8226,7 @@
     "zh": "退出",
     "definition": "离开",
     "example": "I exit every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8238,7 +8238,7 @@
     "zh": "驾驶",
     "definition": "开车",
     "example": "Let's drive together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8250,7 +8250,7 @@
     "zh": "骑行",
     "definition": "骑车",
     "example": "Let's ride together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8262,7 +8262,7 @@
     "zh": "步行",
     "definition": "走路",
     "example": "Let's walk together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8274,7 +8274,7 @@
     "zh": "跑",
     "definition": "跑步",
     "example": "I run every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8286,7 +8286,7 @@
     "zh": "跳",
     "definition": "跳跃",
     "example": "You should jump it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8298,7 +8298,7 @@
     "zh": "游泳",
     "definition": "水上运动",
     "example": "I swim every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8310,7 +8310,7 @@
     "zh": "旅行",
     "definition": "出行",
     "example": "Let's travel together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8322,7 +8322,7 @@
     "zh": "旅行",
     "definition": "短途",
     "example": "I have a trip.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8334,7 +8334,7 @@
     "zh": "旅游",
     "definition": "观光",
     "example": "I have a tour.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8346,7 +8346,7 @@
     "zh": "参观",
     "definition": "访问",
     "example": "I visit every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8358,7 +8358,7 @@
     "zh": "地图",
     "definition": "导航图",
     "example": "I have a map.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8370,7 +8370,7 @@
     "zh": "票",
     "definition": "凭证",
     "example": "This is a ticket.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8382,7 +8382,7 @@
     "zh": "乘客",
     "definition": "出行者",
     "example": "I have a passenger.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8394,7 +8394,7 @@
     "zh": "车站",
     "definition": "乘车点",
     "example": "A station can help you.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8406,7 +8406,7 @@
     "zh": "机场",
     "definition": "航空枢纽",
     "example": "This is a airport.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8418,7 +8418,7 @@
     "zh": "酒店",
     "definition": "住宿场所",
     "example": "The hotel is important.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8430,7 +8430,7 @@
     "zh": "做",
     "definition": "执行",
     "example": "Can you do?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8442,7 +8442,7 @@
     "zh": "制作",
     "definition": "创造",
     "example": "I make every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8454,7 +8454,7 @@
     "zh": "得到",
     "definition": "获取",
     "example": "You should get it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8466,7 +8466,7 @@
     "zh": "给予",
     "definition": "赠送",
     "example": "You should give it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8478,7 +8478,7 @@
     "zh": "拿",
     "definition": "取",
     "example": "You should take it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8490,7 +8490,7 @@
     "zh": "带来",
     "definition": "拿来",
     "example": "Let's bring together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8502,7 +8502,7 @@
     "zh": "展示",
     "definition": "显示",
     "example": "You should show it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8514,7 +8514,7 @@
     "zh": "告诉",
     "definition": "告知",
     "example": "I tell every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8526,7 +8526,7 @@
     "zh": "说",
     "definition": "表达",
     "example": "You should say it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8538,7 +8538,7 @@
     "zh": "询问",
     "definition": "提问",
     "example": "Let's ask together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8550,7 +8550,7 @@
     "zh": "说",
     "definition": "讲话",
     "example": "Can you speak?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8562,7 +8562,7 @@
     "zh": "谈话",
     "definition": "交流",
     "example": "Let's talk together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8574,7 +8574,7 @@
     "zh": "大喊",
     "definition": "大声说",
     "example": "Let's shout together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8586,7 +8586,7 @@
     "zh": "耳语",
     "definition": "小声说",
     "example": "Let's whisper together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8598,7 +8598,7 @@
     "zh": "呼叫",
     "definition": "喊或打电话",
     "example": "Can you call?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8610,7 +8610,7 @@
     "zh": "哭",
     "definition": "流泪",
     "example": "Let's cry together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8622,7 +8622,7 @@
     "zh": "笑",
     "definition": "发笑",
     "example": "Can you laugh?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8634,7 +8634,7 @@
     "zh": "微笑",
     "definition": "露出笑容",
     "example": "Let's smile together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8646,7 +8646,7 @@
     "zh": "玩",
     "definition": "娱乐",
     "example": "You should play it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8658,7 +8658,7 @@
     "zh": "工作",
     "definition": "劳动",
     "example": "Can you work?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8670,7 +8670,7 @@
     "zh": "睡觉",
     "definition": "睡眠",
     "example": "I sleep every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8682,7 +8682,7 @@
     "zh": "醒来",
     "definition": "苏醒",
     "example": "Can you wake?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8694,7 +8694,7 @@
     "zh": "做梦",
     "definition": "梦境",
     "example": "Can you dream?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8706,7 +8706,7 @@
     "zh": "吃",
     "definition": "进食",
     "example": "You should eat it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8718,7 +8718,7 @@
     "zh": "喝",
     "definition": "饮用",
     "example": "You should drink it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8730,7 +8730,7 @@
     "zh": "品尝",
     "definition": "尝试味道",
     "example": "Let's taste together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8742,7 +8742,7 @@
     "zh": "闻",
     "definition": "嗅觉",
     "example": "You should smell it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8754,7 +8754,7 @@
     "zh": "听见",
     "definition": "听觉",
     "example": "Can you hear?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8766,7 +8766,7 @@
     "zh": "听",
     "definition": "倾听",
     "example": "Let's listen together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8778,7 +8778,7 @@
     "zh": "看见",
     "definition": "视觉",
     "example": "You should see it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8790,7 +8790,7 @@
     "zh": "看",
     "definition": "观看",
     "example": "Can you look?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8802,7 +8802,7 @@
     "zh": "感觉",
     "definition": "感知",
     "example": "You should feel it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8814,7 +8814,7 @@
     "zh": "触摸",
     "definition": "触碰",
     "example": "I touch every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8826,7 +8826,7 @@
     "zh": "握",
     "definition": "抓住",
     "example": "I hold every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8838,7 +8838,7 @@
     "zh": "搬运",
     "definition": "携带",
     "example": "Can you carry?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8850,7 +8850,7 @@
     "zh": "拉",
     "definition": "拖动",
     "example": "Let's pull together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8862,7 +8862,7 @@
     "zh": "推",
     "definition": "推动",
     "example": "Can you push?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8874,7 +8874,7 @@
     "zh": "打开",
     "definition": "开启",
     "example": "Let's open together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8886,7 +8886,7 @@
     "zh": "关闭",
     "definition": "关上",
     "example": "You should close it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8898,7 +8898,7 @@
     "zh": "开始",
     "definition": "启动",
     "example": "Can you start?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8910,7 +8910,7 @@
     "zh": "开始",
     "definition": "着手",
     "example": "Can you begin?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8922,7 +8922,7 @@
     "zh": "完成",
     "definition": "结束",
     "example": "You should finish it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8934,7 +8934,7 @@
     "zh": "结束",
     "definition": "终止",
     "example": "You should end it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8946,7 +8946,7 @@
     "zh": "等待",
     "definition": "等候",
     "example": "You should wait it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8958,7 +8958,7 @@
     "zh": "帮助",
     "definition": "协助",
     "example": "You should help it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8970,7 +8970,7 @@
     "zh": "爱",
     "definition": "喜爱",
     "example": "Can you love?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8982,7 +8982,7 @@
     "zh": "喜欢",
     "definition": "喜好",
     "example": "I like every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -8994,7 +8994,7 @@
     "zh": "讨厌",
     "definition": "厌恶",
     "example": "Can you hate?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9006,7 +9006,7 @@
     "zh": "想要",
     "definition": "希望",
     "example": "You should want it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9018,7 +9018,7 @@
     "zh": "需要",
     "definition": "必需",
     "example": "I need every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9030,7 +9030,7 @@
     "zh": "希望",
     "definition": "期盼",
     "example": "Let's hope together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9042,7 +9042,7 @@
     "zh": "愿望",
     "definition": "渴望",
     "example": "You should wish it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9054,7 +9054,7 @@
     "zh": "尝试",
     "definition": "试",
     "example": "I try every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9066,7 +9066,7 @@
     "zh": "使用",
     "definition": "应用",
     "example": "I use every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9078,7 +9078,7 @@
     "zh": "保持",
     "definition": "维持",
     "example": "You should keep it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9090,7 +9090,7 @@
     "zh": "改变",
     "definition": "变化",
     "example": "You should change it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9102,7 +9102,7 @@
     "zh": "移动",
     "definition": "运动",
     "example": "You should move it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9114,7 +9114,7 @@
     "zh": "放",
     "definition": "放置",
     "example": "You should put it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9126,7 +9126,7 @@
     "zh": "放置",
     "definition": "安放",
     "example": "Let's place together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9138,7 +9138,7 @@
     "zh": "坐",
     "definition": "坐下",
     "example": "Can you sit?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9150,7 +9150,7 @@
     "zh": "站",
     "definition": "站立",
     "example": "You should stand it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9162,7 +9162,7 @@
     "zh": "躺",
     "definition": "卧倒",
     "example": "I lie every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9174,7 +9174,7 @@
     "zh": "落下",
     "definition": "跌倒",
     "example": "I fall every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9186,7 +9186,7 @@
     "zh": "升起",
     "definition": "上升",
     "example": "Can you rise?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9198,7 +9198,7 @@
     "zh": "举起",
     "definition": "抬高",
     "example": "Can you lift?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9210,7 +9210,7 @@
     "zh": "掉落",
     "definition": "落下",
     "example": "Let's drop together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9222,7 +9222,7 @@
     "zh": "捡",
     "definition": "拾起",
     "example": "You should pick it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9234,7 +9234,7 @@
     "zh": "切",
     "definition": "切割",
     "example": "You should cut it.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9246,7 +9246,7 @@
     "zh": "打破",
     "definition": "损坏",
     "example": "I break every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9258,7 +9258,7 @@
     "zh": "修理",
     "definition": "修复",
     "example": "Can you fix?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9270,7 +9270,7 @@
     "zh": "建造",
     "definition": "建筑",
     "example": "I build every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9282,7 +9282,7 @@
     "zh": "生长",
     "definition": "成长",
     "example": "Let's grow together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9294,7 +9294,7 @@
     "zh": "死",
     "definition": "死亡",
     "example": "Can you die?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9306,7 +9306,7 @@
     "zh": "生活",
     "definition": "居住",
     "example": "Can you live?",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9318,7 +9318,7 @@
     "zh": "出生",
     "definition": "诞生",
     "example": "I born every day.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9330,7 +9330,7 @@
     "zh": "好",
     "definition": "优质",
     "example": "A good {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9342,7 +9342,7 @@
     "zh": "坏",
     "definition": "劣质",
     "example": "A bad {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9354,7 +9354,7 @@
     "zh": "快乐",
     "definition": "高兴",
     "example": "It is very happy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9366,7 +9366,7 @@
     "zh": "悲伤",
     "definition": "难过",
     "example": "It is very sad.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9378,7 +9378,7 @@
     "zh": "生气",
     "definition": "愤怒",
     "example": "A angry {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9390,7 +9390,7 @@
     "zh": "害怕",
     "definition": "恐惧",
     "example": "A afraid {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9402,7 +9402,7 @@
     "zh": "勇敢",
     "definition": "无畏",
     "example": "A brave {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9414,7 +9414,7 @@
     "zh": "善良",
     "definition": "友善",
     "example": "It is very kind.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9426,7 +9426,7 @@
     "zh": "好",
     "definition": "友好",
     "example": "This is nice.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9438,7 +9438,7 @@
     "zh": "刻薄",
     "definition": "不友善",
     "example": "A mean {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9450,7 +9450,7 @@
     "zh": "礼貌",
     "definition": "有教养",
     "example": "This is polite.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9462,7 +9462,7 @@
     "zh": "粗鲁",
     "definition": "无礼",
     "example": "A rude {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9474,7 +9474,7 @@
     "zh": "忙",
     "definition": "繁忙",
     "example": "It is very busy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9486,7 +9486,7 @@
     "zh": "空闲",
     "definition": "有空",
     "example": "A free {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9498,7 +9498,7 @@
     "zh": "累",
     "definition": "疲劳",
     "example": "A tired {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9510,7 +9510,7 @@
     "zh": "饿",
     "definition": "饥饿",
     "example": "A hungry {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9522,7 +9522,7 @@
     "zh": "渴",
     "definition": "口渴",
     "example": "This is thirsty.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9534,7 +9534,7 @@
     "zh": "饱",
     "definition": "不饿",
     "example": "It is very full.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9546,7 +9546,7 @@
     "zh": "病",
     "definition": "生病",
     "example": "This is sick.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9558,7 +9558,7 @@
     "zh": "健康",
     "definition": "身体好",
     "example": "A well {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9570,7 +9570,7 @@
     "zh": "健康",
     "definition": "身体好",
     "example": "This is healthy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9582,7 +9582,7 @@
     "zh": "强壮",
     "definition": "有力",
     "example": "A strong {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9594,7 +9594,7 @@
     "zh": "虚弱",
     "definition": "无力",
     "example": "A weak {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9606,7 +9606,7 @@
     "zh": "年轻",
     "definition": "年纪小",
     "example": "It is very young.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9618,7 +9618,7 @@
     "zh": "年老",
     "definition": "年纪大",
     "example": "It is very old.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9630,7 +9630,7 @@
     "zh": "新",
     "definition": "新的",
     "example": "It is very new.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9642,7 +9642,7 @@
     "zh": "美丽",
     "definition": "漂亮",
     "example": "It is very beautiful.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9654,7 +9654,7 @@
     "zh": "丑",
     "definition": "难看",
     "example": "A ugly {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9666,7 +9666,7 @@
     "zh": "干净",
     "definition": "整洁",
     "example": "A clean {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9678,7 +9678,7 @@
     "zh": "脏",
     "definition": "污浊",
     "example": "A dirty {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9690,7 +9690,7 @@
     "zh": "富有",
     "definition": "有钱",
     "example": "A rich {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9702,7 +9702,7 @@
     "zh": "贫穷",
     "definition": "没钱",
     "example": "A poor {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9714,7 +9714,7 @@
     "zh": "便宜",
     "definition": "价低",
     "example": "A cheap {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9726,7 +9726,7 @@
     "zh": "贵",
     "definition": "价高",
     "example": "This is expensive.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9738,7 +9738,7 @@
     "zh": "容易",
     "definition": "不难",
     "example": "It is very easy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9750,7 +9750,7 @@
     "zh": "困难",
     "definition": "不易",
     "example": "It is very hard.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9762,7 +9762,7 @@
     "zh": "困难",
     "definition": "艰难",
     "example": "A difficult {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9774,7 +9774,7 @@
     "zh": "简单",
     "definition": "不复杂",
     "example": "A simple {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9786,7 +9786,7 @@
     "zh": "复杂",
     "definition": "繁复",
     "example": "A complex {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9798,7 +9798,7 @@
     "zh": "重要",
     "definition": "关键",
     "example": "A important {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9810,7 +9810,7 @@
     "zh": "危险",
     "definition": "不安全",
     "example": "It is very dangerous.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9822,7 +9822,7 @@
     "zh": "安全",
     "definition": "无危险",
     "example": "It is very safe.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9834,7 +9834,7 @@
     "zh": "安静",
     "definition": "无声",
     "example": "It is very quiet.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9846,7 +9846,7 @@
     "zh": "吵闹",
     "definition": "喧哗",
     "example": "It is very noisy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9858,7 +9858,7 @@
     "zh": "快",
     "definition": "迅速",
     "example": "It is very fast.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9870,7 +9870,7 @@
     "zh": "慢",
     "definition": "迟缓",
     "example": "It is very slow.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9882,7 +9882,7 @@
     "zh": "早",
     "definition": "提前",
     "example": "A early {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9894,7 +9894,7 @@
     "zh": "晚",
     "definition": "迟到",
     "example": "It is very late.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9906,7 +9906,7 @@
     "zh": "错的",
     "definition": "错误",
     "example": "A wrong {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9918,7 +9918,7 @@
     "zh": "真的",
     "definition": "真实",
     "example": "It is very true.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9930,7 +9930,7 @@
     "zh": "假的",
     "definition": "虚假",
     "example": "It is very false.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9942,7 +9942,7 @@
     "zh": "确定",
     "definition": "肯定",
     "example": "It is very sure.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9954,7 +9954,7 @@
     "zh": "准备好",
     "definition": "就绪",
     "example": "This is ready.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9966,7 +9966,7 @@
     "zh": "相同",
     "definition": "一样",
     "example": "This is same.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9978,7 +9978,7 @@
     "zh": "不同",
     "definition": "差异",
     "example": "This is different.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -9990,7 +9990,7 @@
     "zh": "我",
     "definition": "第一人称",
     "example": "Give I the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10002,7 +10002,7 @@
     "zh": "你",
     "definition": "第二人称",
     "example": "Give you the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10014,7 +10014,7 @@
     "zh": "他",
     "definition": "第三人称阳性",
     "example": "Give he the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10026,7 +10026,7 @@
     "zh": "她",
     "definition": "第三人称阴性",
     "example": "Give she the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10038,7 +10038,7 @@
     "zh": "它",
     "definition": "第三人称中性",
     "example": "Give it the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10050,7 +10050,7 @@
     "zh": "我们",
     "definition": "第一人称复数",
     "example": "Give we the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10062,7 +10062,7 @@
     "zh": "他们",
     "definition": "第三人称复数",
     "example": "they is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10074,7 +10074,7 @@
     "zh": "我的",
     "definition": "物主代词",
     "example": "Give my the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10086,7 +10086,7 @@
     "zh": "你的",
     "definition": "物主代词",
     "example": "your is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10098,7 +10098,7 @@
     "zh": "他的",
     "definition": "物主代词",
     "example": "Give his the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10110,7 +10110,7 @@
     "zh": "她的",
     "definition": "物主代词",
     "example": "Give her the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10122,7 +10122,7 @@
     "zh": "它的",
     "definition": "物主代词",
     "example": "Give its the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10134,7 +10134,7 @@
     "zh": "我们的",
     "definition": "物主代词",
     "example": "our is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10146,7 +10146,7 @@
     "zh": "他们的",
     "definition": "物主代词",
     "example": "Give their the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10158,7 +10158,7 @@
     "zh": "这个",
     "definition": "指示代词",
     "example": "this is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10170,7 +10170,7 @@
     "zh": "那个",
     "definition": "指示代词",
     "example": "Give that the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10182,7 +10182,7 @@
     "zh": "这些",
     "definition": "指示代词复数",
     "example": "these is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10194,7 +10194,7 @@
     "zh": "那些",
     "definition": "指示代词复数",
     "example": "Give those the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10206,7 +10206,7 @@
     "zh": "谁",
     "definition": "疑问代词",
     "example": "who is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10218,7 +10218,7 @@
     "zh": "什么",
     "definition": "疑问代词",
     "example": "what is my friend.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10230,7 +10230,7 @@
     "zh": "哪个",
     "definition": "疑问代词",
     "example": "Give which the pen.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10242,7 +10242,7 @@
     "zh": "何时",
     "definition": "疑问副词",
     "example": "Do it when.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10254,7 +10254,7 @@
     "zh": "为什么",
     "definition": "疑问副词",
     "example": "Do it why.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10266,7 +10266,7 @@
     "zh": "怎样",
     "definition": "疑问副词",
     "example": "She speaks how.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10278,7 +10278,7 @@
     "zh": "一个",
     "definition": "不定冠词",
     "example": "This is a.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10290,7 +10290,7 @@
     "zh": "一个",
     "definition": "不定冠词元音前",
     "example": "This is an.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10302,7 +10302,7 @@
     "zh": "这个",
     "definition": "定冠词",
     "example": "This is the.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10314,7 +10314,7 @@
     "zh": "一些",
     "definition": "部分",
     "example": "This is some.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10326,7 +10326,7 @@
     "zh": "任何",
     "definition": "任意",
     "example": "It is very any.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10338,7 +10338,7 @@
     "zh": "每个",
     "definition": "全体",
     "example": "This is every.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10350,7 +10350,7 @@
     "zh": "全部",
     "definition": "所有",
     "example": "A all {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10362,7 +10362,7 @@
     "zh": "许多",
     "definition": "多",
     "example": "A many {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10374,7 +10374,7 @@
     "zh": "多",
     "definition": "不可数多",
     "example": "A much {noun}.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10386,7 +10386,7 @@
     "zh": "少",
     "definition": "可数少",
     "example": "This is few.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10398,7 +10398,7 @@
     "zh": "和",
     "definition": "并列",
     "example": "He is rich and happy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10410,7 +10410,7 @@
     "zh": "或",
     "definition": "选择",
     "example": "He is rich or happy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10422,7 +10422,7 @@
     "zh": "但是",
     "definition": "转折",
     "example": "I like apples but oranges.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10434,7 +10434,7 @@
     "zh": "因为",
     "definition": "原因",
     "example": "I like apples because oranges.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10446,7 +10446,7 @@
     "zh": "所以",
     "definition": "结果",
     "example": "He is rich so happy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10458,7 +10458,7 @@
     "zh": "如果",
     "definition": "条件",
     "example": "He is rich if happy.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10470,7 +10470,7 @@
     "zh": "当...时",
     "definition": "期间",
     "example": "I like apples while oranges.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10482,7 +10482,7 @@
     "zh": "在...前",
     "definition": "时间",
     "example": "This is before.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10494,7 +10494,7 @@
     "zh": "在...后",
     "definition": "时间",
     "example": "This is after.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10506,7 +10506,7 @@
     "zh": "自从",
     "definition": "时间",
     "example": "This is since.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10518,7 +10518,7 @@
     "zh": "直到",
     "definition": "时间",
     "example": "This is until.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10530,7 +10530,7 @@
     "zh": "为了",
     "definition": "目的",
     "example": "Go for the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10542,7 +10542,7 @@
     "zh": "的",
     "definition": "所属",
     "example": "The book is of the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10554,7 +10554,7 @@
     "zh": "去",
     "definition": "方向",
     "example": "Go to the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10566,7 +10566,7 @@
     "zh": "来自",
     "definition": "来源",
     "example": "The book is from the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10578,7 +10578,7 @@
     "zh": "和...一起",
     "definition": "伴随",
     "example": "The book is with the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10590,7 +10590,7 @@
     "zh": "没有",
     "definition": "缺乏",
     "example": "Go without the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10602,7 +10602,7 @@
     "zh": "关于",
     "definition": "涉及",
     "example": "Go about the door.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10614,7 +10614,7 @@
     "zh": "通过",
     "definition": "方式",
     "example": "The book is by the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10626,7 +10626,7 @@
     "zh": "作为",
     "definition": "角色",
     "example": "The book is as the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10638,7 +10638,7 @@
     "zh": "在",
     "definition": "地点",
     "example": "The book is at the table.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10650,7 +10650,7 @@
     "zh": "非常",
     "definition": "程度",
     "example": "Do it very.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10662,7 +10662,7 @@
     "zh": "太",
     "definition": "过度",
     "example": "Do it too.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10674,7 +10674,7 @@
     "zh": "相当",
     "definition": "程度",
     "example": "She speaks quite.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10686,7 +10686,7 @@
     "zh": "真正",
     "definition": "确实",
     "example": "Do it really.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10698,7 +10698,7 @@
     "zh": "几乎",
     "definition": "差不多",
     "example": "He runs almost.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10710,7 +10710,7 @@
     "zh": "已经",
     "definition": "完成",
     "example": "Do it already.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10722,7 +10722,7 @@
     "zh": "还",
     "definition": "尚未",
     "example": "Do it yet.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10734,7 +10734,7 @@
     "zh": "仍然",
     "definition": "持续",
     "example": "He runs still.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10746,7 +10746,7 @@
     "zh": "也",
     "definition": "肯定",
     "example": "He runs also.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10758,7 +10758,7 @@
     "zh": "也",
     "definition": "否定",
     "example": "He runs either.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10770,7 +10770,7 @@
     "zh": "总是",
     "definition": "频率高",
     "example": "She speaks always.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10782,7 +10782,7 @@
     "zh": "通常",
     "definition": "频率中",
     "example": "He runs usually.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10794,7 +10794,7 @@
     "zh": "经常",
     "definition": "频率较高",
     "example": "He runs often.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10806,7 +10806,7 @@
     "zh": "有时",
     "definition": "偶尔",
     "example": "Do it sometimes.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10818,7 +10818,7 @@
     "zh": "从不",
     "definition": "频率零",
     "example": "He runs never.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10830,7 +10830,7 @@
     "zh": "曾经",
     "definition": "任何时间",
     "example": "Do it ever.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10842,7 +10842,7 @@
     "zh": "刚刚",
     "definition": "刚才",
     "example": "Do it just.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10854,7 +10854,7 @@
     "zh": "现在",
     "definition": "当前",
     "example": "She speaks now.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10866,7 +10866,7 @@
     "zh": "那时",
     "definition": "当时",
     "example": "Do it then.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10878,7 +10878,7 @@
     "zh": "很快",
     "definition": "不久",
     "example": "He runs soon.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10890,7 +10890,7 @@
     "zh": "再次",
     "definition": "重复",
     "example": "He runs again.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10902,7 +10902,7 @@
     "zh": "一次",
     "definition": "频率",
     "example": "Do it once.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10914,7 +10914,7 @@
     "zh": "两次",
     "definition": "频率",
     "example": "She speaks twice.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10926,7 +10926,7 @@
     "zh": "一起",
     "definition": "共同",
     "example": "She speaks together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10938,7 +10938,7 @@
     "zh": "单独",
     "definition": "独自",
     "example": "He runs alone.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10950,7 +10950,7 @@
     "zh": "离开",
     "definition": "离开",
     "example": "She speaks away.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10962,7 +10962,7 @@
     "zh": "出去",
     "definition": "外出",
     "example": "She speaks out.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10974,7 +10974,7 @@
     "zh": "周围",
     "definition": "四周",
     "example": "He runs around.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10986,7 +10986,7 @@
     "zh": "穿过",
     "definition": "通过",
     "example": "Do it through.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -10998,7 +10998,7 @@
     "zh": "横过",
     "definition": "跨越",
     "example": "She speaks across.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11010,7 +11010,7 @@
     "zh": "沿着",
     "definition": "顺沿",
     "example": "She speaks along.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11022,7 +11022,7 @@
     "zh": "后面",
     "definition": "后方",
     "example": "He runs behind.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11034,7 +11034,7 @@
     "zh": "超出",
     "definition": "之外",
     "example": "She speaks beyond.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11046,7 +11046,7 @@
     "zh": "是",
     "definition": "肯定",
     "example": "This is yes.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11058,7 +11058,7 @@
     "zh": "不",
     "definition": "否定",
     "example": "This is no.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11070,7 +11070,7 @@
     "zh": "请",
     "definition": "礼貌",
     "example": "This is please.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11082,7 +11082,7 @@
     "zh": "谢谢",
     "definition": "感激",
     "example": "Let's thank together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11094,7 +11094,7 @@
     "zh": "你好",
     "definition": "问候",
     "example": "This is hello.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11106,7 +11106,7 @@
     "zh": "嗨",
     "definition": "非正式问候",
     "example": "This is hi.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11118,7 +11118,7 @@
     "zh": "再见",
     "definition": "告别",
     "example": "This is goodbye.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11130,7 +11130,7 @@
     "zh": "再见",
     "definition": "非正式告别",
     "example": "This is bye.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11142,7 +11142,7 @@
     "zh": "对不起",
     "definition": "道歉",
     "example": "This is sorry.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11154,7 +11154,7 @@
     "zh": "原谅",
     "definition": "打扰",
     "example": "Let's excuse together.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11166,7 +11166,7 @@
     "zh": "哦",
     "definition": "感叹",
     "example": "This is oh.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11178,7 +11178,7 @@
     "zh": "哇",
     "definition": "惊叹",
     "example": "This is wow.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11190,7 +11190,7 @@
     "zh": "嘿",
     "definition": "招呼",
     "example": "This is hey.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11202,7 +11202,7 @@
     "zh": "好的",
     "definition": "同意",
     "example": "This is ok.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -11214,7 +11214,7 @@
     "zh": "可以",
     "definition": "同意",
     "example": "This is okay.",
-    "difficulty": 1,
+    "difficulty": 5,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"
@@ -14959,6 +14959,397 @@
     "definition": "冰上运动",
     "example": "Let's skate together.",
     "difficulty": 2,
+    "next_review": "2026-06-15",
+    "review_count": 0,
+    "status": "new"
+  },
+  {
+    "id": "gen_1014",
+    "category": "general",
+    "en": "find",
+    "phonetic": "/faɪnd/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "找到，发现",
+          "发觉，感到"
+        ],
+        "examples": [
+          "I found my lost keys.",
+          "I find the book interesting."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1015",
+    "category": "general",
+    "en": "become",
+    "phonetic": "/bɪˈkʌm/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "变成，成为"
+        ],
+        "examples": [
+          "He became a doctor.",
+          "It's becoming cold."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1016",
+    "category": "general",
+    "en": "let",
+    "phonetic": "/let/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "让，允许",
+          "出租，租给"
+        ],
+        "examples": [
+          "Let me help you.",
+          "Let the house."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1017",
+    "category": "general",
+    "en": "seem",
+    "phonetic": "/siːm/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "似乎，好像",
+          "显得"
+        ],
+        "examples": [
+          "He seems happy.",
+          "It seems like rain."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1018",
+    "category": "general",
+    "en": "offer",
+    "phonetic": "/ˈɒfər/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "提供，提出",
+          "出价，开价"
+        ],
+        "examples": [
+          "Offer help.",
+          "Offer $100 for it."
+        ]
+      },
+      {
+        "pos": "n",
+        "definitions": [
+          "提供，提议"
+        ],
+        "examples": [
+          "Thank you for your offer."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1019",
+    "category": "general",
+    "en": "pay",
+    "phonetic": "/peɪ/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "支付，付款",
+          "付出代价"
+        ],
+        "examples": [
+          "Pay the bill.",
+          "Pay for your mistake."
+        ]
+      },
+      {
+        "pos": "n",
+        "definitions": [
+          "工资，薪金"
+        ],
+        "examples": [
+          "Get your pay."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1020",
+    "category": "general",
+    "en": "meet",
+    "phonetic": "/miːt/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "遇见，会见",
+          "满足，符合"
+        ],
+        "examples": [
+          "Meet my friend.",
+          "Meet requirements."
+        ]
+      },
+      {
+        "pos": "n",
+        "definitions": [
+          "会议，集会"
+        ],
+        "examples": [
+          "Attend a meet."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1021",
+    "category": "general",
+    "en": "include",
+    "phonetic": "/ɪnˈkluːd/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "包括，包含"
+        ],
+        "examples": [
+          "The price includes tax."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1022",
+    "category": "general",
+    "en": "continue",
+    "phonetic": "/kənˈtɪnjuː/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "继续，持续"
+        ],
+        "examples": [
+          "Continue your work."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1023",
+    "category": "general",
+    "en": "set",
+    "phonetic": "/set/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "放，安置",
+          "设定，确立",
+          "（日）落"
+        ],
+        "examples": [
+          "Set the table.",
+          "Set a goal.",
+          "The sun sets in the west."
+        ]
+      },
+      {
+        "pos": "n",
+        "definitions": [
+          "一套，一副",
+          "接收机"
+        ],
+        "examples": [
+          "A chess set.",
+          "A TV set."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
+  },
+  {
+    "id": "gen_1024",
+    "category": "general",
+    "en": "lead",
+    "phonetic": "/liːd/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "领导，带领",
+          "过（生活）",
+          "通向"
+        ],
+        "examples": [
+          "Lead the team.",
+          "Lead a happy life.",
+          "This road leads to town."
+        ]
+      },
+      {
+        "pos": "n",
+        "definitions": [
+          "领导，领先",
+          "铅"
+        ],
+        "examples": [
+          "Take the lead.",
+          "A lead pipe."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-15",
+    "review_count": 0,
+    "status": "new"
+  },
+  {
+    "id": "gen_1025",
+    "category": "general",
+    "en": "follow",
+    "phonetic": "/ˈfɒləʊ/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "跟随，追随",
+          "理解，明白"
+        ],
+        "examples": [
+          "Follow me.",
+          "Do you follow?"
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-15",
+    "review_count": 0,
+    "status": "new"
+  },
+  {
+    "id": "gen_1026",
+    "category": "general",
+    "en": "allow",
+    "phonetic": "/əˈlaʊ/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "允许，准许"
+        ],
+        "examples": [
+          "Allow me to help."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-15",
+    "review_count": 0,
+    "status": "new"
+  },
+  {
+    "id": "gen_1027",
+    "category": "general",
+    "en": "add",
+    "phonetic": "/æd/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "增加，添加",
+          "补充说"
+        ],
+        "examples": [
+          "Add sugar to coffee.",
+          "He added that he was busy."
+        ]
+      }
+    ],
+    "difficulty": 1,
+    "next_review": "2026-06-15",
+    "review_count": 0,
+    "status": "new"
+  },
+  {
+    "id": "gen_1028",
+    "category": "general",
+    "en": "join",
+    "phonetic": "/dʒɔɪn/",
+    "parts": [
+      {
+        "pos": "v",
+        "definitions": [
+          "加入，参加",
+          "连接，接合"
+        ],
+        "examples": [
+          "Join the club.",
+          "Join the two ends."
+        ]
+      }
+    ],
+    "difficulty": 1,
     "next_review": "2026-06-15",
     "review_count": 0,
     "status": "new"

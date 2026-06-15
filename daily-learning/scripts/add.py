@@ -43,14 +43,13 @@ def next_id(words, category):
     return f"{prefix}_{(max(nums) + 1 if nums else 1):03d}"
 
 
-def make_word(category, en, zh, definition, example, difficulty, words):
+def make_word(category, en, phonetic, parts, difficulty, words):
     return {
         "id": next_id(words, category),
         "category": category,
         "en": en,
-        "zh": zh,
-        "definition": definition,
-        "example": example,
+        "phonetic": phonetic,
+        "parts": parts,
         "difficulty": difficulty,
         "next_review": date.today().isoformat(),
         "review_count": 0,
@@ -112,12 +111,41 @@ def import_csv(words, csv_path):
             except (ValueError, TypeError):
                 diff = 2
 
+            # 解析专业词典格式
+            phonetic = row.get("phonetic", "").strip()
+            parts_json = row.get("parts", "").strip()
+
+            # 如果是旧格式（zh, definition, example），转换为新格式
+            if not parts_json and row.get("zh"):
+                # 旧格式转换
+                zh = row.get("zh", "").strip()
+                definition = row.get("definition", "").strip()
+                example = row.get("example", "").strip()
+
+                # 推断词性（简单处理）
+                pos = "n"  # 默认为名词
+
+                parts = [
+                    {
+                        "pos": pos,
+                        "definitions": [definition if definition else zh],
+                        "examples": [example] if example else [],
+                    }
+                ]
+            else:
+                # 新格式，解析 JSON
+                try:
+                    parts = json.loads(parts_json) if parts_json else []
+                except json.JSONDecodeError:
+                    print(f"⚠️  跳过 {en}：parts 格式错误")
+                    skipped += 1
+                    continue
+
             word = make_word(
                 cat,
                 en,
-                row.get("zh", "").strip(),
-                row.get("definition", "").strip(),
-                row.get("example", "").strip(),
+                phonetic,
+                parts,
                 diff,
                 words,
             )
