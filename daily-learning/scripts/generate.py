@@ -12,8 +12,8 @@ DOCS_DIR = os.path.join(PROJECT_DIR, "docs")
 
 # 间隔重复阶梯（天数）
 INTERVALS = [1, 3, 7, 14, 30, 90]
-NEW_VOCAB_PER_DAY = 20  # ai / programming / music
-NEW_SENTENCES_PER_DAY = 5  # daily
+NEW_VOCAB_PER_DAY = 10  # ai / programming / music
+NEW_SENTENCES_PER_DAY = 3  # daily
 
 DAY_NAMES = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 
@@ -54,6 +54,7 @@ def main():
     words = load_json(WORDS_FILE)
     stats = load_json(STATS_FILE)
 
+    already_run_today = stats.get("last_generated") == today_str
     update_streak(stats, today_str)
 
     due_vocab_reviews = []
@@ -71,25 +72,30 @@ def main():
     new_vocab_queue.sort(key=lambda x: (x["difficulty"], x["id"]))
     new_sentence_queue.sort(key=lambda x: (x["difficulty"], x["id"]))
 
-    todays_vocab = new_vocab_queue[:NEW_VOCAB_PER_DAY]
-    todays_sentences = new_sentence_queue[:NEW_SENTENCES_PER_DAY]
-
-    shown_ids = {
-        w["id"]
-        for w in todays_vocab
-        + todays_sentences
-        + due_vocab_reviews
-        + due_sentence_reviews
-    }
-    for w in words:
-        if w["id"] in shown_ids:
-            rc = w["review_count"]
-            w["next_review"] = (today + timedelta(days=next_interval(rc))).isoformat()
-            w["review_count"] = rc + 1
-            w["status"] = "learning"
-
-    save_json(WORDS_FILE, words)
-    save_json(STATS_FILE, stats)
+    if not already_run_today:
+        # 每天只推一次新词，防止 workflow 多次触发导致超额推送
+        todays_vocab = new_vocab_queue[:NEW_VOCAB_PER_DAY]
+        todays_sentences = new_sentence_queue[:NEW_SENTENCES_PER_DAY]
+        shown_ids = {
+            w["id"]
+            for w in todays_vocab
+            + todays_sentences
+            + due_vocab_reviews
+            + due_sentence_reviews
+        }
+        for w in words:
+            if w["id"] in shown_ids:
+                rc = w["review_count"]
+                w["next_review"] = (
+                    today + timedelta(days=next_interval(rc))
+                ).isoformat()
+                w["review_count"] = rc + 1
+                w["status"] = "learning"
+        save_json(WORDS_FILE, words)
+        save_json(STATS_FILE, stats)
+    else:
+        todays_vocab = []
+        todays_sentences = []
 
     total = len(words)
     mastered = sum(1 for w in words if w["review_count"] >= len(INTERVALS))
