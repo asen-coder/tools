@@ -67,9 +67,9 @@
     "definition": "从数据中学习规律并做出预测或生成的数学系统",
     "example": "llm = ChatOpenAI(model='gpt-4o-mini')  # select a model",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_007",
@@ -79,9 +79,9 @@
     "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
     "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_008",
@@ -91,9 +91,9 @@
     "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
     "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_009",
@@ -103,9 +103,9 @@
     "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
     "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_010",
@@ -115,9 +115,9 @@
     "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
     "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_011",
@@ -127,9 +127,9 @@
     "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
     "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_012",
@@ -139,9 +139,9 @@
     "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
     "example": "memory = ConversationBufferMemory(return_messages=True)",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_013",
@@ -151,9 +151,9 @@
     "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
     "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_014",
@@ -163,9 +163,9 @@
     "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
     "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_015",
@@ -391,9 +391,9 @@
     "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
     "example": "<UserCard :name='user.name' @click='handleClick' />",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_002",
@@ -403,9 +403,9 @@
     "definition": "父组件向子组件传递数据的机制，单向数据流",
     "example": "defineProps<{ title: string; count: number }>()",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_003",
@@ -415,9 +415,9 @@
     "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
     "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_004",
@@ -427,9 +427,9 @@
     "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
     "example": "const data = await fetch('/api/users').then(r => r.json())",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_005",
@@ -439,9 +439,9 @@
     "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
     "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_006",
@@ -451,9 +451,9 @@
     "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
     "example": "document.getElementById('app')  // access DOM node",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_007",
@@ -703,9 +703,9 @@
     "definition": "表示特定音高和时值的音乐符号，是音乐的基本构成单位",
     "example": "C, D, E, F, G, A, B are the 7 natural notes",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_002",
@@ -715,9 +715,9 @@
     "definition": "音乐中规律性重复的基本时间单位，就像心跳的节律",
     "example": "A 4/4 time signature has 4 beats per measure",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_003",
@@ -727,9 +727,9 @@
     "definition": "音乐演奏的快慢，用 BPM（每分钟拍数）表示",
     "example": "120 BPM is a common tempo; 60 BPM feels like a slow heartbeat",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_004",
@@ -739,9 +739,9 @@
     "definition": "一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'",
     "example": "The melody is what you hum when you remember a song",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_005",
@@ -751,9 +751,9 @@
     "definition": "三个或更多不同音高的音符同时发声的组合",
     "example": "C major chord = C + E + G played together",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_006",
@@ -763,9 +763,9 @@
     "definition": "音符时值长短和强弱的规律性排列模式",
     "example": "A drum kit primarily provides the rhythm in a band",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_007",
@@ -967,9 +967,9 @@
     "definition": "礼貌请求对方重复刚才说的内容",
     "example": "Sorry, could you repeat that? The connection was breaking up.",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_002",
@@ -979,9 +979,9 @@
     "definition": "表示你已理解对方说的内容",
     "example": "I understand the requirements. I'll start working on it today.",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_003",
@@ -991,9 +991,9 @@
     "definition": "表达对对方意见的认可和肯定",
     "example": "That's a good point about performance. We should optimize the query.",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_004",
@@ -1003,9 +1003,9 @@
     "definition": "表示与对方观点一致",
     "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_005",
@@ -1015,9 +1015,9 @@
     "definition": "邀请对方继续发言或开始做某件事",
     "example": "You wanted to share the test results? Please go ahead.",
     "difficulty": 1,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_006",
@@ -1027,9 +1027,9 @@
     "definition": "请求对方对某个观点或情况提供更多细节和解释",
     "example": "Could you elaborate on that performance issue you mentioned?",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_007",
@@ -1039,9 +1039,9 @@
     "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
     "example": "Let me clarify — I meant the staging environment, not production.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_008",
@@ -1051,9 +1051,9 @@
     "definition": "表示需要时间确认后再回答，不立即给出答案",
     "example": "I'll get back to you on that timeline after checking with the team.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_009",
@@ -1063,9 +1063,9 @@
     "definition": "表示对方的解释或逻辑是合理的、可以理解的",
     "example": "That makes sense. Using a queue would handle the load spikes.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-16",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_010",

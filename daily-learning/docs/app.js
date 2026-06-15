@@ -100,42 +100,40 @@ function cardHtml(word, type = 'new') {
 }
 
 /* ── 今日页 ─────────────────────────────────────────────────────────────── */
+function section(title, count, items, type) {
+  if (!items || items.length === 0) return '';
+  return `<div class="section-title">${title} <span class="count">${count}</span></div>
+          <div class="card-grid">${items.map((w) => cardHtml(w, type)).join('')}</div>`;
+}
+
 function renderToday() {
   const d = state.todayData;
   const el = document.getElementById('today-content');
 
-  const reviewSection =
-    d.reviews.length > 0
-      ? `<div class="section-title">复习 <span class="count">${d.reviews.length}</span></div>
-         <div class="card-grid">${d.reviews.map((w) => cardHtml(w, 'review')).join('')}</div>`
-      : '';
+  const vocabReviews = d.vocab_reviews || [];
+  const sentReviews = d.sentence_reviews || [];
+  const newWords = d.new_words || [];
+  const newSentences = d.new_sentences || [];
+  const totalReviews = vocabReviews.length + sentReviews.length;
+  const totalNew = newWords.length + newSentences.length;
 
-  const newSection =
-    d.new_words.length > 0
-      ? `<div class="section-title">今日新词 <span class="count">${d.new_words.length}</span></div>
-         <div class="card-grid">${d.new_words.map((w) => cardHtml(w, 'new')).join('')}</div>`
-      : '';
-
-  const emptyMsg =
-    d.reviews.length === 0 && d.new_words.length === 0
-      ? `<div class="state-box"><div class="state-icon">✓</div><p>今日内容已全部完成，明天继续！</p></div>`
-      : '';
+  const isEmpty = totalNew === 0 && totalReviews === 0;
 
   el.innerHTML = `
     <div class="today-header">
-      <div class="today-date">
-        ${esc(d.date)} <span>${esc(d.day_of_week)}</span>
-      </div>
+      <div class="today-date">${esc(d.date)} <span>${esc(d.day_of_week)}</span></div>
       <div class="stats-row">
-        <div class="stat-chip">新词 <strong>${d.new_words.length}</strong></div>
-        <div class="stat-chip">复习 <strong>${d.reviews.length}</strong></div>
+        <div class="stat-chip">新词 <strong>${newWords.length}</strong></div>
+        <div class="stat-chip">新句 <strong>${newSentences.length}</strong></div>
+        <div class="stat-chip">复习 <strong>${totalReviews}</strong></div>
         <div class="stat-chip streak">连续打卡 <strong>${d.stats.streak}</strong> 天</div>
-        <div class="stat-chip">词库 <strong>${d.stats.total}</strong> 词</div>
       </div>
     </div>
-    ${reviewSection}
-    ${newSection}
-    ${emptyMsg}`;
+    ${section('词汇复习', vocabReviews.length, vocabReviews, 'review')}
+    ${section('句子复习', sentReviews.length, sentReviews, 'review')}
+    ${section('今日新词', newWords.length, newWords, 'new')}
+    ${section('今日新句', newSentences.length, newSentences, 'new')}
+    ${isEmpty ? '<div class="state-box"><div class="state-icon">✓</div><p>今日内容已全部完成，明天继续！</p></div>' : ''}`;
 }
 
 /* ── 词库页 ─────────────────────────────────────────────────────────────── */

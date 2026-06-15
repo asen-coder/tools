@@ -12,7 +12,8 @@ DOCS_DIR = os.path.join(PROJECT_DIR, "docs")
 
 # 间隔重复阶梯（天数）
 INTERVALS = [1, 3, 7, 14, 30, 90]
-NEW_PER_DAY = 5
+NEW_VOCAB_PER_DAY = 20  # ai / programming / music
+NEW_SENTENCES_PER_DAY = 5  # daily
 
 DAY_NAMES = ["周一", "周二", "周三", "周四", "周五", "周六", "周日"]
 
@@ -55,44 +56,53 @@ def main():
 
     update_streak(stats, today_str)
 
-    due_reviews = []
-    new_queue = []
+    due_vocab_reviews = []
+    due_sentence_reviews = []
+    new_vocab_queue = []
+    new_sentence_queue = []
 
     for w in words:
+        is_sentence = w["category"] == "daily"
         if w["status"] == "new":
-            new_queue.append(w)
+            (new_sentence_queue if is_sentence else new_vocab_queue).append(w)
         elif w["status"] == "learning" and w["next_review"] <= today_str:
-            due_reviews.append(w)
+            (due_sentence_reviews if is_sentence else due_vocab_reviews).append(w)
 
-    # 按难度从低到高推新词
-    new_queue.sort(key=lambda x: (x["difficulty"], x["id"]))
-    todays_new = new_queue[:NEW_PER_DAY]
+    new_vocab_queue.sort(key=lambda x: (x["difficulty"], x["id"]))
+    new_sentence_queue.sort(key=lambda x: (x["difficulty"], x["id"]))
 
-    # 更新已推送词汇的下次复习时间
-    shown_ids = {w["id"] for w in todays_new + due_reviews}
+    todays_vocab = new_vocab_queue[:NEW_VOCAB_PER_DAY]
+    todays_sentences = new_sentence_queue[:NEW_SENTENCES_PER_DAY]
+
+    shown_ids = {
+        w["id"]
+        for w in todays_vocab
+        + todays_sentences
+        + due_vocab_reviews
+        + due_sentence_reviews
+    }
     for w in words:
         if w["id"] in shown_ids:
             rc = w["review_count"]
-            interval = next_interval(rc)
-            w["next_review"] = (today + timedelta(days=interval)).isoformat()
+            w["next_review"] = (today + timedelta(days=next_interval(rc))).isoformat()
             w["review_count"] = rc + 1
             w["status"] = "learning"
 
     save_json(WORDS_FILE, words)
     save_json(STATS_FILE, stats)
 
-    # 统计数据
     total = len(words)
     mastered = sum(1 for w in words if w["review_count"] >= len(INTERVALS))
     learning = sum(1 for w in words if w["status"] == "learning")
     new_count = sum(1 for w in words if w["status"] == "new")
 
-    # 生成 today.json（供网页主页面使用）
     today_data = {
         "date": today_str,
         "day_of_week": day_name,
-        "new_words": todays_new,
-        "reviews": due_reviews,
+        "new_words": todays_vocab,
+        "new_sentences": todays_sentences,
+        "vocab_reviews": due_vocab_reviews,
+        "sentence_reviews": due_sentence_reviews,
         "stats": {
             "total": total,
             "mastered": mastered,
@@ -106,18 +116,16 @@ def main():
     os.makedirs(DOCS_DIR, exist_ok=True)
     save_json(os.path.join(DOCS_DIR, "today.json"), today_data)
 
-    # 生成 all_words.json（供词库页面使用，按需加载）
-    all_words_data = {
-        "generated": today_str,
-        "words": words,
-    }
+    all_words_data = {"generated": today_str, "words": words}
     save_json(os.path.join(DOCS_DIR, "all_words.json"), all_words_data)
 
-    # 生成 REFERENCE.md（可通读的词汇参考文档，按分类 + 难度排列）
     build_reference(words, today_str)
 
     print(
-        f"{today_str} 生成完成：新词 {len(todays_new)} | 复习 {len(due_reviews)} | 连续打卡 {stats['streak']} 天"
+        f"{today_str} 生成完成："
+        f"新词 {len(todays_vocab)} | 新句 {len(todays_sentences)} | "
+        f"复习词 {len(due_vocab_reviews)} | 复习句 {len(due_sentence_reviews)} | "
+        f"连续打卡 {stats['streak']} 天"
     )
 
 

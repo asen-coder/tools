@@ -74,7 +74,7 @@ llm = ChatOpenAI(model='gpt-4o-mini')  # select a model
 template = PromptTemplate.from_template('Translate {text} to {language}')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### output parser · 输出解析器  ★★
 
@@ -85,7 +85,7 @@ parser = JsonOutputParser(pydantic_object=Recipe)
 chain = prompt | llm | parser
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### embedding · 嵌入向量  ★★
 
@@ -96,7 +96,7 @@ embeddings = OpenAIEmbeddings()
 vector = embeddings.embed_query('What is RAG?')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### retriever · 检索器  ★★
 
@@ -106,7 +106,7 @@ vector = embeddings.embed_query('What is RAG?')
 retriever = vectorstore.as_retriever(search_kwargs={'k': 4})
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### vector store · 向量数据库  ★★
 
@@ -116,7 +116,7 @@ retriever = vectorstore.as_retriever(search_kwargs={'k': 4})
 db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### memory · 记忆  ★★
 
@@ -126,7 +126,7 @@ db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())
 memory = ConversationBufferMemory(return_messages=True)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### document loader · 文档加载器  ★★
 
@@ -137,7 +137,7 @@ loader = PyPDFLoader('report.pdf')
 docs = loader.load()
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### text splitter · 文本分割器  ★★
 
@@ -147,7 +147,7 @@ docs = loader.load()
 splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### temperature · 温度  ★★
 
@@ -344,7 +344,7 @@ Fine-tune GPT-4o-mini on customer support data to improve domain accuracy
 <UserCard :name='user.name' @click='handleClick' />
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### props · 属性  ★
 
@@ -354,7 +354,7 @@ Fine-tune GPT-4o-mini on customer support data to improve domain accuracy
 defineProps<{ title: string; count: number }>()
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### callback · 回调函数  ★
 
@@ -364,7 +364,7 @@ defineProps<{ title: string; count: number }>()
 setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### API · 应用编程接口  ★
 
@@ -374,7 +374,7 @@ setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback
 const data = await fetch('/api/users').then(r => r.json())
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### async · 异步  ★
 
@@ -384,7 +384,7 @@ const data = await fetch('/api/users').then(r => r.json())
 async function fetchUser(id) { return await api.get(`/users/${id}`) }
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### DOM · 文档对象模型  ★
 
@@ -394,7 +394,7 @@ async function fetchUser(id) { return await api.get(`/users/${id}`) }
 document.getElementById('app')  // access DOM node
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### event delegation · 事件委托  ★★
 
@@ -606,7 +606,7 @@ React 18's concurrent mode can pause rendering to handle user input first
 C, D, E, F, G, A, B are the 7 natural notes
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### beat · 拍  ★
 
@@ -616,7 +616,7 @@ C, D, E, F, G, A, B are the 7 natural notes
 A 4/4 time signature has 4 beats per measure
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tempo · 速度  ★
 
@@ -626,7 +626,7 @@ A 4/4 time signature has 4 beats per measure
 120 BPM is a common tempo; 60 BPM feels like a slow heartbeat
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### melody · 旋律  ★
 
@@ -636,7 +636,7 @@ A 4/4 time signature has 4 beats per measure
 The melody is what you hum when you remember a song
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### chord · 和弦  ★
 
@@ -646,7 +646,7 @@ The melody is what you hum when you remember a song
 C major chord = C + E + G played together
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### rhythm · 节奏  ★
 
@@ -656,7 +656,7 @@ C major chord = C + E + G played together
 A drum kit primarily provides the rhythm in a band
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### pitch · 音高  ★★
 
@@ -868,7 +868,7 @@ I agree. Using TypeScript would reduce runtime errors significantly.
 You wanted to share the test results? Please go ahead.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Could you elaborate on that? · 你能详细说明一下吗？  ★★
 
@@ -878,7 +878,7 @@ You wanted to share the test results? Please go ahead.
 Could you elaborate on that performance issue you mentioned?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let me clarify. · 让我来说清楚一下。  ★★
 
@@ -888,7 +888,7 @@ Could you elaborate on that performance issue you mentioned?
 Let me clarify — I meant the staging environment, not production.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'll get back to you on that. · 关于这个我稍后回复你。  ★★
 
@@ -898,7 +898,7 @@ Let me clarify — I meant the staging environment, not production.
 I'll get back to you on that timeline after checking with the team.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### That makes sense. · 这说得通。  ★★
 
@@ -908,7 +908,7 @@ I'll get back to you on that timeline after checking with the team.
 That makes sense. Using a queue would handle the load spikes.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'd like to add something. · 我想补充一点。  ★★
 
