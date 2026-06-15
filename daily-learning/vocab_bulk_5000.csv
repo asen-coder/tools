@@ -1,572 +1,1101 @@
 ﻿category,en,zh,definition,example,difficulty
-general,corner,角落,转角处,I have a corner.,2
-general,give,给,给予,I give every day.,1
-general,chapter,章节,书的分节,The chapter is {adj}.,2
-general,disagree,不同意,看法不一,Let's disagree together.,2
-general,fry,炸,油煎,Can you fry?,2
-general,wrong,错,不正确,It is very wrong.,1
-general,phone,电话,通讯工具,This is a phone.,1
-general,save,节省/保存,节约或保留,I save every day.,2
-general,camera,相机,摄影设备,I have a camera.,2
-general,side,侧面,旁边,I have a side.,2
-general,sand,沙子,颗粒物,I have a sand.,2
-general,village,村庄,乡村,I have a village.,2
-general,holiday,假期,假日,I have a holiday.,2
-general,what,什么,疑问代词,what is my friend.,1
-general,shape,形状,外形,I have a shape.,2
-general,instrument,仪器,精密工具,The instrument is {adj}.,2
-general,where,哪里,疑问副词,He runs where.,1
-general,tell,告诉,告知,Let's tell together.,2
-general,music,音乐,声音艺术,This is a music.,2
-general,tool,工具,器具,The tool is {adj}.,2
-general,English,英语,语言,I have a English.,1
-general,listen,听,用耳朵感知,Let's listen together.,1
-general,path,小路,步行道,This is a path.,2
-general,wash,洗,清洁,Can you wash?,2
-general,book,书,印刷品,I have a book.,2
-general,painting,绘画,图画,The painting is {adj}.,2
-general,fly,飞,在空中移动,I fly every day.,1
-general,either,也（否定）,否定副词,He runs either.,1
-general,column,列,竖列,This is a column.,2
-general,water,水,无色无味的液体,This is a water.,1
-general,meet,见面,会见,I meet every day.,2
-general,newspaper,报纸,新闻纸,This is a newspaper.,2
-general,experiment,实验,测试,This is a experiment.,2
-general,increase,增加,使增多,I increase every day.,2
-general,support,支持,撑住或支援,Can you support?,2
-general,why,为什么,疑问副词,She speaks why.,1
-general,improve,改进,使更好,I improve every day.,2
-general,tunnel,隧道,地下通道,This is a tunnel.,2
-general,look,看,用眼睛注视,Let's look together.,1
-general,apple,苹果,一种常见的水果，通常是红色的,This is a apple.,1
-general,cat,猫,小型宠物动物,I have a cat.,1
-general,buy,买,购买,I buy every day.,2
-general,light,轻,重量小,It is very light.,1
-general,sing,唱歌,用声音表演,I sing every day.,2
-general,hospital,医院,医疗机构,The hospital is {adj}.,1
-general,free,空闲,有时间,It is very free.,1
-general,measure,测量,量度,Can you measure?,2
-general,add,加,增加,Can you add?,2
-general,born,出生,诞生,I born every day.,2
-general,desk,书桌,学习时用的桌子,I have a desk.,1
-general,how,怎样,疑问副词,He runs how.,1
-general,week,周,7天,The week is {adj}.,1
-general,novel,小说,虚构长篇,This is a novel.,2
-general,study,学习,通过阅读或练习获得知识,Let's study together.,2
-general,green,绿色,像草一样的颜色,It is very green.,1
-general,then,那时,时间副词,He runs then.,1
-general,hello,你好,问候,hello! What happened?,1
-general,soft,软,质地软,A soft {noun}.,1
-general,never,从不,频率副词,He runs never.,1
-general,because,因为,原因连词,He is rich because happy.,1
-general,radio,收音机,音频设备,The radio is {adj}.,2
-general,want,想要,渴望,Let's want together.,2
-general,every,每一个,每个都,It is very every.,1
-general,hot,热,温度高,A hot {noun}.,1
-general,invention,发明,创造,I have a invention.,2
-general,perform,表演,演出,I perform every day.,2
-general,end,结束,终止,This is end.,2
-general,Sunday,周日,一周第七天,The Sunday is {adj}.,1
-general,take,拿,用手取,Can you take?,1
-general,friend,朋友,彼此认识的人,I have a friend.,1
-general,try,尝试,试一试,Let's try together.,2
-general,visit,拜访,探望,Can you visit?,2
-general,politics,政治,治理,I have a politics.,2
-general,cool,凉,温度略低,A cool {noun}.,1
-general,stone,石,石材,This is a stone.,2
-general,too,太,程度副词,She speaks too.,1
-general,cook,烹饪,做食物,Can you cook?,2
-general,communicate,交流,沟通,I communicate every day.,2
-general,value,价值,数值或意义,I have a value.,2
-general,rest,休息,停止活动,This is rest.,2
-general,tomorrow,明天,今天之后,The tomorrow is {adj}.,1
-general,wait,等待,等候,I wait every day.,2
-general,hard,硬/困难,质地或难度,It is very hard.,1
-general,queen,王后,女性君主,I have a queen.,2
-general,understand,理解,懂得意思,I understand every day.,2
-general,chair,椅子,有靠背的坐具,The chair is {adj}.,1
-general,need,需要,必需,Can you need?,2
-general,or,或,选择词,He is rich or happy.,1
-general,are,是,be动词复数,Let's are together.,1
-general,story,故事,叙述,This is a story.,2
-general,autumn,秋天,收获的季节,I have a autumn.,1
-general,card,卡片,硬纸片,The card is {adj}.,1
-general,whisper,耳语,小声说,I whisper every day.,2
-general,usually,通常,频率副词,She speaks usually.,1
-general,stay,停留,保持位置,Can you stay?,2
-general,mean,刻薄,心地坏,A mean {noun}.,1
-general,there,那里,地点副词,He runs there.,1
-general,count,数数,计算数量,I count every day.,2
-general,poem,诗歌,韵文,I have a poem.,2
-general,nine,九,数字9,It's nine o'clock.,1
-general,ten,十,数字10,I have ten books.,1
-general,afternoon,下午,中午之后,This is a afternoon.,1
-general,lend,借出,借给别人,I lend every day.,2
-general,place,放置,放在某处,I place every day.,2
-general,game,游戏,娱乐活动,This is a game.,1
-general,argue,争论,辩论,Can you argue?,2
-general,summer,夏天,炎热的季节,I have a summer.,1
-general,rice,米饭,中国主食,The rice is {adj}.,1
-general,toy,玩具,玩耍用品,I have a toy.,1
-general,spring,春天,四季之首,The spring is {adj}.,1
-general,bad,坏,质量或品质差,It is very bad.,1
-general,left,左边,方向,This is left.,1
-general,Chinese,中文,语言,I have a Chinese.,1
-general,invite,邀请,请人参加,Let's invite together.,2
-general,yellow,黄色,像太阳一样的颜色,It is very yellow.,1
-general,sculpture,雕塑,立体艺术,The sculpture is {adj}.,2
-general,get,得到,获得,Let's get together.,1
-general,job,工作,职业,The job is {adj}.,1
-general,it,它,人称代词,Give it the pen.,1
-general,read,阅读,看文字,Can you read?,2
-general,work,工作,劳动或职业,This is work.,2
-general,night,夜晚,天黑的时间,I have a night.,1
-general,not,不,否定词,She speaks not.,1
-general,busy,忙,事情多,A busy {noun}.,1
-general,year,年,365天,This is a year.,1
-general,multiply,乘,数学运算,Can you multiply?,2
-general,goodbye,再见,告别,goodbye! What happened?,1
-general,sing,唱歌,用声音创作音乐,Can you sing?,1
-general,message,信息,通信内容,I have a message.,2
-general,Monday,周一,一周的第一天（中国习惯）,The Monday is {adj}.,1
-general,has,有,拥有（第三人称单数）,I has every day.,1
-general,yes,是,肯定回答,"Oh, yes!",1
-general,phone,手机,通讯设备,This is a phone.,2
-general,small,小,体积或面积小,A small {noun}.,1
-general,live,居住,生活,Can you live?,2
-general,fail,失败,没成功,Let's fail together.,2
-general,page,页,纸张一面,The page is {adj}.,2
-general,president,总统,元首,This is a president.,2
-general,grow,生长,发育,Let's grow together.,2
-general,weak,弱,无力,It is very weak.,1
-general,direction,方向,方位,This is a direction.,2
-general,love,爱,喜欢某人某物,Let's love together.,1
-general,grass,草,绿色的植物,This is a grass.,1
-general,visit,参观,访问,I visit every day.,2
-general,that,那个,指示代词,that is my friend.,1
-general,four,四,数字4,I have four books.,1
-general,warm,暖,温度适宜,A warm {noun}.,1
-general,hear,听见,用耳朵接收声音,Can you hear?,2
-general,record,记录,记载,Let's record together.,2
-general,ask,问,提问,Let's ask together.,2
-general,represent,代表,象征,Can you represent?,2
-general,television,电视,视听设备,I have a television.,2
-general,culture,文化,文明,I have a culture.,2
-general,sign,标志/签字,符号或签名,This is sign.,2
-general,dust,灰尘,微粒,I have a dust.,2
-general,rule,规则,法规,This is a rule.,2
-general,paragraph,段落,文本单位,The paragraph is {adj}.,2
-general,clean,打扫,使干净,Let's clean together.,2
-general,money,钱,货币,This is a money.,1
-general,and,和,连接词,I like apples and oranges.,1
-general,this,这个,指示代词,Give this the pen.,1
-general,language,语言,交流工具,This is a language.,2
-general,biology,生物,生命科学,This is a biology.,2
-general,history,历史,过去事件,The history is {adj}.,2
-general,teacher,老师,在学校教书的人,This is a teacher.,1
-general,little,少/小,数量或体积小,A little {noun}.,1
-general,cost,花费,价格,This is cost.,2
-general,show,展示,让别人看,Let's show together.,2
-general,whisper,耳语,小声说,Let's whisper together.,2
-general,red,红色,像血一样的颜色,A red {noun}.,1
-general,beat,击败,战胜,Can you beat?,2
-general,sister,姐妹,姐姐或妹妹,I have a sister.,1
-general,raise,举起/抚养,抬高或养育,Can you raise?,2
-general,science,科学,系统知识,This is a science.,2
-general,business,商业,生意,The business is {adj}.,2
-general,winter,冬天,寒冷的季节,The winter is {adj}.,1
-general,if,如果,条件连词,I like apples if oranges.,1
-general,different,不同,不一样,It is very different.,1
-general,back,后面,位置名词,I have a back.,1
-general,technology,技术,科技,This is a technology.,2
-general,design,设计,图案或规划,This is design.,2
-general,his,他的,物主代词,his is my friend.,1
-general,room,房间,建筑物内的空间,The room is {adj}.,1
-general,sit,坐,用臀部支撑,Let's sit together.,1
-general,rock,石头,矿物,This is a rock.,2
-general,media,媒体,传播渠道,This is a media.,2
-general,wind,风,空气流动,The wind is {adj}.,1
-general,you,你/你们,人称代词,Give you the pen.,1
-general,good,好,质量或品质好,It is very good.,1
-general,economy,经济,金融体系,This is a economy.,2
-general,snow,雪,天降的白色晶体,The snow is {adj}.,1
-general,all,全部,所有,This is all.,1
-general,physics,物理,物质科学,This is a physics.,2
-general,start,开始,启动,Can you start?,2
-general,cold,冷,温度低,It is very cold.,1
-general,bread,面包,用面粉做的食物,This is a bread.,1
-general,discovery,发现,找到新事物,I have a discovery.,2
-general,sleep,睡觉,闭眼休息,I sleep every day.,1
-general,test,测试,检验,This is test.,2
-general,milk,牛奶,奶牛产的白色饮料,The milk is {adj}.,1
-general,dirty,脏,有污垢,It is very dirty.,1
-general,choose,选择,挑选,I choose every day.,2
-general,mathematics,数学,计算科学,I have a mathematics.,2
-general,big,大,体积或面积大,It is very big.,1
-general,bus,公交车,公共交通工具,This is a bus.,1
-general,kind,善良,心地好,A kind {noun}.,1
-general,line,线/排队,直线或队列,The line is {adj}.,2
-general,do,做,执行动作,Can you do?,1
-general,my,我的,物主代词,Give my the pen.,1
-general,can,能,表示能力,Let's can together.,1
-general,clean,干净,无污垢,It is very clean.,1
-general,guide,向导/指导,带领或指引,This is guide.,2
-general,some,一些,部分,This is some.,1
-general,heavy,重,重量大,It is very heavy.,1
-general,class,班级,教学单位,I have a class.,1
-general,full,满,装不下,A full {noun}.,1
-general,front,前面,位置名词,This is a front.,1
-general,too,也,肯定副词（句末）,She speaks too.,1
-general,happy,快乐,心情好,A happy {noun}.,1
-general,here,这里,地点副词,He runs here.,1
-general,always,总是,频率副词,She speaks always.,1
-general,finish,完成,结束,I finish every day.,2
-general,art,艺术,美术,This is a art.,1
-general,chat,聊天,随意交谈,Can you chat?,2
-general,easy,容易,不难,A easy {noun}.,1
-general,decide,决定,做决定,Can you decide?,2
-general,company,公司,企业,The company is {adj}.,2
-general,control,控制,管理,I control every day.,2
-general,translate,翻译,语言转换,I translate every day.,2
-general,price,价格,商品金额,This is a price.,1
-general,internet,互联网,网络,The internet is {adj}.,2
-general,weigh,称重,测量重量,Let's weigh together.,2
-general,play,玩,娱乐活动,Let's play together.,1
-general,also,也,肯定副词,He runs also.,1
-general,on,在...上,位置介词,Go on the door.,1
-general,change,改变,变化,This is change.,2
-general,size,大小,尺寸,This is a size.,2
-general,tree,树,有叶子有树干,The tree is {adj}.,1
-general,vote,投票,表决,This is vote.,2
-general,under,在...下,位置介词,Go under the door.,1
-general,music,音乐,声音艺术,The music is {adj}.,1
-general,plastic,塑料,合成材料,I have a plastic.,2
-general,research,研究,探究,The research is {adj}.,2
-general,government,政府,管理机构,This is a government.,2
-general,see,看见,用眼睛感知,Let's see together.,1
-general,science,科学,学科,The science is {adj}.,1
-general,city,城市,大都市,I have a city.,2
-general,sentence,句子,完整表达,I have a sentence.,2
-general,algebra,代数,符号数学,This is a algebra.,2
-general,drawing,素描,线条画,The drawing is {adj}.,2
-general,our,我们的,物主代词,our is my friend.,1
-general,answer,答案,解答,This is a answer.,1
-general,down,向下,方向副词,He runs down.,1
-general,few,少,可数数量少,A few {noun}.,1
-general,top,顶部,最上面,The top is {adj}.,2
-general,world,世界,地球,This is a world.,2
-general,poetry,诗歌,诗歌总称,This is a poetry.,2
-general,time,时间,时刻或时长,This is a time.,1
-general,sun,太阳,天上的恒星,This is a sun.,1
-general,sorry,对不起,道歉,It is very sorry.,1
-general,head,头,人体最上部,I have a head.,1
-general,right,右边,方向,This is right.,1
-general,present,展示/现在时,演示或当前,This is present.,2
-general,election,选举,投票,This is a election.,2
-general,touch,触摸,用皮肤感知,Can you touch?,2
-general,wake,醒来,从睡眠中恢复,Let's wake together.,1
-general,home,家,居住的地方,I have a home.,1
-general,put,放,放置,I put every day.,2
-general,five,五,数字5,I have five books.,1
-general,machine,机器,机械,I have a machine.,2
-general,so,所以,结果连词,He is rich so happy.,1
-general,factory,工厂,制造场所,The factory is {adj}.,2
-general,book,书,用来阅读的印刷品,This is a book.,1
-general,walk,走,用脚移动,Can you walk?,1
-general,lesson,课程,教学单元,I have a lesson.,1
-general,mouth,嘴巴,用来吃东西和说话,This is a mouth.,1
-general,dance,跳舞,身体表演,Can you dance?,2
-general,website,网站,网页集合,This is a website.,2
-general,arrive,到达,抵达目的地,Can you arrive?,2
-general,law,法律,成文法,This is a law.,2
-general,art,艺术,美术,This is a art.,2
-general,white,白色,像雪一样的颜色,A white {noun}.,1
-general,quantity,量,多少,I have a quantity.,2
-general,foot,脚,人体下肢末端,The foot is {adj}.,1
-general,ball,球,圆形运动器材,This is a ball.,1
-general,much,多,不可数数量多,It is very much.,1
-general,test,考试,测试,This is a test.,1
-general,nose,鼻子,用来闻气味,This is a nose.,1
-general,tall,高,身高或物体高度,It is very tall.,1
-general,discuss,讨论,商议,Let's discuss together.,2
-general,museum,博物馆,展览场所,I have a museum.,2
-general,like,喜欢,对某人有好感,Let's like together.,1
-general,blue,蓝色,像天空一样的颜色,It is very blue.,1
-general,often,经常,频率副词,He runs often.,1
-general,thank,谢谢,表达感激,Let's thank together.,1
-general,bridge,桥梁,跨越建筑,I have a bridge.,2
-general,discover,发现,找到,Let's discover together.,2
-general,speak,说,口头表达,Let's speak together.,2
-general,describe,描述,叙述,Let's describe together.,2
-general,he,他,人称代词,Give he the pen.,1
-general,same,相同,一样,It is very same.,1
-general,community,社区,居民区,I have a community.,2
-general,short,矮/短,高度或长度小,A short {noun}.,1
-general,industry,工业,制造业,This is a industry.,2
-general,order,订单,订购,This is order.,2
-general,join,加入,成为成员,Let's join together.,2
-general,journey,旅程,长途旅行,I have a journey.,2
-general,win,赢,获胜,I win every day.,2
-general,fish,鱼,生活在水中的动物,The fish is {adj}.,1
-general,border,边界,分界线,The border is {adj}.,2
-general,share,分享,共用,Let's share together.,2
-general,right,对/右,正确或方向,A right {noun}.,1
-general,color,颜色,色彩,The color is {adj}.,2
-general,Tuesday,周二,一周第二天,This is a Tuesday.,1
-general,concert,音乐会,音乐演出,I have a concert.,2
-general,empty,空,没有东西,It is very empty.,1
-general,print,打印,印刷,Can you print?,2
-general,come,来,靠近当前地方,Can you come?,1
-general,word,单词,语言单位,This is a word.,2
-general,student,学生,在学校学习的人,This is a student.,1
-general,face,脸,头的前部,I have a face.,1
-general,say,说,表达,I say every day.,2
-general,form,形式,形态,This is a form.,2
-general,way,路/方式,通道或方法,I have a way.,2
-general,glass,玻璃,透明材料,This is a glass.,2
-general,capital,首都,政治中心,The capital is {adj}.,2
-general,report,报告,汇报,This is report.,2
-general,after,在...后,时间,This is after.,1
-general,society,社会,群体,I have a society.,2
-general,shout,喊,大声说,Let's shout together.,2
-general,month,月,一年中的十二分之一,I have a month.,1
-general,row,排,横列,The row is {adj}.,2
-general,forget,忘记,想不起来,Can you forget?,2
-general,please,请,礼貌用语,"Oh, please!",1
-general,style,风格,样式,This is a style.,2
-general,but,但是,转折词,He is rich but happy.,1
-general,market,市场,买卖场所,This is a market.,1
-general,no,不,否定回答,"Oh, no!",1
-general,lose,输/丢失,失败或失去,Let's lose together.,2
-general,cheap,便宜,价格低,A cheap {noun}.,1
-general,strong,强壮,有力,It is very strong.,1
-general,watch,观看,看,Let's watch together.,2
-general,tour,旅游,观光行程,This is a tour.,2
-general,today,今天,当前的日子,The today is {adj}.,1
-general,follow,跟随,在后,I follow every day.,2
-general,return,返回,回来,I return every day.,2
-general,boat,船,水上交通工具,The boat is {adj}.,1
-general,bike,自行车,两个轮子的交通工具,I have a bike.,1
-general,I,我,人称代词,Give I the pen.,1
-general,die,死,失去生命,I die every day.,2
-general,park,公园,公共休闲场所,I have a park.,1
-general,your,你的,物主代词,Give your the pen.,1
-general,story,故事,叙事性文本,The story is {adj}.,1
-general,close,关/关闭,动作或状态,This is close.,1
-general,make,做,制造,Can you make?,1
-general,long,长,长度大,It is very long.,1
-general,shop,商店,购物场所,I have a shop.,1
-general,wish,希望,渴望,Let's wish together.,2
-general,check,检查,核实,Let's check together.,2
-general,fight,打架/战斗,冲突,Can you fight?,2
-general,math,数学,学科,I have a math.,1
-general,call,呼叫,喊或打电话,I call every day.,2
-general,think,思考,用大脑考虑,I think every day.,2
-general,now,现在,时间副词,She speaks now.,1
-general,divide,分,分开,Can you divide?,2
-general,trip,旅行,短途出行,This is a trip.,2
-general,eat,吃,把食物放进嘴,Let's eat together.,1
-general,amount,数量,总数,I have a amount.,2
-general,bake,烘烤,烤箱烹饪,Can you bake?,2
-general,mark,标记,记号,This is mark.,2
-general,ear,耳朵,用来听声音的器官,This is a ear.,1
-general,believe,相信,认为真实,I believe every day.,2
-general,Friday,周五,一周第五天,The Friday is {adj}.,1
-general,evening,晚上,天黑之后,The evening is {adj}.,1
-general,is,是,be动词第三人称单数,Can you is?,1
-general,talk,谈话,交流,Let's talk together.,2
-general,film,胶片/电影,影片或材料,The film is {adj}.,2
-general,have,有,拥有,Can you have?,1
-general,morning,早上,一天的开始,The morning is {adj}.,1
-general,help,帮助,协助,Let's help together.,2
-general,go,去,离开当前地方,I go every day.,1
-general,draw,画,用笔创作图像,Can you draw?,1
-general,up,向上,方向副词,He runs up.,1
-general,their,他们的,物主代词,Give their the pen.,1
-general,moon,月亮,夜里的卫星,The moon is {adj}.,1
-general,number,数字,数值,This is a number.,2
-general,computer,电脑,计算设备,This is a computer.,2
-general,decrease,减少,使变少,I decrease every day.,2
-general,plane,飞机,空中交通工具,I have a plane.,1
-general,theater,剧院,演出场所,The theater is {adj}.,2
-general,read,读,看文字,Can you read?,1
-general,yet,还,时间副词,He runs yet.,1
-general,succeed,成功,达成目标,Can you succeed?,2
-general,eight,八,数字8,I have eight books.,1
-general,cloud,云,天上的白色物体,I have a cloud.,1
-general,promise,承诺,答应,I promise every day.,2
-general,police,警察,执法人员,This is a police.,1
-general,flower,花,植物的繁殖器官,I have a flower.,1
-general,price,价格,金额,The price is {adj}.,2
-general,house,房子,居住的建筑物,This is a house.,1
-general,color,颜色,物体的外观属性,I have a color.,1
-general,wood,木头,树木材料,The wood is {adj}.,2
-general,name,名字,称呼,I have a name.,1
-general,citizen,公民,国民,The citizen is {adj}.,2
-general,who,谁,疑问代词,who is my friend.,1
-general,stand,站,用脚支撑身体,Let's stand together.,1
-general,information,信息,消息,I have a information.,2
-general,talk,说话,交谈,Can you talk?,2
-general,know,知道,了解事实,Can you know?,2
-general,black,黑色,像夜一样的颜色,A black {noun}.,1
-general,library,图书馆,藏书场所,This is a library.,2
-general,play,玩/演奏,娱乐或奏乐,I play every day.,2
-general,cut,切,用刀分开,I cut every day.,2
-general,explore,探索,考察,I explore every day.,2
-general,pay,支付,付钱,Let's pay together.,2
-general,write,写,书写,Let's write together.,2
-general,banana,香蕉,一种黄色长形水果,I have a banana.,1
-general,taste,尝,用舌头感知,I taste every day.,2
-general,push,推,用力按,I push every day.,2
-general,geometry,几何,形状数学,I have a geometry.,2
-general,lead,领导,带头,Can you lead?,2
-general,email,电子邮件,数字邮件,The email is {adj}.,2
-general,near,在...附近,位置介词,The book is near the table.,1
-general,letter,信,邮件,The letter is {adj}.,2
-general,equipment,设备,装备,I have a equipment.,2
-general,bird,鸟,有羽毛会飞,This is a bird.,1
-general,a,一个,不定冠词,Do you have a pen?,1
-general,quality,质量,品质,This is a quality.,2
-general,explain,解释,说明,Let's explain together.,2
-general,boil,煮,水煮,I boil every day.,2
-general,dream,梦想,理想或做梦,This is dream.,2
-general,zoo,动物园,动物展览场所,The zoo is {adj}.,1
-general,paper,纸,书写材料,The paper is {adj}.,2
-general,travel,旅行,长途出行,This is travel.,2
-general,the,这个/那个,定冠词,Do you have the pen?,1
-general,feel,感觉,通过感知体验,Let's feel together.,2
-general,move,移动,改变位置,Can you move?,2
-general,spend,花费,用掉,Can you spend?,2
-general,edge,边缘,界限,This is a edge.,2
-general,earth,地球/土,星球或土壤,The earth is {adj}.,2
-general,festival,节日,庆典,I have a festival.,2
-general,speak,说,发出语言,I speak every day.,1
-general,turn,转弯,改变方向,I turn every day.,2
-general,geography,地理,地球科学,The geography is {adj}.,2
-general,sport,运动,体育活动,I have a sport.,1
-general,smell,闻,用鼻子感知,I smell every day.,2
-general,very,非常,程度副词,She speaks very.,1
-general,hand,手,人体上肢末端,The hand is {adj}.,1
-general,expensive,贵,价格高,A expensive {noun}.,1
-general,dog,狗,人类常见的宠物,I have a dog.,1
-general,write,写,用笔写字,Can you write?,1
-general,she,她,人称代词,Give she the pen.,1
-general,song,歌曲,带词音乐,I have a song.,2
-general,type,打字,键盘输入,I type every day.,2
-general,road,道路,行车通道,The road is {adj}.,2
-general,stop,停止,中止,Let's stop together.,2
-general,Wednesday,周三,一周第三天,This is a Wednesday.,1
-general,father,父亲,爸爸,The father is {adj}.,1
-general,metal,金属,导电元素,This is a metal.,2
-general,use,使用,应用,I use every day.,2
-general,borrow,借入,从别人借,Can you borrow?,2
-general,bank,银行,金融机构,I have a bank.,1
-general,movie,电影,影片,The movie is {adj}.,2
-general,egg,鸡蛋,鸡下的蛋,The egg is {adj}.,1
-general,pattern,图案,重复纹样,I have a pattern.,2
-general,when,什么时候,疑问副词,She speaks when.,1
-general,six,六,数字6,I have six books.,1
-general,farm,农场,农业生产场所,The farm is {adj}.,1
-general,young,年轻,年纪小,A young {noun}.,1
-general,cross,穿过,跨越,I cross every day.,2
-general,open,开/打开,动作或状态,This is open.,1
-general,begin,开始,启动,I begin every day.,2
-general,star,星星,夜空亮点,I have a star.,1
-general,dance,跳舞,用身体动作表达,I dance every day.,1
-general,eye,眼睛,用来看东西的器官,I have a eye.,1
-general,sometimes,有时,频率副词,He runs sometimes.,1
-general,vacation,度假,休假,I have a vacation.,2
-general,leave,离开,离去,Can you leave?,2
-general,question,问题,疑问,I have a question.,1
-general,worth,值得,价值,This is worth.,2
-general,still,仍然,持续副词,She speaks still.,1
-general,school,学校,学习的地方,This is a school.,1
-general,in,在...里,位置介词,Go in the door.,1
-general,we,我们,人称代词,we is my friend.,1
-general,behind,在...后面,位置介词,The book is behind the table.,1
-general,map,地图,地理图示,I have a map.,2
-general,those,那些,指示代词复数,those is my friend.,1
-general,introduce,介绍,引见,Let's introduce together.,2
-general,say,讲,表达,Let's say together.,2
-general,keep,保持,维持状态,Can you keep?,2
-general,rain,雨,从天而降的水滴,I have a rain.,1
-general,photo,照片,摄影图像,The photo is {adj}.,1
-general,express,表达,表示,Can you express?,2
-general,magazine,杂志,期刊,This is a magazine.,2
-general,many,许多,数量多,It is very many.,1
-general,king,国王,君主,I have a king.,2
-general,they,他们,人称代词,they is my friend.,1
-general,material,材料,原料,The material is {adj}.,2
-general,develop,发展,成长或开发,I develop every day.,2
-general,number,号码,数字标识,This is a number.,1
-general,jump,跳,双脚离地,Can you jump?,1
-general,want,想要,希望得到,I want every day.,1
-general,an,一个,不定冠词（元音前）,Do you have an pen?,1
-general,lower,降低,放低,Can you lower?,2
-general,one,一,数字1,It's one o'clock.,1
-general,car,汽车,四个轮子的交通工具,I have a car.,1
-general,answer,回答,解答问题,I answer every day.,2
-general,three,三,数字3,It's three o'clock.,1
+general,apple,苹果,常见水果,A apple can help you.,1
+general,banana,香蕉,黄色长形水果,The banana is important.,1
+general,orange,橙子,橙色水果,I have a orange.,1
+general,pear,梨,水果,The pear is important.,1
+general,grape,葡萄,小颗粒水果,The grape is important.,1
+general,watermelon,西瓜,大型夏季水果,This is a watermelon.,1
+general,strawberry,草莓,红色小水果,The strawberry is important.,1
+general,bread,面包,主食,The bread is important.,1
+general,rice,米饭,亚洲主食,I have a rice.,1
+general,noodle,面条,长条状食物,This is a noodle.,1
+general,milk,牛奶,白色饮料,The milk is important.,1
+general,egg,鸡蛋,常见食材,This is a egg.,1
+general,meat,肉,食物总称,This is a meat.,1
+general,chicken,鸡肉,常见肉类,This is a chicken.,1
+general,fish,鱼,水产,I have a fish.,1
+general,beef,牛肉,红色肉类,I have a beef.,1
+general,pork,猪肉,常见肉类,This is a pork.,1
+general,cake,蛋糕,甜点,The cake is important.,1
+general,cookie,饼干,零食,This is a cookie.,1
+general,chocolate,巧克力,甜食,I have a chocolate.,1
+general,candy,糖果,甜食,This is a candy.,1
+general,sugar,糖,调味品,A sugar can help you.,1
+general,salt,盐,调味品,A salt can help you.,1
+general,water,水,生命必需,A water can help you.,1
+general,juice,果汁,饮料,The juice is important.,1
+general,tea,茶,饮品,The tea is important.,1
+general,coffee,咖啡,提神饮品,A coffee can help you.,1
+general,soup,汤,液体食物,The soup is important.,1
+general,salad,沙拉,蔬菜混合,This is a salad.,1
+general,vegetable,蔬菜,植物食物,This is a vegetable.,1
+general,tomato,番茄,红色蔬菜,I have a tomato.,1
+general,potato,土豆,块茎类蔬菜,The potato is important.,1
+general,carrot,胡萝卜,橙色根茎,A carrot can help you.,1
+general,onion,洋葱,调味蔬菜,The onion is important.,1
+general,cabbage,卷心菜,叶菜类,This is a cabbage.,1
+general,pepper,辣椒,调味蔬菜,This is a pepper.,1
+general,butter,黄油,奶制品,The butter is important.,1
+general,cheese,奶酪,奶制品,A cheese can help you.,1
+general,ice cream,冰淇淋,冷冻甜食,This is a ice cream.,1
+general,breakfast,早餐,第一餐,This is a breakfast.,1
+general,lunch,午餐,第二餐,A lunch can help you.,1
+general,dinner,晚餐,最后一餐,A dinner can help you.,1
+general,supper,晚饭,晚间餐,The supper is important.,1
+general,meal,一餐,食物单位,The meal is important.,1
+general,restaurant,餐厅,用餐场所,The restaurant is important.,1
+general,kitchen,厨房,做饭房间,I have a kitchen.,1
+general,fridge,冰箱,冷藏设备,I have a fridge.,1
+general,cup,杯子,饮水器具,This is a cup.,1
+general,glass,玻璃杯,透明杯子,I have a glass.,1
+general,bowl,碗,餐具,The bowl is important.,1
+general,plate,盘子,餐具,I have a plate.,1
+general,fork,叉子,餐具,I have a fork.,1
+general,spoon,勺子,餐具,This is a spoon.,1
+general,knife,刀,切割工具,The knife is important.,1
+general,chopsticks,筷子,东方餐具,A chopsticks can help you.,1
+general,napkin,餐巾,擦拭用品,A napkin can help you.,1
+general,family,家庭,亲属群体,I have a family.,1
+general,father,父亲,爸爸,This is a father.,1
 general,mother,母亲,妈妈,This is a mother.,1
-general,new,新,刚制造或刚买的,A new {noun}.,1
-general,prepare,准备,预先安排,Let's prepare together.,2
-general,remember,记得,回忆起,Can you remember?,2
-general,center,中心,中间,This is a center.,2
-general,adventure,冒险,惊险经历,This is a adventure.,2
-general,sky,天空,头顶的空间,I have a sky.,1
-general,these,这些,指示代词复数,these is my friend.,1
-general,hair,头发,头上长的毛发,I have a hair.,1
-general,bottom,底部,最下面,This is a bottom.,2
-general,drink,喝,把液体咽下去,Can you drink?,1
-general,agree,同意,看法一致,I agree every day.,2
-general,pencil,铅笔,用木头包裹的黑色书写工具,The pencil is {adj}.,1
-general,subtract,减,减少,I subtract every day.,2
-general,food,食物,可以吃的东西,I have a food.,1
-general,will,将要,表示将来,Let's will together.,1
-general,sell,卖,出售,I sell every day.,2
-general,Saturday,周六,一周第六天,This is a Saturday.,1
-general,seven,七,数字7,It's seven o'clock.,1
-general,cake,蛋糕,甜点,This is a cake.,1
-general,train,火车,铁路交通工具,This is a train.,1
-general,swim,游泳,在水里移动,Let's swim together.,1
+general,parent,父母,双亲,I have a parent.,1
+general,brother,兄弟,哥哥弟弟,A brother can help you.,1
+general,sister,姐妹,姐姐妹妹,A sister can help you.,1
+general,son,儿子,男性孩子,I have a son.,1
+general,daughter,女儿,女性孩子,The daughter is important.,1
+general,child,孩子,儿童,The child is important.,1
+general,baby,婴儿,幼童,This is a baby.,1
+general,boy,男孩,男性儿童,I have a boy.,1
+general,girl,女孩,女性儿童,The girl is important.,1
+general,man,男人,成年男性,The man is important.,1
+general,woman,女人,成年女性,I have a woman.,1
+general,grandfather,祖父,爷爷外公,This is a grandfather.,1
+general,grandmother,祖母,奶奶外婆,This is a grandmother.,1
+general,grandpa,爷爷,祖父昵称,The grandpa is important.,1
+general,grandma,奶奶,祖母昵称,A grandma can help you.,1
+general,uncle,叔叔,父辈男性,The uncle is important.,1
+general,aunt,阿姨,母辈女性,This is a aunt.,1
+general,cousin,堂表亲,姑姨子女,I have a cousin.,1
+general,friend,朋友,好友,The friend is important.,1
+general,classmate,同学,同班同学,The classmate is important.,1
+general,teacher,老师,教育者,A teacher can help you.,1
+general,student,学生,学习者,I have a student.,1
+general,doctor,医生,医疗工作者,This is a doctor.,1
+general,nurse,护士,护理工作者,This is a nurse.,1
+general,police,警察,执法人员,A police can help you.,1
+general,driver,司机,驾驶者,A driver can help you.,1
+general,farmer,农民,农业工作者,This is a farmer.,1
+general,worker,工人,劳动者,The worker is important.,1
+general,cook,厨师,烹饪者,This is a cook.,1
+general,singer,歌手,歌唱者,I have a singer.,1
+general,dancer,舞者,舞蹈者,A dancer can help you.,1
+general,player,选手,运动员,I have a player.,1
+general,star,明星,名人,The star is important.,1
+general,hero,英雄,英雄人物,I have a hero.,1
+general,body,身体,躯体,The body is important.,1
+general,head,头,身体顶部,The head is important.,1
+general,face,脸,面部,I have a face.,1
+general,eye,眼睛,视觉器官,A eye can help you.,1
+general,ear,耳朵,听觉器官,A ear can help you.,1
+general,nose,鼻子,嗅觉器官,A nose can help you.,1
+general,mouth,嘴巴,说话进食,I have a mouth.,1
+general,tooth,牙齿,咀嚼器官,I have a tooth.,1
+general,tongue,舌头,味觉器官,A tongue can help you.,1
+general,hair,头发,头部毛发,The hair is important.,1
+general,neck,脖子,头部与身体连接,I have a neck.,1
+general,shoulder,肩膀,上肢连接处,I have a shoulder.,1
+general,arm,手臂,上肢,The arm is important.,1
+general,hand,手,上肢末端,I have a hand.,1
+general,finger,手指,手部分支,The finger is important.,1
+general,thumb,拇指,第一指,A thumb can help you.,1
+general,chest,胸,躯干上部,A chest can help you.,1
+general,back,背,躯干后部,This is a back.,1
+general,stomach,胃,消化器官,This is a stomach.,1
+general,leg,腿,下肢,The leg is important.,1
+general,knee,膝盖,腿部关节,A knee can help you.,1
+general,foot,脚,下肢末端,The foot is important.,1
+general,toe,脚趾,足部分支,A toe can help you.,1
+general,skin,皮肤,身体表层,A skin can help you.,1
+general,blood,血液,体液,The blood is important.,1
+general,heart,心脏,循环器官,The heart is important.,1
+general,brain,大脑,思维器官,I have a brain.,1
+general,clothes,衣服,服装总称,I have a clothes.,1
+general,shirt,衬衫,上装,A shirt can help you.,1
+general,T-shirt,T恤,短袖上衣,This is a T-shirt.,1
+general,coat,外套,外衣,A coat can help you.,1
+general,jacket,夹克,短外套,I have a jacket.,1
+general,dress,连衣裙,女装,This is a dress.,1
+general,skirt,裙子,女装下装,A skirt can help you.,1
+general,pants,裤子,下装,I have a pants.,1
+general,jeans,牛仔裤,蓝色长裤,The jeans is important.,1
+general,shorts,短裤,短下装,The shorts is important.,1
+general,shoes,鞋子,足部服装,This is a shoes.,1
+general,sock,袜子,足部用品,I have a sock.,1
+general,hat,帽子,头部服装,This is a hat.,1
+general,cap,鸭舌帽,有帽檐帽子,I have a cap.,1
+general,glove,手套,手部服装,This is a glove.,1
+general,scarf,围巾,颈部用品,The scarf is important.,1
+general,belt,皮带,腰部用品,A belt can help you.,1
+general,bag,包,携带容器,This is a bag.,1
+general,purse,钱包,女性钱包,A purse can help you.,1
+general,wallet,钱包,男性钱包,I have a wallet.,1
+general,watch,手表,计时饰品,The watch is important.,1
+general,ring,戒指,手指饰品,This is a ring.,1
+general,glasses,眼镜,视力矫正,This is a glasses.,1
+general,house,房子,居住建筑,The house is important.,1
+general,home,家,居住地,This is a home.,1
+general,room,房间,室内空间,The room is important.,1
+general,bedroom,卧室,睡眠房间,A bedroom can help you.,1
+general,living room,客厅,活动房间,The living room is important.,1
+general,kitchen,厨房,烹饪房间,The kitchen is important.,1
+general,bathroom,浴室,洗浴房间,I have a bathroom.,1
+general,toilet,厕所,卫生间,The toilet is important.,1
+general,floor,地板,室内地面,The floor is important.,1
+general,ceiling,天花板,室内顶部,I have a ceiling.,1
+general,wall,墙,分隔结构,The wall is important.,1
+general,door,门,出入口,This is a door.,1
+general,window,窗户,采光口,The window is important.,1
+general,bed,床,睡眠家具,I have a bed.,1
+general,desk,书桌,学习办公,I have a desk.,1
+general,table,桌子,平面家具,This is a table.,1
+general,chair,椅子,坐具,I have a chair.,1
+general,sofa,沙发,软座椅,The sofa is important.,1
+general,bookshelf,书架,藏书家具,This is a bookshelf.,1
+general,lamp,灯,照明器具,A lamp can help you.,1
+general,clock,时钟,计时器具,I have a clock.,1
+general,mirror,镜子,反射器具,A mirror can help you.,1
+general,rug,地毯,地面装饰,A rug can help you.,1
+general,curtain,窗帘,遮光装饰,This is a curtain.,1
+general,blanket,毯子,保暖用品,I have a blanket.,1
+general,pillow,枕头,睡眠支撑,The pillow is important.,1
+general,school,学校,教育场所,A school can help you.,1
+general,classroom,教室,学习房间,A classroom can help you.,1
+general,library,图书馆,藏书场所,The library is important.,1
+general,playground,操场,运动场所,The playground is important.,1
+general,office,办公室,工作房间,The office is important.,1
+general,blackboard,黑板,教学板,The blackboard is important.,1
+general,chalk,粉笔,书写工具,I have a chalk.,1
+general,book,书,阅读材料,I have a book.,1
+general,pen,钢笔,书写工具,This is a pen.,1
+general,pencil,铅笔,绘画工具,I have a pencil.,1
+general,eraser,橡皮,修改工具,I have a eraser.,1
+general,ruler,尺子,测量工具,I have a ruler.,1
+general,notebook,笔记本,记录本,I have a notebook.,1
+general,backpack,书包,携带用品,This is a backpack.,1
+general,homework,作业,课后任务,A homework can help you.,1
+general,lesson,课程,教学单元,The lesson is important.,1
+general,subject,科目,学科,This is a subject.,1
+general,math,数学,计算学科,This is a math.,1
+general,English,英语,语言学科,I have a English.,1
+general,Chinese,语文,语言学科,I have a Chinese.,1
+general,science,科学,自然学科,This is a science.,1
+general,art,美术,艺术学科,The art is important.,1
+general,music,音乐,声音艺术,This is a music.,1
+general,PE,体育,运动课程,This is a PE.,1
+general,exam,考试,测试评估,The exam is important.,1
+general,test,测验,检验,A test can help you.,1
+general,grade,年级/成绩,年级或分数,This is a grade.,1
+general,score,分数,成绩,This is a score.,1
+general,answer,答案,解答,This is a answer.,1
+general,question,问题,疑问,The question is important.,1
+general,study,学习,研习,Can you study?,1
+general,learn,学习,获得知识,Can you learn?,1
+general,teach,教,传授知识,You should teach it.,1
+general,read,阅读,看文字,You should read it.,1
+general,write,写,文字表达,Let's write together.,1
+general,draw,画,图形表达,You should draw it.,1
+general,count,数数,计算数量,Can you count?,1
+general,think,思考,思维,Can you think?,1
+general,understand,理解,领会,You should understand it.,1
+general,remember,记住,记忆,You should remember it.,1
+general,forget,忘记,遗忘,You should forget it.,1
+general,know,知道,了解,You should know it.,1
+general,color,颜色,视觉属性,I have a color.,1
+general,red,红色,像血,This is red.,1
+general,blue,蓝色,像天空,A blue {noun}.,1
+general,green,绿色,像植物,This is green.,1
+general,yellow,黄色,像太阳,This is yellow.,1
+general,orange,橙色,像柑橘,It is very orange.,1
+general,purple,紫色,紫葡萄色,This is purple.,1
+general,pink,粉色,浅红色,It is very pink.,1
+general,brown,棕色,像大地,It is very brown.,1
+general,black,黑色,像夜晚,This is black.,1
+general,white,白色,像雪,It is very white.,1
+general,gray,灰色,中性色,This is gray.,1
+general,light,浅色,明亮,This is light.,1
+general,dark,深色,暗淡,A dark {noun}.,1
+general,round,圆形,圆的,A round {noun}.,1
+general,square,方形,方的,A square {noun}.,1
+general,long,长,长度大,A long {noun}.,1
+general,short,短,长度小,It is very short.,1
+general,tall,高,高度大,A tall {noun}.,1
+general,big,大,体积大,A big {noun}.,1
+general,small,小,体积小,It is very small.,1
+general,large,巨大,尺寸大,A large {noun}.,1
+general,little,小,尺寸小,It is very little.,1
+general,heavy,重,重量大,A heavy {noun}.,1
+general,light,轻,重量小,A light {noun}.,1
+general,thick,厚,厚度大,A thick {noun}.,1
+general,thin,薄,厚度小,This is thin.,1
+general,wide,宽,宽度大,This is wide.,1
+general,narrow,窄,宽度小,A narrow {noun}.,1
+general,animal,动物,生物,A animal can help you.,1
+general,dog,狗,宠物,A dog can help you.,1
+general,cat,猫,宠物,I have a cat.,1
+general,bird,鸟,飞行动物,I have a bird.,1
+general,fish,鱼,水生动物,I have a fish.,1
+general,rabbit,兔子,小动物,I have a rabbit.,1
+general,duck,鸭子,水禽,The duck is important.,1
+general,chicken,鸡,家禽,I have a chicken.,1
+general,pig,猪,家畜,The pig is important.,1
+general,cow,牛,家畜,This is a cow.,1
+general,horse,马,家畜,I have a horse.,1
+general,sheep,羊,家畜,A sheep can help you.,1
+general,goat,山羊,家畜,I have a goat.,1
+general,mouse,老鼠,啮齿动物,A mouse can help you.,1
+general,elephant,大象,大型动物,A elephant can help you.,1
+general,lion,狮子,猛兽,The lion is important.,1
+general,tiger,老虎,猛兽,The tiger is important.,1
+general,monkey,猴子,灵长类,A monkey can help you.,1
+general,panda,熊猫,中国国宝,This is a panda.,1
+general,bear,熊,大型动物,The bear is important.,1
+general,fox,狐狸,犬科,I have a fox.,1
+general,wolf,狼,犬科,I have a wolf.,1
+general,deer,鹿,草食动物,The deer is important.,1
+general,zebra,斑马,条纹马,This is a zebra.,1
+general,giraffe,长颈鹿,长脖子,A giraffe can help you.,1
+general,kangaroo,袋鼠,有袋类,I have a kangaroo.,1
+general,penguin,企鹅,南极鸟,I have a penguin.,1
+general,eagle,鹰,猛禽,The eagle is important.,1
+general,owl,猫头鹰,夜行猛禽,The owl is important.,1
+general,snake,蛇,爬行动物,A snake can help you.,1
+general,frog,青蛙,两栖动物,This is a frog.,1
+general,turtle,乌龟,爬行动物,This is a turtle.,1
+general,butterfly,蝴蝶,昆虫,A butterfly can help you.,1
+general,bee,蜜蜂,昆虫,This is a bee.,1
+general,ant,蚂蚁,昆虫,The ant is important.,1
+general,spider,蜘蛛,节肢动物,A spider can help you.,1
+general,fly,苍蝇,昆虫,This is a fly.,1
+general,mosquito,蚊子,昆虫,I have a mosquito.,1
+general,nature,自然,自然界,This is a nature.,1
+general,sun,太阳,恒星,A sun can help you.,1
+general,moon,月亮,卫星,This is a moon.,1
+general,star,星星,天体,The star is important.,1
+general,sky,天空,苍穹,I have a sky.,1
+general,cloud,云,水汽凝结,I have a cloud.,1
+general,rain,雨,降水,A rain can help you.,1
+general,snow,雪,固态降水,This is a snow.,1
+general,wind,风,空气流动,I have a wind.,1
+general,storm,暴风雨,恶劣天气,A storm can help you.,1
+general,lightning,闪电,大气放电,A lightning can help you.,1
+general,thunder,雷,大气声响,A thunder can help you.,1
+general,rainbow,彩虹,大气光学,The rainbow is important.,1
+general,fog,雾,能见度低,I have a fog.,1
+general,ice,冰,固态水,This is a ice.,1
+general,fire,火,燃烧,A fire can help you.,1
+general,water,水,生命之源,I have a water.,1
+general,river,河,水体,The river is important.,1
+general,lake,湖,水体,The lake is important.,1
+general,sea,海,水体,A sea can help you.,1
+general,ocean,海洋,水域,This is a ocean.,1
+general,beach,海滩,海岸,The beach is important.,1
+general,island,岛屿,陆地,A island can help you.,1
+general,mountain,山,高地,The mountain is important.,1
+general,hill,小山,隆起,I have a hill.,1
+general,forest,森林,树木密集,This is a forest.,1
+general,tree,树,木本植物,I have a tree.,1
+general,grass,草,草本植物,I have a grass.,1
+general,flower,花,植物器官,A flower can help you.,1
+general,leaf,叶子,植物器官,The leaf is important.,1
+general,rock,岩石,矿物,I have a rock.,1
+general,stone,石头,石材,I have a stone.,1
+general,sand,沙子,颗粒物,I have a sand.,1
+general,dirt,泥土,土壤,I have a dirt.,1
+general,earth,地球,星球,The earth is important.,1
+general,world,世界,全球,I have a world.,1
+general,time,时间,时刻或时长,The time is important.,1
+general,day,天,24小时,This is a day.,1
+general,night,夜,黑暗时段,I have a night.,1
+general,morning,早上,一天开始,A morning can help you.,1
+general,afternoon,下午,中午后,A afternoon can help you.,1
+general,evening,晚上,日落后,I have a evening.,1
+general,noon,中午,正午,This is a noon.,1
+general,midnight,午夜,零点,The midnight is important.,1
+general,today,今天,当前日,The today is important.,1
+general,tomorrow,明天,次日,A tomorrow can help you.,1
+general,yesterday,昨天,前日,This is a yesterday.,1
+general,week,周,七天,I have a week.,1
+general,weekend,周末,周六日,The weekend is important.,1
+general,month,月,月份,The month is important.,1
+general,year,年,年份,I have a year.,1
+general,season,季节,四季,I have a season.,1
+general,spring,春天,生长季节,This is a spring.,1
+general,summer,夏天,炎热季节,A summer can help you.,1
+general,autumn,秋天,收获季节,This is a autumn.,1
+general,winter,冬天,寒冷季节,The winter is important.,1
+general,weather,天气,气象,The weather is important.,1
+general,sunny,晴朗,阳光充足,It is very sunny.,1
+general,cloudy,多云,云多,It is very cloudy.,1
+general,windy,有风,风大,This is windy.,1
+general,rainy,下雨,降雨,This is rainy.,1
+general,snowy,下雪,降雪,This is snowy.,1
+general,hot,热,温度高,This is hot.,1
+general,warm,暖,温度适中,It is very warm.,1
+general,cool,凉,温度略低,A cool {noun}.,1
+general,cold,冷,温度低,This is cold.,1
+general,wet,湿,水分多,A wet {noun}.,1
+general,dry,干,水分少,A dry {noun}.,1
+general,Monday,周一,星期一,The Monday is important.,1
+general,Tuesday,周二,星期二,A Tuesday can help you.,1
+general,Wednesday,周三,星期三,A Wednesday can help you.,1
+general,Thursday,周四,星期四,I have a Thursday.,1
+general,Friday,周五,星期五,A Friday can help you.,1
+general,Saturday,周六,星期六,I have a Saturday.,1
+general,Sunday,周日,星期日,I have a Sunday.,1
+general,January,一月,第一个月,This is a January.,1
+general,February,二月,第二个月,I have a February.,1
+general,March,三月,第三个月,This is a March.,1
+general,April,四月,第四个月,I have a April.,1
+general,May,五月,第五个月,This is a May.,1
+general,June,六月,第六个月,The June is important.,1
+general,July,七月,第七个月,A July can help you.,1
+general,August,八月,第八个月,I have a August.,1
+general,September,九月,第九个月,A September can help you.,1
+general,October,十月,第十个月,A October can help you.,1
+general,November,十一月,第十一月,This is a November.,1
+general,December,十二月,第十二月,The December is important.,1
+general,one,一,数字1,It's one o'clock.,1
 general,two,二,数字2,It's two o'clock.,1
-general,hope,希望,期待发生,I hope every day.,2
-general,run,跑,快速移动,Can you run?,1
-general,town,城镇,小城镇,I have a town.,2
-general,learn,学习,获得知识或技能,Let's learn together.,2
-general,news,新闻,新鲜事,This is a news.,2
-general,practice,练习,反复训练,Let's practice together.,2
-general,straight,直,不弯曲,This is straight.,2
-general,street,街道,城市道路,The street is {adj}.,2
-general,sad,悲伤,心情不好,A sad {noun}.,1
-general,Thursday,周四,一周第四天,The Thursday is {adj}.,1
-general,yesterday,昨天,今天之前,The yesterday is {adj}.,1
-general,family,家庭,父母和子女,The family is {adj}.,1
-general,shout,大喊,大声说,Let's shout together.,2
-general,chemistry,化学,物质变化,I have a chemistry.,2
-general,video,视频,动态图像,I have a video.,2
-general,pen,钢笔,书写工具,I have a pen.,1
-general,country,国家,主权国家,I have a country.,2
-general,pull,拉,用力拖,Let's pull together.,2
-general,carry,搬运,带着移动,Can you carry?,2
-general,ugly,丑,不好看,A ugly {noun}.,1
-general,am,是,be动词第一人称,Can you am?,1
-general,picture,图片,图像,The picture is {adj}.,1
-general,already,已经,时间副词,He runs already.,1
-general,leader,领导,带头人,This is a leader.,2
+general,three,三,数字3,I have three books.,1
+general,four,四,数字4,It's four o'clock.,1
+general,five,五,数字5,I have five books.,1
+general,six,六,数字6,It's six o'clock.,1
+general,seven,七,数字7,I have seven books.,1
+general,eight,八,数字8,I have eight books.,1
+general,nine,九,数字9,I have nine books.,1
+general,ten,十,数字10,I have ten books.,1
+general,eleven,十一,数字11,It's eleven o'clock.,1
+general,twelve,十二,数字12,I have twelve books.,1
+general,thirteen,十三,数字13,It's thirteen o'clock.,1
+general,fourteen,十四,数字14,I have fourteen books.,1
+general,fifteen,十五,数字15,It's fifteen o'clock.,1
+general,sixteen,十六,数字16,It's sixteen o'clock.,1
+general,seventeen,十七,数字17,I have seventeen books.,1
+general,eighteen,十八,数字18,It's eighteen o'clock.,1
+general,nineteen,十九,数字19,It's nineteen o'clock.,1
+general,twenty,二十,数字20,I have twenty books.,1
+general,thirty,三十,数字30,I have thirty books.,1
+general,forty,四十,数字40,It's forty o'clock.,1
+general,fifty,五十,数字50,I have fifty books.,1
+general,sixty,六十,数字60,It's sixty o'clock.,1
+general,seventy,七十,数字70,It's seventy o'clock.,1
+general,eighty,八十,数字80,It's eighty o'clock.,1
+general,ninety,九十,数字90,I have ninety books.,1
+general,hundred,百,数字100,It's hundred o'clock.,1
+general,thousand,千,数字1000,It's thousand o'clock.,1
+general,million,百万,数字1000000,It's million o'clock.,1
+general,first,第一,序数词1,It is very first.,1
+general,second,第二,序数词2,A second {noun}.,1
+general,third,第三,序数词3,A third {noun}.,1
+general,fourth,第四,序数词4,This is fourth.,1
+general,fifth,第五,序数词5,It is very fifth.,1
+general,sixth,第六,序数词6,A sixth {noun}.,1
+general,seventh,第七,序数词7,It is very seventh.,1
+general,eighth,第八,序数词8,This is eighth.,1
+general,ninth,第九,序数词9,This is ninth.,1
+general,tenth,第十,序数词10,It is very tenth.,1
+general,in,在...里,位置介词,Go in the door.,1
+general,on,在...上,位置介词,Go on the door.,1
+general,under,在...下,位置介词,The book is under the table.,1
+general,above,在...上,位置介词,The book is above the table.,1
+general,below,在...下,位置介词,The book is below the table.,1
+general,near,在...附近,位置介词,Go near the door.,1
+general,far,远,距离大,It is very far.,1
+general,here,这里,位置副词,Do it here.,1
+general,there,那里,位置副词,Do it there.,1
+general,where,哪里,疑问副词,He runs where.,1
+general,left,左边,方向,This is left.,1
+general,right,右边,方向,This is right.,1
+general,front,前面,位置,I have a front.,1
+general,back,后面,位置,A back can help you.,1
+general,center,中心,中间,I have a center.,1
+general,corner,角落,转角,The corner is important.,1
+general,side,侧面,旁边,The side is important.,1
+general,middle,中间,中部,The middle is important.,1
+general,top,顶部,上面,A top can help you.,1
+general,bottom,底部,下面,The bottom is important.,1
+general,inside,里面,内部,The inside is important.,1
+general,outside,外面,外部,I have a outside.,1
+general,up,向上,方向,He runs up.,1
+general,down,向下,方向,He runs down.,1
+general,upstairs,楼上,位置,This is upstairs.,1
+general,downstairs,楼下,位置,This is downstairs.,1
+general,car,汽车,交通工具,I have a car.,1
+general,bus,公交车,公共交通,This is a bus.,1
+general,train,火车,轨道交通,A train can help you.,1
+general,subway,地铁,城市轨道交通,The subway is important.,1
+general,plane,飞机,空中交通,This is a plane.,1
+general,ship,船,水上交通,A ship can help you.,1
+general,boat,小船,水上载具,A boat can help you.,1
+general,bike,自行车,个人交通,A bike can help you.,1
+general,bicycle,自行车,两轮车,This is a bicycle.,1
+general,motorcycle,摩托车,机动车,I have a motorcycle.,1
+general,taxi,出租车,付费交通,The taxi is important.,1
+general,truck,卡车,货车,A truck can help you.,1
+general,ambulance,救护车,医疗车辆,I have a ambulance.,1
+general,fire engine,消防车,消防车辆,A fire engine can help you.,1
+general,police car,警车,执法车辆,This is a police car.,1
+general,road,道路,行车通道,I have a road.,1
+general,street,街道,城市道路,This is a street.,1
+general,way,路,路径,I have a way.,1
+general,path,小路,步行道,A path can help you.,1
+general,bridge,桥,跨越建筑,A bridge can help you.,1
+general,tunnel,隧道,地下通道,This is a tunnel.,1
+general,cross,穿过,跨越,Can you cross?,1
+general,turn,转弯,改变方向,Can you turn?,1
+general,stop,停止,停下,Let's stop together.,1
+general,go,走,前往,You should go it.,1
+general,come,来,靠近,I come every day.,1
+general,leave,离开,离去,I leave every day.,1
+general,arrive,到达,抵达,Let's arrive together.,1
+general,enter,进入,进去,Can you enter?,1
+general,exit,退出,离开,I exit every day.,1
+general,drive,驾驶,开车,Let's drive together.,1
+general,ride,骑行,骑车,Let's ride together.,1
+general,walk,步行,走路,Let's walk together.,1
+general,run,跑,跑步,I run every day.,1
+general,jump,跳,跳跃,You should jump it.,1
+general,fly,飞,飞行,I fly every day.,1
+general,swim,游泳,水上运动,I swim every day.,1
+general,travel,旅行,出行,Let's travel together.,1
+general,trip,旅行,短途,I have a trip.,1
+general,tour,旅游,观光,I have a tour.,1
+general,visit,参观,访问,I visit every day.,1
+general,map,地图,导航图,I have a map.,1
+general,ticket,票,凭证,This is a ticket.,1
+general,passenger,乘客,出行者,I have a passenger.,1
+general,driver,司机,驾驶者,The driver is important.,1
+general,station,车站,乘车点,A station can help you.,1
+general,airport,机场,航空枢纽,This is a airport.,1
+general,hotel,酒店,住宿场所,The hotel is important.,1
+general,restaurant,餐厅,用餐场所,The restaurant is important.,1
+general,do,做,执行,Can you do?,1
+general,make,制作,创造,I make every day.,1
+general,get,得到,获取,You should get it.,1
+general,give,给予,赠送,You should give it.,1
+general,take,拿,取,You should take it.,1
+general,bring,带来,拿来,Let's bring together.,1
+general,show,展示,显示,You should show it.,1
+general,tell,告诉,告知,I tell every day.,1
+general,say,说,表达,You should say it.,1
+general,ask,询问,提问,Let's ask together.,1
+general,answer,回答,解答,I answer every day.,1
+general,speak,说,讲话,Can you speak?,1
+general,talk,谈话,交流,Let's talk together.,1
+general,shout,大喊,大声说,Let's shout together.,1
+general,whisper,耳语,小声说,Let's whisper together.,1
+general,call,呼叫,喊或打电话,Can you call?,1
+general,cry,哭,流泪,Let's cry together.,1
+general,laugh,笑,发笑,Can you laugh?,1
+general,smile,微笑,露出笑容,Let's smile together.,1
+general,play,玩,娱乐,You should play it.,1
+general,work,工作,劳动,Can you work?,1
+general,rest,休息,放松,Can you rest?,1
+general,sleep,睡觉,睡眠,I sleep every day.,1
+general,wake,醒来,苏醒,Can you wake?,1
+general,dream,做梦,梦境,Can you dream?,1
+general,eat,吃,进食,You should eat it.,1
+general,drink,喝,饮用,You should drink it.,1
+general,cook,烹饪,做饭,Let's cook together.,1
+general,taste,品尝,尝试味道,Let's taste together.,1
+general,smell,闻,嗅觉,You should smell it.,1
+general,hear,听见,听觉,Can you hear?,1
+general,listen,听,倾听,Let's listen together.,1
+general,see,看见,视觉,You should see it.,1
+general,look,看,观看,Can you look?,1
+general,watch,观看,注视,Let's watch together.,1
+general,feel,感觉,感知,You should feel it.,1
+general,touch,触摸,触碰,I touch every day.,1
+general,hold,握,抓住,I hold every day.,1
+general,carry,搬运,携带,Can you carry?,1
+general,pull,拉,拖动,Let's pull together.,1
+general,push,推,推动,Can you push?,1
+general,open,打开,开启,Let's open together.,1
+general,close,关闭,关上,You should close it.,1
+general,start,开始,启动,Can you start?,1
+general,begin,开始,着手,Can you begin?,1
+general,finish,完成,结束,You should finish it.,1
+general,end,结束,终止,You should end it.,1
+general,stop,停止,停下,Can you stop?,1
+general,wait,等待,等候,You should wait it.,1
+general,help,帮助,协助,You should help it.,1
+general,love,爱,喜爱,Can you love?,1
+general,like,喜欢,喜好,I like every day.,1
+general,hate,讨厌,厌恶,Can you hate?,1
+general,want,想要,希望,You should want it.,1
+general,need,需要,必需,I need every day.,1
+general,hope,希望,期盼,Let's hope together.,1
+general,wish,愿望,渴望,You should wish it.,1
+general,try,尝试,试,I try every day.,1
+general,use,使用,应用,I use every day.,1
+general,keep,保持,维持,You should keep it.,1
+general,change,改变,变化,You should change it.,1
+general,move,移动,运动,You should move it.,1
+general,put,放,放置,You should put it.,1
+general,place,放置,安放,Let's place together.,1
+general,sit,坐,坐下,Can you sit?,1
+general,stand,站,站立,You should stand it.,1
+general,lie,躺,卧倒,I lie every day.,1
+general,fall,落下,跌倒,I fall every day.,1
+general,rise,升起,上升,Can you rise?,1
+general,lift,举起,抬高,Can you lift?,1
+general,drop,掉落,落下,Let's drop together.,1
+general,pick,捡,拾起,You should pick it.,1
+general,cut,切,切割,You should cut it.,1
+general,break,打破,损坏,I break every day.,1
+general,fix,修理,修复,Can you fix?,1
+general,build,建造,建筑,I build every day.,1
+general,grow,生长,成长,Let's grow together.,1
+general,die,死,死亡,Can you die?,1
+general,live,生活,居住,Can you live?,1
+general,born,出生,诞生,I born every day.,1
+general,good,好,优质,A good {noun}.,1
+general,bad,坏,劣质,A bad {noun}.,1
+general,happy,快乐,高兴,It is very happy.,1
+general,sad,悲伤,难过,It is very sad.,1
+general,angry,生气,愤怒,A angry {noun}.,1
+general,afraid,害怕,恐惧,A afraid {noun}.,1
+general,brave,勇敢,无畏,A brave {noun}.,1
+general,kind,善良,友善,It is very kind.,1
+general,nice,好,友好,This is nice.,1
+general,mean,刻薄,不友善,A mean {noun}.,1
+general,polite,礼貌,有教养,This is polite.,1
+general,rude,粗鲁,无礼,A rude {noun}.,1
+general,busy,忙,繁忙,It is very busy.,1
+general,free,空闲,有空,A free {noun}.,1
+general,tired,累,疲劳,A tired {noun}.,1
+general,hungry,饿,饥饿,A hungry {noun}.,1
+general,thirsty,渴,口渴,This is thirsty.,1
+general,full,饱,不饿,It is very full.,1
+general,sick,病,生病,This is sick.,1
+general,well,健康,身体好,A well {noun}.,1
+general,healthy,健康,身体好,This is healthy.,1
+general,strong,强壮,有力,A strong {noun}.,1
+general,weak,虚弱,无力,A weak {noun}.,1
+general,young,年轻,年纪小,It is very young.,1
+general,old,年老,年纪大,It is very old.,1
+general,new,新,新的,It is very new.,1
+general,beautiful,美丽,漂亮,It is very beautiful.,1
+general,ugly,丑,难看,A ugly {noun}.,1
+general,clean,干净,整洁,A clean {noun}.,1
+general,dirty,脏,污浊,A dirty {noun}.,1
+general,rich,富有,有钱,A rich {noun}.,1
+general,poor,贫穷,没钱,A poor {noun}.,1
+general,cheap,便宜,价低,A cheap {noun}.,1
+general,expensive,贵,价高,This is expensive.,1
+general,easy,容易,不难,It is very easy.,1
+general,hard,困难,不易,It is very hard.,1
+general,difficult,困难,艰难,A difficult {noun}.,1
+general,simple,简单,不复杂,A simple {noun}.,1
+general,complex,复杂,繁复,A complex {noun}.,1
+general,important,重要,关键,A important {noun}.,1
+general,dangerous,危险,不安全,It is very dangerous.,1
+general,safe,安全,无危险,It is very safe.,1
+general,quiet,安静,无声,It is very quiet.,1
+general,noisy,吵闹,喧哗,It is very noisy.,1
+general,fast,快,迅速,It is very fast.,1
+general,slow,慢,迟缓,It is very slow.,1
+general,early,早,提前,A early {noun}.,1
+general,late,晚,迟到,It is very late.,1
+general,right,对的,正确,This is right.,1
+general,wrong,错的,错误,A wrong {noun}.,1
+general,true,真的,真实,It is very true.,1
+general,false,假的,虚假,It is very false.,1
+general,sure,确定,肯定,It is very sure.,1
+general,ready,准备好,就绪,This is ready.,1
+general,same,相同,一样,This is same.,1
+general,different,不同,差异,This is different.,1
+general,I,我,第一人称,Give I the pen.,1
+general,you,你,第二人称,Give you the pen.,1
+general,he,他,第三人称阳性,Give he the pen.,1
+general,she,她,第三人称阴性,Give she the pen.,1
+general,it,它,第三人称中性,Give it the pen.,1
+general,we,我们,第一人称复数,Give we the pen.,1
+general,they,他们,第三人称复数,they is my friend.,1
+general,my,我的,物主代词,Give my the pen.,1
+general,your,你的,物主代词,your is my friend.,1
+general,his,他的,物主代词,Give his the pen.,1
 general,her,她的,物主代词,Give her the pen.,1
-general,old,旧,使用很久的,A old {noun}.,1
-general,manage,管理,处理,Let's manage together.,2
-general,plan,计划,安排,This is plan.,2
-general,destination,目的地,终点,This is a destination.,2
-general,act,表演,扮演角色,Can you act?,2
+general,its,它的,物主代词,Give its the pen.,1
+general,our,我们的,物主代词,our is my friend.,1
+general,their,他们的,物主代词,Give their the pen.,1
+general,this,这个,指示代词,this is my friend.,1
+general,that,那个,指示代词,Give that the pen.,1
+general,these,这些,指示代词复数,these is my friend.,1
+general,those,那些,指示代词复数,Give those the pen.,1
+general,who,谁,疑问代词,who is my friend.,1
+general,what,什么,疑问代词,what is my friend.,1
+general,which,哪个,疑问代词,Give which the pen.,1
+general,where,哪里,疑问副词,She speaks where.,1
+general,when,何时,疑问副词,Do it when.,1
+general,why,为什么,疑问副词,Do it why.,1
+general,how,怎样,疑问副词,She speaks how.,1
+general,a,一个,不定冠词,This is a.,1
+general,an,一个,不定冠词元音前,This is an.,1
+general,the,这个,定冠词,This is the.,1
+general,some,一些,部分,This is some.,1
+general,any,任何,任意,It is very any.,1
+general,every,每个,全体,This is every.,1
+general,all,全部,所有,A all {noun}.,1
+general,many,许多,多,A many {noun}.,1
+general,much,多,不可数多,A much {noun}.,1
+general,little,少,不可数少,A little {noun}.,1
+general,few,少,可数少,This is few.,1
+general,and,和,并列,He is rich and happy.,1
+general,or,或,选择,He is rich or happy.,1
+general,but,但是,转折,I like apples but oranges.,1
+general,because,因为,原因,I like apples because oranges.,1
+general,so,所以,结果,He is rich so happy.,1
+general,if,如果,条件,He is rich if happy.,1
+general,when,当...时,时间,He is rich when happy.,1
+general,while,当...时,期间,I like apples while oranges.,1
 general,before,在...前,时间,This is before.,1
-general,brother,兄弟,哥哥或弟弟,This is a brother.,1
-general,calculus,微积分,变化数学,I have a calculus.,2
-general,teach,教,传授知识,Can you teach?,2
-general,beautiful,美丽,好看,A beautiful {noun}.,1
-general,homework,作业,课后任务,The homework is {adj}.,1
-general,day,天,24小时,The day is {adj}.,1
-general,when,当...时,时间连词,I like apples when oranges.,1
-general,tell,告知,告诉,Can you tell?,2
-general,bag,包,装东西的容器,The bag is {adj}.,1
+general,after,在...后,时间,This is after.,1
+general,since,自从,时间,This is since.,1
+general,until,直到,时间,This is until.,1
+general,for,为了,目的,Go for the door.,1
+general,of,的,所属,The book is of the table.,1
+general,to,去,方向,Go to the door.,1
+general,from,来自,来源,The book is from the table.,1
+general,with,和...一起,伴随,The book is with the table.,1
+general,without,没有,缺乏,Go without the door.,1
+general,about,关于,涉及,Go about the door.,1
+general,by,通过,方式,The book is by the table.,1
+general,as,作为,角色,The book is as the table.,1
+general,at,在,地点,The book is at the table.,1
+general,on,在...上,接触,The book is on the table.,1
+general,in,在...里,包含,The book is in the table.,1
+general,very,非常,程度,Do it very.,1
+general,too,太,过度,Do it too.,1
+general,quite,相当,程度,She speaks quite.,1
+general,really,真正,确实,Do it really.,1
+general,almost,几乎,差不多,He runs almost.,1
+general,already,已经,完成,Do it already.,1
+general,yet,还,尚未,Do it yet.,1
+general,still,仍然,持续,He runs still.,1
+general,also,也,肯定,He runs also.,1
+general,too,也,肯定句末,Do it too.,1
+general,either,也,否定,He runs either.,1
+general,always,总是,频率高,She speaks always.,1
+general,usually,通常,频率中,He runs usually.,1
+general,often,经常,频率较高,He runs often.,1
+general,sometimes,有时,偶尔,Do it sometimes.,1
+general,never,从不,频率零,He runs never.,1
+general,ever,曾经,任何时间,Do it ever.,1
+general,just,刚刚,刚才,Do it just.,1
+general,now,现在,当前,She speaks now.,1
+general,then,那时,当时,Do it then.,1
+general,soon,很快,不久,He runs soon.,1
+general,again,再次,重复,He runs again.,1
+general,once,一次,频率,Do it once.,1
+general,twice,两次,频率,She speaks twice.,1
+general,together,一起,共同,She speaks together.,1
+general,alone,单独,独自,He runs alone.,1
+general,away,离开,离开,She speaks away.,1
+general,back,回来,返回,Do it back.,1
+general,out,出去,外出,She speaks out.,1
+general,inside,里面,内部,He runs inside.,1
+general,outside,外面,外部,She speaks outside.,1
+general,above,上方,高处,Do it above.,1
+general,below,下方,低处,He runs below.,1
+general,around,周围,四周,He runs around.,1
+general,through,穿过,通过,Do it through.,1
+general,across,横过,跨越,She speaks across.,1
+general,along,沿着,顺沿,She speaks along.,1
+general,behind,后面,后方,He runs behind.,1
+general,beyond,超出,之外,She speaks beyond.,1
+general,near,附近,近处,She speaks near.,1
+general,far,远处,远方,Do it far.,1
+general,yes,是,肯定,This is yes.,1
+general,no,不,否定,This is no.,1
+general,please,请,礼貌,This is please.,1
+general,thank,谢谢,感激,Let's thank together.,1
+general,hello,你好,问候,This is hello.,1
+general,hi,嗨,非正式问候,This is hi.,1
+general,goodbye,再见,告别,This is goodbye.,1
+general,bye,再见,非正式告别,This is bye.,1
+general,sorry,对不起,道歉,This is sorry.,1
+general,excuse,原谅,打扰,Let's excuse together.,1
+general,oh,哦,感叹,This is oh.,1
+general,wow,哇,惊叹,This is wow.,1
+general,hey,嘿,招呼,This is hey.,1
+general,ok,好的,同意,This is ok.,1
+general,okay,可以,同意,This is okay.,1
+general,study,学习,研习,This is study.,2
+general,learn,学习,获得知识,I learn every day.,2
+general,teach,教,传授,Can you teach?,2
+general,understand,理解,领会,I understand every day.,2
+general,think,思考,思维,I think every day.,2
+general,know,知道,了解,I know every day.,2
+general,remember,记住,记忆,Let's remember together.,2
+general,forget,忘记,遗忘,I forget every day.,2
+general,believe,相信,信任,I believe every day.,2
+general,hope,希望,期望,I hope every day.,2
+general,wish,希望,愿望,I wish every day.,2
+general,dream,梦想,理想,This is dream.,2
+general,feel,感觉,感知,Let's feel together.,2
+general,mind,头脑,思维器官,A mind can help you.,2
+general,idea,主意,想法,The idea is important.,2
+general,thought,想法,思维,This is a thought.,2
+general,opinion,意见,观点,This is a opinion.,2
+general,knowledge,知识,学识,A knowledge can help you.,2
+general,information,信息,消息,The information is important.,2
+general,news,新闻,消息,The news is important.,2
+general,message,信息,讯息,The message is important.,2
+general,story,故事,叙述,A story can help you.,2
+general,tale,传说,故事,The tale is important.,2
+general,legend,传奇,传说,I have a legend.,2
+general,history,历史,过去事件,A history can help you.,2
+general,fact,事实,真实,I have a fact.,2
+general,truth,真相,真实,The truth is important.,2
+general,lie,谎言,虚假,This is a lie.,2
+general,secret,秘密,隐藏,This is a secret.,2
+general,mystery,谜,未知,The mystery is important.,2
+general,puzzle,谜题,难题,The puzzle is important.,2
+general,riddle,谜语,谜题,This is a riddle.,2
+general,question,问题,疑问,The question is important.,2
+general,answer,答案,解答,The answer is important.,2
+general,problem,问题,难题,The problem is important.,2
+general,solution,解决方案,解答,This is a solution.,2
+general,result,结果, outcome,A result can help you.,2
+general,reason,原因,理由,This is a reason.,2
+general,cause,原因,导致,A cause can help you.,2
+general,effect,效果,影响,I have a effect.,2
+general,purpose,目的,目标,A purpose can help you.,2
+general,goal,目标,目的,The goal is important.,2
+general,aim,目标,瞄准,I have a aim.,2
+general,plan,计划,规划,This is plan.,2
+general,method,方法,方式,I have a method.,2
+general,way,方式,方法,This is a way.,2
+general,means,手段,方法,The means is important.,2
+general,step,步骤,程序,I have a step.,2
+general,process,过程,流程,I have a process.,2
+general,practice,练习,训练,The practice is important.,2
+general,exercise,练习,锻炼,This is a exercise.,2
+general,training,训练,培养,I have a training.,2
+general,experience,经验,经历,A experience can help you.,2
+general,skill,技能,本领,The skill is important.,2
+general,ability,能力,才能,A ability can help you.,2
+general,talent,天赋,才华,This is a talent.,2
+general,gift,天赋,礼物,I have a gift.,2
+general,love,爱,喜爱,This is love.,2
+general,like,喜欢,喜好,I like every day.,2
+general,hate,讨厌,厌恶,I hate every day.,2
+general,enjoy,享受,喜爱,Let's enjoy together.,2
+general,prefer,更喜欢,偏好,Can you prefer?,2
+general,mind,介意,在乎,Can you mind?,2
+general,care,关心,在意,You should care it.,2
+general,worry,担心,忧虑,You should worry it.,2
+general,fear,恐惧,害怕,This is fear.,2
+general,dread,恐惧,畏惧,I dread every day.,2
+general,panic,恐慌,惊慌,This is panic.,2
+general,surprise,惊讶,吃惊,This is surprise.,2
+general,shock,震惊,惊愕,This is shock.,2
+general,amaze,使惊讶,惊叹,I amaze every day.,2
+general,astonish,使震惊,惊愕,Can you astonish?,2
+general,excite,使兴奋,激动,You should excite it.,2
+general,bore,使无聊,厌烦,I bore every day.,2
+general,interest,使感兴趣,关注,Let's interest together.,2
+general,please,使高兴,取悦,Let's please together.,2
+general,satisfy,使满意,满足,Can you satisfy?,2
+general,disappoint,使失望,失望,Let's disappoint together.,2
+general,upset,使心烦,烦恼,This is upset.,2
+general,comfort,安慰,抚慰,You should comfort it.,2
+general,encourage,鼓励,激励,I encourage every day.,2
+general,inspire,激励,鼓舞,You should inspire it.,2
+general,motivate,激励,驱动,I motivate every day.,2
+general,persuade,说服,劝服,Can you persuade?,2
+general,convince,使确信,说服,You should convince it.,2
+general,trust,信任,相信,You should trust it.,2
+general,doubt,怀疑,质疑,Let's doubt together.,2
+general,suspect,怀疑,猜测,You should suspect it.,2
+general,assume,假设,假定,You should assume it.,2
+general,suppose,假设,假定,Let's suppose together.,2
+general,imagine,想象,设想,I imagine every day.,2
+general,realize,意识到,明白,Can you realize?,2
+general,recognize,认出,识别,You should recognize it.,2
+general,notice,注意,觉察,Let's notice together.,2
+general,observe,观察,观测,You should observe it.,2
+general,discover,发现,找到,You should discover it.,2
+general,invent,发明,创造,Let's invent together.,2
+general,create,创造,创作,You should create it.,2
+general,design,设计,规划,You should design it.,2
+general,produce,生产,制造,Can you produce?,2
+general,develop,发展,开发,Can you develop?,2
+general,improve,改进,改善,You should improve it.,2
+general,increase,增加,增长,You should increase it.,2
+general,decrease,减少,降低,Let's decrease together.,2
+general,raise,提高,提升,I raise every day.,2
+general,lower,降低,减少,Let's lower together.,2
+general,expand,扩大,扩张,You should expand it.,2
+general,reduce,减少,缩减,You should reduce it.,2
+general,save,节省,节约,I save every day.,2
+general,spend,花费,消耗,You should spend it.,2
+general,waste,浪费,挥霍,You should waste it.,2
+general,lose,丢失,失去,I lose every day.,2
+general,gain,获得,得到,I gain every day.,2
+general,win,赢得,获胜,I win every day.,2
+general,beat,击败,战胜,Can you beat?,2
+general,fail,失败,未成功,I fail every day.,2
+general,succeed,成功,达成,Let's succeed together.,2
+general,achieve,实现,达成,Let's achieve together.,2
+general,accomplish,完成,实现,Let's accomplish together.,2
+general,complete,完成,完整,You should complete it.,2
+general,job,工作,职业,This is a job.,2
+general,work,工作,劳动,This is work.,2
+general,career,职业,事业,I have a career.,2
+general,profession,职业,专业,The profession is important.,2
+general,business,商业,生意,A business can help you.,2
+general,company,公司,企业,A company can help you.,2
+general,office,办公室,工作场所,This is a office.,2
+general,factory,工厂,制造场所,A factory can help you.,2
+general,shop,商店,店铺,A shop can help you.,2
+general,store,商店,店铺,This is a store.,2
+general,market,市场,交易场所,I have a market.,2
+general,bank,银行,金融机构,I have a bank.,2
+general,hospital,医院,医疗机构,The hospital is important.,2
+general,school,学校,教育机构,The school is important.,2
+general,college,学院,高等院校,This is a college.,2
+general,university,大学,高等学府,A university can help you.,2
+general,library,图书馆,藏书场所,This is a library.,2
+general,museum,博物馆,展览场所,This is a museum.,2
+general,theater,剧院,演出场所,A theater can help you.,2
+general,cinema,电影院,放映场所,A cinema can help you.,2
+general,restaurant,餐厅,用餐场所,This is a restaurant.,2
+general,cafe,咖啡馆,休闲场所,This is a cafe.,2
+general,hotel,酒店,住宿场所,The hotel is important.,2
+general,guest,客人,访客,This is a guest.,2
+general,customer,顾客,消费者,This is a customer.,2
+general,client,客户,委托人,A client can help you.,2
+general,boss,老板,雇主,The boss is important.,2
+general,manager,经理,管理者,I have a manager.,2
+general,leader,领导,带头人,A leader can help you.,2
+general,employee,员工,雇员,A employee can help you.,2
+general,worker,工人,劳动者,The worker is important.,2
+general,staff,员工,全体职员,A staff can help you.,2
+general,team,团队,队伍,A team can help you.,2
+general,group,小组,群体,The group is important.,2
+general,partner,伙伴,合作者,The partner is important.,2
+general,friend,朋友,好友,I have a friend.,2
+general,neighbor,邻居,附近居民,The neighbor is important.,2
+general,stranger,陌生人,不认识的人,I have a stranger.,2
+general,enemy,敌人,敌对方,This is a enemy.,2
+general,society,社会,社会群体,A society can help you.,2
+general,community,社区,共同体,The community is important.,2
+general,public,公众,大众,This is public.,2
+general,people,人,人民,The people is important.,2
+general,citizen,公民,国民,I have a citizen.,2
+general,government,政府,政权,The government is important.,2
+general,politics,政治,政治活动,I have a politics.,2
+general,election,选举,投票,The election is important.,2
+general,vote,投票,表决,This is vote.,2
+general,law,法律,法规,A law can help you.,2
+general,rule,规则,规章,The rule is important.,2
+general,policy,政策,方针,This is a policy.,2
+general,power,权力,力量,The power is important.,2
+general,authority,权威,权力,This is a authority.,2
+general,freedom,自由,自由权,I have a freedom.,2
+general,right,权利,权益,This is a right.,2
+general,duty,义务,责任,I have a duty.,2
+general,responsibility,责任,职责,I have a responsibility.,2
+general,culture,文化,文明,This is a culture.,2
+general,tradition,传统,惯例,I have a tradition.,2
+general,custom,习俗,风俗,This is a custom.,2
+general,religion,宗教,信仰,This is a religion.,2
+general,language,语言,交流工具,I have a language.,2
+general,education,教育,培养,This is a education.,2
+general,science,科学,自然科学,A science can help you.,2
+general,technology,技术,科技,I have a technology.,2
+general,economy,经济,经济体系,The economy is important.,2
+general,industry,工业,制造业,This is a industry.,2
+general,agriculture,农业,种植业,I have a agriculture.,2
+general,environment,环境,生态环境,This is a environment.,2
+general,nature,自然,自然界,I have a nature.,2
+general,world,世界,地球,This is a world.,2
+general,country,国家,主权国家,A country can help you.,2
+general,nation,民族,国家,I have a nation.,2
+general,state,州/国家,政区,I have a state.,2
+general,city,城市,都市,This is a city.,2
+general,town,城镇,市镇,This is a town.,2
+general,village,村庄,村落,This is a village.,2
+general,capital,首都,政治中心,The capital is important.,2
+general,border,边界,国界,A border can help you.,2
+general,empire,帝国,帝国,A empire can help you.,2
+general,kingdom,王国,王国,This is a kingdom.,2
+general,republic,共和国,共和政体,A republic can help you.,2
+general,democracy,民主,民主制,A democracy can help you.,2
+general,war,战争,武装冲突,The war is important.,2
+general,peace,和平,和平状态,A peace can help you.,2
+general,fight,战斗,打斗,This is fight.,2
+general,battle,战役,战斗,This is a battle.,2
+general,victory,胜利,获胜,I have a victory.,2
+general,defeat,失败,战败,This is defeat.,2
+general,soldier,士兵,军人,I have a soldier.,2
+general,army,军队,武装力量,A army can help you.,2
+general,weapon,武器,兵器,This is a weapon.,2
+general,gun,枪,火器,The gun is important.,2
+general,bomb,炸弹,爆炸物,I have a bomb.,2
+general,violence,暴力,武力,I have a violence.,2
+general,crime,犯罪,违法行为,The crime is important.,2
+general,police,警察,执法机构,The police is important.,2
+general,prison,监狱,监禁场所,A prison can help you.,2
+general,court,法院,司法机构,A court can help you.,2
+general,judge,法官,审判者,I have a judge.,2
+general,lawyer,律师,法律工作者,This is a lawyer.,2
+general,trial,审判,庭审,This is a trial.,2
+general,justice,正义,公正,This is a justice.,2
+general,fair,公平,公正,It is very fair.,2
+general,phone,电话,通讯工具,A phone can help you.,2
+general,telephone,电话,通讯工具,The telephone is important.,2
+general,mobile,手机,移动电话,I have a mobile.,2
+general,cellphone,手机,移动电话,A cellphone can help you.,2
+general,message,信息,消息,A message can help you.,2
+general,letter,信,书信,The letter is important.,2
+general,email,电子邮件,数字邮件,This is a email.,2
+general,post,邮寄,投递,This is post.,2
+general,mail,邮件,信件,I have a mail.,2
+general,address,地址,位置,This is a address.,2
+general,number,号码,数字,The number is important.,2
+general,code,代码,编码,The code is important.,2
+general,signal,信号,讯号,This is a signal.,2
+general,sound,声音,声响,I have a sound.,2
+general,noise,噪音,杂音,This is a noise.,2
+general,voice,声音,嗓音,I have a voice.,2
+general,speech,演讲,讲话,I have a speech.,2
+general,conversation,对话,交谈,I have a conversation.,2
+general,discussion,讨论,商议,This is a discussion.,2
+general,argument,争论,辩论,The argument is important.,2
+general,debate,辩论,争论,This is debate.,2
+general,meeting,会议,集会,I have a meeting.,2
+general,conference,会议,大型会议,A conference can help you.,2
+general,interview,面试,面谈,I have a interview.,2
+general,presentation,演示,展示,I have a presentation.,2
+general,report,报告,汇报,I have a report.,2
+general,document,文件,文档,The document is important.,2
+general,paper,论文,纸张,A paper can help you.,2
+general,article,文章,论文,The article is important.,2
+general,news,新闻,消息,This is a news.,2
+general,newspaper,报纸,新闻纸,I have a newspaper.,2
+general,magazine,杂志,期刊,A magazine can help you.,2
+general,book,书,书籍,The book is important.,2
+general,novel,小说,虚构长篇,I have a novel.,2
+general,poem,诗歌,韵文,I have a poem.,2
+general,story,故事,叙述,The story is important.,2
+general,literature,文学,文学作品,This is a literature.,2
+general,language,语言,交流工具,The language is important.,2
+general,word,单词,词汇,A word can help you.,2
+general,sentence,句子,句子,I have a sentence.,2
+general,paragraph,段落,段落,This is a paragraph.,2
+general,chapter,章节,章节,A chapter can help you.,2
+general,author,作者,作家,A author can help you.,2
+general,writer,作家,作者,This is a writer.,2
+general,reader,读者,阅读者,I have a reader.,2
+general,publisher,出版商,发行人,I have a publisher.,2
+general,media,媒体,传媒,The media is important.,2
+general,internet,互联网,网络,This is a internet.,2
+general,web,网页,网络,This is a web.,2
+general,website,网站,网站,I have a website.,2
+general,page,页面,网页,A page can help you.,2
+general,link,链接,连接,A link can help you.,2
+general,click,点击,点击,You should click it.,2
+general,screen,屏幕,显示屏,I have a screen.,2
+general,monitor,显示器,屏幕,I have a monitor.,2
+general,keyboard,键盘,输入设备,A keyboard can help you.,2
+general,mouse,鼠标,输入设备,A mouse can help you.,2
+general,computer,电脑,计算机,The computer is important.,2
+general,laptop,笔记本,便携电脑,The laptop is important.,2
+general,tablet,平板,平板电脑,A tablet can help you.,2
+general,software,软件,程序,The software is important.,2
+general,hardware,硬件,设备,I have a hardware.,2
+general,program,程序,软件,I have a program.,2
+general,application,应用,应用程序,This is a application.,2
+general,file,文件,档案,I have a file.,2
+general,folder,文件夹,目录,A folder can help you.,2
+general,data,数据,资料,I have a data.,2
+general,information,信息,消息,A information can help you.,2
+general,system,系统,体系,I have a system.,2
+general,network,网络,网状系统,This is a network.,2
+general,server,服务器,服务主机,A server can help you.,2
+general,database,数据库,数据仓库,I have a database.,2
+general,password,密码,口令,A password can help you.,2
+general,username,用户名,账号,I have a username.,2
+general,account,账户,账号,This is a account.,2
+general,login,登录,登入,This is login.,2
+general,logout,登出,登出,This is logout.,2
+general,register,注册,登记,Let's register together.,2
+general,sign,签名,签署,This is sign.,2
+general,game,游戏,娱乐,The game is important.,2
+general,sport,运动,体育,The sport is important.,2
+general,match,比赛,竞赛,A match can help you.,2
+general,competition,竞赛,比赛,This is a competition.,2
+general,contest,竞赛,比赛,I have a contest.,2
+general,tournament,锦标赛,联赛,This is a tournament.,2
+general,championship,冠军赛,锦标赛,A championship can help you.,2
+general,league,联赛,联盟,This is a league.,2
+general,team,队伍,团队,The team is important.,2
+general,player,选手,运动员,The player is important.,2
+general,coach,教练,训练师,The coach is important.,2
+general,fan,粉丝,爱好者,This is a fan.,2
+general,audience,观众,听众,This is a audience.,2
+general,spectator,观众,旁观者,This is a spectator.,2
+general,crowd,人群,大众,I have a crowd.,2
+general,music,音乐,声音艺术,A music can help you.,2
+general,song,歌曲,歌曲,I have a song.,2
+general,dance,舞蹈,跳舞,This is dance.,2
+general,concert,音乐会,音乐演出,The concert is important.,2
+general,performance,演出,表演,I have a performance.,2
+general,show,演出,节目,This is a show.,2
+general,movie,电影,影片,This is a movie.,2
+general,film,电影,影片,The film is important.,2
+general,video,视频,录像,A video can help you.,2
+general,picture,图片,图像,I have a picture.,2
+general,photo,照片,相片,A photo can help you.,2
+general,photograph,照片,照片,This is a photograph.,2
+general,camera,相机,摄影机,This is a camera.,2
+general,television,电视,电视,I have a television.,2
+general,TV,电视,电视,A TV can help you.,2
+general,radio,收音机,广播,I have a radio.,2
+general,CD,光盘,光盘,I have a CD.,2
+general,DVD,光盘,数字光盘,The DVD is important.,2
+general,player,播放器,播放设备,I have a player.,2
+general,theater,剧院,剧场,The theater is important.,2
+general,cinema,电影院,影院,The cinema is important.,2
+general,museum,博物馆,展览馆,I have a museum.,2
+general,gallery,画廊,美术馆,The gallery is important.,2
+general,exhibition,展览,展示,The exhibition is important.,2
+general,festival,节日,庆典,I have a festival.,2
+general,celebration,庆祝,庆典,I have a celebration.,2
+general,party,聚会,派对,This is a party.,2
+general,event,事件,活动,I have a event.,2
+general,activity,活动,行动,A activity can help you.,2
+general,hobby,爱好,嗜好,A hobby can help you.,2
+general,interest,兴趣,爱好,The interest is important.,2
+general,fun,有趣,娱乐,This is fun.,2
+general,entertainment,娱乐,消遣,I have a entertainment.,2
+general,leisure,休闲,闲暇,The leisure is important.,2
+general,vacation,度假,假期,A vacation can help you.,2
+general,holiday,假期,节日,I have a holiday.,2
+general,travel,旅行,旅游,This is travel.,2
+general,trip,旅行,出行,A trip can help you.,2
+general,tour,旅游,观光,I have a tour.,2
+general,journey,旅程,长途旅行,The journey is important.,2
+general,adventure,冒险,历险,This is a adventure.,2
+general,explore,探索,探险,I explore every day.,2
+general,discover,发现,找到,Can you discover?,2
+general,camp,露营,扎营,This is camp.,2
+general,hike,徒步,远足,This is hike.,2
+general,climb,攀登,爬山,Can you climb?,2
+general,swim,游泳,水上运动,Let's swim together.,2
+general,surf,冲浪,冲浪运动,This is surf.,2
+general,ski,滑雪,雪上运动,This is ski.,2
+general,skate,滑冰,冰上运动,Let's skate together.,2
