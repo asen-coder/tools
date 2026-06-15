@@ -9,9 +9,9 @@
       "definition": "基于海量文本训练、能理解和生成自然语言的大型神经网络模型",
       "example": "from langchain_openai import ChatOpenAI\nllm = ChatOpenAI(model='gpt-4o')",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_002",
@@ -21,9 +21,9 @@
       "definition": "发送给语言模型的输入文本，直接决定模型输出质量",
       "example": "prompt = 'Summarize the following text in one sentence: {text}'",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_003",
@@ -33,9 +33,9 @@
       "definition": "LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字",
       "example": "'Hello world' is typically 2 tokens; pricing is per token",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_004",
@@ -45,9 +45,9 @@
       "definition": "LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联",
       "example": "chain = prompt | llm | output_parser",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_005",
@@ -57,9 +57,9 @@
       "definition": "使用已训练好的模型对新输入进行预测或生成的过程",
       "example": "response = llm.invoke('What is RAG?')  # inference call",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_006",
@@ -69,9 +69,9 @@
       "definition": "从数据中学习规律并做出预测或生成的数学系统",
       "example": "llm = ChatOpenAI(model='gpt-4o-mini')  # select a model",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_007",
@@ -969,9 +969,9 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_002",
@@ -981,9 +981,9 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_003",
@@ -993,9 +993,9 @@
       "definition": "表达对对方意见的认可和肯定",
       "example": "That's a good point about performance. We should optimize the query.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_004",
@@ -1005,9 +1005,9 @@
       "definition": "表示与对方观点一致",
       "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_005",
@@ -1017,9 +1017,9 @@
       "definition": "邀请对方继续发言或开始做某件事",
       "example": "You wanted to share the test results? Please go ahead.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_006",
@@ -1425,9 +1425,9 @@
       "definition": "对话开始前设置 AI 角色、规则和约束的特殊指令",
       "example": "You are a helpful assistant. Always respond in Chinese.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "ai_050",
@@ -2493,9 +2493,9 @@
       "definition": "约定一次短暂会面或通话，让团队成员了解彼此的最新进展",
       "example": "Before the sprint review, let's sync up for 15 minutes to align on the demo flow.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_026",
@@ -2529,9 +2529,9 @@
       "definition": "说明项目进度滞后，没有按原定时间线推进",
       "example": "We're behind schedule by two days. Should we cut scope or add resources?",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_029",
@@ -2553,9 +2553,9 @@
       "definition": "认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意",
       "example": "That's a fair point about test coverage. Let's add more unit tests before merging.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_031",
@@ -2637,9 +2637,9 @@
       "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
       "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "daily_038",
@@ -2817,9 +2817,9 @@
       "definition": "常见水果",
       "example": "A apple can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_002",
@@ -2829,9 +2829,9 @@
       "definition": "黄色长形水果",
       "example": "The banana is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_003",
@@ -2841,9 +2841,9 @@
       "definition": "橙色水果",
       "example": "I have a orange.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_004",
@@ -2853,9 +2853,9 @@
       "definition": "水果",
       "example": "The pear is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_005",
@@ -2865,9 +2865,9 @@
       "definition": "小颗粒水果",
       "example": "The grape is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_006",
@@ -2877,9 +2877,9 @@
       "definition": "大型夏季水果",
       "example": "This is a watermelon.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_007",
@@ -2889,9 +2889,9 @@
       "definition": "红色小水果",
       "example": "The strawberry is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_008",
@@ -2901,9 +2901,9 @@
       "definition": "主食",
       "example": "The bread is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_009",
@@ -2913,9 +2913,9 @@
       "definition": "亚洲主食",
       "example": "I have a rice.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_010",
@@ -2925,9 +2925,9 @@
       "definition": "长条状食物",
       "example": "This is a noodle.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_011",
@@ -2937,9 +2937,9 @@
       "definition": "白色饮料",
       "example": "The milk is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_012",
@@ -2949,9 +2949,9 @@
       "definition": "常见食材",
       "example": "This is a egg.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_013",
@@ -2961,9 +2961,9 @@
       "definition": "食物总称",
       "example": "This is a meat.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_014",
@@ -2973,9 +2973,9 @@
       "definition": "常见肉类",
       "example": "This is a chicken.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_015",
@@ -2985,9 +2985,9 @@
       "definition": "水产",
       "example": "I have a fish.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_016",
@@ -2997,9 +2997,9 @@
       "definition": "红色肉类",
       "example": "I have a beef.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_017",
@@ -3009,9 +3009,9 @@
       "definition": "常见肉类",
       "example": "This is a pork.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_018",
@@ -3021,9 +3021,9 @@
       "definition": "甜点",
       "example": "The cake is important.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_019",
@@ -3033,9 +3033,9 @@
       "definition": "零食",
       "example": "This is a cookie.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_020",
@@ -3045,9 +3045,9 @@
       "definition": "甜食",
       "example": "I have a chocolate.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_021",
@@ -3057,9 +3057,9 @@
       "definition": "甜食",
       "example": "This is a candy.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_022",
@@ -3069,9 +3069,9 @@
       "definition": "调味品",
       "example": "A sugar can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_023",
@@ -3081,9 +3081,9 @@
       "definition": "调味品",
       "example": "A salt can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2026-06-15",
+      "review_count": 0,
+      "status": "new"
     },
     {
       "id": "gen_024",
@@ -14984,9 +14984,9 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-16",
-      "review_count": 1,
-      "status": "learning"
+      "next_review": "2099-12-31",
+      "review_count": 6,
+      "status": "mastered"
     },
     {
       "id": "gen_1015",

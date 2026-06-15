@@ -10,13 +10,18 @@ const state = {
 const CAT_LABELS = { ai: 'AI', programming: '编程', music: '音乐', daily: '日常', general: '通用' };
 
 /* ── 语音 ──────────────────────────────────────────────────────────────── */
-// 语音合成初始化
+// 语音合成初始化（延迟加载优化）
 const tts = {
   ready: false,
   voices: [],
   preferredVoice: null,
+  initialized: false,  // 新增：是否已初始化
 
   init() {
+    // 如果已经初始化，直接返回
+    if (this.initialized) return;
+    this.initialized = true;
+
     if (!('speechSynthesis' in window)) return;
 
     const loadVoices = () => {
@@ -69,14 +74,13 @@ const tts = {
     u.rate = 0.85;
     u.pitch = 1;
 
-    // 强制使用英文，即使系统没有英文声音也会尝试朗读
-    u.lang = 'en-US';
-
-    // 如果有选中的声音就使用，否则使用第一个可用声音
+    // 优先使用英文语音，如果没有就使用第一个可用语音（可能是中文）
     if (this.preferredVoice) {
       u.voice = this.preferredVoice;
+      u.lang = this.preferredVoice.lang;
     } else if (this.voices.length > 0) {
       u.voice = this.voices[0];
+      u.lang = this.voices[0].lang;
     }
 
     // 按钮动画
@@ -112,12 +116,18 @@ const tts = {
   }
 };
 
-// 页面加载时初始化
-tts.init();
+// 移除页面加载时的TTS初始化，改为延迟初始化（性能优化）
 
-// 全局 speak 函数 - 确保能正常调用
+// 全局 speak 函数 - 确保能正常调用（延迟初始化优化）
 window.speak = function (text, btnEl) {
   console.log('[speak] 被调用，文本:', text);
+
+  // 延迟初始化TTS，只在第一次使用时才加载
+  if (!tts.initialized) {
+    console.log('[speak] 首次调用，初始化TTS');
+    tts.init();
+  }
+
   try {
     tts.speak(text, btnEl);
   } catch (error) {
@@ -143,8 +153,43 @@ function dots(difficulty) {
 }
 
 /* ── 卡片 HTML ──────────────────────────────────────────────────────────── */
-function cardHtml(word, type = 'new') {
+function cardHtml(word, type = 'new', isWordBank = false) {
   const label = CAT_LABELS[word.category] || word.category;
+
+  // 词库状态显示
+  let statusBadge = '';
+  let statusActions = '';
+
+  if (isWordBank) {
+    if (word.status === 'learning') {
+      statusBadge = `<span class="status-badge status-learning">复习中</span>`;
+    } else if (word.status === 'mastered') {
+      statusBadge = `<span class="status-badge status-mastered">✓ 已学习</span>`;
+    }
+
+    // 状态管理操作
+    statusActions = `
+      <div class="status-actions">
+        <button class="status-btn" onclick="changeStatus('${word.id}', 'new')" title="重置为默认状态">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 4v16M4 4l16 16M20 4L4 20"/>
+          </svg>
+        </button>
+        <button class="status-btn" onclick="changeStatus('${word.id}', 'learning')" title="设为复习中">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="10"/>
+            <path d="M12 6v6l4-2-2"/>
+          </svg>
+        </button>
+        <button class="status-btn" onclick="changeStatus('${word.id}', 'mastered')" title="设为已学习">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="20 6 9 17 4 4"/>
+          </svg>
+        </button>
+      </div>
+    `;
+  }
+
   const reviewTag =
     type === 'review'
       ? `<span class="review-tag">第 ${word.review_count} 次复习</span>`
@@ -159,28 +204,18 @@ function cardHtml(word, type = 'new') {
       ? `<span class="word-phonetic">${esc(word.phonetic)}</span>`
       : '';
 
-    // 构建词性部分 HTML
+    // 构建词性部分 HTML（移动端简化显示）
     const partsHtml = word.parts.map((part, idx) => {
       const posLabel = part.pos || '';
       const definitions = part.definitions || [];
-      const examples = part.examples || [];
 
-      const defsHtml = definitions.map((def, defIdx) =>
-        `<div class="dict-def">
-          <span class="def-num">${defIdx + 1}.</span>
-          <span class="def-text">${esc(def)}</span>
-        </div>`
-      ).join('');
-
-      const examplesHtml = examples.map((ex) =>
-        `<div class="dict-example">${esc(ex)}</div>`
-      ).join('');
+      // 移动端优化：将多个释义合并为一行，用分号分隔
+      const defsText = definitions.join('；');
 
       return `
-        <div class="dict-part" style="margin-bottom: ${idx < word.parts.length - 1 ? '12px' : '0'}">
-          <span class="dict-pos">${esc(posLabel)}</span>
-          ${defsHtml}
-          ${examplesHtml ? `<div class="dict-examples">${examplesHtml}</div>` : ''}
+        <div class="dict-part-inline" style="margin-bottom: ${idx < word.parts.length - 1 ? '8px' : '0'}">
+          <span class="dict-pos-inline">${esc(posLabel)}</span>
+          <span class="dict-defs-inline">${esc(defsText)}</span>
         </div>
       `;
     }).join('');
@@ -191,6 +226,7 @@ function cardHtml(word, type = 'new') {
           <span class="badge cat-${esc(word.category)}">${label}</span>
           <span class="dots">${dots(word.difficulty)}</span>
           ${reviewTag}
+          ${statusBadge}
         </div>
         <div class="word-row">
           <div style="flex:1;min-width:0">
@@ -208,6 +244,7 @@ function cardHtml(word, type = 'new') {
         <div class="dict-content">
           ${partsHtml}
         </div>
+        ${statusActions}
       </div>`;
   } else {
     // 旧格式兼容（zh + definition）
@@ -298,7 +335,16 @@ async function loadWordBank() {
       <p>词库数据加载失败，请确认 GitHub Actions 已成功运行并生成 <code>all_words.json</code>。</p></div>`;
     return;
   }
+
+  // 懒加载状态初始化
+  state.wordBank = {
+    visibleCount: 50,  // 初始显示50个
+    loadedCount: 50,  // 已加载计数
+    batchSize: 50     // 每次加载50个
+  };
+
   renderWordBank();
+  setupLazyLoading();
 }
 
 function renderWordBank() {
@@ -342,6 +388,11 @@ function renderWordBank() {
   // 按难度、再按 id 排序
   filtered.sort((a, b) => a.difficulty - b.difficulty || a.id.localeCompare(b.id));
 
+  // 懒加载：只渲染当前需要显示的词汇
+  const { visibleCount, loadedCount } = state.wordBank || { visibleCount: 50, loadedCount: 50 };
+  const visibleWords = filtered.slice(0, visibleCount);
+  const hasMore = filtered.length > visibleCount;
+
   const pills = ['all', 'ai', 'programming', 'music', 'daily', 'general']
     .map((c) => {
       const label = c === 'all' ? '全部' : CAT_LABELS[c];
@@ -349,29 +400,93 @@ function renderWordBank() {
     })
     .join('');
 
-  const cards = filtered.length
-    ? `<div class="card-grid">${filtered.map((w) => cardHtml(w)).join('')}</div>`
+  const cards = visibleWords.length
+    ? `<div class="card-grid">${visibleWords.map((w) => cardHtml(w, 'new', true)).join('')}</div>`
     : `<div class="state-box"><div class="state-icon">○</div><p>没有匹配的词汇。</p></div>`;
+
+  const loadMoreBtn = hasMore
+    ? `<div class="load-more-container">
+        <button class="load-more-btn" id="loadMoreBtn">
+          <span class="load-more-text">加载更多</span>
+          <span class="load-more-count">(${filtered.length - visibleCount} 条剩余)</span>
+        </button>
+       </div>`
+    : '';
 
   el.innerHTML = `
     <div class="words-toolbar">
       <input class="search-input" type="search" placeholder="搜索英文、中文或释义…" value="${esc(search)}" id="searchInput" />
       <div class="filter-pills">${pills}</div>
     </div>
-    <div class="words-count">共 ${filtered.length} 条 / 总计 ${allWords.length} 条</div>
-    ${cards}`;
+    <div class="words-count">显示 ${visibleWords.length} 条 / 共 ${filtered.length} 条 / 总计 ${allWords.length} 条</div>
+    ${cards}
+    ${loadMoreBtn}`;
 
+  // 搜索和筛选事件监听
   document.getElementById('searchInput').addEventListener('input', (e) => {
     state.search = e.target.value;
+    // 重置懒加载状态
+    if (state.wordBank) {
+      state.wordBank.visibleCount = 50;
+      state.wordBank.loadedCount = 50;
+    }
     renderWordBank();
   });
 
   el.querySelectorAll('.pill').forEach((btn) => {
     btn.addEventListener('click', () => {
       state.category = btn.dataset.cat;
+      // 重置懒加载状态
+      if (state.wordBank) {
+        state.wordBank.visibleCount = 50;
+        state.wordBank.loadedCount = 50;
+      }
       renderWordBank();
     });
   });
+
+  // 加载更多按钮事件
+  const loadMoreBtnEl = el.querySelector('#loadMoreBtn');
+  if (loadMoreBtnEl) {
+    loadMoreBtnEl.addEventListener('click', loadMoreWords);
+  }
+}
+
+// 加载更多词汇函数
+function loadMoreWords() {
+  if (!state.wordBank) return;
+
+  const { batchSize, visibleCount, loadedCount } = state.wordBank;
+  const nextCount = Math.min(visibleCount + batchSize, loadedCount + batchSize);
+
+  state.wordBank.visibleCount = nextCount;
+  state.wordBank.loadedCount = nextCount;
+
+  renderWordBank();
+}
+
+// 设置滚动懒加载
+function setupLazyLoading() {
+  // 使用 Intersection Observer API 监听滚动到底部
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        loadMoreWords();
+      }
+    });
+  }, {
+    root: null,
+    rootMargin: '100px',
+    threshold: 0.1
+  });
+
+  // 监听"加载更多"按钮
+  setTimeout(() => {
+    const loadMoreBtn = document.querySelector('#loadMoreBtn');
+    if (loadMoreBtn) {
+      observer.observe(loadMoreBtn);
+    }
+  }, 100);
 }
 
 /* ── 进度页 ─────────────────────────────────────────────────────────────── */
@@ -702,6 +817,55 @@ document.getElementById('themeToggle').addEventListener('click', toggleTheme);
 })();
 
 /* ── 启动 ────────────────────────────────────────────────────────────────── */
+// 全局状态管理函数
+window.changeStatus = function(wordId, newStatus) {
+  const words = state.allWordsData.words;
+  const word = words.find(w => w.id === wordId);
+
+  if (!word) {
+    console.error('找不到词汇:', wordId);
+    return;
+  }
+
+  // 更新状态
+  word.status = newStatus;
+
+  // 根据状态设置相应的复习参数
+  if (newStatus === 'new') {
+    word.next_review = '2026-06-15';
+    word.review_count = 0;
+  } else if (newStatus === 'learning') {
+    word.next_review = '2026-06-16';
+    word.review_count = 1;
+  } else if (newStatus === 'mastered') {
+    word.next_review = '2099-12-31'; // 远期未来
+    word.review_count = 6; // 完成所有间隔
+  }
+
+  // 保存到后端
+  fetch('/api/word-status', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ wordId, newStatus })
+  })
+  .then(response => response.json())
+  .then(data => {
+    if (data.success) {
+      // 重新渲染词库页面
+      renderWordBank();
+      console.log(`✅ 状态已更新: ${wordId} → ${newStatus}`);
+    } else {
+      alert('状态更新失败: ' + data.message);
+    }
+  })
+  .catch(error => {
+    console.error('状态更新失败:', error);
+    // 即使API失败，也更新前端显示
+    renderWordBank();
+    alert('状态已更新（前端显示），但保存到服务器失败');
+  });
+};
+
 async function init() {
   try {
     state.todayData = await fetch('./today.json').then((r) => {
