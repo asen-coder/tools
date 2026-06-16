@@ -1,16 +1,520 @@
 {
-  "date": "2026-06-15",
-  "day_of_week": "周一",
-  "new_words": [],
-  "new_sentences": [],
-  "vocab_reviews": [],
-  "sentence_reviews": [],
+  "date": "2026-06-16",
+  "day_of_week": "周二",
+  "new_words": [
+    {
+      "id": "gen_1024",
+      "category": "general",
+      "en": "lead",
+      "phonetic": "/liːd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "领导，带领",
+            "过（生活）",
+            "通向"
+          ],
+          "examples": [
+            "Lead the team.",
+            "Lead a happy life.",
+            "This road leads to town."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "领导，领先",
+            "铅"
+          ],
+          "examples": [
+            "Take the lead.",
+            "A lead pipe."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1025",
+      "category": "general",
+      "en": "follow",
+      "phonetic": "/ˈfɒləʊ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "跟随，追随",
+            "理解，明白"
+          ],
+          "examples": [
+            "Follow me.",
+            "Do you follow?"
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1026",
+      "category": "general",
+      "en": "allow",
+      "phonetic": "/əˈlaʊ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "允许，准许"
+          ],
+          "examples": [
+            "Allow me to help."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1027",
+      "category": "general",
+      "en": "add",
+      "phonetic": "/æd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "增加，添加",
+            "补充说"
+          ],
+          "examples": [
+            "Add sugar to coffee.",
+            "He added that he was busy."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1028",
+      "category": "general",
+      "en": "join",
+      "phonetic": "/dʒɔɪn/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "加入，参加",
+            "连接，接合"
+          ],
+          "examples": [
+            "Join the club.",
+            "Join the two ends."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "ai_007",
+      "category": "ai",
+      "en": "prompt template",
+      "zh": "提示模板",
+      "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
+      "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "ai_008",
+      "category": "ai",
+      "en": "output parser",
+      "zh": "输出解析器",
+      "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
+      "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "ai_009",
+      "category": "ai",
+      "en": "embedding",
+      "zh": "嵌入向量",
+      "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
+      "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "ai_010",
+      "category": "ai",
+      "en": "retriever",
+      "zh": "检索器",
+      "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
+      "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "ai_011",
+      "category": "ai",
+      "en": "vector store",
+      "zh": "向量数据库",
+      "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
+      "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "new_sentences": [
+    {
+      "id": "daily_009",
+      "category": "daily",
+      "en": "That makes sense.",
+      "zh": "这说得通。",
+      "definition": "表示对方的解释或逻辑是合理的、可以理解的",
+      "example": "That makes sense. Using a queue would handle the load spikes.",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_010",
+      "category": "daily",
+      "en": "I'd like to add something.",
+      "zh": "我想补充一点。",
+      "definition": "在别人发言后礼貌地加入自己的观点或信息",
+      "example": "I'd like to add something — we also need to consider mobile users.",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_011",
+      "category": "daily",
+      "en": "Feel free to interrupt me.",
+      "zh": "请随时打断我。",
+      "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
+      "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
+      "difficulty": 2,
+      "next_review": "2026-06-17",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "vocab_reviews": [
+    {
+      "id": "gen_1015",
+      "category": "general",
+      "en": "become",
+      "phonetic": "/bɪˈkʌm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "变成，成为"
+          ],
+          "examples": [
+            "He became a doctor.",
+            "It's becoming cold."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1016",
+      "category": "general",
+      "en": "let",
+      "phonetic": "/let/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "让，允许",
+            "出租，租给"
+          ],
+          "examples": [
+            "Let me help you.",
+            "Let the house."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1017",
+      "category": "general",
+      "en": "seem",
+      "phonetic": "/siːm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "似乎，好像",
+            "显得"
+          ],
+          "examples": [
+            "He seems happy.",
+            "It seems like rain."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1018",
+      "category": "general",
+      "en": "offer",
+      "phonetic": "/ˈɒfər/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "提供，提出",
+            "出价，开价"
+          ],
+          "examples": [
+            "Offer help.",
+            "Offer $100 for it."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "提供，提议"
+          ],
+          "examples": [
+            "Thank you for your offer."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1019",
+      "category": "general",
+      "en": "pay",
+      "phonetic": "/peɪ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "支付，付款",
+            "付出代价"
+          ],
+          "examples": [
+            "Pay the bill.",
+            "Pay for your mistake."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "工资，薪金"
+          ],
+          "examples": [
+            "Get your pay."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1020",
+      "category": "general",
+      "en": "meet",
+      "phonetic": "/miːt/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "遇见，会见",
+            "满足，符合"
+          ],
+          "examples": [
+            "Meet my friend.",
+            "Meet requirements."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "会议，集会"
+          ],
+          "examples": [
+            "Attend a meet."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1021",
+      "category": "general",
+      "en": "include",
+      "phonetic": "/ɪnˈkluːd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "包括，包含"
+          ],
+          "examples": [
+            "The price includes tax."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1022",
+      "category": "general",
+      "en": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "继续，持续"
+          ],
+          "examples": [
+            "Continue your work."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1023",
+      "category": "general",
+      "en": "set",
+      "phonetic": "/set/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "放，安置",
+            "设定，确立",
+            "（日）落"
+          ],
+          "examples": [
+            "Set the table.",
+            "Set a goal.",
+            "The sun sets in the west."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "一套，一副",
+            "接收机"
+          ],
+          "examples": [
+            "A chess set.",
+            "A TV set."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    }
+  ],
+  "sentence_reviews": [
+    {
+      "id": "daily_006",
+      "category": "daily",
+      "en": "Could you elaborate on that?",
+      "zh": "你能详细说明一下吗？",
+      "definition": "请求对方对某个观点或情况提供更多细节和解释",
+      "example": "Could you elaborate on that performance issue you mentioned?",
+      "difficulty": 2,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "daily_007",
+      "category": "daily",
+      "en": "Let me clarify.",
+      "zh": "让我来说清楚一下。",
+      "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
+      "example": "Let me clarify — I meant the staging environment, not production.",
+      "difficulty": 2,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "daily_008",
+      "category": "daily",
+      "en": "I'll get back to you on that.",
+      "zh": "关于这个我稍后回复你。",
+      "definition": "表示需要时间确认后再回答，不立即给出答案",
+      "example": "I'll get back to you on that timeline after checking with the team.",
+      "difficulty": 2,
+      "next_review": "2026-06-19",
+      "review_count": 2,
+      "status": "learning"
+    }
+  ],
   "stats": {
     "total": 1262,
     "mastered": 1,
-    "learning": 12,
-    "new": 1249,
-    "streak": 1,
-    "total_sessions": 1
+    "learning": 25,
+    "new": 1236,
+    "streak": 2,
+    "total_sessions": 2
   }
 }
