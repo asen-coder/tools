@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-15，共 1262 条词汇。
+> 更新于 2026-06-16，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -13,7 +13,7 @@
 template = PromptTemplate.from_template('Translate {text} to {language}')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### output parser · 输出解析器  ★★
 
@@ -24,7 +24,7 @@ parser = JsonOutputParser(pydantic_object=Recipe)
 chain = prompt | llm | parser
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### embedding · 嵌入向量  ★★
 
@@ -35,7 +35,7 @@ embeddings = OpenAIEmbeddings()
 vector = embeddings.embed_query('What is RAG?')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### retriever · 检索器  ★★
 
@@ -45,7 +45,7 @@ vector = embeddings.embed_query('What is RAG?')
 retriever = vectorstore.as_retriever(search_kwargs={'k': 4})
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### vector store · 向量数据库  ★★
 
@@ -55,7 +55,7 @@ retriever = vectorstore.as_retriever(search_kwargs={'k': 4})
 db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### memory · 记忆  ★★
 
@@ -1904,7 +1904,7 @@ I'll get back to you on that timeline after checking with the team.
 That makes sense. Using a queue would handle the load spikes.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'd like to add something. · 我想补充一点。  ★★
 
@@ -1914,7 +1914,7 @@ That makes sense. Using a queue would handle the load spikes.
 I'd like to add something — we also need to consider mobile users.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Feel free to interrupt me. · 请随时打断我。  ★★
 
@@ -1924,7 +1924,7 @@ I'd like to add something — we also need to consider mobile users.
 I'll walk through the architecture. Feel free to interrupt me with questions.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Could we revisit this later? · 我们可以稍后再讨论这个吗？  ★★
 
