@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-16",
+  "generated": "2026-06-17",
   "words": [
     {
       "id": "ai_001",
@@ -81,8 +81,8 @@
       "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
       "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -93,8 +93,8 @@
       "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
       "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -105,8 +105,8 @@
       "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -117,8 +117,8 @@
       "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
       "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -129,8 +129,8 @@
       "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -141,9 +141,9 @@
       "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
       "example": "memory = ConversationBufferMemory(return_messages=True)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_013",
@@ -153,9 +153,9 @@
       "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_014",
@@ -165,9 +165,9 @@
       "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_015",
@@ -177,9 +177,9 @@
       "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
       "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_016",
@@ -189,9 +189,9 @@
       "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
       "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_017",
@@ -1065,8 +1065,8 @@
       "definition": "表示对方的解释或逻辑是合理的、可以理解的",
       "example": "That makes sense. Using a queue would handle the load spikes.",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1077,8 +1077,8 @@
       "definition": "在别人发言后礼貌地加入自己的观点或信息",
       "example": "I'd like to add something — we also need to consider mobile users.",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1089,8 +1089,8 @@
       "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
       "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
       "difficulty": 2,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1101,9 +1101,9 @@
       "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
       "example": "That's important but out of scope today. Could we revisit this later?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_013",
@@ -1233,9 +1233,9 @@
       "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
       "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_034",
@@ -1257,9 +1257,9 @@
       "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
       "example": "chain = prompt | llm | StrOutputParser()",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_036",
@@ -1269,9 +1269,9 @@
       "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
       "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_037",
@@ -1293,9 +1293,9 @@
       "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_039",
@@ -1305,9 +1305,9 @@
       "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_040",
@@ -2469,9 +2469,9 @@
       "definition": "请求对方在事情发生前预先告知，以便有时间准备",
       "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_024",
@@ -2481,9 +2481,9 @@
       "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
       "example": "I'll loop you in on the email thread with the client so you're up to speed.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_025",
@@ -15262,8 +15262,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -15285,8 +15285,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -15306,8 +15306,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -15329,8 +15329,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -15352,8 +15352,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-17",
-      "review_count": 1,
+      "next_review": "2026-06-20",
+      "review_count": 2,
       "status": "learning"
     }
   ]
