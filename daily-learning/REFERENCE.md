@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-17，共 1262 条词汇。
+> 更新于 2026-06-18，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -168,7 +168,7 @@ loader = PyPDFLoader('report.pdf')
 docs = loader.load()
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### fine-tuning · 微调  ★★
 
@@ -178,7 +178,7 @@ docs = loader.load()
 Fine-tuned GPT-3.5 on customer support data to improve response accuracy
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### hallucination · 幻觉  ★★
 
@@ -188,7 +188,7 @@ LLM 生成看似可信但实际上错误或虚构内容的问题，是当前 AI 
 The model hallucinated a fake citation to support its argument
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### context window · 上下文窗口  ★★
 
@@ -198,7 +198,7 @@ LLM 在单次推理时能接收和处理的最大 token 数量，决定可处理
 Claude's context window is 200K tokens, allowing entire codebases as input
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### temperature · 温度（采样参数）  ★★
 
@@ -208,7 +208,7 @@ Claude's context window is 200K tokens, allowing entire codebases as input
 llm = ChatOpenAI(temperature=0.0)  # 适合代码生成等精确任务
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### embedding · 词嵌入  ★★
 
@@ -219,7 +219,7 @@ embeddings = OpenAIEmbeddings()
 vector = embeddings.embed_query('hello world')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### semantic search · 语义搜索  ★★
 
@@ -229,7 +229,7 @@ vector = embeddings.embed_query('hello world')
 Searching 'how to cook pasta' returns recipes even without exact keyword match
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### multimodal · 多模态  ★★
 
@@ -239,7 +239,7 @@ Searching 'how to cook pasta' returns recipes even without exact keyword match
 GPT-4V can analyze both text and images in the same conversation
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### few-shot · 少样本  ★★
 
@@ -249,7 +249,7 @@ GPT-4V can analyze both text and images in the same conversation
 Providing 3 input-output pairs in the prompt to demonstrate the desired format
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### LangSmith · LangSmith（链路追踪平台）  ★★
 
@@ -259,7 +259,7 @@ LangChain 官方的 LLM 应用调试和监控平台，可追踪每次 LLM 调用
 LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tokenizer · 分词器  ★★
 
@@ -1964,7 +1964,7 @@ I'll loop you in on the email thread with the client so you're up to speed.
 I'm blocked on the payment module until the API keys are provided.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### What's the ETA? · 预计什么时候完成？  ★★
 
@@ -1974,7 +1974,7 @@ I'm blocked on the payment module until the API keys are provided.
 The client just asked for an update. What's the ETA on the bug fix?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### In a nutshell... · 简而言之……  ★★
 
@@ -1984,7 +1984,7 @@ The client just asked for an update. What's the ETA on the bug fix?
 In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### What are the trade-offs? · 有哪些权衡取舍？  ★★
 
