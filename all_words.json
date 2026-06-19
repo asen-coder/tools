@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-18",
+  "generated": "2026-06-19",
   "words": [
     {
       "id": "ai_001",
@@ -1029,8 +1029,8 @@
       "definition": "请求对方对某个观点或情况提供更多细节和解释",
       "example": "Could you elaborate on that performance issue you mentioned?",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1041,8 +1041,8 @@
       "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
       "example": "Let me clarify — I meant the staging environment, not production.",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1053,8 +1053,8 @@
       "definition": "表示需要时间确认后再回答，不立即给出答案",
       "example": "I'll get back to you on that timeline after checking with the team.",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1317,8 +1317,8 @@
       "definition": "LangChain 中从各种数据源（PDF、网页、数据库）读取内容并转为 Document 对象的组件",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1389,8 +1389,8 @@
       "definition": "在预训练大模型基础上用小规模领域数据进一步训练，使其适配特定任务",
       "example": "Fine-tuned GPT-3.5 on customer support data to improve response accuracy",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1401,8 +1401,8 @@
       "definition": "LLM 生成看似可信但实际上错误或虚构内容的问题，是当前 AI 的主要挑战之一",
       "example": "The model hallucinated a fake citation to support its argument",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1413,8 +1413,8 @@
       "definition": "LLM 在单次推理时能接收和处理的最大 token 数量，决定可处理文档的长度",
       "example": "Claude's context window is 200K tokens, allowing entire codebases as input",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1437,8 +1437,8 @@
       "definition": "控制 LLM 输出随机性的参数，0 最确定，1 以上最随机",
       "example": "llm = ChatOpenAI(temperature=0.0)  # 适合代码生成等精确任务",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1449,8 +1449,8 @@
       "definition": "将文本转换为能捕捉语义的高维稠密向量，相似含义的文本向量距离更近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('hello world')",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1473,8 +1473,8 @@
       "definition": "基于语义相似度而非关键词匹配的搜索方式，能理解查询的实际含义",
       "example": "Searching 'how to cook pasta' returns recipes even without exact keyword match",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1485,8 +1485,8 @@
       "definition": "能同时处理多种数据类型（文本、图像、音频、视频）的 AI 模型能力",
       "example": "GPT-4V can analyze both text and images in the same conversation",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1533,8 +1533,8 @@
       "definition": "在提示词中提供少量示例（2-10 个）来引导模型完成特定格式或任务的技术",
       "example": "Providing 3 input-output pairs in the prompt to demonstrate the desired format",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1569,8 +1569,8 @@
       "definition": "LangChain 官方的 LLM 应用调试和监控平台，可追踪每次 LLM 调用的输入输出",
       "example": "LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1593,9 +1593,9 @@
       "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
       "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_064",
@@ -2505,8 +2505,8 @@
       "definition": "告知他人自己因某个阻碍无法推进当前任务，需要帮助或等待解除阻塞",
       "example": "I'm blocked on the payment module until the API keys are provided.",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2517,8 +2517,8 @@
       "definition": "询问某项工作的预计完成时间（Estimated Time of Arrival，借用航运术语）",
       "example": "The client just asked for an update. What's the ETA on the bug fix?",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2541,8 +2541,8 @@
       "definition": "用于在总结时表示接下来要简洁地表达复杂内容",
       "example": "In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2577,9 +2577,9 @@
       "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
       "example": "What are the trade-offs between monolith and microservices for our use case?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_033",
@@ -2589,9 +2589,9 @@
       "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
       "example": "I have some concerns about the timeline. Can we review the resource allocation?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_034",
@@ -2613,9 +2613,9 @@
       "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
       "example": "The service went down three times this week. What's the root cause?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_036",
@@ -14805,9 +14805,9 @@
       "definition": "娱乐",
       "example": "This is fun.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1001",
@@ -14817,9 +14817,9 @@
       "definition": "消遣",
       "example": "I have a entertainment.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1002",
@@ -14829,9 +14829,9 @@
       "definition": "闲暇",
       "example": "The leisure is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1003",
@@ -14841,9 +14841,9 @@
       "definition": "假期",
       "example": "A vacation can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1004",
@@ -14853,9 +14853,9 @@
       "definition": "节日",
       "example": "I have a holiday.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1005",
@@ -14865,9 +14865,9 @@
       "definition": "长途旅行",
       "example": "The journey is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1006",
@@ -14877,9 +14877,9 @@
       "definition": "历险",
       "example": "This is a adventure.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1007",
@@ -14889,9 +14889,9 @@
       "definition": "探险",
       "example": "I explore every day.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1008",
@@ -14901,9 +14901,9 @@
       "definition": "扎营",
       "example": "This is camp.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1009",
@@ -15006,8 +15006,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15029,8 +15029,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15052,8 +15052,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15084,8 +15084,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15116,8 +15116,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15148,8 +15148,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15169,8 +15169,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15190,8 +15190,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15226,8 +15226,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-19",
-      "review_count": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
