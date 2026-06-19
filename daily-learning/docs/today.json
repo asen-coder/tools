@@ -1,7 +1,167 @@
 {
-  "date": "2026-06-18",
-  "day_of_week": "周四",
+  "date": "2026-06-19",
+  "day_of_week": "周五",
   "new_words": [
+    {
+      "id": "ai_063",
+      "category": "ai",
+      "en": "tokenizer",
+      "zh": "分词器",
+      "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
+      "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1000",
+      "category": "general",
+      "en": "fun",
+      "zh": "有趣",
+      "definition": "娱乐",
+      "example": "This is fun.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1001",
+      "category": "general",
+      "en": "entertainment",
+      "zh": "娱乐",
+      "definition": "消遣",
+      "example": "I have a entertainment.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1002",
+      "category": "general",
+      "en": "leisure",
+      "zh": "休闲",
+      "definition": "闲暇",
+      "example": "The leisure is important.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1003",
+      "category": "general",
+      "en": "vacation",
+      "zh": "度假",
+      "definition": "假期",
+      "example": "A vacation can help you.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1004",
+      "category": "general",
+      "en": "holiday",
+      "zh": "假期",
+      "definition": "节日",
+      "example": "I have a holiday.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1005",
+      "category": "general",
+      "en": "journey",
+      "zh": "旅程",
+      "definition": "长途旅行",
+      "example": "The journey is important.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1006",
+      "category": "general",
+      "en": "adventure",
+      "zh": "冒险",
+      "definition": "历险",
+      "example": "This is a adventure.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1007",
+      "category": "general",
+      "en": "explore",
+      "zh": "探索",
+      "definition": "探险",
+      "example": "I explore every day.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1008",
+      "category": "general",
+      "en": "camp",
+      "zh": "露营",
+      "definition": "扎营",
+      "example": "This is camp.",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "new_sentences": [
+    {
+      "id": "daily_032",
+      "category": "daily",
+      "en": "What are the trade-offs?",
+      "zh": "有哪些权衡取舍？",
+      "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
+      "example": "What are the trade-offs between monolith and microservices for our use case?",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_033",
+      "category": "daily",
+      "en": "I have some concerns about this.",
+      "zh": "我对此有一些顾虑。",
+      "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
+      "example": "I have some concerns about the timeline. Can we review the resource allocation?",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_035",
+      "category": "daily",
+      "en": "What's the root cause?",
+      "zh": "根本原因是什么？",
+      "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
+      "example": "The service went down three times this week. What's the root cause?",
+      "difficulty": 2,
+      "next_review": "2026-06-20",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "vocab_reviews": [
     {
       "id": "ai_040",
       "category": "ai",
@@ -10,8 +170,8 @@
       "definition": "LangChain 中从各种数据源（PDF、网页、数据库）读取内容并转为 Document 对象的组件",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -22,8 +182,8 @@
       "definition": "在预训练大模型基础上用小规模领域数据进一步训练，使其适配特定任务",
       "example": "Fine-tuned GPT-3.5 on customer support data to improve response accuracy",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -34,8 +194,8 @@
       "definition": "LLM 生成看似可信但实际上错误或虚构内容的问题，是当前 AI 的主要挑战之一",
       "example": "The model hallucinated a fake citation to support its argument",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -46,8 +206,8 @@
       "definition": "LLM 在单次推理时能接收和处理的最大 token 数量，决定可处理文档的长度",
       "example": "Claude's context window is 200K tokens, allowing entire codebases as input",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -58,8 +218,8 @@
       "definition": "控制 LLM 输出随机性的参数，0 最确定，1 以上最随机",
       "example": "llm = ChatOpenAI(temperature=0.0)  # 适合代码生成等精确任务",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -70,8 +230,8 @@
       "definition": "将文本转换为能捕捉语义的高维稠密向量，相似含义的文本向量距离更近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('hello world')",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -82,8 +242,8 @@
       "definition": "基于语义相似度而非关键词匹配的搜索方式，能理解查询的实际含义",
       "example": "Searching 'how to cook pasta' returns recipes even without exact keyword match",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -94,8 +254,8 @@
       "definition": "能同时处理多种数据类型（文本、图像、音频、视频）的 AI 模型能力",
       "example": "GPT-4V can analyze both text and images in the same conversation",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -106,8 +266,8 @@
       "definition": "在提示词中提供少量示例（2-10 个）来引导模型完成特定格式或任务的技术",
       "example": "Providing 3 input-output pairs in the prompt to demonstrate the desired format",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -118,12 +278,290 @@
       "definition": "LangChain 官方的 LLM 应用调试和监控平台，可追踪每次 LLM 调用的输入输出",
       "example": "LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1015",
+      "category": "general",
+      "en": "become",
+      "phonetic": "/bɪˈkʌm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "变成，成为"
+          ],
+          "examples": [
+            "He became a doctor.",
+            "It's becoming cold."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1016",
+      "category": "general",
+      "en": "let",
+      "phonetic": "/let/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "让，允许",
+            "出租，租给"
+          ],
+          "examples": [
+            "Let me help you.",
+            "Let the house."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1017",
+      "category": "general",
+      "en": "seem",
+      "phonetic": "/siːm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "似乎，好像",
+            "显得"
+          ],
+          "examples": [
+            "He seems happy.",
+            "It seems like rain."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1018",
+      "category": "general",
+      "en": "offer",
+      "phonetic": "/ˈɒfər/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "提供，提出",
+            "出价，开价"
+          ],
+          "examples": [
+            "Offer help.",
+            "Offer $100 for it."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "提供，提议"
+          ],
+          "examples": [
+            "Thank you for your offer."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1019",
+      "category": "general",
+      "en": "pay",
+      "phonetic": "/peɪ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "支付，付款",
+            "付出代价"
+          ],
+          "examples": [
+            "Pay the bill.",
+            "Pay for your mistake."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "工资，薪金"
+          ],
+          "examples": [
+            "Get your pay."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1020",
+      "category": "general",
+      "en": "meet",
+      "phonetic": "/miːt/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "遇见，会见",
+            "满足，符合"
+          ],
+          "examples": [
+            "Meet my friend.",
+            "Meet requirements."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "会议，集会"
+          ],
+          "examples": [
+            "Attend a meet."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1021",
+      "category": "general",
+      "en": "include",
+      "phonetic": "/ɪnˈkluːd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "包括，包含"
+          ],
+          "examples": [
+            "The price includes tax."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1022",
+      "category": "general",
+      "en": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "继续，持续"
+          ],
+          "examples": [
+            "Continue your work."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1023",
+      "category": "general",
+      "en": "set",
+      "phonetic": "/set/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "放，安置",
+            "设定，确立",
+            "（日）落"
+          ],
+          "examples": [
+            "Set the table.",
+            "Set a goal.",
+            "The sun sets in the west."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "一套，一副",
+            "接收机"
+          ],
+          "examples": [
+            "A chess set.",
+            "A TV set."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-06-26",
+      "review_count": 3,
       "status": "learning"
     }
   ],
-  "new_sentences": [
+  "sentence_reviews": [
+    {
+      "id": "daily_006",
+      "category": "daily",
+      "en": "Could you elaborate on that?",
+      "zh": "你能详细说明一下吗？",
+      "definition": "请求对方对某个观点或情况提供更多细节和解释",
+      "example": "Could you elaborate on that performance issue you mentioned?",
+      "difficulty": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "daily_007",
+      "category": "daily",
+      "en": "Let me clarify.",
+      "zh": "让我来说清楚一下。",
+      "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
+      "example": "Let me clarify — I meant the staging environment, not production.",
+      "difficulty": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "daily_008",
+      "category": "daily",
+      "en": "I'll get back to you on that.",
+      "zh": "关于这个我稍后回复你。",
+      "definition": "表示需要时间确认后再回答，不立即给出答案",
+      "example": "I'll get back to you on that timeline after checking with the team.",
+      "difficulty": 2,
+      "next_review": "2026-06-26",
+      "review_count": 3,
+      "status": "learning"
+    },
     {
       "id": "daily_026",
       "category": "daily",
@@ -132,8 +570,8 @@
       "definition": "告知他人自己因某个阻碍无法推进当前任务，需要帮助或等待解除阻塞",
       "example": "I'm blocked on the payment module until the API keys are provided.",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -144,8 +582,8 @@
       "definition": "询问某项工作的预计完成时间（Estimated Time of Arrival，借用航运术语）",
       "example": "The client just asked for an update. What's the ETA on the bug fix?",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
+      "next_review": "2026-06-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -156,167 +594,7 @@
       "definition": "用于在总结时表示接下来要简洁地表达复杂内容",
       "example": "In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.",
       "difficulty": 2,
-      "next_review": "2026-06-19",
-      "review_count": 1,
-      "status": "learning"
-    }
-  ],
-  "vocab_reviews": [
-    {
-      "id": "ai_012",
-      "category": "ai",
-      "en": "memory",
-      "zh": "记忆",
-      "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
-      "example": "memory = ConversationBufferMemory(return_messages=True)",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_013",
-      "category": "ai",
-      "en": "document loader",
-      "zh": "文档加载器",
-      "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
-      "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_014",
-      "category": "ai",
-      "en": "text splitter",
-      "zh": "文本分割器",
-      "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
-      "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_015",
-      "category": "ai",
-      "en": "temperature",
-      "zh": "温度",
-      "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
-      "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_016",
-      "category": "ai",
-      "en": "few-shot",
-      "zh": "少样本",
-      "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
-      "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_033",
-      "category": "ai",
-      "en": "ChatPromptTemplate",
-      "zh": "聊天提示模板",
-      "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
-      "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_035",
-      "category": "ai",
-      "en": "output parser",
-      "zh": "输出解析器",
-      "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
-      "example": "chain = prompt | llm | StrOutputParser()",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_036",
-      "category": "ai",
-      "en": "streaming",
-      "zh": "流式输出",
-      "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
-      "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_038",
-      "category": "ai",
-      "en": "vector store",
-      "zh": "向量数据库",
-      "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
-      "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "ai_039",
-      "category": "ai",
-      "en": "text splitter",
-      "zh": "文本分割器",
-      "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
-      "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    }
-  ],
-  "sentence_reviews": [
-    {
-      "id": "daily_012",
-      "category": "daily",
-      "en": "Could we revisit this later?",
-      "zh": "我们可以稍后再讨论这个吗？",
-      "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
-      "example": "That's important but out of scope today. Could we revisit this later?",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "daily_023",
-      "category": "daily",
-      "en": "Could you give me a heads-up?",
-      "zh": "能提前通知我一下吗？",
-      "definition": "请求对方在事情发生前预先告知，以便有时间准备",
-      "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "daily_024",
-      "category": "daily",
-      "en": "I'll loop you in.",
-      "zh": "我会把你拉进来（加入沟通）。",
-      "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
-      "example": "I'll loop you in on the email thread with the client so you're up to speed.",
-      "difficulty": 2,
-      "next_review": "2026-06-21",
+      "next_review": "2026-06-22",
       "review_count": 2,
       "status": "learning"
     }
@@ -324,9 +602,9 @@
   "stats": {
     "total": 1262,
     "mastered": 1,
-    "learning": 51,
-    "new": 1210,
-    "streak": 4,
-    "total_sessions": 4
+    "learning": 64,
+    "new": 1197,
+    "streak": 5,
+    "total_sessions": 5
   }
 }

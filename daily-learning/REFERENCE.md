@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-18，共 1262 条词汇。
+> 更新于 2026-06-19，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -269,7 +269,7 @@ LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录
 tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### RAG · 检索增强生成  ★★★
 
@@ -1994,7 +1994,7 @@ In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.
 What are the trade-offs between monolith and microservices for our use case?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I have some concerns about this. · 我对此有一些顾虑。  ★★
 
@@ -2004,7 +2004,7 @@ What are the trade-offs between monolith and microservices for our use case?
 I have some concerns about the timeline. Can we review the resource allocation?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### What's the root cause? · 根本原因是什么？  ★★
 
@@ -2014,7 +2014,7 @@ I have some concerns about the timeline. Can we review the resource allocation?
 The service went down three times this week. What's the root cause?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### We need a workaround for now. · 我们现在需要一个临时方案。  ★★
 
