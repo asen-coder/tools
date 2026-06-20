@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-19，共 1262 条词汇。
+> 更新于 2026-06-20，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2024,7 +2024,7 @@ The service went down three times this week. What's the root cause?
 We can't fix the database bottleneck today. Let's add a cache layer as a workaround.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### This is working as intended. · 这是按设计运行的（不是 bug）。  ★★
 
@@ -2034,7 +2034,7 @@ We can't fix the database bottleneck today. Let's add a cache layer as a workaro
 The loading spinner on slow connections is working as intended—it's a feature.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's align on the next steps. · 我们来确认一下后续步骤。  ★★
 
@@ -2044,7 +2044,7 @@ The loading spinner on slow connections is working as intended—it's a feature.
 Before we wrap up, let's align on the next steps and who owns each item.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### That's out of scope. · 那超出范围了。  ★★
 
