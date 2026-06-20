@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-19",
+  "generated": "2026-06-20",
   "words": [
     {
       "id": "ai_001",
@@ -81,8 +81,8 @@
       "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
       "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -93,8 +93,8 @@
       "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
       "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -105,8 +105,8 @@
       "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -117,8 +117,8 @@
       "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
       "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -129,8 +129,8 @@
       "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1065,8 +1065,8 @@
       "definition": "表示对方的解释或逻辑是合理的、可以理解的",
       "example": "That makes sense. Using a queue would handle the load spikes.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1077,8 +1077,8 @@
       "definition": "在别人发言后礼貌地加入自己的观点或信息",
       "example": "I'd like to add something — we also need to consider mobile users.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1089,8 +1089,8 @@
       "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
       "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1593,8 +1593,8 @@
       "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
       "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2577,8 +2577,8 @@
       "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
       "example": "What are the trade-offs between monolith and microservices for our use case?",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2589,8 +2589,8 @@
       "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
       "example": "I have some concerns about the timeline. Can we review the resource allocation?",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2613,8 +2613,8 @@
       "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
       "example": "The service went down three times this week. What's the root cause?",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2625,9 +2625,9 @@
       "definition": "承认问题尚未根本解决，先采用临时手段绕过问题维持运转",
       "example": "We can't fix the database bottleneck today. Let's add a cache layer as a workaround.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_037",
@@ -2673,9 +2673,9 @@
       "definition": "解释某个被质疑的行为其实是符合预期设计的，并非缺陷",
       "example": "The loading spinner on slow connections is working as intended—it's a feature.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_041",
@@ -2709,9 +2709,9 @@
       "definition": "在会议或讨论结束时，确认所有人对接下来的行动计划达成共识",
       "example": "Before we wrap up, let's align on the next steps and who owns each item.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_044",
@@ -11229,9 +11229,9 @@
       "definition": "信任",
       "example": "I believe every day.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_703",
@@ -11241,9 +11241,9 @@
       "definition": "思维器官",
       "example": "A mind can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_704",
@@ -11253,9 +11253,9 @@
       "definition": "想法",
       "example": "The idea is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_705",
@@ -11265,9 +11265,9 @@
       "definition": "思维",
       "example": "This is a thought.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_706",
@@ -11277,9 +11277,9 @@
       "definition": "观点",
       "example": "This is a opinion.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_707",
@@ -14805,8 +14805,8 @@
       "definition": "娱乐",
       "example": "This is fun.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14817,8 +14817,8 @@
       "definition": "消遣",
       "example": "I have a entertainment.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14829,8 +14829,8 @@
       "definition": "闲暇",
       "example": "The leisure is important.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14841,8 +14841,8 @@
       "definition": "假期",
       "example": "A vacation can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14853,8 +14853,8 @@
       "definition": "节日",
       "example": "I have a holiday.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14865,8 +14865,8 @@
       "definition": "长途旅行",
       "example": "The journey is important.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14877,8 +14877,8 @@
       "definition": "历险",
       "example": "This is a adventure.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14889,8 +14889,8 @@
       "definition": "探险",
       "example": "I explore every day.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14901,8 +14901,8 @@
       "definition": "扎营",
       "example": "This is camp.",
       "difficulty": 2,
-      "next_review": "2026-06-20",
-      "review_count": 1,
+      "next_review": "2026-06-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14913,9 +14913,9 @@
       "definition": "远足",
       "example": "This is hike.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1010",
@@ -14925,9 +14925,9 @@
       "definition": "爬山",
       "example": "Can you climb?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1011",
@@ -14937,9 +14937,9 @@
       "definition": "冲浪运动",
       "example": "This is surf.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1012",
@@ -14949,9 +14949,9 @@
       "definition": "雪上运动",
       "example": "This is ski.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1013",
@@ -14961,9 +14961,9 @@
       "definition": "冰上运动",
       "example": "Let's skate together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_1014",
@@ -15262,8 +15262,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15285,8 +15285,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15306,8 +15306,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15329,8 +15329,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -15352,8 +15352,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-20",
-      "review_count": 2,
+      "next_review": "2026-06-27",
+      "review_count": 3,
       "status": "learning"
     }
   ]
