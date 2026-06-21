@@ -1,65 +1,285 @@
 {
-  "date": "2026-06-20",
-  "day_of_week": "周六",
+  "date": "2026-06-21",
+  "day_of_week": "周日",
   "new_words": [
     {
-      "id": "gen_1009",
+      "id": "gen_707",
       "category": "general",
-      "en": "hike",
-      "zh": "徒步",
-      "definition": "远足",
-      "example": "This is hike.",
+      "en": "knowledge",
+      "zh": "知识",
+      "definition": "学识",
+      "example": "A knowledge can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
+      "next_review": "2026-06-22",
       "review_count": 1,
       "status": "learning"
     },
     {
-      "id": "gen_1010",
+      "id": "gen_708",
       "category": "general",
-      "en": "climb",
-      "zh": "攀登",
-      "definition": "爬山",
-      "example": "Can you climb?",
+      "en": "information",
+      "zh": "信息",
+      "definition": "消息",
+      "example": "The information is important.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
+      "next_review": "2026-06-22",
       "review_count": 1,
       "status": "learning"
     },
     {
-      "id": "gen_1011",
+      "id": "gen_709",
       "category": "general",
-      "en": "surf",
-      "zh": "冲浪",
-      "definition": "冲浪运动",
-      "example": "This is surf.",
+      "en": "news",
+      "zh": "新闻",
+      "definition": "消息",
+      "example": "The news is important.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
+      "next_review": "2026-06-22",
       "review_count": 1,
       "status": "learning"
     },
     {
-      "id": "gen_1012",
+      "id": "gen_710",
       "category": "general",
-      "en": "ski",
-      "zh": "滑雪",
-      "definition": "雪上运动",
-      "example": "This is ski.",
+      "en": "message",
+      "zh": "信息",
+      "definition": "讯息",
+      "example": "The message is important.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
+      "next_review": "2026-06-22",
       "review_count": 1,
       "status": "learning"
     },
     {
-      "id": "gen_1013",
+      "id": "gen_711",
       "category": "general",
-      "en": "skate",
-      "zh": "滑冰",
-      "definition": "冰上运动",
-      "example": "Let's skate together.",
+      "en": "story",
+      "zh": "故事",
+      "definition": "叙述",
+      "example": "A story can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
+      "next_review": "2026-06-22",
       "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_712",
+      "category": "general",
+      "en": "tale",
+      "zh": "传说",
+      "definition": "故事",
+      "example": "The tale is important.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_713",
+      "category": "general",
+      "en": "legend",
+      "zh": "传奇",
+      "definition": "传说",
+      "example": "I have a legend.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_714",
+      "category": "general",
+      "en": "history",
+      "zh": "历史",
+      "definition": "过去事件",
+      "example": "A history can help you.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_715",
+      "category": "general",
+      "en": "fact",
+      "zh": "事实",
+      "definition": "真实",
+      "example": "I have a fact.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_716",
+      "category": "general",
+      "en": "truth",
+      "zh": "真相",
+      "definition": "真实",
+      "example": "The truth is important.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "new_sentences": [
+    {
+      "id": "daily_047",
+      "category": "daily",
+      "en": "That's out of scope.",
+      "zh": "那超出范围了。",
+      "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
+      "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_049",
+      "category": "daily",
+      "en": "I'll take ownership of this.",
+      "zh": "我来负责这件事。",
+      "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
+      "example": "Nobody is driving the API documentation. I'll take ownership of this.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_051",
+      "category": "daily",
+      "en": "This needs more thought.",
+      "zh": "这还需要再仔细考虑。",
+      "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
+      "example": "The migration plan looks rushed. This needs more thought before we commit.",
+      "difficulty": 2,
+      "next_review": "2026-06-22",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "vocab_reviews": [
+    {
+      "id": "ai_012",
+      "category": "ai",
+      "en": "memory",
+      "zh": "记忆",
+      "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
+      "example": "memory = ConversationBufferMemory(return_messages=True)",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_013",
+      "category": "ai",
+      "en": "document loader",
+      "zh": "文档加载器",
+      "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
+      "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_014",
+      "category": "ai",
+      "en": "text splitter",
+      "zh": "文本分割器",
+      "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
+      "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_015",
+      "category": "ai",
+      "en": "temperature",
+      "zh": "温度",
+      "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
+      "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_016",
+      "category": "ai",
+      "en": "few-shot",
+      "zh": "少样本",
+      "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
+      "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_033",
+      "category": "ai",
+      "en": "ChatPromptTemplate",
+      "zh": "聊天提示模板",
+      "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
+      "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_035",
+      "category": "ai",
+      "en": "output parser",
+      "zh": "输出解析器",
+      "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
+      "example": "chain = prompt | llm | StrOutputParser()",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_036",
+      "category": "ai",
+      "en": "streaming",
+      "zh": "流式输出",
+      "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
+      "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_038",
+      "category": "ai",
+      "en": "vector store",
+      "zh": "向量数据库",
+      "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
+      "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "ai_039",
+      "category": "ai",
+      "en": "text splitter",
+      "zh": "文本分割器",
+      "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
+      "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -70,8 +290,8 @@
       "definition": "信任",
       "example": "I believe every day.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -82,8 +302,8 @@
       "definition": "思维器官",
       "example": "A mind can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -94,8 +314,8 @@
       "definition": "想法",
       "example": "The idea is important.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -106,8 +326,8 @@
       "definition": "思维",
       "example": "This is a thought.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -118,12 +338,108 @@
       "definition": "观点",
       "example": "This is a opinion.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1009",
+      "category": "general",
+      "en": "hike",
+      "zh": "徒步",
+      "definition": "远足",
+      "example": "This is hike.",
+      "difficulty": 2,
+      "next_review": "2026-06-24",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1010",
+      "category": "general",
+      "en": "climb",
+      "zh": "攀登",
+      "definition": "爬山",
+      "example": "Can you climb?",
+      "difficulty": 2,
+      "next_review": "2026-06-24",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1011",
+      "category": "general",
+      "en": "surf",
+      "zh": "冲浪",
+      "definition": "冲浪运动",
+      "example": "This is surf.",
+      "difficulty": 2,
+      "next_review": "2026-06-24",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1012",
+      "category": "general",
+      "en": "ski",
+      "zh": "滑雪",
+      "definition": "雪上运动",
+      "example": "This is ski.",
+      "difficulty": 2,
+      "next_review": "2026-06-24",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1013",
+      "category": "general",
+      "en": "skate",
+      "zh": "滑冰",
+      "definition": "冰上运动",
+      "example": "Let's skate together.",
+      "difficulty": 2,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     }
   ],
-  "new_sentences": [
+  "sentence_reviews": [
+    {
+      "id": "daily_012",
+      "category": "daily",
+      "en": "Could we revisit this later?",
+      "zh": "我们可以稍后再讨论这个吗？",
+      "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
+      "example": "That's important but out of scope today. Could we revisit this later?",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "daily_023",
+      "category": "daily",
+      "en": "Could you give me a heads-up?",
+      "zh": "能提前通知我一下吗？",
+      "definition": "请求对方在事情发生前预先告知，以便有时间准备",
+      "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "daily_024",
+      "category": "daily",
+      "en": "I'll loop you in.",
+      "zh": "我会把你拉进来（加入沟通）。",
+      "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
+      "example": "I'll loop you in on the email thread with the client so you're up to speed.",
+      "difficulty": 2,
+      "next_review": "2026-06-28",
+      "review_count": 3,
+      "status": "learning"
+    },
     {
       "id": "daily_036",
       "category": "daily",
@@ -132,8 +448,8 @@
       "definition": "承认问题尚未根本解决，先采用临时手段绕过问题维持运转",
       "example": "We can't fix the database bottleneck today. Let's add a cache layer as a workaround.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -144,8 +460,8 @@
       "definition": "解释某个被质疑的行为其实是符合预期设计的，并非缺陷",
       "example": "The loading spinner on slow connections is working as intended—it's a feature.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
+      "next_review": "2026-06-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -156,389 +472,7 @@
       "definition": "在会议或讨论结束时，确认所有人对接下来的行动计划达成共识",
       "example": "Before we wrap up, let's align on the next steps and who owns each item.",
       "difficulty": 2,
-      "next_review": "2026-06-21",
-      "review_count": 1,
-      "status": "learning"
-    }
-  ],
-  "vocab_reviews": [
-    {
-      "id": "ai_007",
-      "category": "ai",
-      "en": "prompt template",
-      "zh": "提示模板",
-      "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
-      "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "ai_008",
-      "category": "ai",
-      "en": "output parser",
-      "zh": "输出解析器",
-      "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
-      "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "ai_009",
-      "category": "ai",
-      "en": "embedding",
-      "zh": "嵌入向量",
-      "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
-      "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "ai_010",
-      "category": "ai",
-      "en": "retriever",
-      "zh": "检索器",
-      "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
-      "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "ai_011",
-      "category": "ai",
-      "en": "vector store",
-      "zh": "向量数据库",
-      "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
-      "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "ai_063",
-      "category": "ai",
-      "en": "tokenizer",
-      "zh": "分词器",
-      "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
-      "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1000",
-      "category": "general",
-      "en": "fun",
-      "zh": "有趣",
-      "definition": "娱乐",
-      "example": "This is fun.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1001",
-      "category": "general",
-      "en": "entertainment",
-      "zh": "娱乐",
-      "definition": "消遣",
-      "example": "I have a entertainment.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1002",
-      "category": "general",
-      "en": "leisure",
-      "zh": "休闲",
-      "definition": "闲暇",
-      "example": "The leisure is important.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1003",
-      "category": "general",
-      "en": "vacation",
-      "zh": "度假",
-      "definition": "假期",
-      "example": "A vacation can help you.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1004",
-      "category": "general",
-      "en": "holiday",
-      "zh": "假期",
-      "definition": "节日",
-      "example": "I have a holiday.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1005",
-      "category": "general",
-      "en": "journey",
-      "zh": "旅程",
-      "definition": "长途旅行",
-      "example": "The journey is important.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1006",
-      "category": "general",
-      "en": "adventure",
-      "zh": "冒险",
-      "definition": "历险",
-      "example": "This is a adventure.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1007",
-      "category": "general",
-      "en": "explore",
-      "zh": "探索",
-      "definition": "探险",
-      "example": "I explore every day.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1008",
-      "category": "general",
-      "en": "camp",
-      "zh": "露营",
-      "definition": "扎营",
-      "example": "This is camp.",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1024",
-      "category": "general",
-      "en": "lead",
-      "phonetic": "/liːd/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "领导，带领",
-            "过（生活）",
-            "通向"
-          ],
-          "examples": [
-            "Lead the team.",
-            "Lead a happy life.",
-            "This road leads to town."
-          ]
-        },
-        {
-          "pos": "n",
-          "definitions": [
-            "领导，领先",
-            "铅"
-          ],
-          "examples": [
-            "Take the lead.",
-            "A lead pipe."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1025",
-      "category": "general",
-      "en": "follow",
-      "phonetic": "/ˈfɒləʊ/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "跟随，追随",
-            "理解，明白"
-          ],
-          "examples": [
-            "Follow me.",
-            "Do you follow?"
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1026",
-      "category": "general",
-      "en": "allow",
-      "phonetic": "/əˈlaʊ/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "允许，准许"
-          ],
-          "examples": [
-            "Allow me to help."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1027",
-      "category": "general",
-      "en": "add",
-      "phonetic": "/æd/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "增加，添加",
-            "补充说"
-          ],
-          "examples": [
-            "Add sugar to coffee.",
-            "He added that he was busy."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1028",
-      "category": "general",
-      "en": "join",
-      "phonetic": "/dʒɔɪn/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "加入，参加",
-            "连接，接合"
-          ],
-          "examples": [
-            "Join the club.",
-            "Join the two ends."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    }
-  ],
-  "sentence_reviews": [
-    {
-      "id": "daily_009",
-      "category": "daily",
-      "en": "That makes sense.",
-      "zh": "这说得通。",
-      "definition": "表示对方的解释或逻辑是合理的、可以理解的",
-      "example": "That makes sense. Using a queue would handle the load spikes.",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "daily_010",
-      "category": "daily",
-      "en": "I'd like to add something.",
-      "zh": "我想补充一点。",
-      "definition": "在别人发言后礼貌地加入自己的观点或信息",
-      "example": "I'd like to add something — we also need to consider mobile users.",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "daily_011",
-      "category": "daily",
-      "en": "Feel free to interrupt me.",
-      "zh": "请随时打断我。",
-      "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
-      "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
-      "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "daily_032",
-      "category": "daily",
-      "en": "What are the trade-offs?",
-      "zh": "有哪些权衡取舍？",
-      "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
-      "example": "What are the trade-offs between monolith and microservices for our use case?",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "daily_033",
-      "category": "daily",
-      "en": "I have some concerns about this.",
-      "zh": "我对此有一些顾虑。",
-      "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
-      "example": "I have some concerns about the timeline. Can we review the resource allocation?",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "daily_035",
-      "category": "daily",
-      "en": "What's the root cause?",
-      "zh": "根本原因是什么？",
-      "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
-      "example": "The service went down three times this week. What's the root cause?",
-      "difficulty": 2,
-      "next_review": "2026-06-23",
+      "next_review": "2026-06-24",
       "review_count": 2,
       "status": "learning"
     }
@@ -546,9 +480,9 @@
   "stats": {
     "total": 1262,
     "mastered": 1,
-    "learning": 77,
-    "new": 1184,
-    "streak": 6,
-    "total_sessions": 6
+    "learning": 90,
+    "new": 1171,
+    "streak": 7,
+    "total_sessions": 7
   }
 }
