@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-20，共 1262 条词汇。
+> 更新于 2026-06-21，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2054,7 +2054,7 @@ Before we wrap up, let's align on the next steps and who owns each item.
 Internationalization is a great idea, but that's out of scope for this MVP.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'll take ownership of this. · 我来负责这件事。  ★★
 
@@ -2064,7 +2064,7 @@ Internationalization is a great idea, but that's out of scope for this MVP.
 Nobody is driving the API documentation. I'll take ownership of this.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### This needs more thought. · 这还需要再仔细考虑。  ★★
 
@@ -2074,7 +2074,7 @@ Nobody is driving the API documentation. I'll take ownership of this.
 The migration plan looks rushed. This needs more thought before we commit.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's circle back to this. · 让我们回头再讨论这个。  ★★★
 

@@ -139,8 +139,8 @@
     "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
     "example": "memory = ConversationBufferMemory(return_messages=True)",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -151,8 +151,8 @@
     "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
     "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -163,8 +163,8 @@
     "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
     "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -175,8 +175,8 @@
     "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
     "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -187,8 +187,8 @@
     "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
     "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1099,8 +1099,8 @@
     "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
     "example": "That's important but out of scope today. Could we revisit this later?",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1231,8 +1231,8 @@
     "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
     "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1255,8 +1255,8 @@
     "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
     "example": "chain = prompt | llm | StrOutputParser()",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1267,8 +1267,8 @@
     "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
     "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1291,8 +1291,8 @@
     "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
     "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1303,8 +1303,8 @@
     "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
     "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2467,8 +2467,8 @@
     "definition": "请求对方在事情发生前预先告知，以便有时间准备",
     "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2479,8 +2479,8 @@
     "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
     "example": "I'll loop you in on the email thread with the client so you're up to speed.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 2,
+    "next_review": "2026-06-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2623,8 +2623,8 @@
     "definition": "承认问题尚未根本解决，先采用临时手段绕过问题维持运转",
     "example": "We can't fix the database bottleneck today. Let's add a cache layer as a workaround.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2671,8 +2671,8 @@
     "definition": "解释某个被质疑的行为其实是符合预期设计的，并非缺陷",
     "example": "The loading spinner on slow connections is working as intended—it's a feature.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2707,8 +2707,8 @@
     "definition": "在会议或讨论结束时，确认所有人对接下来的行动计划达成共识",
     "example": "Before we wrap up, let's align on the next steps and who owns each item.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2755,9 +2755,9 @@
     "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
     "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_048",
@@ -2779,9 +2779,9 @@
     "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
     "example": "Nobody is driving the API documentation. I'll take ownership of this.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_050",
@@ -2803,9 +2803,9 @@
     "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
     "example": "The migration plan looks rushed. This needs more thought before we commit.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_001",
@@ -11227,8 +11227,8 @@
     "definition": "信任",
     "example": "I believe every day.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11239,8 +11239,8 @@
     "definition": "思维器官",
     "example": "A mind can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11251,8 +11251,8 @@
     "definition": "想法",
     "example": "The idea is important.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11263,8 +11263,8 @@
     "definition": "思维",
     "example": "This is a thought.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11275,8 +11275,8 @@
     "definition": "观点",
     "example": "This is a opinion.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11287,9 +11287,9 @@
     "definition": "学识",
     "example": "A knowledge can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_708",
@@ -11299,9 +11299,9 @@
     "definition": "消息",
     "example": "The information is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_709",
@@ -11311,9 +11311,9 @@
     "definition": "消息",
     "example": "The news is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_710",
@@ -11323,9 +11323,9 @@
     "definition": "讯息",
     "example": "The message is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_711",
@@ -11335,9 +11335,9 @@
     "definition": "叙述",
     "example": "A story can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_712",
@@ -11347,9 +11347,9 @@
     "definition": "故事",
     "example": "The tale is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_713",
@@ -11359,9 +11359,9 @@
     "definition": "传说",
     "example": "I have a legend.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_714",
@@ -11371,9 +11371,9 @@
     "definition": "过去事件",
     "example": "A history can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_715",
@@ -11383,9 +11383,9 @@
     "definition": "真实",
     "example": "I have a fact.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_716",
@@ -11395,9 +11395,9 @@
     "definition": "真实",
     "example": "The truth is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_717",
@@ -14911,8 +14911,8 @@
     "definition": "远足",
     "example": "This is hike.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -14923,8 +14923,8 @@
     "definition": "爬山",
     "example": "Can you climb?",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -14935,8 +14935,8 @@
     "definition": "冲浪运动",
     "example": "This is surf.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -14947,8 +14947,8 @@
     "definition": "雪上运动",
     "example": "This is ski.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -14959,8 +14959,8 @@
     "definition": "冰上运动",
     "example": "Let's skate together.",
     "difficulty": 2,
-    "next_review": "2026-06-21",
-    "review_count": 1,
+    "next_review": "2026-06-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
