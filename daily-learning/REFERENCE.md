@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-21，共 1262 条词汇。
+> 更新于 2026-06-22，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2084,7 +2084,7 @@ The migration plan looks rushed. This needs more thought before we commit.
 We got sidetracked. Let's circle back to the deployment timeline.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I want to make sure we're on the same page. · 我想确认我们的理解是一致的。  ★★★
 
@@ -2094,7 +2094,7 @@ We got sidetracked. Let's circle back to the deployment timeline.
 Before we start coding, I want to make sure we're on the same page about the API contract.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let me push back on that. · 让我对此提出一些异议。  ★★★
 
@@ -2104,7 +2104,7 @@ Before we start coding, I want to make sure we're on the same page about the API
 Let me push back on that — a complete rewrite seems risky given the deadline.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Could you walk me through your reasoning? · 你能带我过一遍你的思路吗？  ★★★
 

@@ -1111,9 +1111,9 @@
     "definition": "在讨论其他内容后返回到之前未解决的话题",
     "example": "We got sidetracked. Let's circle back to the deployment timeline.",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_014",
@@ -1123,9 +1123,9 @@
     "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
     "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_015",
@@ -1135,9 +1135,9 @@
     "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
     "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_016",
@@ -1315,8 +1315,8 @@
     "definition": "LangChain 中从各种数据源（PDF、网页、数据库）读取内容并转为 Document 对象的组件",
     "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1387,8 +1387,8 @@
     "definition": "在预训练大模型基础上用小规模领域数据进一步训练，使其适配特定任务",
     "example": "Fine-tuned GPT-3.5 on customer support data to improve response accuracy",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1399,8 +1399,8 @@
     "definition": "LLM 生成看似可信但实际上错误或虚构内容的问题，是当前 AI 的主要挑战之一",
     "example": "The model hallucinated a fake citation to support its argument",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1411,8 +1411,8 @@
     "definition": "LLM 在单次推理时能接收和处理的最大 token 数量，决定可处理文档的长度",
     "example": "Claude's context window is 200K tokens, allowing entire codebases as input",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1435,8 +1435,8 @@
     "definition": "控制 LLM 输出随机性的参数，0 最确定，1 以上最随机",
     "example": "llm = ChatOpenAI(temperature=0.0)  # 适合代码生成等精确任务",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1447,8 +1447,8 @@
     "definition": "将文本转换为能捕捉语义的高维稠密向量，相似含义的文本向量距离更近",
     "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('hello world')",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1471,8 +1471,8 @@
     "definition": "基于语义相似度而非关键词匹配的搜索方式，能理解查询的实际含义",
     "example": "Searching 'how to cook pasta' returns recipes even without exact keyword match",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1483,8 +1483,8 @@
     "definition": "能同时处理多种数据类型（文本、图像、音频、视频）的 AI 模型能力",
     "example": "GPT-4V can analyze both text and images in the same conversation",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1531,8 +1531,8 @@
     "definition": "在提示词中提供少量示例（2-10 个）来引导模型完成特定格式或任务的技术",
     "example": "Providing 3 input-output pairs in the prompt to demonstrate the desired format",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1567,8 +1567,8 @@
     "definition": "LangChain 官方的 LLM 应用调试和监控平台，可追踪每次 LLM 调用的输入输出",
     "example": "LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2503,8 +2503,8 @@
     "definition": "告知他人自己因某个阻碍无法推进当前任务，需要帮助或等待解除阻塞",
     "example": "I'm blocked on the payment module until the API keys are provided.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2515,8 +2515,8 @@
     "definition": "询问某项工作的预计完成时间（Estimated Time of Arrival，借用航运术语）",
     "example": "The client just asked for an update. What's the ETA on the bug fix?",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2539,8 +2539,8 @@
     "definition": "用于在总结时表示接下来要简洁地表达复杂内容",
     "example": "In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 2,
+    "next_review": "2026-06-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2755,8 +2755,8 @@
     "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
     "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2779,8 +2779,8 @@
     "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
     "example": "Nobody is driving the API documentation. I'll take ownership of this.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2803,8 +2803,8 @@
     "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
     "example": "The migration plan looks rushed. This needs more thought before we commit.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11287,8 +11287,8 @@
     "definition": "学识",
     "example": "A knowledge can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11299,8 +11299,8 @@
     "definition": "消息",
     "example": "The information is important.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11311,8 +11311,8 @@
     "definition": "消息",
     "example": "The news is important.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11323,8 +11323,8 @@
     "definition": "讯息",
     "example": "The message is important.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11335,8 +11335,8 @@
     "definition": "叙述",
     "example": "A story can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11347,8 +11347,8 @@
     "definition": "故事",
     "example": "The tale is important.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11359,8 +11359,8 @@
     "definition": "传说",
     "example": "I have a legend.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11371,8 +11371,8 @@
     "definition": "过去事件",
     "example": "A history can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11383,8 +11383,8 @@
     "definition": "真实",
     "example": "I have a fact.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11395,8 +11395,8 @@
     "definition": "真实",
     "example": "The truth is important.",
     "difficulty": 2,
-    "next_review": "2026-06-22",
-    "review_count": 1,
+    "next_review": "2026-06-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11407,9 +11407,9 @@
     "definition": "隐藏",
     "example": "This is a secret.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_718",
@@ -11419,9 +11419,9 @@
     "definition": "未知",
     "example": "The mystery is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_719",
@@ -11431,9 +11431,9 @@
     "definition": "难题",
     "example": "The puzzle is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_720",
@@ -11443,9 +11443,9 @@
     "definition": "谜题",
     "example": "This is a riddle.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_721",
@@ -11455,9 +11455,9 @@
     "definition": "难题",
     "example": "The problem is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_722",
@@ -11467,9 +11467,9 @@
     "definition": "解答",
     "example": "This is a solution.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_723",
@@ -11479,9 +11479,9 @@
     "definition": "outcome",
     "example": "A result can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_724",
@@ -11491,9 +11491,9 @@
     "definition": "理由",
     "example": "This is a reason.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_725",
@@ -11503,9 +11503,9 @@
     "definition": "导致",
     "example": "A cause can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_726",
@@ -11515,9 +11515,9 @@
     "definition": "影响",
     "example": "I have a effect.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_727",
