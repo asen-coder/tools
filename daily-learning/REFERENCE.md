@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-22，共 1262 条词汇。
+> 更新于 2026-06-23，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2114,7 +2114,7 @@ Let me push back on that — a complete rewrite seems risky given the deadline.
 Could you walk me through your reasoning for choosing Redis over Memcached?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### That's not quite what I had in mind. · 这和我设想的不完全一样。  ★★★
 
@@ -2124,7 +2124,7 @@ Could you walk me through your reasoning for choosing Redis over Memcached?
 That's not quite what I had in mind — I was thinking of a lighter solution.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I appreciate your candor. · 感谢你的坦诚。  ★★★
 
@@ -2134,7 +2134,7 @@ That's not quite what I had in mind — I was thinking of a lighter solution.
 I appreciate your candor about the code quality issues.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### What's the rationale behind this? · 这背后的逻辑/依据是什么？  ★★★
 

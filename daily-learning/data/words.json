@@ -1111,8 +1111,8 @@
     "definition": "在讨论其他内容后返回到之前未解决的话题",
     "example": "We got sidetracked. Let's circle back to the deployment timeline.",
     "difficulty": 3,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1123,8 +1123,8 @@
     "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
     "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
     "difficulty": 3,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1135,8 +1135,8 @@
     "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
     "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
     "difficulty": 3,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1147,9 +1147,9 @@
     "definition": "请对方一步步解释其得出结论的逻辑过程",
     "example": "Could you walk me through your reasoning for choosing Redis over Memcached?",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_017",
@@ -1159,9 +1159,9 @@
     "definition": "委婉地表示对方的理解或方案与自己的预期有偏差",
     "example": "That's not quite what I had in mind — I was thinking of a lighter solution.",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_018",
@@ -1171,9 +1171,9 @@
     "definition": "感谢对方直接说出真实看法，即使是批评也是欢迎的",
     "example": "I appreciate your candor about the code quality issues.",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_019",
@@ -1591,8 +1591,8 @@
     "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
     "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2575,8 +2575,8 @@
     "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
     "example": "What are the trade-offs between monolith and microservices for our use case?",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2587,8 +2587,8 @@
     "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
     "example": "I have some concerns about the timeline. Can we review the resource allocation?",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2611,8 +2611,8 @@
     "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
     "example": "The service went down three times this week. What's the root cause?",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11407,8 +11407,8 @@
     "definition": "隐藏",
     "example": "This is a secret.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11419,8 +11419,8 @@
     "definition": "未知",
     "example": "The mystery is important.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11431,8 +11431,8 @@
     "definition": "难题",
     "example": "The puzzle is important.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11443,8 +11443,8 @@
     "definition": "谜题",
     "example": "This is a riddle.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11455,8 +11455,8 @@
     "definition": "难题",
     "example": "The problem is important.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11467,8 +11467,8 @@
     "definition": "解答",
     "example": "This is a solution.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11479,8 +11479,8 @@
     "definition": "outcome",
     "example": "A result can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11491,8 +11491,8 @@
     "definition": "理由",
     "example": "This is a reason.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11503,8 +11503,8 @@
     "definition": "导致",
     "example": "A cause can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11515,8 +11515,8 @@
     "definition": "影响",
     "example": "I have a effect.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 1,
+    "next_review": "2026-06-26",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -11527,9 +11527,9 @@
     "definition": "目标",
     "example": "A purpose can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_728",
@@ -11539,9 +11539,9 @@
     "definition": "目的",
     "example": "The goal is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_729",
@@ -11551,9 +11551,9 @@
     "definition": "瞄准",
     "example": "I have a aim.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_730",
@@ -11563,9 +11563,9 @@
     "definition": "规划",
     "example": "This is plan.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_731",
@@ -11575,9 +11575,9 @@
     "definition": "方式",
     "example": "I have a method.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_732",
@@ -11587,9 +11587,9 @@
     "definition": "方法",
     "example": "The means is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_733",
@@ -11599,9 +11599,9 @@
     "definition": "程序",
     "example": "I have a step.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_734",
@@ -11611,9 +11611,9 @@
     "definition": "流程",
     "example": "I have a process.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_735",
@@ -11623,9 +11623,9 @@
     "definition": "训练",
     "example": "The practice is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_736",
@@ -11635,9 +11635,9 @@
     "definition": "锻炼",
     "example": "This is a exercise.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-06-24",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_737",
@@ -14803,8 +14803,8 @@
     "definition": "娱乐",
     "example": "This is fun.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14815,8 +14815,8 @@
     "definition": "消遣",
     "example": "I have a entertainment.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14827,8 +14827,8 @@
     "definition": "闲暇",
     "example": "The leisure is important.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14839,8 +14839,8 @@
     "definition": "假期",
     "example": "A vacation can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14851,8 +14851,8 @@
     "definition": "节日",
     "example": "I have a holiday.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14863,8 +14863,8 @@
     "definition": "长途旅行",
     "example": "The journey is important.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14875,8 +14875,8 @@
     "definition": "历险",
     "example": "This is a adventure.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14887,8 +14887,8 @@
     "definition": "探险",
     "example": "I explore every day.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -14899,8 +14899,8 @@
     "definition": "扎营",
     "example": "This is camp.",
     "difficulty": 2,
-    "next_review": "2026-06-23",
-    "review_count": 2,
+    "next_review": "2026-06-30",
+    "review_count": 3,
     "status": "learning"
   },
   {
