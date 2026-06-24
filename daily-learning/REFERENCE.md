@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-23，共 1262 条词汇。
+> 更新于 2026-06-24，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2144,7 +2144,7 @@ I appreciate your candor about the code quality issues.
 What's the rationale behind choosing GraphQL over REST for this project?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's not get into the weeds. · 别陷入细节了。  ★★★
 
@@ -2154,7 +2154,7 @@ What's the rationale behind choosing GraphQL over REST for this project?
 We only have 20 minutes. Let's not get into the weeds—focus on the three key decisions.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I want to challenge this assumption. · 我想质疑一下这个假设。  ★★★
 
@@ -2164,7 +2164,7 @@ We only have 20 minutes. Let's not get into the weeds—focus on the three key d
 I want to challenge this assumption that users prefer dark mode.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Can we put a pin in that? · 我们先把这个话题记下来，待会再说？  ★★★
 
