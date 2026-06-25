@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-24，共 1262 条词汇。
+> 更新于 2026-06-25，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2174,7 +2174,7 @@ I want to challenge this assumption that users prefer dark mode.
 That's a great point. Can we put a pin in that and revisit after the demo?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's move the needle. · 让我们取得实质性进展。  ★★★
 
@@ -2184,7 +2184,7 @@ That's a great point. Can we put a pin in that and revisit after the demo?
 We've been planning for two weeks. It's time to move the needle and ship something.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I want to level-set on our expectations. · 我想对齐一下我们的预期。  ★★★★
 
@@ -2194,7 +2194,7 @@ We've been planning for two weeks. It's time to move the needle and ship somethi
 Before sprint planning, I want to level-set on our expectations for this feature.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's align on the key deliverables. · 让我们就关键交付物达成一致。  ★★★★
 
