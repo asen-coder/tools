@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-25，共 1262 条词汇。
+> 更新于 2026-06-26，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2204,7 +2204,7 @@ Before sprint planning, I want to level-set on our expectations for this feature
 Let's align on the key deliverables — is it the API docs or the demo as well?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### There seems to be some misalignment in our understanding. · 我们的理解之间似乎存在一些偏差。  ★★★★
 
@@ -2214,7 +2214,7 @@ Let's align on the key deliverables — is it the API docs or the demo as well?
 There seems to be some misalignment — you said 'done' means tested, they said it means deployed.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's table this for now and take it offline. · 我们先把这个搁置，私下再沟通。  ★★★★
 
@@ -2224,7 +2224,7 @@ There seems to be some misalignment — you said 'done' means tested, they said 
 This is getting detailed. Let's table this for now and take it offline.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### This might be a red herring. · 这可能是个误导/干扰因素。  ★★★★
 
