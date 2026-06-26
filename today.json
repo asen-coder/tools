@@ -1,7 +1,287 @@
 {
-  "date": "2026-06-25",
-  "day_of_week": "周四",
+  "date": "2026-06-26",
+  "day_of_week": "周五",
   "new_words": [
+    {
+      "id": "gen_757",
+      "category": "general",
+      "en": "satisfy",
+      "zh": "使满意",
+      "definition": "满足",
+      "example": "Can you satisfy?",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_758",
+      "category": "general",
+      "en": "disappoint",
+      "zh": "使失望",
+      "definition": "失望",
+      "example": "Let's disappoint together.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_759",
+      "category": "general",
+      "en": "upset",
+      "zh": "使心烦",
+      "definition": "烦恼",
+      "example": "This is upset.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_760",
+      "category": "general",
+      "en": "comfort",
+      "zh": "安慰",
+      "definition": "抚慰",
+      "example": "You should comfort it.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_761",
+      "category": "general",
+      "en": "encourage",
+      "zh": "鼓励",
+      "definition": "激励",
+      "example": "I encourage every day.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_762",
+      "category": "general",
+      "en": "inspire",
+      "zh": "激励",
+      "definition": "鼓舞",
+      "example": "You should inspire it.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_763",
+      "category": "general",
+      "en": "motivate",
+      "zh": "激励",
+      "definition": "驱动",
+      "example": "I motivate every day.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_764",
+      "category": "general",
+      "en": "persuade",
+      "zh": "说服",
+      "definition": "劝服",
+      "example": "Can you persuade?",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_765",
+      "category": "general",
+      "en": "convince",
+      "zh": "使确信",
+      "definition": "说服",
+      "example": "You should convince it.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_766",
+      "category": "general",
+      "en": "trust",
+      "zh": "信任",
+      "definition": "相信",
+      "example": "You should trust it.",
+      "difficulty": 2,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "new_sentences": [
+    {
+      "id": "daily_020",
+      "category": "daily",
+      "en": "Let's align on the key deliverables.",
+      "zh": "让我们就关键交付物达成一致。",
+      "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
+      "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
+      "difficulty": 4,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_021",
+      "category": "daily",
+      "en": "There seems to be some misalignment in our understanding.",
+      "zh": "我们的理解之间似乎存在一些偏差。",
+      "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
+      "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
+      "difficulty": 4,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "daily_022",
+      "category": "daily",
+      "en": "Let's table this for now and take it offline.",
+      "zh": "我们先把这个搁置，私下再沟通。",
+      "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
+      "example": "This is getting detailed. Let's table this for now and take it offline.",
+      "difficulty": 4,
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "vocab_reviews": [
+    {
+      "id": "gen_717",
+      "category": "general",
+      "en": "secret",
+      "zh": "秘密",
+      "definition": "隐藏",
+      "example": "This is a secret.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_718",
+      "category": "general",
+      "en": "mystery",
+      "zh": "谜",
+      "definition": "未知",
+      "example": "The mystery is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_719",
+      "category": "general",
+      "en": "puzzle",
+      "zh": "谜题",
+      "definition": "难题",
+      "example": "The puzzle is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_720",
+      "category": "general",
+      "en": "riddle",
+      "zh": "谜语",
+      "definition": "谜题",
+      "example": "This is a riddle.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_721",
+      "category": "general",
+      "en": "problem",
+      "zh": "问题",
+      "definition": "难题",
+      "example": "The problem is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_722",
+      "category": "general",
+      "en": "solution",
+      "zh": "解决方案",
+      "definition": "解答",
+      "example": "This is a solution.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_723",
+      "category": "general",
+      "en": "result",
+      "zh": "结果",
+      "definition": "outcome",
+      "example": "A result can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_724",
+      "category": "general",
+      "en": "reason",
+      "zh": "原因",
+      "definition": "理由",
+      "example": "This is a reason.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_725",
+      "category": "general",
+      "en": "cause",
+      "zh": "原因",
+      "definition": "导致",
+      "example": "A cause can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_726",
+      "category": "general",
+      "en": "effect",
+      "zh": "效果",
+      "definition": "影响",
+      "example": "I have a effect.",
+      "difficulty": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
     {
       "id": "gen_747",
       "category": "general",
@@ -10,8 +290,8 @@
       "definition": "害怕",
       "example": "This is fear.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -22,8 +302,8 @@
       "definition": "畏惧",
       "example": "I dread every day.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -34,8 +314,8 @@
       "definition": "惊慌",
       "example": "This is panic.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -46,8 +326,8 @@
       "definition": "吃惊",
       "example": "This is surprise.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -58,8 +338,8 @@
       "definition": "惊愕",
       "example": "This is shock.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -70,8 +350,8 @@
       "definition": "惊叹",
       "example": "I amaze every day.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -82,8 +362,8 @@
       "definition": "惊愕",
       "example": "Can you astonish?",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -94,8 +374,8 @@
       "definition": "激动",
       "example": "You should excite it.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -106,8 +386,8 @@
       "definition": "厌烦",
       "example": "I bore every day.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -118,34 +398,324 @@
       "definition": "关注",
       "example": "Let's interest together.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
-      "status": "learning"
-    }
-  ],
-  "new_sentences": [
-    {
-      "id": "daily_045",
-      "category": "daily",
-      "en": "Can we put a pin in that?",
-      "zh": "我们先把这个话题记下来，待会再说？",
-      "definition": "礼貌地请求将某个话题暂时搁置，待当前讨论结束或另择时间再回来处理",
-      "example": "That's a great point. Can we put a pin in that and revisit after the demo?",
-      "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
-      "id": "daily_050",
+      "id": "gen_1015",
+      "category": "general",
+      "en": "become",
+      "phonetic": "/bɪˈkʌm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "变成，成为"
+          ],
+          "examples": [
+            "He became a doctor.",
+            "It's becoming cold."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1016",
+      "category": "general",
+      "en": "let",
+      "phonetic": "/let/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "让，允许",
+            "出租，租给"
+          ],
+          "examples": [
+            "Let me help you.",
+            "Let the house."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1017",
+      "category": "general",
+      "en": "seem",
+      "phonetic": "/siːm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "似乎，好像",
+            "显得"
+          ],
+          "examples": [
+            "He seems happy.",
+            "It seems like rain."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1018",
+      "category": "general",
+      "en": "offer",
+      "phonetic": "/ˈɒfər/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "提供，提出",
+            "出价，开价"
+          ],
+          "examples": [
+            "Offer help.",
+            "Offer $100 for it."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "提供，提议"
+          ],
+          "examples": [
+            "Thank you for your offer."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1019",
+      "category": "general",
+      "en": "pay",
+      "phonetic": "/peɪ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "支付，付款",
+            "付出代价"
+          ],
+          "examples": [
+            "Pay the bill.",
+            "Pay for your mistake."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "工资，薪金"
+          ],
+          "examples": [
+            "Get your pay."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1020",
+      "category": "general",
+      "en": "meet",
+      "phonetic": "/miːt/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "遇见，会见",
+            "满足，符合"
+          ],
+          "examples": [
+            "Meet my friend.",
+            "Meet requirements."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "会议，集会"
+          ],
+          "examples": [
+            "Attend a meet."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1021",
+      "category": "general",
+      "en": "include",
+      "phonetic": "/ɪnˈkluːd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "包括，包含"
+          ],
+          "examples": [
+            "The price includes tax."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1022",
+      "category": "general",
+      "en": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "继续，持续"
+          ],
+          "examples": [
+            "Continue your work."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1023",
+      "category": "general",
+      "en": "set",
+      "phonetic": "/set/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "放，安置",
+            "设定，确立",
+            "（日）落"
+          ],
+          "examples": [
+            "Set the table.",
+            "Set a goal.",
+            "The sun sets in the west."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "一套，一副",
+            "接收机"
+          ],
+          "examples": [
+            "A chess set.",
+            "A TV set."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    }
+  ],
+  "sentence_reviews": [
+    {
+      "id": "daily_006",
       "category": "daily",
-      "en": "Let's move the needle.",
-      "zh": "让我们取得实质性进展。",
-      "definition": "要求做出有意义的推进，而非停留在讨论或小步骤，强调要有明显可见的结果",
-      "example": "We've been planning for two weeks. It's time to move the needle and ship something.",
+      "en": "Could you elaborate on that?",
+      "zh": "你能详细说明一下吗？",
+      "definition": "请求对方对某个观点或情况提供更多细节和解释",
+      "example": "Could you elaborate on that performance issue you mentioned?",
+      "difficulty": 2,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "daily_007",
+      "category": "daily",
+      "en": "Let me clarify.",
+      "zh": "让我来说清楚一下。",
+      "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
+      "example": "Let me clarify — I meant the staging environment, not production.",
+      "difficulty": 2,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "daily_008",
+      "category": "daily",
+      "en": "I'll get back to you on that.",
+      "zh": "关于这个我稍后回复你。",
+      "definition": "表示需要时间确认后再回答，不立即给出答案",
+      "example": "I'll get back to you on that timeline after checking with the team.",
+      "difficulty": 2,
+      "next_review": "2026-07-10",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "daily_013",
+      "category": "daily",
+      "en": "Let's circle back to this.",
+      "zh": "让我们回头再讨论这个。",
+      "definition": "在讨论其他内容后返回到之前未解决的话题",
+      "example": "We got sidetracked. Let's circle back to the deployment timeline.",
       "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "daily_014",
+      "category": "daily",
+      "en": "I want to make sure we're on the same page.",
+      "zh": "我想确认我们的理解是一致的。",
+      "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
+      "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
+      "difficulty": 3,
+      "next_review": "2026-07-03",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "daily_015",
+      "category": "daily",
+      "en": "Let me push back on that.",
+      "zh": "让我对此提出一些异议。",
+      "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
+      "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
+      "difficulty": 3,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -156,333 +726,41 @@
       "definition": "在项目开始前确保所有人对目标、范围和交付物有相同的理解",
       "example": "Before sprint planning, I want to level-set on our expectations for this feature.",
       "difficulty": 4,
-      "next_review": "2026-06-26",
-      "review_count": 1,
-      "status": "learning"
-    }
-  ],
-  "vocab_reviews": [
-    {
-      "id": "gen_707",
-      "category": "general",
-      "en": "knowledge",
-      "zh": "知识",
-      "definition": "学识",
-      "example": "A knowledge can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_708",
-      "category": "general",
-      "en": "information",
-      "zh": "信息",
-      "definition": "消息",
-      "example": "The information is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_709",
-      "category": "general",
-      "en": "news",
-      "zh": "新闻",
-      "definition": "消息",
-      "example": "The news is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_710",
-      "category": "general",
-      "en": "message",
-      "zh": "信息",
-      "definition": "讯息",
-      "example": "The message is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_711",
-      "category": "general",
-      "en": "story",
-      "zh": "故事",
-      "definition": "叙述",
-      "example": "A story can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_712",
-      "category": "general",
-      "en": "tale",
-      "zh": "传说",
-      "definition": "故事",
-      "example": "The tale is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_713",
-      "category": "general",
-      "en": "legend",
-      "zh": "传奇",
-      "definition": "传说",
-      "example": "I have a legend.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_714",
-      "category": "general",
-      "en": "history",
-      "zh": "历史",
-      "definition": "过去事件",
-      "example": "A history can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_715",
-      "category": "general",
-      "en": "fact",
-      "zh": "事实",
-      "definition": "真实",
-      "example": "I have a fact.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_716",
-      "category": "general",
-      "en": "truth",
-      "zh": "真相",
-      "definition": "真实",
-      "example": "The truth is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_737",
-      "category": "general",
-      "en": "training",
-      "zh": "训练",
-      "definition": "培养",
-      "example": "I have a training.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
+      "next_review": "2026-06-29",
       "review_count": 2,
       "status": "learning"
     },
     {
-      "id": "gen_738",
-      "category": "general",
-      "en": "experience",
-      "zh": "经验",
-      "definition": "经历",
-      "example": "A experience can help you.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_739",
-      "category": "general",
-      "en": "skill",
-      "zh": "技能",
-      "definition": "本领",
-      "example": "The skill is important.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_740",
-      "category": "general",
-      "en": "ability",
-      "zh": "能力",
-      "definition": "才能",
-      "example": "A ability can help you.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_741",
-      "category": "general",
-      "en": "talent",
-      "zh": "天赋",
-      "definition": "才华",
-      "example": "This is a talent.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_742",
-      "category": "general",
-      "en": "gift",
-      "zh": "天赋",
-      "definition": "礼物",
-      "example": "I have a gift.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_743",
-      "category": "general",
-      "en": "enjoy",
-      "zh": "享受",
-      "definition": "喜爱",
-      "example": "Let's enjoy together.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_744",
-      "category": "general",
-      "en": "prefer",
-      "zh": "更喜欢",
-      "definition": "偏好",
-      "example": "Can you prefer?",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_745",
-      "category": "general",
-      "en": "care",
-      "zh": "关心",
-      "definition": "在意",
-      "example": "You should care it.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_746",
-      "category": "general",
-      "en": "worry",
-      "zh": "担心",
-      "definition": "忧虑",
-      "example": "You should worry it.",
-      "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    }
-  ],
-  "sentence_reviews": [
-    {
-      "id": "daily_031",
+      "id": "daily_045",
       "category": "daily",
-      "en": "What's the rationale behind this?",
-      "zh": "这背后的逻辑/依据是什么？",
-      "definition": "礼貌地请求对方解释决定或设计背后的原因和思考过程",
-      "example": "What's the rationale behind choosing GraphQL over REST for this project?",
+      "en": "Can we put a pin in that?",
+      "zh": "我们先把这个话题记下来，待会再说？",
+      "definition": "礼貌地请求将某个话题暂时搁置，待当前讨论结束或另择时间再回来处理",
+      "example": "That's a great point. Can we put a pin in that and revisit after the demo?",
       "difficulty": 3,
-      "next_review": "2026-06-28",
+      "next_review": "2026-06-29",
       "review_count": 2,
       "status": "learning"
     },
     {
-      "id": "daily_034",
+      "id": "daily_050",
       "category": "daily",
-      "en": "Let's not get into the weeds.",
-      "zh": "别陷入细节了。",
-      "definition": "在讨论中过于纠结细节时提醒大家回到主线，避免因小失大",
-      "example": "We only have 20 minutes. Let's not get into the weeds—focus on the three key decisions.",
+      "en": "Let's move the needle.",
+      "zh": "让我们取得实质性进展。",
+      "definition": "要求做出有意义的推进，而非停留在讨论或小步骤，强调要有明显可见的结果",
+      "example": "We've been planning for two weeks. It's time to move the needle and ship something.",
       "difficulty": 3,
-      "next_review": "2026-06-28",
+      "next_review": "2026-06-29",
       "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "daily_038",
-      "category": "daily",
-      "en": "I want to challenge this assumption.",
-      "zh": "我想质疑一下这个假设。",
-      "definition": "礼貌地表示方案背后的某个前提可能不成立，希望重新审视",
-      "example": "I want to challenge this assumption that users prefer dark mode.",
-      "difficulty": 3,
-      "next_review": "2026-06-28",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "daily_047",
-      "category": "daily",
-      "en": "That's out of scope.",
-      "zh": "那超出范围了。",
-      "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
-      "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "daily_049",
-      "category": "daily",
-      "en": "I'll take ownership of this.",
-      "zh": "我来负责这件事。",
-      "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
-      "example": "Nobody is driving the API documentation. I'll take ownership of this.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "daily_051",
-      "category": "daily",
-      "en": "This needs more thought.",
-      "zh": "这还需要再仔细考虑。",
-      "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
-      "example": "The migration plan looks rushed. This needs more thought before we commit.",
-      "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
       "status": "learning"
     }
   ],
   "stats": {
     "total": 1262,
     "mastered": 1,
-    "learning": 142,
-    "new": 1119,
-    "streak": 11,
-    "total_sessions": 11
+    "learning": 155,
+    "new": 1106,
+    "streak": 12,
+    "total_sessions": 12
   }
 }

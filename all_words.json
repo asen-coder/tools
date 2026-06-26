@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-25",
+  "generated": "2026-06-26",
   "words": [
     {
       "id": "ai_001",
@@ -1029,8 +1029,8 @@
       "definition": "请求对方对某个观点或情况提供更多细节和解释",
       "example": "Could you elaborate on that performance issue you mentioned?",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1041,8 +1041,8 @@
       "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
       "example": "Let me clarify — I meant the staging environment, not production.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1053,8 +1053,8 @@
       "definition": "表示需要时间确认后再回答，不立即给出答案",
       "example": "I'll get back to you on that timeline after checking with the team.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1113,8 +1113,8 @@
       "definition": "在讨论其他内容后返回到之前未解决的话题",
       "example": "We got sidetracked. Let's circle back to the deployment timeline.",
       "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1125,8 +1125,8 @@
       "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
       "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
       "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1137,8 +1137,8 @@
       "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
       "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
       "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1185,8 +1185,8 @@
       "definition": "在项目开始前确保所有人对目标、范围和交付物有相同的理解",
       "example": "Before sprint planning, I want to level-set on our expectations for this feature.",
       "difficulty": 4,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1197,9 +1197,9 @@
       "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
       "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_021",
@@ -1209,9 +1209,9 @@
       "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
       "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_022",
@@ -1221,9 +1221,9 @@
       "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
       "example": "This is getting detailed. Let's table this for now and take it offline.",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_033",
@@ -2733,8 +2733,8 @@
       "definition": "礼貌地请求将某个话题暂时搁置，待当前讨论结束或另择时间再回来处理",
       "example": "That's a great point. Can we put a pin in that and revisit after the demo?",
       "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2793,8 +2793,8 @@
       "definition": "要求做出有意义的推进，而非停留在讨论或小步骤，强调要有明显可见的结果",
       "example": "We've been planning for two weeks. It's time to move the needle and ship something.",
       "difficulty": 3,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11409,8 +11409,8 @@
       "definition": "隐藏",
       "example": "This is a secret.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11421,8 +11421,8 @@
       "definition": "未知",
       "example": "The mystery is important.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11433,8 +11433,8 @@
       "definition": "难题",
       "example": "The puzzle is important.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11445,8 +11445,8 @@
       "definition": "谜题",
       "example": "This is a riddle.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11457,8 +11457,8 @@
       "definition": "难题",
       "example": "The problem is important.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11469,8 +11469,8 @@
       "definition": "解答",
       "example": "This is a solution.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11481,8 +11481,8 @@
       "definition": "outcome",
       "example": "A result can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11493,8 +11493,8 @@
       "definition": "理由",
       "example": "This is a reason.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11505,8 +11505,8 @@
       "definition": "导致",
       "example": "A cause can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11517,8 +11517,8 @@
       "definition": "影响",
       "example": "I have a effect.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 2,
+      "next_review": "2026-07-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11769,8 +11769,8 @@
       "definition": "害怕",
       "example": "This is fear.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11781,8 +11781,8 @@
       "definition": "畏惧",
       "example": "I dread every day.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11793,8 +11793,8 @@
       "definition": "惊慌",
       "example": "This is panic.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11805,8 +11805,8 @@
       "definition": "吃惊",
       "example": "This is surprise.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11817,8 +11817,8 @@
       "definition": "惊愕",
       "example": "This is shock.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11829,8 +11829,8 @@
       "definition": "惊叹",
       "example": "I amaze every day.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11841,8 +11841,8 @@
       "definition": "惊愕",
       "example": "Can you astonish?",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11853,8 +11853,8 @@
       "definition": "激动",
       "example": "You should excite it.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11865,8 +11865,8 @@
       "definition": "厌烦",
       "example": "I bore every day.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11877,8 +11877,8 @@
       "definition": "关注",
       "example": "Let's interest together.",
       "difficulty": 2,
-      "next_review": "2026-06-26",
-      "review_count": 1,
+      "next_review": "2026-06-29",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11889,9 +11889,9 @@
       "definition": "满足",
       "example": "Can you satisfy?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_758",
@@ -11901,9 +11901,9 @@
       "definition": "失望",
       "example": "Let's disappoint together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_759",
@@ -11913,9 +11913,9 @@
       "definition": "烦恼",
       "example": "This is upset.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_760",
@@ -11925,9 +11925,9 @@
       "definition": "抚慰",
       "example": "You should comfort it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_761",
@@ -11937,9 +11937,9 @@
       "definition": "激励",
       "example": "I encourage every day.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_762",
@@ -11949,9 +11949,9 @@
       "definition": "鼓舞",
       "example": "You should inspire it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_763",
@@ -11961,9 +11961,9 @@
       "definition": "驱动",
       "example": "I motivate every day.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_764",
@@ -11973,9 +11973,9 @@
       "definition": "劝服",
       "example": "Can you persuade?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_765",
@@ -11985,9 +11985,9 @@
       "definition": "说服",
       "example": "You should convince it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_766",
@@ -11997,9 +11997,9 @@
       "definition": "相信",
       "example": "You should trust it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-27",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_767",
@@ -15006,8 +15006,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15029,8 +15029,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15052,8 +15052,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15084,8 +15084,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15116,8 +15116,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15148,8 +15148,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15169,8 +15169,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15190,8 +15190,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15226,8 +15226,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-26",
-      "review_count": 3,
+      "next_review": "2026-07-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
