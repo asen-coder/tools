@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-26，共 1262 条词汇。
+> 更新于 2026-06-27，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2234,7 +2234,7 @@ This is getting detailed. Let's table this for now and take it offline.
 The CSS error might be a red herring. The real bug is in the data fetching.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Could you repeat that? · 你能再说一遍吗？  ★★★★★
 
@@ -2244,7 +2244,7 @@ The CSS error might be a red herring. The real bug is in the data fetching.
 Sorry, could you repeat that? The connection was breaking up.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I understand. · 我明白了。  ★★★★★
 
@@ -2254,7 +2254,7 @@ Sorry, could you repeat that? The connection was breaking up.
 I understand the requirements. I'll start working on it today.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### That's a good point. · 这是个好观点。  ★★★★★
 

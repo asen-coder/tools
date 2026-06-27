@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-26",
+  "generated": "2026-06-27",
   "words": [
     {
       "id": "ai_001",
@@ -81,8 +81,8 @@
       "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
       "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -93,8 +93,8 @@
       "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
       "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -105,8 +105,8 @@
       "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -117,8 +117,8 @@
       "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
       "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -129,8 +129,8 @@
       "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -969,9 +969,9 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_002",
@@ -981,9 +981,9 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_003",
@@ -1065,8 +1065,8 @@
       "definition": "表示对方的解释或逻辑是合理的、可以理解的",
       "example": "That makes sense. Using a queue would handle the load spikes.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1077,8 +1077,8 @@
       "definition": "在别人发言后礼貌地加入自己的观点或信息",
       "example": "I'd like to add something — we also need to consider mobile users.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1089,8 +1089,8 @@
       "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
       "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1149,8 +1149,8 @@
       "definition": "请对方一步步解释其得出结论的逻辑过程",
       "example": "Could you walk me through your reasoning for choosing Redis over Memcached?",
       "difficulty": 3,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1161,8 +1161,8 @@
       "definition": "委婉地表示对方的理解或方案与自己的预期有偏差",
       "example": "That's not quite what I had in mind — I was thinking of a lighter solution.",
       "difficulty": 3,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1173,8 +1173,8 @@
       "definition": "感谢对方直接说出真实看法，即使是批评也是欢迎的",
       "example": "I appreciate your candor about the code quality issues.",
       "difficulty": 3,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1197,8 +1197,8 @@
       "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
       "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
       "difficulty": 4,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1209,8 +1209,8 @@
       "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
       "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
       "difficulty": 4,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1221,8 +1221,8 @@
       "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
       "example": "This is getting detailed. Let's table this for now and take it offline.",
       "difficulty": 4,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2661,9 +2661,9 @@
       "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
       "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_040",
@@ -11529,8 +11529,8 @@
       "definition": "目标",
       "example": "A purpose can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11541,8 +11541,8 @@
       "definition": "目的",
       "example": "The goal is important.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11553,8 +11553,8 @@
       "definition": "瞄准",
       "example": "I have a aim.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11565,8 +11565,8 @@
       "definition": "规划",
       "example": "This is plan.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11577,8 +11577,8 @@
       "definition": "方式",
       "example": "I have a method.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11589,8 +11589,8 @@
       "definition": "方法",
       "example": "The means is important.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11601,8 +11601,8 @@
       "definition": "程序",
       "example": "I have a step.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11613,8 +11613,8 @@
       "definition": "流程",
       "example": "I have a process.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11625,8 +11625,8 @@
       "definition": "训练",
       "example": "The practice is important.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11637,8 +11637,8 @@
       "definition": "锻炼",
       "example": "This is a exercise.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 2,
+      "next_review": "2026-07-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11889,8 +11889,8 @@
       "definition": "满足",
       "example": "Can you satisfy?",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11901,8 +11901,8 @@
       "definition": "失望",
       "example": "Let's disappoint together.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11913,8 +11913,8 @@
       "definition": "烦恼",
       "example": "This is upset.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11925,8 +11925,8 @@
       "definition": "抚慰",
       "example": "You should comfort it.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11937,8 +11937,8 @@
       "definition": "激励",
       "example": "I encourage every day.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11949,8 +11949,8 @@
       "definition": "鼓舞",
       "example": "You should inspire it.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11961,8 +11961,8 @@
       "definition": "驱动",
       "example": "I motivate every day.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11973,8 +11973,8 @@
       "definition": "劝服",
       "example": "Can you persuade?",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11985,8 +11985,8 @@
       "definition": "说服",
       "example": "You should convince it.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11997,8 +11997,8 @@
       "definition": "相信",
       "example": "You should trust it.",
       "difficulty": 2,
-      "next_review": "2026-06-27",
-      "review_count": 1,
+      "next_review": "2026-06-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12009,9 +12009,9 @@
       "definition": "质疑",
       "example": "Let's doubt together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_768",
@@ -12021,9 +12021,9 @@
       "definition": "猜测",
       "example": "You should suspect it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_769",
@@ -12033,9 +12033,9 @@
       "definition": "假定",
       "example": "You should assume it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_770",
@@ -12045,9 +12045,9 @@
       "definition": "假定",
       "example": "Let's suppose together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_771",
@@ -12057,9 +12057,9 @@
       "definition": "设想",
       "example": "I imagine every day.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_772",
@@ -12069,9 +12069,9 @@
       "definition": "明白",
       "example": "Can you realize?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_773",
@@ -12081,9 +12081,9 @@
       "definition": "识别",
       "example": "You should recognize it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_774",
@@ -12093,9 +12093,9 @@
       "definition": "觉察",
       "example": "Let's notice together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_775",
@@ -12105,9 +12105,9 @@
       "definition": "观测",
       "example": "You should observe it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_776",
@@ -12117,9 +12117,9 @@
       "definition": "找到",
       "example": "You should discover it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_777",
@@ -15262,8 +15262,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15285,8 +15285,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15306,8 +15306,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15329,8 +15329,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -15352,8 +15352,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-06-27",
-      "review_count": 3,
+      "next_review": "2026-07-11",
+      "review_count": 4,
       "status": "learning"
     }
   ]
