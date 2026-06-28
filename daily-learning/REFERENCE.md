@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-27，共 1262 条词汇。
+> 更新于 2026-06-28，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2264,7 +2264,7 @@ I understand the requirements. I'll start working on it today.
 That's a good point about performance. We should optimize the query.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I agree. · 我同意。  ★★★★★
 
@@ -2274,7 +2274,7 @@ That's a good point about performance. We should optimize the query.
 I agree. Using TypeScript would reduce runtime errors significantly.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Please go ahead. · 请继续。  ★★★★★
 
@@ -2284,7 +2284,7 @@ I agree. Using TypeScript would reduce runtime errors significantly.
 You wanted to share the test results? Please go ahead.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Let's sync up. · 我们对齐一下（信息同步）。  ★★★★★
 

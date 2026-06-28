@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-27",
+  "generated": "2026-06-28",
   "words": [
     {
       "id": "ai_001",
@@ -141,8 +141,8 @@
       "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
       "example": "memory = ConversationBufferMemory(return_messages=True)",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -153,8 +153,8 @@
       "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -165,8 +165,8 @@
       "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -177,8 +177,8 @@
       "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
       "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -189,8 +189,8 @@
       "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
       "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -969,8 +969,8 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -981,8 +981,8 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -993,9 +993,9 @@
       "definition": "表达对对方意见的认可和肯定",
       "example": "That's a good point about performance. We should optimize the query.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_004",
@@ -1005,9 +1005,9 @@
       "definition": "表示与对方观点一致",
       "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_005",
@@ -1017,9 +1017,9 @@
       "definition": "邀请对方继续发言或开始做某件事",
       "example": "You wanted to share the test results? Please go ahead.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_006",
@@ -1101,8 +1101,8 @@
       "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
       "example": "That's important but out of scope today. Could we revisit this later?",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1233,8 +1233,8 @@
       "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
       "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1257,8 +1257,8 @@
       "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
       "example": "chain = prompt | llm | StrOutputParser()",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1269,8 +1269,8 @@
       "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
       "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1293,8 +1293,8 @@
       "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1305,8 +1305,8 @@
       "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2469,8 +2469,8 @@
       "definition": "请求对方在事情发生前预先告知，以便有时间准备",
       "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2481,8 +2481,8 @@
       "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
       "example": "I'll loop you in on the email thread with the client so you're up to speed.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 3,
+      "next_review": "2026-07-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2565,8 +2565,8 @@
       "definition": "礼貌地请求对方解释决定或设计背后的原因和思考过程",
       "example": "What's the rationale behind choosing GraphQL over REST for this project?",
       "difficulty": 3,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2601,8 +2601,8 @@
       "definition": "在讨论中过于纠结细节时提醒大家回到主线，避免因小失大",
       "example": "We only have 20 minutes. Let's not get into the weeds—focus on the three key decisions.",
       "difficulty": 3,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2649,8 +2649,8 @@
       "definition": "礼貌地表示方案背后的某个前提可能不成立，希望重新审视",
       "example": "I want to challenge this assumption that users prefer dark mode.",
       "difficulty": 3,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2661,8 +2661,8 @@
       "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
       "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
       "difficulty": 4,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11649,8 +11649,8 @@
       "definition": "培养",
       "example": "I have a training.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11661,8 +11661,8 @@
       "definition": "经历",
       "example": "A experience can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11673,8 +11673,8 @@
       "definition": "本领",
       "example": "The skill is important.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11685,8 +11685,8 @@
       "definition": "才能",
       "example": "A ability can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11697,8 +11697,8 @@
       "definition": "才华",
       "example": "This is a talent.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11709,8 +11709,8 @@
       "definition": "礼物",
       "example": "I have a gift.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11721,8 +11721,8 @@
       "definition": "喜爱",
       "example": "Let's enjoy together.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11733,8 +11733,8 @@
       "definition": "偏好",
       "example": "Can you prefer?",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11745,8 +11745,8 @@
       "definition": "在意",
       "example": "You should care it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11757,8 +11757,8 @@
       "definition": "忧虑",
       "example": "You should worry it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 2,
+      "next_review": "2026-07-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12009,8 +12009,8 @@
       "definition": "质疑",
       "example": "Let's doubt together.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12021,8 +12021,8 @@
       "definition": "猜测",
       "example": "You should suspect it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12033,8 +12033,8 @@
       "definition": "假定",
       "example": "You should assume it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12045,8 +12045,8 @@
       "definition": "假定",
       "example": "Let's suppose together.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12057,8 +12057,8 @@
       "definition": "设想",
       "example": "I imagine every day.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12069,8 +12069,8 @@
       "definition": "明白",
       "example": "Can you realize?",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12081,8 +12081,8 @@
       "definition": "识别",
       "example": "You should recognize it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12093,8 +12093,8 @@
       "definition": "觉察",
       "example": "Let's notice together.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12105,8 +12105,8 @@
       "definition": "观测",
       "example": "You should observe it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12117,8 +12117,8 @@
       "definition": "找到",
       "example": "You should discover it.",
       "difficulty": 2,
-      "next_review": "2026-06-28",
-      "review_count": 1,
+      "next_review": "2026-07-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12129,9 +12129,9 @@
       "definition": "创造",
       "example": "Let's invent together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_778",
@@ -12141,9 +12141,9 @@
       "definition": "创作",
       "example": "You should create it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_779",
@@ -12153,9 +12153,9 @@
       "definition": "规划",
       "example": "You should design it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_780",
@@ -12165,9 +12165,9 @@
       "definition": "制造",
       "example": "Can you produce?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_781",
@@ -12177,9 +12177,9 @@
       "definition": "开发",
       "example": "Can you develop?",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_782",
@@ -12189,9 +12189,9 @@
       "definition": "改善",
       "example": "You should improve it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_783",
@@ -12201,9 +12201,9 @@
       "definition": "增长",
       "example": "You should increase it.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_784",
@@ -12213,9 +12213,9 @@
       "definition": "降低",
       "example": "Let's decrease together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_785",
@@ -12225,9 +12225,9 @@
       "definition": "提升",
       "example": "I raise every day.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_786",
@@ -12237,9 +12237,9 @@
       "definition": "减少",
       "example": "Let's lower together.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-06-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_787",
