@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-28，共 1262 条词汇。
+> 更新于 2026-06-29，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2294,7 +2294,7 @@ You wanted to share the test results? Please go ahead.
 Before the sprint review, let's sync up for 15 minutes to align on the demo flow.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### We're behind schedule. · 我们落后于计划了。  ★★★★★
 
@@ -2304,7 +2304,7 @@ Before the sprint review, let's sync up for 15 minutes to align on the demo flow
 We're behind schedule by two days. Should we cut scope or add resources?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### That's a fair point. · 这是个合理的观点。  ★★★★★
 
@@ -2314,7 +2314,7 @@ We're behind schedule by two days. Should we cut scope or add resources?
 That's a fair point about test coverage. Let's add more unit tests before merging.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### This is a known issue. · 这是个已知问题。  ★★★★★
 
