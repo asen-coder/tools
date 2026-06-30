@@ -1195,8 +1195,8 @@
     "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
     "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
     "difficulty": 4,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1207,8 +1207,8 @@
     "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
     "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
     "difficulty": 4,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1219,8 +1219,8 @@
     "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
     "example": "This is getting detailed. Let's table this for now and take it offline.",
     "difficulty": 4,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1591,8 +1591,8 @@
     "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
     "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2491,8 +2491,8 @@
     "definition": "约定一次短暂会面或通话，让团队成员了解彼此的最新进展",
     "example": "Before the sprint review, let's sync up for 15 minutes to align on the demo flow.",
     "difficulty": 5,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2527,8 +2527,8 @@
     "definition": "说明项目进度滞后，没有按原定时间线推进",
     "example": "We're behind schedule by two days. Should we cut scope or add resources?",
     "difficulty": 5,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2551,8 +2551,8 @@
     "definition": "认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意",
     "example": "That's a fair point about test coverage. Let's add more unit tests before merging.",
     "difficulty": 5,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2575,8 +2575,8 @@
     "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
     "example": "What are the trade-offs between monolith and microservices for our use case?",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2587,8 +2587,8 @@
     "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
     "example": "I have some concerns about the timeline. Can we review the resource allocation?",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2611,8 +2611,8 @@
     "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
     "example": "The service went down three times this week. What's the root cause?",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2635,9 +2635,9 @@
     "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
     "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_038",
@@ -2683,9 +2683,9 @@
     "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
     "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_042",
@@ -2695,9 +2695,9 @@
     "definition": "请求对方对某个观点或说法做更详细的解释",
     "example": "You mentioned scalability concerns—can you elaborate on that?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "daily_043",
@@ -11887,8 +11887,8 @@
     "definition": "满足",
     "example": "Can you satisfy?",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11899,8 +11899,8 @@
     "definition": "失望",
     "example": "Let's disappoint together.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11911,8 +11911,8 @@
     "definition": "烦恼",
     "example": "This is upset.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11923,8 +11923,8 @@
     "definition": "抚慰",
     "example": "You should comfort it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11935,8 +11935,8 @@
     "definition": "激励",
     "example": "I encourage every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11947,8 +11947,8 @@
     "definition": "鼓舞",
     "example": "You should inspire it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11959,8 +11959,8 @@
     "definition": "驱动",
     "example": "I motivate every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11971,8 +11971,8 @@
     "definition": "劝服",
     "example": "Can you persuade?",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11983,8 +11983,8 @@
     "definition": "说服",
     "example": "You should convince it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11995,8 +11995,8 @@
     "definition": "相信",
     "example": "You should trust it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 2,
+    "next_review": "2026-07-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12247,8 +12247,8 @@
     "definition": "扩张",
     "example": "You should expand it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12259,8 +12259,8 @@
     "definition": "缩减",
     "example": "You should reduce it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12271,8 +12271,8 @@
     "definition": "节约",
     "example": "I save every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12283,8 +12283,8 @@
     "definition": "消耗",
     "example": "You should spend it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12295,8 +12295,8 @@
     "definition": "挥霍",
     "example": "You should waste it.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12307,8 +12307,8 @@
     "definition": "失去",
     "example": "I lose every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12319,8 +12319,8 @@
     "definition": "得到",
     "example": "I gain every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12331,8 +12331,8 @@
     "definition": "获胜",
     "example": "I win every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12343,8 +12343,8 @@
     "definition": "未成功",
     "example": "I fail every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12355,8 +12355,8 @@
     "definition": "达成",
     "example": "Let's succeed together.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 1,
+    "next_review": "2026-07-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12367,9 +12367,9 @@
     "definition": "达成",
     "example": "Let's achieve together.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_798",
@@ -12379,9 +12379,9 @@
     "definition": "实现",
     "example": "Let's accomplish together.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_799",
@@ -12391,9 +12391,9 @@
     "definition": "完整",
     "example": "You should complete it.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_800",
@@ -12403,9 +12403,9 @@
     "definition": "职业",
     "example": "This is a job.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_801",
@@ -12415,9 +12415,9 @@
     "definition": "事业",
     "example": "I have a career.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_802",
@@ -12427,9 +12427,9 @@
     "definition": "专业",
     "example": "The profession is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_803",
@@ -12439,9 +12439,9 @@
     "definition": "生意",
     "example": "A business can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_804",
@@ -12451,9 +12451,9 @@
     "definition": "企业",
     "example": "A company can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_805",
@@ -12463,9 +12463,9 @@
     "definition": "制造场所",
     "example": "A factory can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_806",
@@ -12475,9 +12475,9 @@
     "definition": "店铺",
     "example": "A shop can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_807",
@@ -14803,8 +14803,8 @@
     "definition": "娱乐",
     "example": "This is fun.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14815,8 +14815,8 @@
     "definition": "消遣",
     "example": "I have a entertainment.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14827,8 +14827,8 @@
     "definition": "闲暇",
     "example": "The leisure is important.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14839,8 +14839,8 @@
     "definition": "假期",
     "example": "A vacation can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14851,8 +14851,8 @@
     "definition": "节日",
     "example": "I have a holiday.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14863,8 +14863,8 @@
     "definition": "长途旅行",
     "example": "The journey is important.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14875,8 +14875,8 @@
     "definition": "历险",
     "example": "This is a adventure.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14887,8 +14887,8 @@
     "definition": "探险",
     "example": "I explore every day.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14899,8 +14899,8 @@
     "definition": "扎营",
     "example": "This is camp.",
     "difficulty": 2,
-    "next_review": "2026-06-30",
-    "review_count": 3,
+    "next_review": "2026-07-14",
+    "review_count": 4,
     "status": "learning"
   },
   {

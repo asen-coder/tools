@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-29，共 1262 条词汇。
+> 更新于 2026-06-30，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2324,7 +2324,7 @@ That's a fair point about test coverage. Let's add more unit tests before mergin
 The lag on the search page is a known issue. It's tracked as BUG-421.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### This is on the right track. · 这个方向对了。  ★★★★★
 
@@ -2334,7 +2334,7 @@ The lag on the search page is a known issue. It's tracked as BUG-421.
 Your proposal is on the right track. Let's flesh out the implementation details.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Can you elaborate on that? · 你能详细展开说说吗？  ★★★★★
 
@@ -2344,7 +2344,7 @@ Your proposal is on the right track. Let's flesh out the implementation details.
 You mentioned scalability concerns—can you elaborate on that?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'll follow up on this. · 我来跟进这件事。  ★★★★★
 
