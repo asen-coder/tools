@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-30",
+  "generated": "2026-07-01",
   "words": [
     {
       "id": "ai_001",
@@ -969,8 +969,8 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -981,8 +981,8 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2625,8 +2625,8 @@
       "definition": "承认问题尚未根本解决，先采用临时手段绕过问题维持运转",
       "example": "We can't fix the database bottleneck today. Let's add a cache layer as a workaround.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2637,8 +2637,8 @@
       "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
       "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
       "difficulty": 5,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2661,8 +2661,8 @@
       "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
       "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
       "difficulty": 4,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2673,8 +2673,8 @@
       "definition": "解释某个被质疑的行为其实是符合预期设计的，并非缺陷",
       "example": "The loading spinner on slow connections is working as intended—it's a feature.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2685,8 +2685,8 @@
       "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
       "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
       "difficulty": 5,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2697,8 +2697,8 @@
       "definition": "请求对方对某个观点或说法做更详细的解释",
       "example": "You mentioned scalability concerns—can you elaborate on that?",
       "difficulty": 5,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2709,8 +2709,8 @@
       "definition": "在会议或讨论结束时，确认所有人对接下来的行动计划达成共识",
       "example": "Before we wrap up, let's align on the next steps and who owns each item.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2721,9 +2721,9 @@
       "definition": "表示自己会继续推进某个事项，并在适当时候反馈进展",
       "example": "I don't have the answer right now, but I'll follow up on this by Thursday.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_045",
@@ -2745,9 +2745,9 @@
       "definition": "礼貌地表示没有理解对方说的内容，请求重新解释",
       "example": "I'm not sure I follow—could you walk me through the flow again with an example?",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_047",
@@ -2769,9 +2769,9 @@
       "definition": "表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段",
       "example": "Tests are passing, staging looks clean—we're good to go for the release.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_049",
@@ -11229,8 +11229,8 @@
       "definition": "信任",
       "example": "I believe every day.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11241,8 +11241,8 @@
       "definition": "思维器官",
       "example": "A mind can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11253,8 +11253,8 @@
       "definition": "想法",
       "example": "The idea is important.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11265,8 +11265,8 @@
       "definition": "思维",
       "example": "This is a thought.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11277,8 +11277,8 @@
       "definition": "观点",
       "example": "This is a opinion.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12009,8 +12009,8 @@
       "definition": "质疑",
       "example": "Let's doubt together.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12021,8 +12021,8 @@
       "definition": "猜测",
       "example": "You should suspect it.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12033,8 +12033,8 @@
       "definition": "假定",
       "example": "You should assume it.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12045,8 +12045,8 @@
       "definition": "假定",
       "example": "Let's suppose together.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12057,8 +12057,8 @@
       "definition": "设想",
       "example": "I imagine every day.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12069,8 +12069,8 @@
       "definition": "明白",
       "example": "Can you realize?",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12081,8 +12081,8 @@
       "definition": "识别",
       "example": "You should recognize it.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12093,8 +12093,8 @@
       "definition": "觉察",
       "example": "Let's notice together.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12105,8 +12105,8 @@
       "definition": "观测",
       "example": "You should observe it.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12117,8 +12117,8 @@
       "definition": "找到",
       "example": "You should discover it.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 2,
+      "next_review": "2026-07-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12369,8 +12369,8 @@
       "definition": "达成",
       "example": "Let's achieve together.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12381,8 +12381,8 @@
       "definition": "实现",
       "example": "Let's accomplish together.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12393,8 +12393,8 @@
       "definition": "完整",
       "example": "You should complete it.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12405,8 +12405,8 @@
       "definition": "职业",
       "example": "This is a job.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12417,8 +12417,8 @@
       "definition": "事业",
       "example": "I have a career.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12429,8 +12429,8 @@
       "definition": "专业",
       "example": "The profession is important.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12441,8 +12441,8 @@
       "definition": "生意",
       "example": "A business can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12453,8 +12453,8 @@
       "definition": "企业",
       "example": "A company can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12465,8 +12465,8 @@
       "definition": "制造场所",
       "example": "A factory can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12477,8 +12477,8 @@
       "definition": "店铺",
       "example": "A shop can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 1,
+      "next_review": "2026-07-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12489,9 +12489,9 @@
       "definition": "店铺",
       "example": "This is a store.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_808",
@@ -12501,9 +12501,9 @@
       "definition": "交易场所",
       "example": "I have a market.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_809",
@@ -12513,9 +12513,9 @@
       "definition": "金融机构",
       "example": "I have a bank.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_810",
@@ -12525,9 +12525,9 @@
       "definition": "医疗机构",
       "example": "The hospital is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_811",
@@ -12537,9 +12537,9 @@
       "definition": "高等院校",
       "example": "This is a college.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_812",
@@ -12549,9 +12549,9 @@
       "definition": "高等学府",
       "example": "A university can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_813",
@@ -12561,9 +12561,9 @@
       "definition": "展览场所",
       "example": "This is a museum.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_814",
@@ -12573,9 +12573,9 @@
       "definition": "演出场所",
       "example": "A theater can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_815",
@@ -12585,9 +12585,9 @@
       "definition": "放映场所",
       "example": "A cinema can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_816",
@@ -12597,9 +12597,9 @@
       "definition": "休闲场所",
       "example": "This is a cafe.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_817",
@@ -14913,8 +14913,8 @@
       "definition": "远足",
       "example": "This is hike.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14925,8 +14925,8 @@
       "definition": "爬山",
       "example": "Can you climb?",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14937,8 +14937,8 @@
       "definition": "冲浪运动",
       "example": "This is surf.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14949,8 +14949,8 @@
       "definition": "雪上运动",
       "example": "This is ski.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14961,8 +14961,8 @@
       "definition": "冰上运动",
       "example": "Let's skate together.",
       "difficulty": 2,
-      "next_review": "2026-07-01",
-      "review_count": 3,
+      "next_review": "2026-07-15",
+      "review_count": 4,
       "status": "learning"
     },
     {

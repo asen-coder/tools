@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-06-30，共 1262 条词汇。
+> 更新于 2026-07-01，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -2354,7 +2354,7 @@ You mentioned scalability concerns—can you elaborate on that?
 I don't have the answer right now, but I'll follow up on this by Thursday.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### I'm not sure I follow. · 我不太确定是否理解你的意思。  ★★★★★
 
@@ -2364,7 +2364,7 @@ I don't have the answer right now, but I'll follow up on this by Thursday.
 I'm not sure I follow—could you walk me through the flow again with an example?
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### We're good to go. · 我们可以开始了 / 都准备好了。  ★★★★★
 
@@ -2374,4 +2374,4 @@ I'm not sure I follow—could you walk me through the flow again with an example
 Tests are passing, staging looks clean—we're good to go for the release.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
