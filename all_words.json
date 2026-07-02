@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-01",
+  "generated": "2026-07-02",
   "words": [
     {
       "id": "ai_001",
@@ -993,8 +993,8 @@
       "definition": "表达对对方意见的认可和肯定",
       "example": "That's a good point about performance. We should optimize the query.",
       "difficulty": 5,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1005,8 +1005,8 @@
       "definition": "表示与对方观点一致",
       "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
       "difficulty": 5,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1017,8 +1017,8 @@
       "definition": "邀请对方继续发言或开始做某件事",
       "example": "You wanted to share the test results? Please go ahead.",
       "difficulty": 5,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2721,8 +2721,8 @@
       "definition": "表示自己会继续推进某个事项，并在适当时候反馈进展",
       "example": "I don't have the answer right now, but I'll follow up on this by Thursday.",
       "difficulty": 5,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2745,8 +2745,8 @@
       "definition": "礼貌地表示没有理解对方说的内容，请求重新解释",
       "example": "I'm not sure I follow—could you walk me through the flow again with an example?",
       "difficulty": 5,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2757,8 +2757,8 @@
       "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
       "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2769,8 +2769,8 @@
       "definition": "表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段",
       "example": "Tests are passing, staging looks clean—we're good to go for the release.",
       "difficulty": 5,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2781,8 +2781,8 @@
       "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
       "example": "Nobody is driving the API documentation. I'll take ownership of this.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2805,8 +2805,8 @@
       "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
       "example": "The migration plan looks rushed. This needs more thought before we commit.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11289,8 +11289,8 @@
       "definition": "学识",
       "example": "A knowledge can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11301,8 +11301,8 @@
       "definition": "消息",
       "example": "The information is important.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11313,8 +11313,8 @@
       "definition": "消息",
       "example": "The news is important.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11325,8 +11325,8 @@
       "definition": "讯息",
       "example": "The message is important.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11337,8 +11337,8 @@
       "definition": "叙述",
       "example": "A story can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11349,8 +11349,8 @@
       "definition": "故事",
       "example": "The tale is important.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11361,8 +11361,8 @@
       "definition": "传说",
       "example": "I have a legend.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11373,8 +11373,8 @@
       "definition": "过去事件",
       "example": "A history can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11385,8 +11385,8 @@
       "definition": "真实",
       "example": "I have a fact.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11397,8 +11397,8 @@
       "definition": "真实",
       "example": "The truth is important.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 3,
+      "next_review": "2026-07-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12129,8 +12129,8 @@
       "definition": "创造",
       "example": "Let's invent together.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12141,8 +12141,8 @@
       "definition": "创作",
       "example": "You should create it.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12153,8 +12153,8 @@
       "definition": "规划",
       "example": "You should design it.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12165,8 +12165,8 @@
       "definition": "制造",
       "example": "Can you produce?",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12177,8 +12177,8 @@
       "definition": "开发",
       "example": "Can you develop?",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12189,8 +12189,8 @@
       "definition": "改善",
       "example": "You should improve it.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12201,8 +12201,8 @@
       "definition": "增长",
       "example": "You should increase it.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12213,8 +12213,8 @@
       "definition": "降低",
       "example": "Let's decrease together.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12225,8 +12225,8 @@
       "definition": "提升",
       "example": "I raise every day.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12237,8 +12237,8 @@
       "definition": "减少",
       "example": "Let's lower together.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 2,
+      "next_review": "2026-07-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12489,8 +12489,8 @@
       "definition": "店铺",
       "example": "This is a store.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12501,8 +12501,8 @@
       "definition": "交易场所",
       "example": "I have a market.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12513,8 +12513,8 @@
       "definition": "金融机构",
       "example": "I have a bank.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12525,8 +12525,8 @@
       "definition": "医疗机构",
       "example": "The hospital is important.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12537,8 +12537,8 @@
       "definition": "高等院校",
       "example": "This is a college.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12549,8 +12549,8 @@
       "definition": "高等学府",
       "example": "A university can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12561,8 +12561,8 @@
       "definition": "展览场所",
       "example": "This is a museum.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12573,8 +12573,8 @@
       "definition": "演出场所",
       "example": "A theater can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12585,8 +12585,8 @@
       "definition": "放映场所",
       "example": "A cinema can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12597,8 +12597,8 @@
       "definition": "休闲场所",
       "example": "This is a cafe.",
       "difficulty": 2,
-      "next_review": "2026-07-02",
-      "review_count": 1,
+      "next_review": "2026-07-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -12609,9 +12609,9 @@
       "definition": "访客",
       "example": "This is a guest.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_818",
@@ -12621,9 +12621,9 @@
       "definition": "消费者",
       "example": "This is a customer.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_819",
@@ -12633,9 +12633,9 @@
       "definition": "委托人",
       "example": "A client can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_820",
@@ -12645,9 +12645,9 @@
       "definition": "雇主",
       "example": "The boss is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_821",
@@ -12657,9 +12657,9 @@
       "definition": "管理者",
       "example": "I have a manager.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_822",
@@ -12669,9 +12669,9 @@
       "definition": "带头人",
       "example": "A leader can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_823",
@@ -12681,9 +12681,9 @@
       "definition": "雇员",
       "example": "A employee can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_824",
@@ -12693,9 +12693,9 @@
       "definition": "全体职员",
       "example": "A staff can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_825",
@@ -12705,9 +12705,9 @@
       "definition": "队伍",
       "example": "A team can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_826",
@@ -12717,9 +12717,9 @@
       "definition": "群体",
       "example": "The group is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_827",
