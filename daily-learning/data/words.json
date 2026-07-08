@@ -967,8 +967,8 @@
     "definition": "礼貌请求对方重复刚才说的内容",
     "example": "Sorry, could you repeat that? The connection was breaking up.",
     "difficulty": 5,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -979,8 +979,8 @@
     "definition": "表示你已理解对方说的内容",
     "example": "I understand the requirements. I'll start working on it today.",
     "difficulty": 5,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2659,8 +2659,8 @@
     "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
     "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
     "difficulty": 4,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12007,8 +12007,8 @@
     "definition": "质疑",
     "example": "Let's doubt together.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12019,8 +12019,8 @@
     "definition": "猜测",
     "example": "You should suspect it.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12031,8 +12031,8 @@
     "definition": "假定",
     "example": "You should assume it.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12043,8 +12043,8 @@
     "definition": "假定",
     "example": "Let's suppose together.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12055,8 +12055,8 @@
     "definition": "设想",
     "example": "I imagine every day.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12067,8 +12067,8 @@
     "definition": "明白",
     "example": "Can you realize?",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12079,8 +12079,8 @@
     "definition": "识别",
     "example": "You should recognize it.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12091,8 +12091,8 @@
     "definition": "觉察",
     "example": "Let's notice together.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12103,8 +12103,8 @@
     "definition": "观测",
     "example": "You should observe it.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12115,8 +12115,8 @@
     "definition": "找到",
     "example": "You should discover it.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 3,
+    "next_review": "2026-07-22",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12847,8 +12847,8 @@
     "definition": "政治活动",
     "example": "I have a politics.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12859,8 +12859,8 @@
     "definition": "投票",
     "example": "The election is important.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12871,8 +12871,8 @@
     "definition": "表决",
     "example": "This is vote.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12883,8 +12883,8 @@
     "definition": "法规",
     "example": "A law can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12895,8 +12895,8 @@
     "definition": "规章",
     "example": "The rule is important.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12907,8 +12907,8 @@
     "definition": "方针",
     "example": "This is a policy.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12919,8 +12919,8 @@
     "definition": "力量",
     "example": "The power is important.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12931,8 +12931,8 @@
     "definition": "权力",
     "example": "This is a authority.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12943,8 +12943,8 @@
     "definition": "自由权",
     "example": "I have a freedom.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -12955,8 +12955,8 @@
     "definition": "责任",
     "example": "I have a duty.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 2,
+    "next_review": "2026-07-15",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13207,8 +13207,8 @@
     "definition": "帝国",
     "example": "A empire can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13219,8 +13219,8 @@
     "definition": "王国",
     "example": "This is a kingdom.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13231,8 +13231,8 @@
     "definition": "共和政体",
     "example": "A republic can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13243,8 +13243,8 @@
     "definition": "民主制",
     "example": "A democracy can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13255,8 +13255,8 @@
     "definition": "武装冲突",
     "example": "The war is important.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13267,8 +13267,8 @@
     "definition": "和平状态",
     "example": "A peace can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13279,8 +13279,8 @@
     "definition": "打斗",
     "example": "This is fight.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13291,8 +13291,8 @@
     "definition": "战斗",
     "example": "This is a battle.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13303,8 +13303,8 @@
     "definition": "获胜",
     "example": "I have a victory.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13315,8 +13315,8 @@
     "definition": "战败",
     "example": "This is defeat.",
     "difficulty": 2,
-    "next_review": "2026-07-08",
-    "review_count": 1,
+    "next_review": "2026-07-11",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13327,9 +13327,9 @@
     "definition": "军人",
     "example": "I have a soldier.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_878",
@@ -13339,9 +13339,9 @@
     "definition": "武装力量",
     "example": "A army can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_879",
@@ -13351,9 +13351,9 @@
     "definition": "兵器",
     "example": "This is a weapon.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_880",
@@ -13363,9 +13363,9 @@
     "definition": "火器",
     "example": "The gun is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_881",
@@ -13375,9 +13375,9 @@
     "definition": "爆炸物",
     "example": "I have a bomb.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_882",
@@ -13387,9 +13387,9 @@
     "definition": "武力",
     "example": "I have a violence.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_883",
@@ -13399,9 +13399,9 @@
     "definition": "违法行为",
     "example": "The crime is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_884",
@@ -13411,9 +13411,9 @@
     "definition": "监禁场所",
     "example": "A prison can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_885",
@@ -13423,9 +13423,9 @@
     "definition": "司法机构",
     "example": "A court can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_886",
@@ -13435,9 +13435,9 @@
     "definition": "审判者",
     "example": "I have a judge.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-09",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_887",
