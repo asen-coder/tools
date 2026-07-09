@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-08",
+  "generated": "2026-07-09",
   "words": [
     {
       "id": "ai_001",
@@ -993,8 +993,8 @@
       "definition": "表达对对方意见的认可和肯定",
       "example": "That's a good point about performance. We should optimize the query.",
       "difficulty": 5,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1005,8 +1005,8 @@
       "definition": "表示与对方观点一致",
       "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
       "difficulty": 5,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1017,8 +1017,8 @@
       "definition": "邀请对方继续发言或开始做某件事",
       "example": "You wanted to share the test results? Please go ahead.",
       "difficulty": 5,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12129,8 +12129,8 @@
       "definition": "创造",
       "example": "Let's invent together.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12141,8 +12141,8 @@
       "definition": "创作",
       "example": "You should create it.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12153,8 +12153,8 @@
       "definition": "规划",
       "example": "You should design it.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12165,8 +12165,8 @@
       "definition": "制造",
       "example": "Can you produce?",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12177,8 +12177,8 @@
       "definition": "开发",
       "example": "Can you develop?",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12189,8 +12189,8 @@
       "definition": "改善",
       "example": "You should improve it.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12201,8 +12201,8 @@
       "definition": "增长",
       "example": "You should increase it.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12213,8 +12213,8 @@
       "definition": "降低",
       "example": "Let's decrease together.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12225,8 +12225,8 @@
       "definition": "提升",
       "example": "I raise every day.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12237,8 +12237,8 @@
       "definition": "减少",
       "example": "Let's lower together.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 3,
+      "next_review": "2026-07-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12969,8 +12969,8 @@
       "definition": "职责",
       "example": "I have a responsibility.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12981,8 +12981,8 @@
       "definition": "文明",
       "example": "This is a culture.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -12993,8 +12993,8 @@
       "definition": "惯例",
       "example": "I have a tradition.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13005,8 +13005,8 @@
       "definition": "风俗",
       "example": "This is a custom.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13017,8 +13017,8 @@
       "definition": "信仰",
       "example": "This is a religion.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13029,8 +13029,8 @@
       "definition": "交流工具",
       "example": "I have a language.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13041,8 +13041,8 @@
       "definition": "培养",
       "example": "This is a education.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13053,8 +13053,8 @@
       "definition": "科技",
       "example": "I have a technology.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13065,8 +13065,8 @@
       "definition": "经济体系",
       "example": "The economy is important.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13077,8 +13077,8 @@
       "definition": "制造业",
       "example": "This is a industry.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 2,
+      "next_review": "2026-07-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13329,8 +13329,8 @@
       "definition": "军人",
       "example": "I have a soldier.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13341,8 +13341,8 @@
       "definition": "武装力量",
       "example": "A army can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13353,8 +13353,8 @@
       "definition": "兵器",
       "example": "This is a weapon.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13365,8 +13365,8 @@
       "definition": "火器",
       "example": "The gun is important.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13377,8 +13377,8 @@
       "definition": "爆炸物",
       "example": "I have a bomb.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13389,8 +13389,8 @@
       "definition": "武力",
       "example": "I have a violence.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13401,8 +13401,8 @@
       "definition": "违法行为",
       "example": "The crime is important.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13413,8 +13413,8 @@
       "definition": "监禁场所",
       "example": "A prison can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13425,8 +13425,8 @@
       "definition": "司法机构",
       "example": "A court can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13437,8 +13437,8 @@
       "definition": "审判者",
       "example": "I have a judge.",
       "difficulty": 2,
-      "next_review": "2026-07-09",
-      "review_count": 1,
+      "next_review": "2026-07-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13449,9 +13449,9 @@
       "definition": "法律工作者",
       "example": "This is a lawyer.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_888",
@@ -13461,9 +13461,9 @@
       "definition": "庭审",
       "example": "This is a trial.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_889",
@@ -13473,9 +13473,9 @@
       "definition": "公正",
       "example": "This is a justice.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_890",
@@ -13485,9 +13485,9 @@
       "definition": "公正",
       "example": "It is very fair.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_891",
@@ -13497,9 +13497,9 @@
       "definition": "通讯工具",
       "example": "A phone can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_892",
@@ -13509,9 +13509,9 @@
       "definition": "通讯工具",
       "example": "The telephone is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_893",
@@ -13521,9 +13521,9 @@
       "definition": "移动电话",
       "example": "I have a mobile.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_894",
@@ -13533,9 +13533,9 @@
       "definition": "移动电话",
       "example": "A cellphone can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_895",
@@ -13545,9 +13545,9 @@
       "definition": "书信",
       "example": "The letter is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_896",
@@ -13557,9 +13557,9 @@
       "definition": "数字邮件",
       "example": "This is a email.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_897",
