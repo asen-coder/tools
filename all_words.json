@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-09",
+  "generated": "2026-07-10",
   "words": [
     {
       "id": "ai_001",
@@ -1029,8 +1029,8 @@
       "definition": "请求对方对某个观点或情况提供更多细节和解释",
       "example": "Could you elaborate on that performance issue you mentioned?",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1041,8 +1041,8 @@
       "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
       "example": "Let me clarify — I meant the staging environment, not production.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1053,8 +1053,8 @@
       "definition": "表示需要时间确认后再回答，不立即给出答案",
       "example": "I'll get back to you on that timeline after checking with the team.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2493,8 +2493,8 @@
       "definition": "约定一次短暂会面或通话，让团队成员了解彼此的最新进展",
       "example": "Before the sprint review, let's sync up for 15 minutes to align on the demo flow.",
       "difficulty": 5,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2529,8 +2529,8 @@
       "definition": "说明项目进度滞后，没有按原定时间线推进",
       "example": "We're behind schedule by two days. Should we cut scope or add resources?",
       "difficulty": 5,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2553,8 +2553,8 @@
       "definition": "认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意",
       "example": "That's a fair point about test coverage. Let's add more unit tests before merging.",
       "difficulty": 5,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12249,8 +12249,8 @@
       "definition": "扩张",
       "example": "You should expand it.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12261,8 +12261,8 @@
       "definition": "缩减",
       "example": "You should reduce it.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12273,8 +12273,8 @@
       "definition": "节约",
       "example": "I save every day.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12285,8 +12285,8 @@
       "definition": "消耗",
       "example": "You should spend it.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12297,8 +12297,8 @@
       "definition": "挥霍",
       "example": "You should waste it.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12309,8 +12309,8 @@
       "definition": "失去",
       "example": "I lose every day.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12321,8 +12321,8 @@
       "definition": "得到",
       "example": "I gain every day.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12333,8 +12333,8 @@
       "definition": "获胜",
       "example": "I win every day.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12345,8 +12345,8 @@
       "definition": "未成功",
       "example": "I fail every day.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12357,8 +12357,8 @@
       "definition": "达成",
       "example": "Let's succeed together.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 3,
+      "next_review": "2026-07-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13089,8 +13089,8 @@
       "definition": "种植业",
       "example": "I have a agriculture.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13101,8 +13101,8 @@
       "definition": "生态环境",
       "example": "This is a environment.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13113,8 +13113,8 @@
       "definition": "主权国家",
       "example": "A country can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13125,8 +13125,8 @@
       "definition": "国家",
       "example": "I have a nation.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13137,8 +13137,8 @@
       "definition": "政区",
       "example": "I have a state.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13149,8 +13149,8 @@
       "definition": "都市",
       "example": "This is a city.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13161,8 +13161,8 @@
       "definition": "市镇",
       "example": "This is a town.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13173,8 +13173,8 @@
       "definition": "村落",
       "example": "This is a village.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13185,8 +13185,8 @@
       "definition": "政治中心",
       "example": "The capital is important.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13197,8 +13197,8 @@
       "definition": "国界",
       "example": "A border can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 2,
+      "next_review": "2026-07-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13449,8 +13449,8 @@
       "definition": "法律工作者",
       "example": "This is a lawyer.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13461,8 +13461,8 @@
       "definition": "庭审",
       "example": "This is a trial.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13473,8 +13473,8 @@
       "definition": "公正",
       "example": "This is a justice.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13485,8 +13485,8 @@
       "definition": "公正",
       "example": "It is very fair.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13497,8 +13497,8 @@
       "definition": "通讯工具",
       "example": "A phone can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13509,8 +13509,8 @@
       "definition": "通讯工具",
       "example": "The telephone is important.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13521,8 +13521,8 @@
       "definition": "移动电话",
       "example": "I have a mobile.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13533,8 +13533,8 @@
       "definition": "移动电话",
       "example": "A cellphone can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13545,8 +13545,8 @@
       "definition": "书信",
       "example": "The letter is important.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13557,8 +13557,8 @@
       "definition": "数字邮件",
       "example": "This is a email.",
       "difficulty": 2,
-      "next_review": "2026-07-10",
-      "review_count": 1,
+      "next_review": "2026-07-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13569,9 +13569,9 @@
       "definition": "投递",
       "example": "This is post.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_898",
@@ -13581,9 +13581,9 @@
       "definition": "信件",
       "example": "I have a mail.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_899",
@@ -13593,9 +13593,9 @@
       "definition": "位置",
       "example": "This is a address.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_900",
@@ -13605,9 +13605,9 @@
       "definition": "数字",
       "example": "The number is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_901",
@@ -13617,9 +13617,9 @@
       "definition": "编码",
       "example": "The code is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_902",
@@ -13629,9 +13629,9 @@
       "definition": "讯号",
       "example": "This is a signal.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_903",
@@ -13641,9 +13641,9 @@
       "definition": "声响",
       "example": "I have a sound.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_904",
@@ -13653,9 +13653,9 @@
       "definition": "杂音",
       "example": "This is a noise.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_905",
@@ -13665,9 +13665,9 @@
       "definition": "嗓音",
       "example": "I have a voice.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_906",
@@ -13677,9 +13677,9 @@
       "definition": "讲话",
       "example": "I have a speech.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_907",
@@ -15006,8 +15006,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15029,8 +15029,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15052,8 +15052,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15084,8 +15084,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15116,8 +15116,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15148,8 +15148,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15169,8 +15169,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15190,8 +15190,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15226,8 +15226,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-07-10",
-      "review_count": 4,
+      "next_review": "2026-08-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
