@@ -1,7 +1,430 @@
 {
-  "date": "2026-07-10",
-  "day_of_week": "周五",
+  "date": "2026-07-11",
+  "day_of_week": "周六",
   "new_words": [
+    {
+      "id": "gen_907",
+      "category": "general",
+      "en": "conversation",
+      "zh": "对话",
+      "definition": "交谈",
+      "example": "I have a conversation.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_908",
+      "category": "general",
+      "en": "discussion",
+      "zh": "讨论",
+      "definition": "商议",
+      "example": "This is a discussion.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_909",
+      "category": "general",
+      "en": "argument",
+      "zh": "争论",
+      "definition": "辩论",
+      "example": "The argument is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_910",
+      "category": "general",
+      "en": "debate",
+      "zh": "辩论",
+      "definition": "争论",
+      "example": "This is debate.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_911",
+      "category": "general",
+      "en": "meeting",
+      "zh": "会议",
+      "definition": "集会",
+      "example": "I have a meeting.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_912",
+      "category": "general",
+      "en": "conference",
+      "zh": "会议",
+      "definition": "大型会议",
+      "example": "A conference can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_913",
+      "category": "general",
+      "en": "interview",
+      "zh": "面试",
+      "definition": "面谈",
+      "example": "I have a interview.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_914",
+      "category": "general",
+      "en": "presentation",
+      "zh": "演示",
+      "definition": "展示",
+      "example": "I have a presentation.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_915",
+      "category": "general",
+      "en": "report",
+      "zh": "报告",
+      "definition": "汇报",
+      "example": "I have a report.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_916",
+      "category": "general",
+      "en": "document",
+      "zh": "文件",
+      "definition": "文档",
+      "example": "The document is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-12",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "new_sentences": [],
+  "vocab_reviews": [
+    {
+      "id": "ai_007",
+      "category": "ai",
+      "en": "prompt template",
+      "zh": "提示模板",
+      "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
+      "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
+      "difficulty": 2,
+      "next_review": "2026-08-10",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "ai_008",
+      "category": "ai",
+      "en": "output parser",
+      "zh": "输出解析器",
+      "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
+      "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
+      "difficulty": 2,
+      "next_review": "2026-08-10",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "ai_009",
+      "category": "ai",
+      "en": "embedding",
+      "zh": "嵌入向量",
+      "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
+      "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
+      "difficulty": 2,
+      "next_review": "2026-08-10",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "ai_010",
+      "category": "ai",
+      "en": "retriever",
+      "zh": "检索器",
+      "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
+      "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
+      "difficulty": 2,
+      "next_review": "2026-08-10",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "ai_011",
+      "category": "ai",
+      "en": "vector store",
+      "zh": "向量数据库",
+      "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
+      "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
+      "difficulty": 2,
+      "next_review": "2026-08-10",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_797",
+      "category": "general",
+      "en": "achieve",
+      "zh": "实现",
+      "definition": "达成",
+      "example": "Let's achieve together.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_798",
+      "category": "general",
+      "en": "accomplish",
+      "zh": "完成",
+      "definition": "实现",
+      "example": "Let's accomplish together.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_799",
+      "category": "general",
+      "en": "complete",
+      "zh": "完成",
+      "definition": "完整",
+      "example": "You should complete it.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_800",
+      "category": "general",
+      "en": "job",
+      "zh": "工作",
+      "definition": "职业",
+      "example": "This is a job.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_801",
+      "category": "general",
+      "en": "career",
+      "zh": "职业",
+      "definition": "事业",
+      "example": "I have a career.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_802",
+      "category": "general",
+      "en": "profession",
+      "zh": "职业",
+      "definition": "专业",
+      "example": "The profession is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_803",
+      "category": "general",
+      "en": "business",
+      "zh": "商业",
+      "definition": "生意",
+      "example": "A business can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_804",
+      "category": "general",
+      "en": "company",
+      "zh": "公司",
+      "definition": "企业",
+      "example": "A company can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_805",
+      "category": "general",
+      "en": "factory",
+      "zh": "工厂",
+      "definition": "制造场所",
+      "example": "A factory can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_806",
+      "category": "general",
+      "en": "shop",
+      "zh": "商店",
+      "definition": "店铺",
+      "example": "A shop can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-25",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_867",
+      "category": "general",
+      "en": "empire",
+      "zh": "帝国",
+      "definition": "帝国",
+      "example": "A empire can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_868",
+      "category": "general",
+      "en": "kingdom",
+      "zh": "王国",
+      "definition": "王国",
+      "example": "This is a kingdom.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_869",
+      "category": "general",
+      "en": "republic",
+      "zh": "共和国",
+      "definition": "共和政体",
+      "example": "A republic can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_870",
+      "category": "general",
+      "en": "democracy",
+      "zh": "民主",
+      "definition": "民主制",
+      "example": "A democracy can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_871",
+      "category": "general",
+      "en": "war",
+      "zh": "战争",
+      "definition": "武装冲突",
+      "example": "The war is important.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_872",
+      "category": "general",
+      "en": "peace",
+      "zh": "和平",
+      "definition": "和平状态",
+      "example": "A peace can help you.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_873",
+      "category": "general",
+      "en": "fight",
+      "zh": "战斗",
+      "definition": "打斗",
+      "example": "This is fight.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_874",
+      "category": "general",
+      "en": "battle",
+      "zh": "战役",
+      "definition": "战斗",
+      "example": "This is a battle.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_875",
+      "category": "general",
+      "en": "victory",
+      "zh": "胜利",
+      "definition": "获胜",
+      "example": "I have a victory.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_876",
+      "category": "general",
+      "en": "defeat",
+      "zh": "失败",
+      "definition": "战败",
+      "example": "This is defeat.",
+      "difficulty": 2,
+      "next_review": "2026-07-18",
+      "review_count": 3,
+      "status": "learning"
+    },
     {
       "id": "gen_897",
       "category": "general",
@@ -10,8 +433,8 @@
       "definition": "投递",
       "example": "This is post.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -22,8 +445,8 @@
       "definition": "信件",
       "example": "I have a mail.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -34,8 +457,8 @@
       "definition": "位置",
       "example": "This is a address.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -46,8 +469,8 @@
       "definition": "数字",
       "example": "The number is important.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -58,8 +481,8 @@
       "definition": "编码",
       "example": "The code is important.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -70,8 +493,8 @@
       "definition": "讯号",
       "example": "This is a signal.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -82,8 +505,8 @@
       "definition": "声响",
       "example": "I have a sound.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -94,8 +517,8 @@
       "definition": "杂音",
       "example": "This is a noise.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -106,8 +529,8 @@
       "definition": "嗓音",
       "example": "I have a voice.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
+      "next_review": "2026-07-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -118,686 +541,207 @@
       "definition": "讲话",
       "example": "I have a speech.",
       "difficulty": 2,
-      "next_review": "2026-07-11",
-      "review_count": 1,
-      "status": "learning"
-    }
-  ],
-  "new_sentences": [],
-  "vocab_reviews": [
-    {
-      "id": "gen_787",
-      "category": "general",
-      "en": "expand",
-      "zh": "扩大",
-      "definition": "扩张",
-      "example": "You should expand it.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_788",
-      "category": "general",
-      "en": "reduce",
-      "zh": "减少",
-      "definition": "缩减",
-      "example": "You should reduce it.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_789",
-      "category": "general",
-      "en": "save",
-      "zh": "节省",
-      "definition": "节约",
-      "example": "I save every day.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_790",
-      "category": "general",
-      "en": "spend",
-      "zh": "花费",
-      "definition": "消耗",
-      "example": "You should spend it.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_791",
-      "category": "general",
-      "en": "waste",
-      "zh": "浪费",
-      "definition": "挥霍",
-      "example": "You should waste it.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_792",
-      "category": "general",
-      "en": "lose",
-      "zh": "丢失",
-      "definition": "失去",
-      "example": "I lose every day.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_793",
-      "category": "general",
-      "en": "gain",
-      "zh": "获得",
-      "definition": "得到",
-      "example": "I gain every day.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_794",
-      "category": "general",
-      "en": "win",
-      "zh": "赢得",
-      "definition": "获胜",
-      "example": "I win every day.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_795",
-      "category": "general",
-      "en": "fail",
-      "zh": "失败",
-      "definition": "未成功",
-      "example": "I fail every day.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_796",
-      "category": "general",
-      "en": "succeed",
-      "zh": "成功",
-      "definition": "达成",
-      "example": "Let's succeed together.",
-      "difficulty": 2,
-      "next_review": "2026-07-24",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_857",
-      "category": "general",
-      "en": "agriculture",
-      "zh": "农业",
-      "definition": "种植业",
-      "example": "I have a agriculture.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_858",
-      "category": "general",
-      "en": "environment",
-      "zh": "环境",
-      "definition": "生态环境",
-      "example": "This is a environment.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_859",
-      "category": "general",
-      "en": "country",
-      "zh": "国家",
-      "definition": "主权国家",
-      "example": "A country can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_860",
-      "category": "general",
-      "en": "nation",
-      "zh": "民族",
-      "definition": "国家",
-      "example": "I have a nation.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_861",
-      "category": "general",
-      "en": "state",
-      "zh": "州/国家",
-      "definition": "政区",
-      "example": "I have a state.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_862",
-      "category": "general",
-      "en": "city",
-      "zh": "城市",
-      "definition": "都市",
-      "example": "This is a city.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_863",
-      "category": "general",
-      "en": "town",
-      "zh": "城镇",
-      "definition": "市镇",
-      "example": "This is a town.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_864",
-      "category": "general",
-      "en": "village",
-      "zh": "村庄",
-      "definition": "村落",
-      "example": "This is a village.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_865",
-      "category": "general",
-      "en": "capital",
-      "zh": "首都",
-      "definition": "政治中心",
-      "example": "The capital is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_866",
-      "category": "general",
-      "en": "border",
-      "zh": "边界",
-      "definition": "国界",
-      "example": "A border can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_887",
-      "category": "general",
-      "en": "lawyer",
-      "zh": "律师",
-      "definition": "法律工作者",
-      "example": "This is a lawyer.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
+      "next_review": "2026-07-14",
       "review_count": 2,
       "status": "learning"
     },
     {
-      "id": "gen_888",
+      "id": "gen_1024",
       "category": "general",
-      "en": "trial",
-      "zh": "审判",
-      "definition": "庭审",
-      "example": "This is a trial.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_889",
-      "category": "general",
-      "en": "justice",
-      "zh": "正义",
-      "definition": "公正",
-      "example": "This is a justice.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_890",
-      "category": "general",
-      "en": "fair",
-      "zh": "公平",
-      "definition": "公正",
-      "example": "It is very fair.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_891",
-      "category": "general",
-      "en": "phone",
-      "zh": "电话",
-      "definition": "通讯工具",
-      "example": "A phone can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_892",
-      "category": "general",
-      "en": "telephone",
-      "zh": "电话",
-      "definition": "通讯工具",
-      "example": "The telephone is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_893",
-      "category": "general",
-      "en": "mobile",
-      "zh": "手机",
-      "definition": "移动电话",
-      "example": "I have a mobile.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_894",
-      "category": "general",
-      "en": "cellphone",
-      "zh": "手机",
-      "definition": "移动电话",
-      "example": "A cellphone can help you.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_895",
-      "category": "general",
-      "en": "letter",
-      "zh": "信",
-      "definition": "书信",
-      "example": "The letter is important.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_896",
-      "category": "general",
-      "en": "email",
-      "zh": "电子邮件",
-      "definition": "数字邮件",
-      "example": "This is a email.",
-      "difficulty": 2,
-      "next_review": "2026-07-13",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1015",
-      "category": "general",
-      "en": "become",
-      "phonetic": "/bɪˈkʌm/",
+      "en": "lead",
+      "phonetic": "/liːd/",
       "parts": [
         {
           "pos": "v",
           "definitions": [
-            "变成，成为"
+            "领导，带领",
+            "过（生活）",
+            "通向"
           ],
           "examples": [
-            "He became a doctor.",
-            "It's becoming cold."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1016",
-      "category": "general",
-      "en": "let",
-      "phonetic": "/let/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "让，允许",
-            "出租，租给"
-          ],
-          "examples": [
-            "Let me help you.",
-            "Let the house."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1017",
-      "category": "general",
-      "en": "seem",
-      "phonetic": "/siːm/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "似乎，好像",
-            "显得"
-          ],
-          "examples": [
-            "He seems happy.",
-            "It seems like rain."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1018",
-      "category": "general",
-      "en": "offer",
-      "phonetic": "/ˈɒfər/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "提供，提出",
-            "出价，开价"
-          ],
-          "examples": [
-            "Offer help.",
-            "Offer $100 for it."
+            "Lead the team.",
+            "Lead a happy life.",
+            "This road leads to town."
           ]
         },
         {
           "pos": "n",
           "definitions": [
-            "提供，提议"
+            "领导，领先",
+            "铅"
           ],
           "examples": [
-            "Thank you for your offer."
+            "Take the lead.",
+            "A lead pipe."
           ]
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "gen_1019",
+      "id": "gen_1025",
       "category": "general",
-      "en": "pay",
-      "phonetic": "/peɪ/",
+      "en": "follow",
+      "phonetic": "/ˈfɒləʊ/",
       "parts": [
         {
           "pos": "v",
           "definitions": [
-            "支付，付款",
-            "付出代价"
+            "跟随，追随",
+            "理解，明白"
           ],
           "examples": [
-            "Pay the bill.",
-            "Pay for your mistake."
-          ]
-        },
-        {
-          "pos": "n",
-          "definitions": [
-            "工资，薪金"
-          ],
-          "examples": [
-            "Get your pay."
+            "Follow me.",
+            "Do you follow?"
           ]
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "gen_1020",
+      "id": "gen_1026",
       "category": "general",
-      "en": "meet",
-      "phonetic": "/miːt/",
+      "en": "allow",
+      "phonetic": "/əˈlaʊ/",
       "parts": [
         {
           "pos": "v",
           "definitions": [
-            "遇见，会见",
-            "满足，符合"
+            "允许，准许"
           ],
           "examples": [
-            "Meet my friend.",
-            "Meet requirements."
-          ]
-        },
-        {
-          "pos": "n",
-          "definitions": [
-            "会议，集会"
-          ],
-          "examples": [
-            "Attend a meet."
+            "Allow me to help."
           ]
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "gen_1021",
+      "id": "gen_1027",
       "category": "general",
-      "en": "include",
-      "phonetic": "/ɪnˈkluːd/",
+      "en": "add",
+      "phonetic": "/æd/",
       "parts": [
         {
           "pos": "v",
           "definitions": [
-            "包括，包含"
+            "增加，添加",
+            "补充说"
           ],
           "examples": [
-            "The price includes tax."
+            "Add sugar to coffee.",
+            "He added that he was busy."
           ]
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "gen_1022",
+      "id": "gen_1028",
       "category": "general",
-      "en": "continue",
-      "phonetic": "/kənˈtɪnjuː/",
+      "en": "join",
+      "phonetic": "/dʒɔɪn/",
       "parts": [
         {
           "pos": "v",
           "definitions": [
-            "继续，持续"
+            "加入，参加",
+            "连接，接合"
           ],
           "examples": [
-            "Continue your work."
+            "Join the club.",
+            "Join the two ends."
           ]
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_1023",
-      "category": "general",
-      "en": "set",
-      "phonetic": "/set/",
-      "parts": [
-        {
-          "pos": "v",
-          "definitions": [
-            "放，安置",
-            "设定，确立",
-            "（日）落"
-          ],
-          "examples": [
-            "Set the table.",
-            "Set a goal.",
-            "The sun sets in the west."
-          ]
-        },
-        {
-          "pos": "n",
-          "definitions": [
-            "一套，一副",
-            "接收机"
-          ],
-          "examples": [
-            "A chess set.",
-            "A TV set."
-          ]
-        }
-      ],
-      "difficulty": 1,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     }
   ],
   "sentence_reviews": [
     {
-      "id": "daily_006",
+      "id": "daily_009",
       "category": "daily",
-      "en": "Could you elaborate on that?",
-      "zh": "你能详细说明一下吗？",
-      "definition": "请求对方对某个观点或情况提供更多细节和解释",
-      "example": "Could you elaborate on that performance issue you mentioned?",
+      "en": "That makes sense.",
+      "zh": "这说得通。",
+      "definition": "表示对方的解释或逻辑是合理的、可以理解的",
+      "example": "That makes sense. Using a queue would handle the load spikes.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "daily_007",
+      "id": "daily_010",
       "category": "daily",
-      "en": "Let me clarify.",
-      "zh": "让我来说清楚一下。",
-      "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
-      "example": "Let me clarify — I meant the staging environment, not production.",
+      "en": "I'd like to add something.",
+      "zh": "我想补充一点。",
+      "definition": "在别人发言后礼貌地加入自己的观点或信息",
+      "example": "I'd like to add something — we also need to consider mobile users.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "daily_008",
+      "id": "daily_011",
       "category": "daily",
-      "en": "I'll get back to you on that.",
-      "zh": "关于这个我稍后回复你。",
-      "definition": "表示需要时间确认后再回答，不立即给出答案",
-      "example": "I'll get back to you on that timeline after checking with the team.",
+      "en": "Feel free to interrupt me.",
+      "zh": "请随时打断我。",
+      "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
+      "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
+      "next_review": "2026-08-10",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "daily_025",
+      "id": "daily_037",
       "category": "daily",
-      "en": "Let's sync up.",
-      "zh": "我们对齐一下（信息同步）。",
-      "definition": "约定一次短暂会面或通话，让团队成员了解彼此的最新进展",
-      "example": "Before the sprint review, let's sync up for 15 minutes to align on the demo flow.",
+      "en": "This is a known issue.",
+      "zh": "这是个已知问题。",
+      "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
+      "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
       "difficulty": 5,
-      "next_review": "2026-07-24",
+      "next_review": "2026-07-25",
       "review_count": 4,
       "status": "learning"
     },
     {
-      "id": "daily_028",
+      "id": "daily_041",
       "category": "daily",
-      "en": "We're behind schedule.",
-      "zh": "我们落后于计划了。",
-      "definition": "说明项目进度滞后，没有按原定时间线推进",
-      "example": "We're behind schedule by two days. Should we cut scope or add resources?",
+      "en": "This is on the right track.",
+      "zh": "这个方向对了。",
+      "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
+      "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
       "difficulty": 5,
-      "next_review": "2026-07-24",
+      "next_review": "2026-07-25",
       "review_count": 4,
       "status": "learning"
     },
     {
-      "id": "daily_030",
+      "id": "daily_042",
       "category": "daily",
-      "en": "That's a fair point.",
-      "zh": "这是个合理的观点。",
-      "definition": "认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意",
-      "example": "That's a fair point about test coverage. Let's add more unit tests before merging.",
+      "en": "Can you elaborate on that?",
+      "zh": "你能详细展开说说吗？",
+      "definition": "请求对方对某个观点或说法做更详细的解释",
+      "example": "You mentioned scalability concerns—can you elaborate on that?",
       "difficulty": 5,
-      "next_review": "2026-07-24",
+      "next_review": "2026-07-25",
       "review_count": 4,
       "status": "learning"
     }
@@ -805,9 +749,9 @@
   "stats": {
     "total": 1262,
     "mastered": 1,
-    "learning": 310,
-    "new": 951,
-    "streak": 26,
-    "total_sessions": 26
+    "learning": 320,
+    "new": 941,
+    "streak": 27,
+    "total_sessions": 27
   }
 }
