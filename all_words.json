@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-11",
+  "generated": "2026-07-12",
   "words": [
     {
       "id": "ai_001",
@@ -141,8 +141,8 @@
       "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
       "example": "memory = ConversationBufferMemory(return_messages=True)",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -153,8 +153,8 @@
       "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -165,8 +165,8 @@
       "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -177,8 +177,8 @@
       "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
       "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -189,8 +189,8 @@
       "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
       "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1101,8 +1101,8 @@
       "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
       "example": "That's important but out of scope today. Could we revisit this later?",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1233,8 +1233,8 @@
       "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
       "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1257,8 +1257,8 @@
       "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
       "example": "chain = prompt | llm | StrOutputParser()",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1269,8 +1269,8 @@
       "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
       "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1293,8 +1293,8 @@
       "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1305,8 +1305,8 @@
       "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2469,8 +2469,8 @@
       "definition": "请求对方在事情发生前预先告知，以便有时间准备",
       "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2481,8 +2481,8 @@
       "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
       "example": "I'll loop you in on the email thread with the client so you're up to speed.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 4,
+      "next_review": "2026-08-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2721,8 +2721,8 @@
       "definition": "表示自己会继续推进某个事项，并在适当时候反馈进展",
       "example": "I don't have the answer right now, but I'll follow up on this by Thursday.",
       "difficulty": 5,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2745,8 +2745,8 @@
       "definition": "礼貌地表示没有理解对方说的内容，请求重新解释",
       "example": "I'm not sure I follow—could you walk me through the flow again with an example?",
       "difficulty": 5,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2769,8 +2769,8 @@
       "definition": "表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段",
       "example": "Tests are passing, staging looks clean—we're good to go for the release.",
       "difficulty": 5,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12489,8 +12489,8 @@
       "definition": "店铺",
       "example": "This is a store.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12501,8 +12501,8 @@
       "definition": "交易场所",
       "example": "I have a market.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12513,8 +12513,8 @@
       "definition": "金融机构",
       "example": "I have a bank.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12525,8 +12525,8 @@
       "definition": "医疗机构",
       "example": "The hospital is important.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12537,8 +12537,8 @@
       "definition": "高等院校",
       "example": "This is a college.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12549,8 +12549,8 @@
       "definition": "高等学府",
       "example": "A university can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12561,8 +12561,8 @@
       "definition": "展览场所",
       "example": "This is a museum.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12573,8 +12573,8 @@
       "definition": "演出场所",
       "example": "A theater can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12585,8 +12585,8 @@
       "definition": "放映场所",
       "example": "A cinema can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -12597,8 +12597,8 @@
       "definition": "休闲场所",
       "example": "This is a cafe.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 3,
+      "next_review": "2026-07-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13329,8 +13329,8 @@
       "definition": "军人",
       "example": "I have a soldier.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13341,8 +13341,8 @@
       "definition": "武装力量",
       "example": "A army can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13353,8 +13353,8 @@
       "definition": "兵器",
       "example": "This is a weapon.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13365,8 +13365,8 @@
       "definition": "火器",
       "example": "The gun is important.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13377,8 +13377,8 @@
       "definition": "爆炸物",
       "example": "I have a bomb.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13389,8 +13389,8 @@
       "definition": "武力",
       "example": "I have a violence.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13401,8 +13401,8 @@
       "definition": "违法行为",
       "example": "The crime is important.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13413,8 +13413,8 @@
       "definition": "监禁场所",
       "example": "A prison can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13425,8 +13425,8 @@
       "definition": "司法机构",
       "example": "A court can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13437,8 +13437,8 @@
       "definition": "审判者",
       "example": "I have a judge.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 2,
+      "next_review": "2026-07-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13689,8 +13689,8 @@
       "definition": "交谈",
       "example": "I have a conversation.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13701,8 +13701,8 @@
       "definition": "商议",
       "example": "This is a discussion.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13713,8 +13713,8 @@
       "definition": "辩论",
       "example": "The argument is important.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13725,8 +13725,8 @@
       "definition": "争论",
       "example": "This is debate.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13737,8 +13737,8 @@
       "definition": "集会",
       "example": "I have a meeting.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13749,8 +13749,8 @@
       "definition": "大型会议",
       "example": "A conference can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13761,8 +13761,8 @@
       "definition": "面谈",
       "example": "I have a interview.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13773,8 +13773,8 @@
       "definition": "展示",
       "example": "I have a presentation.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13785,8 +13785,8 @@
       "definition": "汇报",
       "example": "I have a report.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13797,8 +13797,8 @@
       "definition": "文档",
       "example": "The document is important.",
       "difficulty": 2,
-      "next_review": "2026-07-12",
-      "review_count": 1,
+      "next_review": "2026-07-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -13809,9 +13809,9 @@
       "definition": "纸张",
       "example": "A paper can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_918",
@@ -13821,9 +13821,9 @@
       "definition": "论文",
       "example": "The article is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_919",
@@ -13833,9 +13833,9 @@
       "definition": "新闻纸",
       "example": "I have a newspaper.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_920",
@@ -13845,9 +13845,9 @@
       "definition": "期刊",
       "example": "A magazine can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_921",
@@ -13857,9 +13857,9 @@
       "definition": "虚构长篇",
       "example": "I have a novel.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_922",
@@ -13869,9 +13869,9 @@
       "definition": "韵文",
       "example": "I have a poem.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_923",
@@ -13881,9 +13881,9 @@
       "definition": "文学作品",
       "example": "This is a literature.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_924",
@@ -13893,9 +13893,9 @@
       "definition": "词汇",
       "example": "A word can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_925",
@@ -13905,9 +13905,9 @@
       "definition": "句子",
       "example": "I have a sentence.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_926",
@@ -13917,9 +13917,9 @@
       "definition": "段落",
       "example": "This is a paragraph.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_927",
