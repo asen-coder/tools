@@ -1315,8 +1315,8 @@
     "definition": "LangChain 中从各种数据源（PDF、网页、数据库）读取内容并转为 Document 对象的组件",
     "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1387,8 +1387,8 @@
     "definition": "在预训练大模型基础上用小规模领域数据进一步训练，使其适配特定任务",
     "example": "Fine-tuned GPT-3.5 on customer support data to improve response accuracy",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1399,8 +1399,8 @@
     "definition": "LLM 生成看似可信但实际上错误或虚构内容的问题，是当前 AI 的主要挑战之一",
     "example": "The model hallucinated a fake citation to support its argument",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1411,8 +1411,8 @@
     "definition": "LLM 在单次推理时能接收和处理的最大 token 数量，决定可处理文档的长度",
     "example": "Claude's context window is 200K tokens, allowing entire codebases as input",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1435,8 +1435,8 @@
     "definition": "控制 LLM 输出随机性的参数，0 最确定，1 以上最随机",
     "example": "llm = ChatOpenAI(temperature=0.0)  # 适合代码生成等精确任务",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1447,8 +1447,8 @@
     "definition": "将文本转换为能捕捉语义的高维稠密向量，相似含义的文本向量距离更近",
     "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('hello world')",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1471,8 +1471,8 @@
     "definition": "基于语义相似度而非关键词匹配的搜索方式，能理解查询的实际含义",
     "example": "Searching 'how to cook pasta' returns recipes even without exact keyword match",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1483,8 +1483,8 @@
     "definition": "能同时处理多种数据类型（文本、图像、音频、视频）的 AI 模型能力",
     "example": "GPT-4V can analyze both text and images in the same conversation",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1531,8 +1531,8 @@
     "definition": "在提示词中提供少量示例（2-10 个）来引导模型完成特定格式或任务的技术",
     "example": "Providing 3 input-output pairs in the prompt to demonstrate the desired format",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1567,8 +1567,8 @@
     "definition": "LangChain 官方的 LLM 应用调试和监控平台，可追踪每次 LLM 调用的输入输出",
     "example": "LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2503,8 +2503,8 @@
     "definition": "告知他人自己因某个阻碍无法推进当前任务，需要帮助或等待解除阻塞",
     "example": "I'm blocked on the payment module until the API keys are provided.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2515,8 +2515,8 @@
     "definition": "询问某项工作的预计完成时间（Estimated Time of Arrival，借用航运术语）",
     "example": "The client just asked for an update. What's the ETA on the bug fix?",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2539,8 +2539,8 @@
     "definition": "用于在总结时表示接下来要简洁地表达复杂内容",
     "example": "In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 4,
+    "next_review": "2026-08-12",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12607,8 +12607,8 @@
     "definition": "访客",
     "example": "This is a guest.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12619,8 +12619,8 @@
     "definition": "消费者",
     "example": "This is a customer.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12631,8 +12631,8 @@
     "definition": "委托人",
     "example": "A client can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12643,8 +12643,8 @@
     "definition": "雇主",
     "example": "The boss is important.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12655,8 +12655,8 @@
     "definition": "管理者",
     "example": "I have a manager.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12667,8 +12667,8 @@
     "definition": "带头人",
     "example": "A leader can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12679,8 +12679,8 @@
     "definition": "雇员",
     "example": "A employee can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12691,8 +12691,8 @@
     "definition": "全体职员",
     "example": "A staff can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12703,8 +12703,8 @@
     "definition": "队伍",
     "example": "A team can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -12715,8 +12715,8 @@
     "definition": "群体",
     "example": "The group is important.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 3,
+    "next_review": "2026-07-27",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -13447,8 +13447,8 @@
     "definition": "法律工作者",
     "example": "This is a lawyer.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13459,8 +13459,8 @@
     "definition": "庭审",
     "example": "This is a trial.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13471,8 +13471,8 @@
     "definition": "公正",
     "example": "This is a justice.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13483,8 +13483,8 @@
     "definition": "公正",
     "example": "It is very fair.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13495,8 +13495,8 @@
     "definition": "通讯工具",
     "example": "A phone can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13507,8 +13507,8 @@
     "definition": "通讯工具",
     "example": "The telephone is important.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13519,8 +13519,8 @@
     "definition": "移动电话",
     "example": "I have a mobile.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13531,8 +13531,8 @@
     "definition": "移动电话",
     "example": "A cellphone can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13543,8 +13543,8 @@
     "definition": "书信",
     "example": "The letter is important.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13555,8 +13555,8 @@
     "definition": "数字邮件",
     "example": "This is a email.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 2,
+    "next_review": "2026-07-20",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -13807,8 +13807,8 @@
     "definition": "纸张",
     "example": "A paper can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13819,8 +13819,8 @@
     "definition": "论文",
     "example": "The article is important.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13831,8 +13831,8 @@
     "definition": "新闻纸",
     "example": "I have a newspaper.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13843,8 +13843,8 @@
     "definition": "期刊",
     "example": "A magazine can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13855,8 +13855,8 @@
     "definition": "虚构长篇",
     "example": "I have a novel.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13867,8 +13867,8 @@
     "definition": "韵文",
     "example": "I have a poem.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13879,8 +13879,8 @@
     "definition": "文学作品",
     "example": "This is a literature.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13891,8 +13891,8 @@
     "definition": "词汇",
     "example": "A word can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13903,8 +13903,8 @@
     "definition": "句子",
     "example": "I have a sentence.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13915,8 +13915,8 @@
     "definition": "段落",
     "example": "This is a paragraph.",
     "difficulty": 2,
-    "next_review": "2026-07-13",
-    "review_count": 1,
+    "next_review": "2026-07-16",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -13927,9 +13927,9 @@
     "definition": "章节",
     "example": "A chapter can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_928",
@@ -13939,9 +13939,9 @@
     "definition": "作家",
     "example": "A author can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_929",
@@ -13951,9 +13951,9 @@
     "definition": "作者",
     "example": "This is a writer.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_930",
@@ -13963,9 +13963,9 @@
     "definition": "阅读者",
     "example": "I have a reader.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_931",
@@ -13975,9 +13975,9 @@
     "definition": "发行人",
     "example": "I have a publisher.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_932",
@@ -13987,9 +13987,9 @@
     "definition": "传媒",
     "example": "The media is important.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_933",
@@ -13999,9 +13999,9 @@
     "definition": "网络",
     "example": "This is a internet.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_934",
@@ -14011,9 +14011,9 @@
     "definition": "网络",
     "example": "This is a web.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_935",
@@ -14023,9 +14023,9 @@
     "definition": "网站",
     "example": "I have a website.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_936",
@@ -14035,9 +14035,9 @@
     "definition": "网页",
     "example": "A page can help you.",
     "difficulty": 2,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-14",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_937",
