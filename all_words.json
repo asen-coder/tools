@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-16",
+  "generated": "2026-07-17",
   "words": [
     {
       "id": "ai_001",
@@ -1113,8 +1113,8 @@
       "definition": "在讨论其他内容后返回到之前未解决的话题",
       "example": "We got sidetracked. Let's circle back to the deployment timeline.",
       "difficulty": 3,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1125,8 +1125,8 @@
       "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
       "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
       "difficulty": 3,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1137,8 +1137,8 @@
       "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
       "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
       "difficulty": 3,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11409,8 +11409,8 @@
       "definition": "隐藏",
       "example": "This is a secret.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11421,8 +11421,8 @@
       "definition": "未知",
       "example": "The mystery is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11433,8 +11433,8 @@
       "definition": "难题",
       "example": "The puzzle is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11445,8 +11445,8 @@
       "definition": "谜题",
       "example": "This is a riddle.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11457,8 +11457,8 @@
       "definition": "难题",
       "example": "The problem is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11469,8 +11469,8 @@
       "definition": "解答",
       "example": "This is a solution.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11481,8 +11481,8 @@
       "definition": "outcome",
       "example": "A result can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11493,8 +11493,8 @@
       "definition": "理由",
       "example": "This is a reason.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11505,8 +11505,8 @@
       "definition": "导致",
       "example": "A cause can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11517,8 +11517,8 @@
       "definition": "影响",
       "example": "I have a effect.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 4,
+      "next_review": "2026-08-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13089,8 +13089,8 @@
       "definition": "种植业",
       "example": "I have a agriculture.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13101,8 +13101,8 @@
       "definition": "生态环境",
       "example": "This is a environment.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13113,8 +13113,8 @@
       "definition": "主权国家",
       "example": "A country can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13125,8 +13125,8 @@
       "definition": "国家",
       "example": "I have a nation.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13137,8 +13137,8 @@
       "definition": "政区",
       "example": "I have a state.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13149,8 +13149,8 @@
       "definition": "都市",
       "example": "This is a city.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13161,8 +13161,8 @@
       "definition": "市镇",
       "example": "This is a town.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13173,8 +13173,8 @@
       "definition": "村落",
       "example": "This is a village.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13185,8 +13185,8 @@
       "definition": "政治中心",
       "example": "The capital is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13197,8 +13197,8 @@
       "definition": "国界",
       "example": "A border can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 3,
+      "next_review": "2026-07-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13929,8 +13929,8 @@
       "definition": "章节",
       "example": "A chapter can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13941,8 +13941,8 @@
       "definition": "作家",
       "example": "A author can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13953,8 +13953,8 @@
       "definition": "作者",
       "example": "This is a writer.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13965,8 +13965,8 @@
       "definition": "阅读者",
       "example": "I have a reader.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13977,8 +13977,8 @@
       "definition": "发行人",
       "example": "I have a publisher.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -13989,8 +13989,8 @@
       "definition": "传媒",
       "example": "The media is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14001,8 +14001,8 @@
       "definition": "网络",
       "example": "This is a internet.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14013,8 +14013,8 @@
       "definition": "网络",
       "example": "This is a web.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14025,8 +14025,8 @@
       "definition": "网站",
       "example": "I have a website.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14037,8 +14037,8 @@
       "definition": "网页",
       "example": "A page can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 2,
+      "next_review": "2026-07-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14289,8 +14289,8 @@
       "definition": "账号",
       "example": "I have a username.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14301,8 +14301,8 @@
       "definition": "账号",
       "example": "This is a account.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14313,8 +14313,8 @@
       "definition": "登入",
       "example": "This is login.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14325,8 +14325,8 @@
       "definition": "登出",
       "example": "This is logout.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14337,8 +14337,8 @@
       "definition": "登记",
       "example": "Let's register together.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14349,8 +14349,8 @@
       "definition": "签署",
       "example": "This is sign.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14361,8 +14361,8 @@
       "definition": "娱乐",
       "example": "The game is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14373,8 +14373,8 @@
       "definition": "体育",
       "example": "The sport is important.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14385,8 +14385,8 @@
       "definition": "竞赛",
       "example": "A match can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14397,8 +14397,8 @@
       "definition": "比赛",
       "example": "This is a competition.",
       "difficulty": 2,
-      "next_review": "2026-07-17",
-      "review_count": 1,
+      "next_review": "2026-07-20",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14409,9 +14409,9 @@
       "definition": "比赛",
       "example": "I have a contest.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_968",
@@ -14421,9 +14421,9 @@
       "definition": "联赛",
       "example": "This is a tournament.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_969",
@@ -14433,9 +14433,9 @@
       "definition": "锦标赛",
       "example": "A championship can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_970",
@@ -14445,9 +14445,9 @@
       "definition": "联盟",
       "example": "This is a league.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_971",
@@ -14457,9 +14457,9 @@
       "definition": "训练师",
       "example": "The coach is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_972",
@@ -14469,9 +14469,9 @@
       "definition": "爱好者",
       "example": "This is a fan.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_973",
@@ -14481,9 +14481,9 @@
       "definition": "听众",
       "example": "This is a audience.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_974",
@@ -14493,9 +14493,9 @@
       "definition": "旁观者",
       "example": "This is a spectator.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_975",
@@ -14505,9 +14505,9 @@
       "definition": "大众",
       "example": "I have a crowd.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_976",
@@ -14517,9 +14517,9 @@
       "definition": "歌曲",
       "example": "I have a song.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-18",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_977",
