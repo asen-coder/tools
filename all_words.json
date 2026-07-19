@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-18",
+  "generated": "2026-07-19",
   "words": [
     {
       "id": "ai_001",
@@ -2565,8 +2565,8 @@
       "definition": "礼貌地请求对方解释决定或设计背后的原因和思考过程",
       "example": "What's the rationale behind choosing GraphQL over REST for this project?",
       "difficulty": 3,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2601,8 +2601,8 @@
       "definition": "在讨论中过于纠结细节时提醒大家回到主线，避免因小失大",
       "example": "We only have 20 minutes. Let's not get into the weeds—focus on the three key decisions.",
       "difficulty": 3,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2649,8 +2649,8 @@
       "definition": "礼貌地表示方案背后的某个前提可能不成立，希望重新审视",
       "example": "I want to challenge this assumption that users prefer dark mode.",
       "difficulty": 3,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11649,8 +11649,8 @@
       "definition": "培养",
       "example": "I have a training.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11661,8 +11661,8 @@
       "definition": "经历",
       "example": "A experience can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11673,8 +11673,8 @@
       "definition": "本领",
       "example": "The skill is important.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11685,8 +11685,8 @@
       "definition": "才能",
       "example": "A ability can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11697,8 +11697,8 @@
       "definition": "才华",
       "example": "This is a talent.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11709,8 +11709,8 @@
       "definition": "礼物",
       "example": "I have a gift.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11721,8 +11721,8 @@
       "definition": "喜爱",
       "example": "Let's enjoy together.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11733,8 +11733,8 @@
       "definition": "偏好",
       "example": "Can you prefer?",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11745,8 +11745,8 @@
       "definition": "在意",
       "example": "You should care it.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11757,8 +11757,8 @@
       "definition": "忧虑",
       "example": "You should worry it.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 4,
+      "next_review": "2026-08-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13329,8 +13329,8 @@
       "definition": "军人",
       "example": "I have a soldier.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13341,8 +13341,8 @@
       "definition": "武装力量",
       "example": "A army can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13353,8 +13353,8 @@
       "definition": "兵器",
       "example": "This is a weapon.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13365,8 +13365,8 @@
       "definition": "火器",
       "example": "The gun is important.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13377,8 +13377,8 @@
       "definition": "爆炸物",
       "example": "I have a bomb.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13389,8 +13389,8 @@
       "definition": "武力",
       "example": "I have a violence.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13401,8 +13401,8 @@
       "definition": "违法行为",
       "example": "The crime is important.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13413,8 +13413,8 @@
       "definition": "监禁场所",
       "example": "A prison can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13425,8 +13425,8 @@
       "definition": "司法机构",
       "example": "A court can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13437,8 +13437,8 @@
       "definition": "审判者",
       "example": "I have a judge.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 3,
+      "next_review": "2026-08-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14169,8 +14169,8 @@
       "definition": "软件",
       "example": "I have a program.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14181,8 +14181,8 @@
       "definition": "应用程序",
       "example": "This is a application.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14193,8 +14193,8 @@
       "definition": "档案",
       "example": "I have a file.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14205,8 +14205,8 @@
       "definition": "目录",
       "example": "A folder can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14217,8 +14217,8 @@
       "definition": "资料",
       "example": "I have a data.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14229,8 +14229,8 @@
       "definition": "体系",
       "example": "I have a system.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14241,8 +14241,8 @@
       "definition": "网状系统",
       "example": "This is a network.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14253,8 +14253,8 @@
       "definition": "服务主机",
       "example": "A server can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14265,8 +14265,8 @@
       "definition": "数据仓库",
       "example": "I have a database.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14277,8 +14277,8 @@
       "definition": "口令",
       "example": "A password can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 2,
+      "next_review": "2026-07-26",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14529,8 +14529,8 @@
       "definition": "跳舞",
       "example": "This is dance.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14541,8 +14541,8 @@
       "definition": "音乐演出",
       "example": "The concert is important.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14553,8 +14553,8 @@
       "definition": "表演",
       "example": "I have a performance.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14565,8 +14565,8 @@
       "definition": "影片",
       "example": "This is a movie.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14577,8 +14577,8 @@
       "definition": "影片",
       "example": "The film is important.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14589,8 +14589,8 @@
       "definition": "录像",
       "example": "A video can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14601,8 +14601,8 @@
       "definition": "图像",
       "example": "I have a picture.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14613,8 +14613,8 @@
       "definition": "相片",
       "example": "A photo can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14625,8 +14625,8 @@
       "definition": "照片",
       "example": "This is a photograph.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14637,8 +14637,8 @@
       "definition": "摄影机",
       "example": "This is a camera.",
       "difficulty": 2,
-      "next_review": "2026-07-19",
-      "review_count": 1,
+      "next_review": "2026-07-22",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14649,9 +14649,9 @@
       "definition": "电视",
       "example": "I have a television.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_988",
@@ -14661,9 +14661,9 @@
       "definition": "电视",
       "example": "A TV can help you.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_989",
@@ -14673,9 +14673,9 @@
       "definition": "广播",
       "example": "I have a radio.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_990",
@@ -14685,9 +14685,9 @@
       "definition": "光盘",
       "example": "I have a CD.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_991",
@@ -14697,9 +14697,9 @@
       "definition": "数字光盘",
       "example": "The DVD is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_992",
@@ -14709,9 +14709,9 @@
       "definition": "美术馆",
       "example": "The gallery is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_993",
@@ -14721,9 +14721,9 @@
       "definition": "展示",
       "example": "The exhibition is important.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_994",
@@ -14733,9 +14733,9 @@
       "definition": "庆典",
       "example": "I have a festival.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_995",
@@ -14745,9 +14745,9 @@
       "definition": "庆典",
       "example": "I have a celebration.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_996",
@@ -14757,9 +14757,9 @@
       "definition": "派对",
       "example": "This is a party.",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-20",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_997",
