@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-19，共 1262 条词汇。
+> 更新于 2026-07-20，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1402,7 +1402,7 @@ GET /users/123  →  { id: 123, name: 'Alice' }
 A4 (concert A) has a pitch of 440 Hz
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### scale · 音阶  ★★
 
@@ -1412,7 +1412,7 @@ A4 (concert A) has a pitch of 440 Hz
 C major scale: C D E F G A B C (no sharps or flats)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### harmony · 和声  ★★
 
@@ -1422,7 +1422,7 @@ C major scale: C D E F G A B C (no sharps or flats)
 Singing in harmony means two voices at different pitches at once
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### measure · 小节  ★★
 
@@ -1432,7 +1432,7 @@ Singing in harmony means two voices at different pitches at once
 In 4/4 time, each measure contains exactly 4 quarter-note beats
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### octave · 八度  ★★
 
@@ -1442,7 +1442,7 @@ In 4/4 time, each measure contains exactly 4 quarter-note beats
 A4 (440Hz) and A5 (880Hz) are one octave apart
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### dynamics · 力度  ★★
 
@@ -1452,7 +1452,7 @@ A4 (440Hz) and A5 (880Hz) are one octave apart
 pp (pianissimo) = very soft; ff (fortissimo) = very loud
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### major scale · 大调音阶  ★★
 
@@ -1462,7 +1462,7 @@ pp (pianissimo) = very soft; ff (fortissimo) = very loud
 C major: C D E F G A B C  (W W H W W W H)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### minor scale · 小调音阶  ★★
 
