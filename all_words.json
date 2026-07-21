@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-20",
+  "generated": "2026-07-21",
   "words": [
     {
       "id": "ai_001",
@@ -465,9 +465,9 @@
       "definition": "将子元素的事件监听绑定到父元素，利用事件冒泡减少监听器数量",
       "example": "list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_008",
@@ -477,9 +477,9 @@
       "definition": "内层函数能访问并记住外层函数作用域变量的特性，即使外层已执行完毕",
       "example": "function counter() { let n=0; return () => ++n }  // returned fn is a closure",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_009",
@@ -489,9 +489,9 @@
       "definition": "代表未来某个异步操作结果的对象，状态只能从 pending 变为 fulfilled 或 rejected",
       "example": "fetch('/api').then(r => r.json()).catch(err => console.error(err))",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_010",
@@ -501,9 +501,9 @@
       "definition": "限制函数在连续触发时只在最后一次停止后才执行，常用于搜索输入",
       "example": "const search = debounce(query => api.search(query), 300)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_011",
@@ -777,8 +777,8 @@
       "definition": "声音频率高低的感知属性，频率越高音越高",
       "example": "A4 (concert A) has a pitch of 440 Hz",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -789,8 +789,8 @@
       "definition": "按固定音程关系依序排列的一组音符，是旋律和和声的基础",
       "example": "C major scale: C D E F G A B C (no sharps or flats)",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -801,8 +801,8 @@
       "definition": "多个音符同时发声产生的音程关系，为旋律增添色彩和情感",
       "example": "Singing in harmony means two voices at different pitches at once",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -813,8 +813,8 @@
       "definition": "用竖线分隔的固定拍数音乐单元，就像文字中的句子",
       "example": "In 4/4 time, each measure contains exactly 4 quarter-note beats",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -825,8 +825,8 @@
       "definition": "频率比为 2:1 的两个音之间的音程，听起来'相同但高低不同'",
       "example": "A4 (440Hz) and A5 (880Hz) are one octave apart",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -837,8 +837,8 @@
       "definition": "音乐演奏的响度变化，从弱到强用 pp/p/mp/mf/f/ff 标记",
       "example": "pp (pianissimo) = very soft; ff (fortissimo) = very loud",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1197,8 +1197,8 @@
       "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
       "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
       "difficulty": 4,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1209,8 +1209,8 @@
       "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
       "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
       "difficulty": 4,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1221,8 +1221,8 @@
       "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
       "example": "This is getting detailed. Let's table this for now and take it offline.",
       "difficulty": 4,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2205,8 +2205,8 @@
       "definition": "由全-全-半-全-全-全-半音程排列的七声音阶，听起来明亮、欢快",
       "example": "C major: C D E F G A B C  (W W H W W W H)",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2217,9 +2217,9 @@
       "definition": "由全-半-全-全-半-全-全音程排列的七声音阶，听起来忧郁、深沉",
       "example": "A minor: A B C D E F G A  (natural minor, relative to C major)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_028",
@@ -2241,9 +2241,9 @@
       "definition": "由五个音符构成的音阶，在流行、蓝调、中国传统音乐中广泛使用",
       "example": "C major pentatonic: C D E G A  (remove 4th and 7th from major scale)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_030",
@@ -2253,9 +2253,9 @@
       "definition": "演奏或演唱时音高快速微小的周期性波动，增加音符的表现力和温暖感",
       "example": "Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_031",
@@ -2265,9 +2265,9 @@
       "definition": "音乐中音量强弱的变化，从最弱（ppp）到最强（fff），是表达情感的重要手段",
       "example": "mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_032",
@@ -2373,9 +2373,9 @@
       "definition": "使不同乐器或声音听起来不同的音质特征，即使音高相同也各有其独特的声音质地",
       "example": "A violin and flute playing the same A4 note sound different due to their timbre",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_041",
@@ -2421,9 +2421,9 @@
       "definition": "和弦音符不同时发音、而是按顺序一个个弹奏，像竖琴拨弦的效果",
       "example": "Roll the chord from bottom to top—play it as an arpeggio, not a block chord",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_045",
@@ -11889,8 +11889,8 @@
       "definition": "满足",
       "example": "Can you satisfy?",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11901,8 +11901,8 @@
       "definition": "失望",
       "example": "Let's disappoint together.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11913,8 +11913,8 @@
       "definition": "烦恼",
       "example": "This is upset.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11925,8 +11925,8 @@
       "definition": "抚慰",
       "example": "You should comfort it.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11937,8 +11937,8 @@
       "definition": "激励",
       "example": "I encourage every day.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11949,8 +11949,8 @@
       "definition": "鼓舞",
       "example": "You should inspire it.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11961,8 +11961,8 @@
       "definition": "驱动",
       "example": "I motivate every day.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11973,8 +11973,8 @@
       "definition": "劝服",
       "example": "Can you persuade?",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11985,8 +11985,8 @@
       "definition": "说服",
       "example": "You should convince it.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11997,8 +11997,8 @@
       "definition": "相信",
       "example": "You should trust it.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 4,
+      "next_review": "2026-08-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13569,8 +13569,8 @@
       "definition": "投递",
       "example": "This is post.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13581,8 +13581,8 @@
       "definition": "信件",
       "example": "I have a mail.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13593,8 +13593,8 @@
       "definition": "位置",
       "example": "This is a address.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13605,8 +13605,8 @@
       "definition": "数字",
       "example": "The number is important.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13617,8 +13617,8 @@
       "definition": "编码",
       "example": "The code is important.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13629,8 +13629,8 @@
       "definition": "讯号",
       "example": "This is a signal.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13641,8 +13641,8 @@
       "definition": "声响",
       "example": "I have a sound.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13653,8 +13653,8 @@
       "definition": "杂音",
       "example": "This is a noise.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13665,8 +13665,8 @@
       "definition": "嗓音",
       "example": "I have a voice.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13677,8 +13677,8 @@
       "definition": "讲话",
       "example": "I have a speech.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 3,
+      "next_review": "2026-08-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14409,8 +14409,8 @@
       "definition": "比赛",
       "example": "I have a contest.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14421,8 +14421,8 @@
       "definition": "联赛",
       "example": "This is a tournament.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14433,8 +14433,8 @@
       "definition": "锦标赛",
       "example": "A championship can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14445,8 +14445,8 @@
       "definition": "联盟",
       "example": "This is a league.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14457,8 +14457,8 @@
       "definition": "训练师",
       "example": "The coach is important.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14469,8 +14469,8 @@
       "definition": "爱好者",
       "example": "This is a fan.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14481,8 +14481,8 @@
       "definition": "听众",
       "example": "This is a audience.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14493,8 +14493,8 @@
       "definition": "旁观者",
       "example": "This is a spectator.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14505,8 +14505,8 @@
       "definition": "大众",
       "example": "I have a crowd.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14517,8 +14517,8 @@
       "definition": "歌曲",
       "example": "I have a song.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 2,
+      "next_review": "2026-07-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14769,8 +14769,8 @@
       "definition": "活动",
       "example": "I have a event.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14781,8 +14781,8 @@
       "definition": "行动",
       "example": "A activity can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -14793,8 +14793,8 @@
       "definition": "嗜好",
       "example": "A hobby can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-21",
-      "review_count": 1,
+      "next_review": "2026-07-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
