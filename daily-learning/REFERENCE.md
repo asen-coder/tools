@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-20，共 1262 条词汇。
+> 更新于 2026-07-21，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -692,7 +692,7 @@ You are a helpful assistant. Always respond in Chinese.
 list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### closure · 闭包  ★★
 
@@ -702,7 +702,7 @@ list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })
 function counter() { let n=0; return () => ++n }  // returned fn is a closure
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### promise · Promise  ★★
 
@@ -712,7 +712,7 @@ function counter() { let n=0; return () => ++n }  // returned fn is a closure
 fetch('/api').then(r => r.json()).catch(err => console.error(err))
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### debounce · 防抖  ★★
 
@@ -722,7 +722,7 @@ fetch('/api').then(r => r.json()).catch(err => console.error(err))
 const search = debounce(query => api.search(query), 300)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### throttle · 节流  ★★
 
@@ -1472,7 +1472,7 @@ C major: C D E F G A B C  (W W H W W W H)
 A minor: A B C D E F G A  (natural minor, relative to C major)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### pentatonic scale · 五声音阶  ★★
 
@@ -1482,7 +1482,7 @@ A minor: A B C D E F G A  (natural minor, relative to C major)
 C major pentatonic: C D E G A  (remove 4th and 7th from major scale)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### vibrato · 颤音  ★★
 
@@ -1492,7 +1492,7 @@ C major pentatonic: C D E G A  (remove 4th and 7th from major scale)
 Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### dynamics · 力度  ★★
 
@@ -1502,7 +1502,7 @@ Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibra
 mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### timbre · 音色  ★★
 
@@ -1512,7 +1512,7 @@ mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)
 A violin and flute playing the same A4 note sound different due to their timbre
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### arpeggio · 琶音  ★★
 
@@ -1522,7 +1522,7 @@ A violin and flute playing the same A4 note sound different due to their timbre
 Roll the chord from bottom to top—play it as an arpeggio, not a block chord
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### arpeggio · 琶音  ★★★
 
