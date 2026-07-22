@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-21",
+  "generated": "2026-07-22",
   "words": [
     {
       "id": "ai_001",
@@ -465,8 +465,8 @@
       "definition": "将子元素的事件监听绑定到父元素，利用事件冒泡减少监听器数量",
       "example": "list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -477,8 +477,8 @@
       "definition": "内层函数能访问并记住外层函数作用域变量的特性，即使外层已执行完毕",
       "example": "function counter() { let n=0; return () => ++n }  // returned fn is a closure",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -489,8 +489,8 @@
       "definition": "代表未来某个异步操作结果的对象，状态只能从 pending 变为 fulfilled 或 rejected",
       "example": "fetch('/api').then(r => r.json()).catch(err => console.error(err))",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -501,8 +501,8 @@
       "definition": "限制函数在连续触发时只在最后一次停止后才执行，常用于搜索输入",
       "example": "const search = debounce(query => api.search(query), 300)",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -513,9 +513,9 @@
       "definition": "限制函数在固定时间间隔内最多执行一次，常用于滚动/窗口 resize",
       "example": "window.addEventListener('scroll', throttle(handleScroll, 100))",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_012",
@@ -525,9 +525,9 @@
       "definition": "按需加载资源（图片、组件、路由等），而非页面初始化时全部加载",
       "example": "const UserProfile = defineAsyncComponent(() => import('./UserProfile.vue'))",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_013",
@@ -537,9 +537,9 @@
       "definition": "用户在屏幕上实际可见的网页区域，响应式设计的基准参照",
       "example": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_014",
@@ -549,9 +549,9 @@
       "definition": "用有意义的标签（article/section/header）描述内容结构，而非全用 div",
       "example": "<article><h2>Title</h2><p>Content</p></article>  // vs <div><div>...",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_015",
@@ -561,9 +561,9 @@
       "definition": "确保网页对所有用户（包括残障人士）可用的设计实践，简称 a11y",
       "example": "<button aria-label='Close dialog'>×</button>  // screen reader can read it",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_016",
@@ -969,8 +969,8 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -981,8 +981,8 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1653,9 +1653,9 @@
       "definition": "Vue 3 中将对象/数组转为深层响应式的函数，无需 .value 访问",
       "example": "const state = reactive({ count: 0, user: { name: 'Alice' } })\nstate.count++",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_029",
@@ -1665,9 +1665,9 @@
       "definition": "Vue 3 中基于其他响应式数据派生的只读属性，自动追踪依赖并缓存结果",
       "example": "const doubled = computed(() => count.value * 2)",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_030",
@@ -1677,9 +1677,9 @@
       "definition": "Vue 3 中监听特定响应式数据变化并执行副作用的 API",
       "example": "watch(count, (newVal, oldVal) => { console.log(`${oldVal} → ${newVal}`) })",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_031",
@@ -1701,9 +1701,9 @@
       "definition": "Vue 组件中供父组件注入内容的占位符，实现组件内容的灵活定制",
       "example": "<MyCard><template #title>Hello</template></MyCard>",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_033",
@@ -1725,9 +1725,9 @@
       "definition": "Vue 3 setup script 中声明组件接收的 props 及其类型约束的编译器宏",
       "example": "const props = defineProps<{ title: string; count?: number }>()",
       "difficulty": 2,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-23",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_035",
@@ -2217,8 +2217,8 @@
       "definition": "由全-半-全-全-半-全-全音程排列的七声音阶，听起来忧郁、深沉",
       "example": "A minor: A B C D E F G A  (natural minor, relative to C major)",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2241,8 +2241,8 @@
       "definition": "由五个音符构成的音阶，在流行、蓝调、中国传统音乐中广泛使用",
       "example": "C major pentatonic: C D E G A  (remove 4th and 7th from major scale)",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2253,8 +2253,8 @@
       "definition": "演奏或演唱时音高快速微小的周期性波动，增加音符的表现力和温暖感",
       "example": "Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2265,8 +2265,8 @@
       "definition": "音乐中音量强弱的变化，从最弱（ppp）到最强（fff），是表达情感的重要手段",
       "example": "mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2373,8 +2373,8 @@
       "definition": "使不同乐器或声音听起来不同的音质特征，即使音高相同也各有其独特的声音质地",
       "example": "A violin and flute playing the same A4 note sound different due to their timbre",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2421,8 +2421,8 @@
       "definition": "和弦音符不同时发音、而是按顺序一个个弹奏，像竖琴拨弦的效果",
       "example": "Roll the chord from bottom to top—play it as an arpeggio, not a block chord",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 1,
+      "next_review": "2026-07-25",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2661,8 +2661,8 @@
       "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
       "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
       "difficulty": 4,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12009,8 +12009,8 @@
       "definition": "质疑",
       "example": "Let's doubt together.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12021,8 +12021,8 @@
       "definition": "猜测",
       "example": "You should suspect it.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12033,8 +12033,8 @@
       "definition": "假定",
       "example": "You should assume it.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12045,8 +12045,8 @@
       "definition": "假定",
       "example": "Let's suppose together.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12057,8 +12057,8 @@
       "definition": "设想",
       "example": "I imagine every day.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12069,8 +12069,8 @@
       "definition": "明白",
       "example": "Can you realize?",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12081,8 +12081,8 @@
       "definition": "识别",
       "example": "You should recognize it.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12093,8 +12093,8 @@
       "definition": "觉察",
       "example": "Let's notice together.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12105,8 +12105,8 @@
       "definition": "观测",
       "example": "You should observe it.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12117,8 +12117,8 @@
       "definition": "找到",
       "example": "You should discover it.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 4,
+      "next_review": "2026-08-21",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13689,8 +13689,8 @@
       "definition": "交谈",
       "example": "I have a conversation.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13701,8 +13701,8 @@
       "definition": "商议",
       "example": "This is a discussion.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13713,8 +13713,8 @@
       "definition": "辩论",
       "example": "The argument is important.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13725,8 +13725,8 @@
       "definition": "争论",
       "example": "This is debate.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13737,8 +13737,8 @@
       "definition": "集会",
       "example": "I have a meeting.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13749,8 +13749,8 @@
       "definition": "大型会议",
       "example": "A conference can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13761,8 +13761,8 @@
       "definition": "面谈",
       "example": "I have a interview.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13773,8 +13773,8 @@
       "definition": "展示",
       "example": "I have a presentation.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13785,8 +13785,8 @@
       "definition": "汇报",
       "example": "I have a report.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13797,8 +13797,8 @@
       "definition": "文档",
       "example": "The document is important.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 3,
+      "next_review": "2026-08-05",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14529,8 +14529,8 @@
       "definition": "跳舞",
       "example": "This is dance.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14541,8 +14541,8 @@
       "definition": "音乐演出",
       "example": "The concert is important.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14553,8 +14553,8 @@
       "definition": "表演",
       "example": "I have a performance.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14565,8 +14565,8 @@
       "definition": "影片",
       "example": "This is a movie.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14577,8 +14577,8 @@
       "definition": "影片",
       "example": "The film is important.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14589,8 +14589,8 @@
       "definition": "录像",
       "example": "A video can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14601,8 +14601,8 @@
       "definition": "图像",
       "example": "I have a picture.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14613,8 +14613,8 @@
       "definition": "相片",
       "example": "A photo can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14625,8 +14625,8 @@
       "definition": "照片",
       "example": "This is a photograph.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -14637,8 +14637,8 @@
       "definition": "摄影机",
       "example": "This is a camera.",
       "difficulty": 2,
-      "next_review": "2026-07-22",
-      "review_count": 2,
+      "next_review": "2026-07-29",
+      "review_count": 3,
       "status": "learning"
     },
     {
