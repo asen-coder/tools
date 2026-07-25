@@ -199,8 +199,8 @@
     "definition": "结合向量检索和 LLM 生成的架构：先检索相关文档，再让模型基于文档回答",
     "example": "chain = {'context': retriever, 'question': passthrough} | prompt | llm",
     "difficulty": 3,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -211,8 +211,8 @@
     "definition": "用管道符 | 串联 LangChain 组件的 DSL，所有组件都实现 Runnable 接口",
     "example": "chain = prompt | llm | StrOutputParser()  # this is LCEL",
     "difficulty": 3,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -223,8 +223,8 @@
     "definition": "LangChain 中所有组件（LLM、提示、解析器等）共同实现的标准接口",
     "example": "# Runnables support: invoke, stream, batch, ainvoke, astream",
     "difficulty": 3,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -235,9 +235,9 @@
     "definition": "能自主规划步骤、调用工具并根据结果决定下一步行动的 AI 系统",
     "example": "agent = create_react_agent(llm, tools=[search_tool, calculator])",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_021",
@@ -247,9 +247,9 @@
     "definition": "LLM 在生成过程中请求执行外部函数（搜索、计算等）并获取结果的能力",
     "example": "@tool\ndef get_weather(city: str) -> str:\n    return weather_api(city)",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_022",
@@ -259,9 +259,9 @@
     "definition": "模型自信地生成听起来合理但实际上错误或捏造的内容",
     "example": "RAG helps reduce hallucination by grounding answers in real documents",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_023",
@@ -271,9 +271,9 @@
     "definition": "模型单次能处理的最大 token 数量，超出则需截断或用其他策略",
     "example": "GPT-4o has a 128k context window; Claude 3.5 has 200k",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_024",
@@ -283,9 +283,9 @@
     "definition": "监听链/代理执行过程中各阶段事件（开始、结束、错误）的钩子机制",
     "example": "chain.invoke(input, config={'callbacks': [StreamingHandler()]})",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_025",
@@ -295,9 +295,9 @@
     "definition": "让模型在给出最终答案前逐步展示推理过程的提示技术",
     "example": "prompt = 'Think step by step before answering: {question}'",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_026",
@@ -307,9 +307,9 @@
     "definition": "LLM 逐 token 输出内容而非等待全部生成完再返回，改善用户体验",
     "example": "for chunk in chain.stream({'question': 'What is LCEL?'}):\n    print(chunk, end='')",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_027",
@@ -463,8 +463,8 @@
     "definition": "将子元素的事件监听绑定到父元素，利用事件冒泡减少监听器数量",
     "example": "list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -475,8 +475,8 @@
     "definition": "内层函数能访问并记住外层函数作用域变量的特性，即使外层已执行完毕",
     "example": "function counter() { let n=0; return () => ++n }  // returned fn is a closure",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -487,8 +487,8 @@
     "definition": "代表未来某个异步操作结果的对象，状态只能从 pending 变为 fulfilled 或 rejected",
     "example": "fetch('/api').then(r => r.json()).catch(err => console.error(err))",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -499,8 +499,8 @@
     "definition": "限制函数在连续触发时只在最后一次停止后才执行，常用于搜索输入",
     "example": "const search = debounce(query => api.search(query), 300)",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1243,9 +1243,9 @@
     "definition": "在聊天提示模板中动态插入一组消息（如历史记录）的占位符组件",
     "example": "MessagesPlaceholder(variable_name=\"chat_history\")",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_035",
@@ -1279,9 +1279,9 @@
     "definition": "将外部知识检索结果注入 LLM 上下文，弥补模型知识截止日期的局限",
     "example": "rag_chain = retriever | format_docs | prompt | llm | StrOutputParser()",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_038",
@@ -1327,9 +1327,9 @@
     "definition": "LLM 根据用户意图决定调用哪些预定义工具（函数）并传入参数的能力",
     "example": "@tool\ndef search_web(query: str) -> str:\n    return results",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_042",
@@ -2011,8 +2011,8 @@
     "definition": "延迟加载非关键资源（图片、模块）直到真正需要时，提升页面初始加载性能",
     "example": "<img loading=\"lazy\" src=\"./photo.jpg\" />",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2023,8 +2023,8 @@
     "definition": "在请求到达目标处理器之前拦截并处理请求的函数，可用于认证、日志、限流等",
     "example": "app.use(authMiddleware)  // runs before every route handler",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2035,8 +2035,8 @@
     "definition": "确保一个类只有一个实例，并提供全局访问点的设计模式",
     "example": "const db = Database.getInstance()  // always returns same connection pool",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2095,8 +2095,8 @@
     "definition": "每次代码提交自动触发测试和部署流水线，快速发现问题并缩短上线周期",
     "example": "Push code → GitHub Actions runs tests → if passed, deploys to production",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2107,8 +2107,8 @@
     "definition": "新代码引入的 bug 导致原本正常功能变得异常",
     "example": "The v2.1 release caused a regression in the login flow, fixed in v2.1.1",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2119,8 +2119,8 @@
     "definition": "标记某个 API 或功能为不推荐使用，通常给出替代方案并约定在未来版本中删除",
     "example": "Options API is deprecated; migrate to Composition API",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2143,8 +2143,8 @@
     "definition": "将一种语言/版本的代码转换为另一种的过程，如 TypeScript → JavaScript、ES2022 → ES5",
     "example": "Babel transpiles modern JavaScript so it runs in older browsers",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 1,
+    "next_review": "2026-07-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2215,8 +2215,8 @@
     "definition": "由全-半-全-全-半-全-全音程排列的七声音阶，听起来忧郁、深沉",
     "example": "A minor: A B C D E F G A  (natural minor, relative to C major)",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2239,8 +2239,8 @@
     "definition": "由五个音符构成的音阶，在流行、蓝调、中国传统音乐中广泛使用",
     "example": "C major pentatonic: C D E G A  (remove 4th and 7th from major scale)",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2251,8 +2251,8 @@
     "definition": "演奏或演唱时音高快速微小的周期性波动，增加音符的表现力和温暖感",
     "example": "Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2263,8 +2263,8 @@
     "definition": "音乐中音量强弱的变化，从最弱（ppp）到最强（fff），是表达情感的重要手段",
     "example": "mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2371,8 +2371,8 @@
     "definition": "使不同乐器或声音听起来不同的音质特征，即使音高相同也各有其独特的声音质地",
     "example": "A violin and flute playing the same A4 note sound different due to their timbre",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2419,8 +2419,8 @@
     "definition": "和弦音符不同时发音、而是按顺序一个个弹奏，像竖琴拨弦的效果",
     "example": "Roll the chord from bottom to top—play it as an arpeggio, not a block chord",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 2,
+    "next_review": "2026-08-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2635,8 +2635,8 @@
     "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
     "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
     "difficulty": 5,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2683,8 +2683,8 @@
     "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
     "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
     "difficulty": 5,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2695,8 +2695,8 @@
     "definition": "请求对方对某个观点或说法做更详细的解释",
     "example": "You mentioned scalability concerns—can you elaborate on that?",
     "difficulty": 5,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12367,8 +12367,8 @@
     "definition": "达成",
     "example": "Let's achieve together.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12379,8 +12379,8 @@
     "definition": "实现",
     "example": "Let's accomplish together.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12391,8 +12391,8 @@
     "definition": "完整",
     "example": "You should complete it.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12403,8 +12403,8 @@
     "definition": "职业",
     "example": "This is a job.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12415,8 +12415,8 @@
     "definition": "事业",
     "example": "I have a career.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12427,8 +12427,8 @@
     "definition": "专业",
     "example": "The profession is important.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12439,8 +12439,8 @@
     "definition": "生意",
     "example": "A business can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12451,8 +12451,8 @@
     "definition": "企业",
     "example": "A company can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12463,8 +12463,8 @@
     "definition": "制造场所",
     "example": "A factory can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12475,8 +12475,8 @@
     "definition": "店铺",
     "example": "A shop can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 4,
+    "next_review": "2026-08-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14047,8 +14047,8 @@
     "definition": "连接",
     "example": "A link can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14059,8 +14059,8 @@
     "definition": "点击",
     "example": "You should click it.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14071,8 +14071,8 @@
     "definition": "显示屏",
     "example": "I have a screen.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14083,8 +14083,8 @@
     "definition": "屏幕",
     "example": "I have a monitor.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14095,8 +14095,8 @@
     "definition": "输入设备",
     "example": "A keyboard can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14107,8 +14107,8 @@
     "definition": "计算机",
     "example": "The computer is important.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14119,8 +14119,8 @@
     "definition": "便携电脑",
     "example": "The laptop is important.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14131,8 +14131,8 @@
     "definition": "平板电脑",
     "example": "A tablet can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14143,8 +14143,8 @@
     "definition": "程序",
     "example": "The software is important.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14155,8 +14155,8 @@
     "definition": "设备",
     "example": "I have a hardware.",
     "difficulty": 2,
-    "next_review": "2026-07-25",
-    "review_count": 3,
+    "next_review": "2026-08-08",
+    "review_count": 4,
     "status": "learning"
   },
   {

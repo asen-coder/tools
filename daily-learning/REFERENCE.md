@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-24，共 1262 条词汇。
+> 更新于 2026-07-25，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -309,7 +309,7 @@ LangChain 中所有组件（LLM、提示、解析器等）共同实现的标准�
 agent = create_react_agent(llm, tools=[search_tool, calculator])
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tool calling · 工具调用  ★★★
 
@@ -321,7 +321,7 @@ def get_weather(city: str) -> str:
     return weather_api(city)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### hallucination · 幻觉  ★★★
 
@@ -331,7 +331,7 @@ def get_weather(city: str) -> str:
 RAG helps reduce hallucination by grounding answers in real documents
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### context window · 上下文窗口  ★★★
 
@@ -341,7 +341,7 @@ RAG helps reduce hallucination by grounding answers in real documents
 GPT-4o has a 128k context window; Claude 3.5 has 200k
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### callback handler · 回调处理器  ★★★
 
@@ -351,7 +351,7 @@ GPT-4o has a 128k context window; Claude 3.5 has 200k
 chain.invoke(input, config={'callbacks': [StreamingHandler()]})
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### chain-of-thought · 思维链  ★★★
 
@@ -361,7 +361,7 @@ chain.invoke(input, config={'callbacks': [StreamingHandler()]})
 prompt = 'Think step by step before answering: {question}'
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### streaming · 流式输出  ★★★
 
@@ -372,7 +372,7 @@ for chunk in chain.stream({'question': 'What is LCEL?'}):
     print(chunk, end='')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### MessagesPlaceholder · 消息占位符  ★★★
 
@@ -382,7 +382,7 @@ for chunk in chain.stream({'question': 'What is LCEL?'}):
 MessagesPlaceholder(variable_name="chat_history")
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### RAG · 检索增强生成  ★★★
 
@@ -392,7 +392,7 @@ MessagesPlaceholder(variable_name="chat_history")
 rag_chain = retriever | format_docs | prompt | llm | StrOutputParser()
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tool calling · 工具调用  ★★★
 
@@ -404,7 +404,7 @@ def search_web(query: str) -> str:
     return results
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### StateGraph · 状态图  ★★★
 
