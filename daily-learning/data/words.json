@@ -235,8 +235,8 @@
     "definition": "能自主规划步骤、调用工具并根据结果决定下一步行动的 AI 系统",
     "example": "agent = create_react_agent(llm, tools=[search_tool, calculator])",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -247,8 +247,8 @@
     "definition": "LLM 在生成过程中请求执行外部函数（搜索、计算等）并获取结果的能力",
     "example": "@tool\ndef get_weather(city: str) -> str:\n    return weather_api(city)",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -259,8 +259,8 @@
     "definition": "模型自信地生成听起来合理但实际上错误或捏造的内容",
     "example": "RAG helps reduce hallucination by grounding answers in real documents",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -271,8 +271,8 @@
     "definition": "模型单次能处理的最大 token 数量，超出则需截断或用其他策略",
     "example": "GPT-4o has a 128k context window; Claude 3.5 has 200k",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -283,8 +283,8 @@
     "definition": "监听链/代理执行过程中各阶段事件（开始、结束、错误）的钩子机制",
     "example": "chain.invoke(input, config={'callbacks': [StreamingHandler()]})",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -295,8 +295,8 @@
     "definition": "让模型在给出最终答案前逐步展示推理过程的提示技术",
     "example": "prompt = 'Think step by step before answering: {question}'",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -307,8 +307,8 @@
     "definition": "LLM 逐 token 输出内容而非等待全部生成完再返回，改善用户体验",
     "example": "for chunk in chain.stream({'question': 'What is LCEL?'}):\n    print(chunk, end='')",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -511,8 +511,8 @@
     "definition": "限制函数在固定时间间隔内最多执行一次，常用于滚动/窗口 resize",
     "example": "window.addEventListener('scroll', throttle(handleScroll, 100))",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -523,8 +523,8 @@
     "definition": "按需加载资源（图片、组件、路由等），而非页面初始化时全部加载",
     "example": "const UserProfile = defineAsyncComponent(() => import('./UserProfile.vue'))",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -535,8 +535,8 @@
     "definition": "用户在屏幕上实际可见的网页区域，响应式设计的基准参照",
     "example": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -547,8 +547,8 @@
     "definition": "用有意义的标签（article/section/header）描述内容结构，而非全用 div",
     "example": "<article><h2>Title</h2><p>Content</p></article>  // vs <div><div>...",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -559,8 +559,8 @@
     "definition": "确保网页对所有用户（包括残障人士）可用的设计实践，简称 a11y",
     "example": "<button aria-label='Close dialog'>×</button>  // screen reader can read it",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1243,8 +1243,8 @@
     "definition": "在聊天提示模板中动态插入一组消息（如历史记录）的占位符组件",
     "example": "MessagesPlaceholder(variable_name=\"chat_history\")",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1279,8 +1279,8 @@
     "definition": "将外部知识检索结果注入 LLM 上下文，弥补模型知识截止日期的局限",
     "example": "rag_chain = retriever | format_docs | prompt | llm | StrOutputParser()",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1327,8 +1327,8 @@
     "definition": "LLM 根据用户意图决定调用哪些预定义工具（函数）并传入参数的能力",
     "example": "@tool\ndef search_web(query: str) -> str:\n    return results",
     "difficulty": 3,
-    "next_review": "2026-07-26",
-    "review_count": 1,
+    "next_review": "2026-07-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1339,9 +1339,9 @@
     "definition": "LangGraph 的核心数据结构，定义节点（操作）和边（流转路径）构成的有向图",
     "example": "graph = StateGraph(State)\ngraph.add_node('research', research_node)\ngraph.add_edge('research', 'write')",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_043",
@@ -1351,9 +1351,9 @@
     "definition": "LangGraph 在每个节点执行后保存的完整状态快照，用于断点续跑和人工干预",
     "example": "memory = MemorySaver()\ngraph = builder.compile(checkpointer=memory)",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_044",
@@ -1363,9 +1363,9 @@
     "definition": "在 AI 工作流中设置人工审核节点，让人类在关键决策点审批或修正",
     "example": "graph.compile(interrupt_before=['sensitive_action'])",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_045",
@@ -1375,9 +1375,9 @@
     "definition": "多个专职 AI 智能体协同工作，分别负责不同子任务（如研究员 + 写手 + 审稿人）",
     "example": "supervisor → researcher → writer → reviewer",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_046",
@@ -1459,9 +1459,9 @@
     "definition": "衡量两个向量方向接近程度的指标（-1 到 1），向量数据库检索的核心算法",
     "example": "similarity = dot(a, b) / (norm(a) * norm(b))",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_053",
@@ -1495,9 +1495,9 @@
     "definition": "将模型权重从高精度浮点数压缩为低精度整数，减少内存占用和推理延迟",
     "example": "llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_056",
@@ -1519,9 +1519,9 @@
     "definition": "无需针对性训练示例，直接让模型执行从未见过的任务的能力",
     "example": "GPT-4 can classify sentiment zero-shot by just describing the task in the prompt",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_058",
@@ -1543,9 +1543,9 @@
     "definition": "让模型在给出最终答案前显式写出中间推理步骤，显著提升复杂问题的准确率",
     "example": "Let's think step by step: first calculate X, then Y, therefore Z.",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_060",
@@ -1579,9 +1579,9 @@
     "definition": "防止 AI 输出有害内容或越界行为的安全机制，包括输入过滤和输出校验",
     "example": "Input guardrail blocks prompt injection; output guardrail checks for PII",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_063",
@@ -1615,9 +1615,9 @@
     "definition": "LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的性能",
     "example": "This deployment achieves 200 tokens/sec throughput on A100 GPU",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_066",
@@ -1651,8 +1651,8 @@
     "definition": "Vue 3 中将对象/数组转为深层响应式的函数，无需 .value 访问",
     "example": "const state = reactive({ count: 0, user: { name: 'Alice' } })\nstate.count++",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1663,8 +1663,8 @@
     "definition": "Vue 3 中基于其他响应式数据派生的只读属性，自动追踪依赖并缓存结果",
     "example": "const doubled = computed(() => count.value * 2)",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1675,8 +1675,8 @@
     "definition": "Vue 3 中监听特定响应式数据变化并执行副作用的 API",
     "example": "watch(count, (newVal, oldVal) => { console.log(`${oldVal} → ${newVal}`) })",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1699,8 +1699,8 @@
     "definition": "Vue 组件中供父组件注入内容的占位符，实现组件内容的灵活定制",
     "example": "<MyCard><template #title>Hello</template></MyCard>",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1723,8 +1723,8 @@
     "definition": "Vue 3 setup script 中声明组件接收的 props 及其类型约束的编译器宏",
     "example": "const props = defineProps<{ title: string; count?: number }>()",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 2,
+    "next_review": "2026-08-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2719,8 +2719,8 @@
     "definition": "表示自己会继续推进某个事项，并在适当时候反馈进展",
     "example": "I don't have the answer right now, but I'll follow up on this by Thursday.",
     "difficulty": 5,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2743,8 +2743,8 @@
     "definition": "礼貌地表示没有理解对方说的内容，请求重新解释",
     "example": "I'm not sure I follow—could you walk me through the flow again with an example?",
     "difficulty": 5,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2767,8 +2767,8 @@
     "definition": "表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段",
     "example": "Tests are passing, staging looks clean—we're good to go for the release.",
     "difficulty": 5,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12487,8 +12487,8 @@
     "definition": "店铺",
     "example": "This is a store.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12499,8 +12499,8 @@
     "definition": "交易场所",
     "example": "I have a market.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12511,8 +12511,8 @@
     "definition": "金融机构",
     "example": "I have a bank.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12523,8 +12523,8 @@
     "definition": "医疗机构",
     "example": "The hospital is important.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12535,8 +12535,8 @@
     "definition": "高等院校",
     "example": "This is a college.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12547,8 +12547,8 @@
     "definition": "高等学府",
     "example": "A university can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12559,8 +12559,8 @@
     "definition": "展览场所",
     "example": "This is a museum.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12571,8 +12571,8 @@
     "definition": "演出场所",
     "example": "A theater can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12583,8 +12583,8 @@
     "definition": "放映场所",
     "example": "A cinema can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12595,8 +12595,8 @@
     "definition": "休闲场所",
     "example": "This is a cafe.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 4,
+    "next_review": "2026-08-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14167,8 +14167,8 @@
     "definition": "软件",
     "example": "I have a program.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14179,8 +14179,8 @@
     "definition": "应用程序",
     "example": "This is a application.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14191,8 +14191,8 @@
     "definition": "档案",
     "example": "I have a file.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14203,8 +14203,8 @@
     "definition": "目录",
     "example": "A folder can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14215,8 +14215,8 @@
     "definition": "资料",
     "example": "I have a data.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14227,8 +14227,8 @@
     "definition": "体系",
     "example": "I have a system.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14239,8 +14239,8 @@
     "definition": "网状系统",
     "example": "This is a network.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14251,8 +14251,8 @@
     "definition": "服务主机",
     "example": "A server can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14263,8 +14263,8 @@
     "definition": "数据仓库",
     "example": "I have a database.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14275,8 +14275,8 @@
     "definition": "口令",
     "example": "A password can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-26",
-    "review_count": 3,
+    "next_review": "2026-08-09",
+    "review_count": 4,
     "status": "learning"
   },
   {

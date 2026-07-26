@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-25，共 1262 条词汇。
+> 更新于 2026-07-26，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -416,7 +416,7 @@ graph.add_node('research', research_node)
 graph.add_edge('research', 'write')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### checkpoint · 检查点  ★★★
 
@@ -427,7 +427,7 @@ memory = MemorySaver()
 graph = builder.compile(checkpointer=memory)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### human-in-the-loop · 人机协作  ★★★
 
@@ -437,7 +437,7 @@ graph = builder.compile(checkpointer=memory)
 graph.compile(interrupt_before=['sensitive_action'])
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### multi-agent · 多智能体  ★★★
 
@@ -447,7 +447,7 @@ graph.compile(interrupt_before=['sensitive_action'])
 supervisor → researcher → writer → reviewer
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### cosine similarity · 余弦相似度  ★★★
 
@@ -457,7 +457,7 @@ supervisor → researcher → writer → reviewer
 similarity = dot(a, b) / (norm(a) * norm(b))
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### quantization · 量化  ★★★
 
@@ -467,7 +467,7 @@ similarity = dot(a, b) / (norm(a) * norm(b))
 llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### zero-shot · 零样本  ★★★
 
@@ -477,7 +477,7 @@ llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware
 GPT-4 can classify sentiment zero-shot by just describing the task in the prompt
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### chain of thought · 思维链  ★★★
 
@@ -487,7 +487,7 @@ GPT-4 can classify sentiment zero-shot by just describing the task in the prompt
 Let's think step by step: first calculate X, then Y, therefore Z.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### guardrails · 安全护栏  ★★★
 
@@ -497,7 +497,7 @@ Let's think step by step: first calculate X, then Y, therefore Z.
 Input guardrail blocks prompt injection; output guardrail checks for PII
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### throughput · 吞吐量  ★★★
 
@@ -507,7 +507,7 @@ LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的
 This deployment achieves 200 tokens/sec throughput on A100 GPU
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### grounding · 接地气 / 现实锚定  ★★★
 
