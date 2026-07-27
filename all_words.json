@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-26",
+  "generated": "2026-07-27",
   "words": [
     {
       "id": "ai_001",
@@ -849,9 +849,9 @@
       "definition": "将和弦各音依次单独弹奏而非同时发声，常用于钢琴和吉他",
       "example": "Playing C-E-G one by one upward is a C major arpeggio",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_014",
@@ -861,9 +861,9 @@
       "definition": "短促分离地弹奏每个音符，在音符上方或下方标记小圆点",
       "example": "Staccato notes sound like light, bouncy raindrops",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_015",
@@ -873,9 +873,9 @@
       "definition": "音符之间流畅连贯地演奏，没有间断，用弧线（连线）标记",
       "example": "Legato playing sounds smooth like flowing water",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_016",
@@ -885,9 +885,9 @@
       "definition": "将重音放在通常较弱的拍点上，造成节奏错位感，爵士乐大量使用",
       "example": "Most pop and jazz music uses syncopation for a groove feel",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_017",
@@ -897,9 +897,9 @@
       "definition": "音量逐渐增大的演奏方式，用 < 符号或 cresc. 标记",
       "example": "The orchestra played a crescendo leading to the climax",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_018",
@@ -909,9 +909,9 @@
       "definition": "演奏时实时创作而非演奏预先写好的乐谱，爵士乐的灵魂",
       "example": "Jazz musicians improvise solos over chord progressions",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_019",
@@ -1341,8 +1341,8 @@
       "definition": "LangGraph 的核心数据结构，定义节点（操作）和边（流转路径）构成的有向图",
       "example": "graph = StateGraph(State)\ngraph.add_node('research', research_node)\ngraph.add_edge('research', 'write')",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1353,8 +1353,8 @@
       "definition": "LangGraph 在每个节点执行后保存的完整状态快照，用于断点续跑和人工干预",
       "example": "memory = MemorySaver()\ngraph = builder.compile(checkpointer=memory)",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1365,8 +1365,8 @@
       "definition": "在 AI 工作流中设置人工审核节点，让人类在关键决策点审批或修正",
       "example": "graph.compile(interrupt_before=['sensitive_action'])",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1377,8 +1377,8 @@
       "definition": "多个专职 AI 智能体协同工作，分别负责不同子任务（如研究员 + 写手 + 审稿人）",
       "example": "supervisor → researcher → writer → reviewer",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1461,8 +1461,8 @@
       "definition": "衡量两个向量方向接近程度的指标（-1 到 1），向量数据库检索的核心算法",
       "example": "similarity = dot(a, b) / (norm(a) * norm(b))",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1497,8 +1497,8 @@
       "definition": "将模型权重从高精度浮点数压缩为低精度整数，减少内存占用和推理延迟",
       "example": "llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1521,8 +1521,8 @@
       "definition": "无需针对性训练示例，直接让模型执行从未见过的任务的能力",
       "example": "GPT-4 can classify sentiment zero-shot by just describing the task in the prompt",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1545,8 +1545,8 @@
       "definition": "让模型在给出最终答案前显式写出中间推理步骤，显著提升复杂问题的准确率",
       "example": "Let's think step by step: first calculate X, then Y, therefore Z.",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1581,8 +1581,8 @@
       "definition": "防止 AI 输出有害内容或越界行为的安全机制，包括输入过滤和输出校验",
       "example": "Input guardrail blocks prompt injection; output guardrail checks for PII",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1617,8 +1617,8 @@
       "definition": "LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的性能",
       "example": "This deployment achieves 200 tokens/sec throughput on A100 GPU",
       "difficulty": 3,
-      "next_review": "2026-07-27",
-      "review_count": 1,
+      "next_review": "2026-07-30",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1629,9 +1629,9 @@
       "definition": "确保 AI 输出基于真实可验证的信息，而非凭空生成，通常通过 RAG 或工具调用实现",
       "example": "Grounding the chatbot with a product database ensures it only mentions real products",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_027",
@@ -1749,8 +1749,8 @@
       "definition": "Vue 3 官方状态管理库，比 Vuex 更简单，支持 Composition API 和 TypeScript",
       "example": "const useStore = defineStore('main', () => { const count = ref(0); return { count } })",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1773,8 +1773,8 @@
       "definition": "TypeScript 中表示一个值可以是多种类型之一的类型声明，用 | 分隔",
       "example": "type ID = string | number\nfunction getUser(id: ID) { ... }",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1797,8 +1797,8 @@
       "definition": "安全访问深层属性的语法（?.），在遇到 null/undefined 时短路返回 undefined",
       "example": "const city = user?.address?.city ?? 'Unknown'",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1809,8 +1809,8 @@
       "definition": "当左侧为 null 或 undefined 时返回右侧值的运算符（??），不会跳过 0 和空字符串",
       "example": "const port = config.port ?? 3000  // 0 不会触发右侧",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1833,8 +1833,8 @@
       "definition": "开发时修改文件后无需刷新页面、只替换变更模块并保留应用状态的技术",
       "example": "Save a Vue file → component updates in browser without losing form state",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1869,8 +1869,8 @@
       "definition": "浏览器安全机制，限制跨域请求，服务端通过设置响应头来允许特定来源访问",
       "example": "Access-Control-Allow-Origin: https://myapp.com",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1893,8 +1893,8 @@
       "definition": "在单个 TCP 连接上实现全双工实时通信的协议，适合聊天室、实时协作等场景",
       "example": "const ws = new WebSocket('wss://api.example.com/ws')\nws.send(JSON.stringify({action: 'join'}))",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1917,8 +1917,8 @@
       "definition": "用于在各方之间安全传递声明的紧凑型令牌，包含 Header.Payload.Signature 三部分",
       "example": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1965,8 +1965,8 @@
       "definition": "在事件停止触发一段时间后才执行回调，避免高频事件（如输入）重复调用",
       "example": "const debouncedSearch = debounce(search, 300)  // 停止输入 300ms 后才搜索",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1977,8 +1977,8 @@
       "definition": "限制函数在固定时间间隔内最多执行一次，适合 scroll/resize 等高频事件",
       "example": "const throttledScroll = throttle(handleScroll, 100)  // 100ms 最多执行一次",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 2,
+      "next_review": "2026-08-03",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2169,9 +2169,9 @@
       "definition": "多个和弦按特定顺序排列形成的音乐骨架，决定歌曲的情感走向",
       "example": "I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_024",
@@ -2181,9 +2181,9 @@
       "definition": "乐谱开头标明每小节拍数和基准音符时值的记号，如 4/4 表示每小节四个四分音符",
       "example": "4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_025",
@@ -2193,9 +2193,9 @@
       "definition": "五线谱开头标明升降号的记号，决定乐曲所在的调式（大调或小调）",
       "example": "Two sharps (F# and C#) indicates D major or B minor key",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-28",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_026",
@@ -12609,8 +12609,8 @@
       "definition": "访客",
       "example": "This is a guest.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12621,8 +12621,8 @@
       "definition": "消费者",
       "example": "This is a customer.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12633,8 +12633,8 @@
       "definition": "委托人",
       "example": "A client can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12645,8 +12645,8 @@
       "definition": "雇主",
       "example": "The boss is important.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12657,8 +12657,8 @@
       "definition": "管理者",
       "example": "I have a manager.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12669,8 +12669,8 @@
       "definition": "带头人",
       "example": "A leader can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12681,8 +12681,8 @@
       "definition": "雇员",
       "example": "A employee can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12693,8 +12693,8 @@
       "definition": "全体职员",
       "example": "A staff can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12705,8 +12705,8 @@
       "definition": "队伍",
       "example": "A team can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12717,8 +12717,8 @@
       "definition": "群体",
       "example": "The group is important.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 4,
+      "next_review": "2026-08-26",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14289,8 +14289,8 @@
       "definition": "账号",
       "example": "I have a username.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14301,8 +14301,8 @@
       "definition": "账号",
       "example": "This is a account.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14313,8 +14313,8 @@
       "definition": "登入",
       "example": "This is login.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14325,8 +14325,8 @@
       "definition": "登出",
       "example": "This is logout.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14337,8 +14337,8 @@
       "definition": "登记",
       "example": "Let's register together.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14349,8 +14349,8 @@
       "definition": "签署",
       "example": "This is sign.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14361,8 +14361,8 @@
       "definition": "娱乐",
       "example": "The game is important.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14373,8 +14373,8 @@
       "definition": "体育",
       "example": "The sport is important.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14385,8 +14385,8 @@
       "definition": "竞赛",
       "example": "A match can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14397,8 +14397,8 @@
       "definition": "比赛",
       "example": "This is a competition.",
       "difficulty": 2,
-      "next_review": "2026-07-27",
-      "review_count": 3,
+      "next_review": "2026-08-10",
+      "review_count": 4,
       "status": "learning"
     },
     {
