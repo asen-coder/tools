@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-26，共 1262 条词汇。
+> 更新于 2026-07-27，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -517,7 +517,7 @@ This deployment achieves 200 tokens/sec throughput on A100 GPU
 Grounding the chatbot with a product database ensures it only mentions real products
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### StateGraph · 状态图  ★★★★
 
@@ -1532,7 +1532,7 @@ Roll the chord from bottom to top—play it as an arpeggio, not a block chord
 Playing C-E-G one by one upward is a C major arpeggio
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### staccato · 断音  ★★★
 
@@ -1542,7 +1542,7 @@ Playing C-E-G one by one upward is a C major arpeggio
 Staccato notes sound like light, bouncy raindrops
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### legato · 连奏  ★★★
 
@@ -1552,7 +1552,7 @@ Staccato notes sound like light, bouncy raindrops
 Legato playing sounds smooth like flowing water
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### syncopation · 切分音  ★★★
 
@@ -1562,7 +1562,7 @@ Legato playing sounds smooth like flowing water
 Most pop and jazz music uses syncopation for a groove feel
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### crescendo · 渐强  ★★★
 
@@ -1572,7 +1572,7 @@ Most pop and jazz music uses syncopation for a groove feel
 The orchestra played a crescendo leading to the climax
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### improvisation · 即兴演奏  ★★★
 
@@ -1582,7 +1582,7 @@ The orchestra played a crescendo leading to the climax
 Jazz musicians improvise solos over chord progressions
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### chord progression · 和弦进行  ★★★
 
@@ -1592,7 +1592,7 @@ Jazz musicians improvise solos over chord progressions
 I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### time signature · 拍号  ★★★
 
@@ -1602,7 +1602,7 @@ I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression
 4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### key signature · 调号  ★★★
 
@@ -1612,7 +1612,7 @@ I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression
 Two sharps (F# and C#) indicates D major or B minor key
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### interval · 音程  ★★★
 
