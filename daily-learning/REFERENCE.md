@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-27，共 1262 条词汇。
+> 更新于 2026-07-28，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1005,7 +1005,7 @@ Babel transpiles modern JavaScript so it runs in older browsers
 SSR renders HTML on server; hydration makes it interactive in browser
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### SSR · 服务端渲染  ★★★
 
@@ -1015,7 +1015,7 @@ SSR renders HTML on server; hydration makes it interactive in browser
 Nuxt.js/Next.js use SSR; initial page is rendered on the server
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tree shaking · 摇树优化  ★★★
 
@@ -1025,7 +1025,7 @@ Nuxt.js/Next.js use SSR; initial page is rendered on the server
 import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### virtual DOM · 虚拟 DOM  ★★★
 
@@ -1622,7 +1622,7 @@ Two sharps (F# and C#) indicates D major or B minor key
 C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### accelerando · 渐快  ★★★
 
@@ -1632,7 +1632,7 @@ C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)
 The piece builds tension with an accelerando before the climactic final chord
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### ritardando · 渐慢  ★★★
 
@@ -1642,7 +1642,7 @@ The piece builds tension with an accelerando before the climactic final chord
 The conductor signals a ritardando for the ending phrase
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### transposition · 移调  ★★★
 
@@ -1652,7 +1652,7 @@ The conductor signals a ritardando for the ending phrase
 Transpose 'Happy Birthday' from C to G so it fits your vocal range
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### syncopation · 切分节奏  ★★★
 
@@ -1662,7 +1662,7 @@ Transpose 'Happy Birthday' from C to G so it fits your vocal range
 The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### legato · 连奏  ★★★
 
@@ -1672,7 +1672,7 @@ The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel
 Play this melody legato—like a singer breathing between phrases, not choppy
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### staccato · 断奏  ★★★
 
@@ -1682,7 +1682,7 @@ Play this melody legato—like a singer breathing between phrases, not choppy
 The staccato eighth notes in the opening give a playful, bouncy character
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### counterpoint · 对位法  ★★★★
 
