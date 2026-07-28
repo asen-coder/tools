@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-27",
+  "generated": "2026-07-28",
   "words": [
     {
       "id": "ai_001",
@@ -201,8 +201,8 @@
       "definition": "结合向量检索和 LLM 生成的架构：先检索相关文档，再让模型基于文档回答",
       "example": "chain = {'context': retriever, 'question': passthrough} | prompt | llm",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -213,8 +213,8 @@
       "definition": "用管道符 | 串联 LangChain 组件的 DSL，所有组件都实现 Runnable 接口",
       "example": "chain = prompt | llm | StrOutputParser()  # this is LCEL",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -225,8 +225,8 @@
       "definition": "LangChain 中所有组件（LLM、提示、解析器等）共同实现的标准接口",
       "example": "# Runnables support: invoke, stream, batch, ainvoke, astream",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -573,9 +573,9 @@
       "definition": "在客户端激活服务端渲染的静态 HTML，绑定事件使其具有交互能力",
       "example": "SSR renders HTML on server; hydration makes it interactive in browser",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_017",
@@ -585,9 +585,9 @@
       "definition": "在服务器上生成完整 HTML 再发送给浏览器，首屏快、SEO 好",
       "example": "Nuxt.js/Next.js use SSR; initial page is rendered on the server",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_018",
@@ -597,9 +597,9 @@
       "definition": "打包时自动移除未被引用的代码，减小最终 bundle 体积",
       "example": "import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_019",
@@ -849,8 +849,8 @@
       "definition": "将和弦各音依次单独弹奏而非同时发声，常用于钢琴和吉他",
       "example": "Playing C-E-G one by one upward is a C major arpeggio",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -861,8 +861,8 @@
       "definition": "短促分离地弹奏每个音符，在音符上方或下方标记小圆点",
       "example": "Staccato notes sound like light, bouncy raindrops",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -873,8 +873,8 @@
       "definition": "音符之间流畅连贯地演奏，没有间断，用弧线（连线）标记",
       "example": "Legato playing sounds smooth like flowing water",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -885,8 +885,8 @@
       "definition": "将重音放在通常较弱的拍点上，造成节奏错位感，爵士乐大量使用",
       "example": "Most pop and jazz music uses syncopation for a groove feel",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -897,8 +897,8 @@
       "definition": "音量逐渐增大的演奏方式，用 < 符号或 cresc. 标记",
       "example": "The orchestra played a crescendo leading to the climax",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -909,8 +909,8 @@
       "definition": "演奏时实时创作而非演奏预先写好的乐谱，爵士乐的灵魂",
       "example": "Jazz musicians improvise solos over chord progressions",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1629,8 +1629,8 @@
       "definition": "确保 AI 输出基于真实可验证的信息，而非凭空生成，通常通过 RAG 或工具调用实现",
       "example": "Grounding the chatbot with a product database ensures it only mentions real products",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2013,8 +2013,8 @@
       "definition": "延迟加载非关键资源（图片、模块）直到真正需要时，提升页面初始加载性能",
       "example": "<img loading=\"lazy\" src=\"./photo.jpg\" />",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2025,8 +2025,8 @@
       "definition": "在请求到达目标处理器之前拦截并处理请求的函数，可用于认证、日志、限流等",
       "example": "app.use(authMiddleware)  // runs before every route handler",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2037,8 +2037,8 @@
       "definition": "确保一个类只有一个实例，并提供全局访问点的设计模式",
       "example": "const db = Database.getInstance()  // always returns same connection pool",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2097,8 +2097,8 @@
       "definition": "每次代码提交自动触发测试和部署流水线，快速发现问题并缩短上线周期",
       "example": "Push code → GitHub Actions runs tests → if passed, deploys to production",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2109,8 +2109,8 @@
       "definition": "新代码引入的 bug 导致原本正常功能变得异常",
       "example": "The v2.1 release caused a regression in the login flow, fixed in v2.1.1",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2121,8 +2121,8 @@
       "definition": "标记某个 API 或功能为不推荐使用，通常给出替代方案并约定在未来版本中删除",
       "example": "Options API is deprecated; migrate to Composition API",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2145,8 +2145,8 @@
       "definition": "将一种语言/版本的代码转换为另一种的过程，如 TypeScript → JavaScript、ES2022 → ES5",
       "example": "Babel transpiles modern JavaScript so it runs in older browsers",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 2,
+      "next_review": "2026-08-04",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2169,8 +2169,8 @@
       "definition": "多个和弦按特定顺序排列形成的音乐骨架，决定歌曲的情感走向",
       "example": "I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2181,8 +2181,8 @@
       "definition": "乐谱开头标明每小节拍数和基准音符时值的记号，如 4/4 表示每小节四个四分音符",
       "example": "4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2193,8 +2193,8 @@
       "definition": "五线谱开头标明升降号的记号，决定乐曲所在的调式（大调或小调）",
       "example": "Two sharps (F# and C#) indicates D major or B minor key",
       "difficulty": 3,
-      "next_review": "2026-07-28",
-      "review_count": 1,
+      "next_review": "2026-07-31",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2229,9 +2229,9 @@
       "definition": "两个音符之间的音高距离，以度数（unison/third/fifth/octave）表示",
       "example": "C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_029",
@@ -2301,9 +2301,9 @@
       "definition": "指示演奏逐渐加快速度的术语，常缩写为 accel.",
       "example": "The piece builds tension with an accelerando before the climactic final chord",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_035",
@@ -2313,9 +2313,9 @@
       "definition": "指示演奏逐渐放慢速度的术语，常缩写为 rit. 或 ritard.",
       "example": "The conductor signals a ritardando for the ending phrase",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_036",
@@ -2325,9 +2325,9 @@
       "definition": "将一段音乐整体移高或降低固定音程，改变调性但保持旋律和声的内部关系不变",
       "example": "Transpose 'Happy Birthday' from C to G so it fits your vocal range",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_037",
@@ -2361,9 +2361,9 @@
       "definition": "将重音移至通常不强的拍子（如弱拍或拍的弱部），制造推拉感，是爵士和流行音乐的特征",
       "example": "The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_040",
@@ -2397,9 +2397,9 @@
       "definition": "指示音符要平滑连接、无明显间隔地演奏，与断奏（staccato）相对",
       "example": "Play this melody legato—like a singer breathing between phrases, not choppy",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_043",
@@ -2409,9 +2409,9 @@
       "definition": "指示音符要短促分离地演奏，每个音符之间有明显间隔，通常以小圆点标记",
       "example": "The staccato eighth notes in the opening give a playful, bouncy character",
       "difficulty": 3,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-07-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_044",
@@ -12729,8 +12729,8 @@
       "definition": "合作者",
       "example": "The partner is important.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12741,8 +12741,8 @@
       "definition": "附近居民",
       "example": "The neighbor is important.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12753,8 +12753,8 @@
       "definition": "不认识的人",
       "example": "I have a stranger.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12765,8 +12765,8 @@
       "definition": "敌对方",
       "example": "This is a enemy.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12777,8 +12777,8 @@
       "definition": "社会群体",
       "example": "A society can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12789,8 +12789,8 @@
       "definition": "共同体",
       "example": "The community is important.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12801,8 +12801,8 @@
       "definition": "大众",
       "example": "This is public.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12813,8 +12813,8 @@
       "definition": "人民",
       "example": "The people is important.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12825,8 +12825,8 @@
       "definition": "国民",
       "example": "I have a citizen.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -12837,8 +12837,8 @@
       "definition": "政权",
       "example": "The government is important.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 4,
+      "next_review": "2026-08-27",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14409,8 +14409,8 @@
       "definition": "比赛",
       "example": "I have a contest.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14421,8 +14421,8 @@
       "definition": "联赛",
       "example": "This is a tournament.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14433,8 +14433,8 @@
       "definition": "锦标赛",
       "example": "A championship can help you.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14445,8 +14445,8 @@
       "definition": "联盟",
       "example": "This is a league.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14457,8 +14457,8 @@
       "definition": "训练师",
       "example": "The coach is important.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14469,8 +14469,8 @@
       "definition": "爱好者",
       "example": "This is a fan.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14481,8 +14481,8 @@
       "definition": "听众",
       "example": "This is a audience.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14493,8 +14493,8 @@
       "definition": "旁观者",
       "example": "This is a spectator.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14505,8 +14505,8 @@
       "definition": "大众",
       "example": "I have a crowd.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -14517,8 +14517,8 @@
       "definition": "歌曲",
       "example": "I have a song.",
       "difficulty": 2,
-      "next_review": "2026-07-28",
-      "review_count": 3,
+      "next_review": "2026-08-11",
+      "review_count": 4,
       "status": "learning"
     },
     {
