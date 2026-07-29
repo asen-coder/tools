@@ -235,8 +235,8 @@
     "definition": "能自主规划步骤、调用工具并根据结果决定下一步行动的 AI 系统",
     "example": "agent = create_react_agent(llm, tools=[search_tool, calculator])",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -247,8 +247,8 @@
     "definition": "LLM 在生成过程中请求执行外部函数（搜索、计算等）并获取结果的能力",
     "example": "@tool\ndef get_weather(city: str) -> str:\n    return weather_api(city)",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -259,8 +259,8 @@
     "definition": "模型自信地生成听起来合理但实际上错误或捏造的内容",
     "example": "RAG helps reduce hallucination by grounding answers in real documents",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -271,8 +271,8 @@
     "definition": "模型单次能处理的最大 token 数量，超出则需截断或用其他策略",
     "example": "GPT-4o has a 128k context window; Claude 3.5 has 200k",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -283,8 +283,8 @@
     "definition": "监听链/代理执行过程中各阶段事件（开始、结束、错误）的钩子机制",
     "example": "chain.invoke(input, config={'callbacks': [StreamingHandler()]})",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -295,8 +295,8 @@
     "definition": "让模型在给出最终答案前逐步展示推理过程的提示技术",
     "example": "prompt = 'Think step by step before answering: {question}'",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -307,8 +307,8 @@
     "definition": "LLM 逐 token 输出内容而非等待全部生成完再返回，改善用户体验",
     "example": "for chunk in chain.stream({'question': 'What is LCEL?'}):\n    print(chunk, end='')",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -571,8 +571,8 @@
     "definition": "在客户端激活服务端渲染的静态 HTML，绑定事件使其具有交互能力",
     "example": "SSR renders HTML on server; hydration makes it interactive in browser",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -583,8 +583,8 @@
     "definition": "在服务器上生成完整 HTML 再发送给浏览器，首屏快、SEO 好",
     "example": "Nuxt.js/Next.js use SSR; initial page is rendered on the server",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -595,8 +595,8 @@
     "definition": "打包时自动移除未被引用的代码，减小最终 bundle 体积",
     "example": "import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -607,9 +607,9 @@
     "definition": "用 JS 对象模拟 DOM 树，通过 diff 算法找最小变更再批量更新真实 DOM",
     "example": "React/Vue use virtual DOM to minimize expensive real DOM operations",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_020",
@@ -619,9 +619,9 @@
     "definition": "在独立后台线程运行脚本，避免复杂计算阻塞主线程导致页面卡顿",
     "example": "const worker = new Worker('compute.js')  // runs off the main thread",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_021",
@@ -631,9 +631,9 @@
     "definition": "缓存函数调用结果，相同参数直接返回缓存值，避免重复计算",
     "example": "const memoized = useMemo(() => expensiveCalc(data), [data])",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_022",
@@ -643,9 +643,9 @@
     "definition": "结合网页和原生应用优势的 Web 应用，可离线访问、可安装到桌面",
     "example": "Service Worker + Web App Manifest = PWA capabilities",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_023",
@@ -1243,8 +1243,8 @@
     "definition": "在聊天提示模板中动态插入一组消息（如历史记录）的占位符组件",
     "example": "MessagesPlaceholder(variable_name=\"chat_history\")",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1279,8 +1279,8 @@
     "definition": "将外部知识检索结果注入 LLM 上下文，弥补模型知识截止日期的局限",
     "example": "rag_chain = retriever | format_docs | prompt | llm | StrOutputParser()",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1327,8 +1327,8 @@
     "definition": "LLM 根据用户意图决定调用哪些预定义工具（函数）并传入参数的能力",
     "example": "@tool\ndef search_web(query: str) -> str:\n    return results",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 2,
+    "next_review": "2026-08-05",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1687,9 +1687,9 @@
     "definition": "Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 useRouter、useFetch）",
     "example": "function useMousePosition() { const x = ref(0); return { x, y } }",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_032",
@@ -1711,9 +1711,9 @@
     "definition": "Vue 3 中实现跨层级组件通信的 API，祖先 provide，后代 inject，无需 props 逐层传递",
     "example": "provide('theme', 'dark')  // 祖先\nconst theme = inject('theme') // 后代",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_034",
@@ -1735,9 +1735,9 @@
     "definition": "Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏",
     "example": "const emit = defineEmits<{ change: [value: string]; close: [] }>()",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_036",
@@ -1759,9 +1759,9 @@
     "definition": "TypeScript 中让函数、类或接口适配多种类型而保持类型安全的参数化类型机制",
     "example": "function identity<T>(arg: T): T { return arg }\nidentity<string>('hello')",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_038",
@@ -1783,9 +1783,9 @@
     "definition": "TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器理解运行时类型",
     "example": "if (typeof x === 'string') { x.toUpperCase() } // x is string here",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_040",
@@ -1843,9 +1843,9 @@
     "definition": "打包时静态分析代码，删除未被引用的模块和导出，减小最终 bundle 体积",
     "example": "Import { only, what, you, need } from 'library'  // unused exports are dropped",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-30",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_045",
@@ -2227,8 +2227,8 @@
     "definition": "两个音符之间的音高距离，以度数（unison/third/fifth/octave）表示",
     "example": "C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2299,8 +2299,8 @@
     "definition": "指示演奏逐渐加快速度的术语，常缩写为 accel.",
     "example": "The piece builds tension with an accelerando before the climactic final chord",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2311,8 +2311,8 @@
     "definition": "指示演奏逐渐放慢速度的术语，常缩写为 rit. 或 ritard.",
     "example": "The conductor signals a ritardando for the ending phrase",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2323,8 +2323,8 @@
     "definition": "将一段音乐整体移高或降低固定音程，改变调性但保持旋律和声的内部关系不变",
     "example": "Transpose 'Happy Birthday' from C to G so it fits your vocal range",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2359,8 +2359,8 @@
     "definition": "将重音移至通常不强的拍子（如弱拍或拍的弱部），制造推拉感，是爵士和流行音乐的特征",
     "example": "The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2395,8 +2395,8 @@
     "definition": "指示音符要平滑连接、无明显间隔地演奏，与断奏（staccato）相对",
     "example": "Play this melody legato—like a singer breathing between phrases, not choppy",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2407,8 +2407,8 @@
     "definition": "指示音符要短促分离地演奏，每个音符之间有明显间隔，通常以小圆点标记",
     "example": "The staccato eighth notes in the opening give a playful, bouncy character",
     "difficulty": 3,
-    "next_review": "2026-07-29",
-    "review_count": 1,
+    "next_review": "2026-08-01",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -12847,8 +12847,8 @@
     "definition": "政治活动",
     "example": "I have a politics.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12859,8 +12859,8 @@
     "definition": "投票",
     "example": "The election is important.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12871,8 +12871,8 @@
     "definition": "表决",
     "example": "This is vote.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12883,8 +12883,8 @@
     "definition": "法规",
     "example": "A law can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12895,8 +12895,8 @@
     "definition": "规章",
     "example": "The rule is important.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12907,8 +12907,8 @@
     "definition": "方针",
     "example": "This is a policy.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12919,8 +12919,8 @@
     "definition": "力量",
     "example": "The power is important.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12931,8 +12931,8 @@
     "definition": "权力",
     "example": "This is a authority.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12943,8 +12943,8 @@
     "definition": "自由权",
     "example": "I have a freedom.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12955,8 +12955,8 @@
     "definition": "责任",
     "example": "I have a duty.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 4,
+    "next_review": "2026-08-28",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14527,8 +14527,8 @@
     "definition": "跳舞",
     "example": "This is dance.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14539,8 +14539,8 @@
     "definition": "音乐演出",
     "example": "The concert is important.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14551,8 +14551,8 @@
     "definition": "表演",
     "example": "I have a performance.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14563,8 +14563,8 @@
     "definition": "影片",
     "example": "This is a movie.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14575,8 +14575,8 @@
     "definition": "影片",
     "example": "The film is important.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14587,8 +14587,8 @@
     "definition": "录像",
     "example": "A video can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14599,8 +14599,8 @@
     "definition": "图像",
     "example": "I have a picture.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14611,8 +14611,8 @@
     "definition": "相片",
     "example": "A photo can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14623,8 +14623,8 @@
     "definition": "照片",
     "example": "This is a photograph.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14635,8 +14635,8 @@
     "definition": "摄影机",
     "example": "This is a camera.",
     "difficulty": 2,
-    "next_review": "2026-07-29",
-    "review_count": 3,
+    "next_review": "2026-08-12",
+    "review_count": 4,
     "status": "learning"
   },
   {

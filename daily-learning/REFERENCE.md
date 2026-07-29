@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-28，共 1262 条词汇。
+> 更新于 2026-07-29，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1035,7 +1035,7 @@ import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue
 React/Vue use virtual DOM to minimize expensive real DOM operations
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### web worker · Web Worker  ★★★
 
@@ -1045,7 +1045,7 @@ React/Vue use virtual DOM to minimize expensive real DOM operations
 const worker = new Worker('compute.js')  // runs off the main thread
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### memoization · 记忆化  ★★★
 
@@ -1055,7 +1055,7 @@ const worker = new Worker('compute.js')  // runs off the main thread
 const memoized = useMemo(() => expensiveCalc(data), [data])
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### PWA · 渐进式 Web 应用  ★★★
 
@@ -1065,7 +1065,7 @@ const memoized = useMemo(() => expensiveCalc(data), [data])
 Service Worker + Web App Manifest = PWA capabilities
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### composable · 组合式函数  ★★★
 
@@ -1075,7 +1075,7 @@ Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 us
 function useMousePosition() { const x = ref(0); return { x, y } }
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### provide / inject · 依赖注入（Vue）  ★★★
 
@@ -1086,7 +1086,7 @@ provide('theme', 'dark')  // 祖先
 const theme = inject('theme') // 后代
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### defineEmits · 声明 emits  ★★★
 
@@ -1096,7 +1096,7 @@ Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏
 const emit = defineEmits<{ change: [value: string]; close: [] }>()
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### generic · 泛型  ★★★
 
@@ -1107,7 +1107,7 @@ function identity<T>(arg: T): T { return arg }
 identity<string>('hello')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### type guard · 类型守卫  ★★★
 
@@ -1117,7 +1117,7 @@ TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器
 if (typeof x === 'string') { x.toUpperCase() } // x is string here
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tree shaking · 摇树优化  ★★★
 
@@ -1127,7 +1127,7 @@ if (typeof x === 'string') { x.toUpperCase() } // x is string here
 Import { only, what, you, need } from 'library'  // unused exports are dropped
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### code splitting · 代码分割  ★★★
 
