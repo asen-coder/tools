@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-29，共 1262 条词汇。
+> 更新于 2026-07-30，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1137,7 +1137,7 @@ Import { only, what, you, need } from 'library'  // unused exports are dropped
 const AdminPage = () => import('./AdminPage.vue')  // 懒加载
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### SSE · 服务器发送事件  ★★★
 
@@ -1148,7 +1148,7 @@ const es = new EventSource('/stream')
 es.onmessage = (e) => console.log(e.data)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### OAuth 2.0 · 开放授权协议  ★★★
 
@@ -1158,7 +1158,7 @@ es.onmessage = (e) => console.log(e.data)
 Sign in with Google → authorize → receive access token → call Google APIs
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### idempotent · 幂等  ★★★
 
@@ -1168,7 +1168,7 @@ Sign in with Google → authorize → receive access token → call Google APIs
 DELETE /users/123 called 5 times still results in user being deleted
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### race condition · 竞态条件  ★★★
 
@@ -1178,7 +1178,7 @@ DELETE /users/123 called 5 times still results in user being deleted
 Two requests both read count=5, both increment to 6, but expected result was 7
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### memoization · 记忆化  ★★★
 
@@ -1188,7 +1188,7 @@ Two requests both read count=5, both increment to 6, but expected result was 7
 const result = useMemo(() => heavyCompute(n), [n])
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### virtual DOM · 虚拟 DOM  ★★★
 
@@ -1198,7 +1198,7 @@ const result = useMemo(() => heavyCompute(n), [n])
 React/Vue maintain a vDOM tree; only changed nodes get real DOM updates
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### dependency injection · 依赖注入（设计模式）  ★★★
 
@@ -1208,7 +1208,7 @@ React/Vue maintain a vDOM tree; only changed nodes get real DOM updates
 class Service { constructor(private db: Database) {} }  // db injected from outside
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### observer pattern · 观察者模式  ★★★
 
@@ -1218,7 +1218,7 @@ class Service { constructor(private db: Database) {} }  // db injected from outs
 eventEmitter.on('change', handler)  // handler observes emitter
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### closure · 闭包  ★★★
 
@@ -1228,7 +1228,7 @@ eventEmitter.on('change', handler)  // handler observes emitter
 function counter() { let n = 0; return () => ++n }  // 返回的函数捕获了 n
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### event loop · 事件循环  ★★★
 

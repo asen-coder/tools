@@ -607,8 +607,8 @@
     "definition": "用 JS 对象模拟 DOM 树，通过 diff 算法找最小变更再批量更新真实 DOM",
     "example": "React/Vue use virtual DOM to minimize expensive real DOM operations",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -619,8 +619,8 @@
     "definition": "在独立后台线程运行脚本，避免复杂计算阻塞主线程导致页面卡顿",
     "example": "const worker = new Worker('compute.js')  // runs off the main thread",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -631,8 +631,8 @@
     "definition": "缓存函数调用结果，相同参数直接返回缓存值，避免重复计算",
     "example": "const memoized = useMemo(() => expensiveCalc(data), [data])",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -643,8 +643,8 @@
     "definition": "结合网页和原生应用优势的 Web 应用，可离线访问、可安装到桌面",
     "example": "Service Worker + Web App Manifest = PWA capabilities",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1339,8 +1339,8 @@
     "definition": "LangGraph 的核心数据结构，定义节点（操作）和边（流转路径）构成的有向图",
     "example": "graph = StateGraph(State)\ngraph.add_node('research', research_node)\ngraph.add_edge('research', 'write')",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1351,8 +1351,8 @@
     "definition": "LangGraph 在每个节点执行后保存的完整状态快照，用于断点续跑和人工干预",
     "example": "memory = MemorySaver()\ngraph = builder.compile(checkpointer=memory)",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1363,8 +1363,8 @@
     "definition": "在 AI 工作流中设置人工审核节点，让人类在关键决策点审批或修正",
     "example": "graph.compile(interrupt_before=['sensitive_action'])",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1375,8 +1375,8 @@
     "definition": "多个专职 AI 智能体协同工作，分别负责不同子任务（如研究员 + 写手 + 审稿人）",
     "example": "supervisor → researcher → writer → reviewer",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1459,8 +1459,8 @@
     "definition": "衡量两个向量方向接近程度的指标（-1 到 1），向量数据库检索的核心算法",
     "example": "similarity = dot(a, b) / (norm(a) * norm(b))",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1495,8 +1495,8 @@
     "definition": "将模型权重从高精度浮点数压缩为低精度整数，减少内存占用和推理延迟",
     "example": "llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1519,8 +1519,8 @@
     "definition": "无需针对性训练示例，直接让模型执行从未见过的任务的能力",
     "example": "GPT-4 can classify sentiment zero-shot by just describing the task in the prompt",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1543,8 +1543,8 @@
     "definition": "让模型在给出最终答案前显式写出中间推理步骤，显著提升复杂问题的准确率",
     "example": "Let's think step by step: first calculate X, then Y, therefore Z.",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1579,8 +1579,8 @@
     "definition": "防止 AI 输出有害内容或越界行为的安全机制，包括输入过滤和输出校验",
     "example": "Input guardrail blocks prompt injection; output guardrail checks for PII",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1615,8 +1615,8 @@
     "definition": "LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的性能",
     "example": "This deployment achieves 200 tokens/sec throughput on A100 GPU",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 2,
+    "next_review": "2026-08-06",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1687,8 +1687,8 @@
     "definition": "Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 useRouter、useFetch）",
     "example": "function useMousePosition() { const x = ref(0); return { x, y } }",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1711,8 +1711,8 @@
     "definition": "Vue 3 中实现跨层级组件通信的 API，祖先 provide，后代 inject，无需 props 逐层传递",
     "example": "provide('theme', 'dark')  // 祖先\nconst theme = inject('theme') // 后代",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1735,8 +1735,8 @@
     "definition": "Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏",
     "example": "const emit = defineEmits<{ change: [value: string]; close: [] }>()",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1759,8 +1759,8 @@
     "definition": "TypeScript 中让函数、类或接口适配多种类型而保持类型安全的参数化类型机制",
     "example": "function identity<T>(arg: T): T { return arg }\nidentity<string>('hello')",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1783,8 +1783,8 @@
     "definition": "TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器理解运行时类型",
     "example": "if (typeof x === 'string') { x.toUpperCase() } // x is string here",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1843,8 +1843,8 @@
     "definition": "打包时静态分析代码，删除未被引用的模块和导出，减小最终 bundle 体积",
     "example": "Import { only, what, you, need } from 'library'  // unused exports are dropped",
     "difficulty": 3,
-    "next_review": "2026-07-30",
-    "review_count": 1,
+    "next_review": "2026-08-02",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1855,9 +1855,9 @@
     "definition": "将 JavaScript 按路由或特性拆分为多个 chunk，按需加载以提升首屏速度",
     "example": "const AdminPage = () => import('./AdminPage.vue')  // 懒加载",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_046",
@@ -1879,9 +1879,9 @@
     "definition": "服务器向客户端单向推送实时数据的轻量级协议，LLM 流式响应的常用实现方式",
     "example": "const es = new EventSource('/stream')\nes.onmessage = (e) => console.log(e.data)",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_048",
@@ -1927,9 +1927,9 @@
     "definition": "允许用户授权第三方应用访问其资源而无需暴露密码的标准授权框架",
     "example": "Sign in with Google → authorize → receive access token → call Google APIs",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_052",
@@ -1939,9 +1939,9 @@
     "definition": "多次执行相同操作产生与一次执行相同结果的特性，HTTP GET/PUT 应是幂等的",
     "example": "DELETE /users/123 called 5 times still results in user being deleted",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_053",
@@ -1951,9 +1951,9 @@
     "definition": "多个并发操作以不确定顺序执行，导致结果依赖时序而出现难以复现的 bug",
     "example": "Two requests both read count=5, both increment to 6, but expected result was 7",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_054",
@@ -1987,9 +1987,9 @@
     "definition": "缓存函数调用结果，当相同参数再次传入时直接返回缓存值而不重新计算",
     "example": "const result = useMemo(() => heavyCompute(n), [n])",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_057",
@@ -1999,9 +1999,9 @@
     "definition": "在内存中用 JavaScript 对象模拟真实 DOM 树，通过 diff 算法最小化实际 DOM 操作",
     "example": "React/Vue maintain a vDOM tree; only changed nodes get real DOM updates",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_058",
@@ -2047,9 +2047,9 @@
     "definition": "将组件所需的依赖从外部传入而非内部创建，提升可测试性和可替换性的设计原则",
     "example": "class Service { constructor(private db: Database) {} }  // db injected from outside",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_062",
@@ -2059,9 +2059,9 @@
     "definition": "对象状态变化时自动通知所有订阅者的设计模式，是事件系统和响应式框架的基础",
     "example": "eventEmitter.on('change', handler)  // handler observes emitter",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_063",
@@ -2071,9 +2071,9 @@
     "definition": "函数捕获其词法作用域中变量的特性，即使外部函数已返回，内部函数仍可访问这些变量",
     "example": "function counter() { let n = 0; return () => ++n }  // 返回的函数捕获了 n",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-07-31",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_064",
@@ -12967,8 +12967,8 @@
     "definition": "职责",
     "example": "I have a responsibility.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12979,8 +12979,8 @@
     "definition": "文明",
     "example": "This is a culture.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -12991,8 +12991,8 @@
     "definition": "惯例",
     "example": "I have a tradition.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13003,8 +13003,8 @@
     "definition": "风俗",
     "example": "This is a custom.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13015,8 +13015,8 @@
     "definition": "信仰",
     "example": "This is a religion.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13027,8 +13027,8 @@
     "definition": "交流工具",
     "example": "I have a language.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13039,8 +13039,8 @@
     "definition": "培养",
     "example": "This is a education.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13051,8 +13051,8 @@
     "definition": "科技",
     "example": "I have a technology.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13063,8 +13063,8 @@
     "definition": "经济体系",
     "example": "The economy is important.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13075,8 +13075,8 @@
     "definition": "制造业",
     "example": "This is a industry.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 4,
+    "next_review": "2026-08-29",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14647,8 +14647,8 @@
     "definition": "电视",
     "example": "I have a television.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14659,8 +14659,8 @@
     "definition": "电视",
     "example": "A TV can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14671,8 +14671,8 @@
     "definition": "广播",
     "example": "I have a radio.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14683,8 +14683,8 @@
     "definition": "光盘",
     "example": "I have a CD.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14695,8 +14695,8 @@
     "definition": "数字光盘",
     "example": "The DVD is important.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14707,8 +14707,8 @@
     "definition": "美术馆",
     "example": "The gallery is important.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14719,8 +14719,8 @@
     "definition": "展示",
     "example": "The exhibition is important.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14731,8 +14731,8 @@
     "definition": "庆典",
     "example": "I have a festival.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14743,8 +14743,8 @@
     "definition": "庆典",
     "example": "I have a celebration.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14755,8 +14755,8 @@
     "definition": "派对",
     "example": "This is a party.",
     "difficulty": 2,
-    "next_review": "2026-07-30",
-    "review_count": 3,
+    "next_review": "2026-08-13",
+    "review_count": 4,
     "status": "learning"
   },
   {
