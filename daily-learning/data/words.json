@@ -319,9 +319,9 @@
     "definition": "LangGraph 的核心类，定义以共享状态驱动的有向图工作流",
     "example": "graph = StateGraph(AgentState)\ngraph.add_node('llm', call_llm)",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_028",
@@ -331,9 +331,9 @@
     "definition": "LangGraph 中根据当前状态动态决定流向哪个节点的路由逻辑",
     "example": "graph.add_conditional_edges('agent', should_continue, {'tools': 'tools', 'end': END})",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_029",
@@ -343,9 +343,9 @@
     "definition": "LangGraph 中保存图执行状态的机制，支持暂停、恢复和人工审核",
     "example": "memory = MemorySaver()\ngraph = graph.compile(checkpointer=memory)",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_030",
@@ -355,9 +355,9 @@
     "definition": "在自动化 AI 流程中插入人工审核/确认节点，防止危险操作自动执行",
     "example": "graph.add_node('human_review', interrupt_before=['execute_code'])",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_031",
@@ -367,9 +367,9 @@
     "definition": "LangGraph 中可独立运行、也可嵌套进父图的封装图结构",
     "example": "parent.add_node('child_graph', child_graph.compile())",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_032",
@@ -379,9 +379,9 @@
     "definition": "在预训练大模型基础上，用特定领域数据继续训练以适应专用任务",
     "example": "Fine-tune GPT-4o-mini on customer support data to improve domain accuracy",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_001",
@@ -775,8 +775,8 @@
     "definition": "声音频率高低的感知属性，频率越高音越高",
     "example": "A4 (concert A) has a pitch of 440 Hz",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -787,8 +787,8 @@
     "definition": "按固定音程关系依序排列的一组音符，是旋律和和声的基础",
     "example": "C major scale: C D E F G A B C (no sharps or flats)",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -799,8 +799,8 @@
     "definition": "多个音符同时发声产生的音程关系，为旋律增添色彩和情感",
     "example": "Singing in harmony means two voices at different pitches at once",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -811,8 +811,8 @@
     "definition": "用竖线分隔的固定拍数音乐单元，就像文字中的句子",
     "example": "In 4/4 time, each measure contains exactly 4 quarter-note beats",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -823,8 +823,8 @@
     "definition": "频率比为 2:1 的两个音之间的音程，听起来'相同但高低不同'",
     "example": "A4 (440Hz) and A5 (880Hz) are one octave apart",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -835,8 +835,8 @@
     "definition": "音乐演奏的响度变化，从弱到强用 pp/p/mp/mf/f/ff 标记",
     "example": "pp (pianissimo) = very soft; ff (fortissimo) = very loud",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -847,8 +847,8 @@
     "definition": "将和弦各音依次单独弹奏而非同时发声，常用于钢琴和吉他",
     "example": "Playing C-E-G one by one upward is a C major arpeggio",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -859,8 +859,8 @@
     "definition": "短促分离地弹奏每个音符，在音符上方或下方标记小圆点",
     "example": "Staccato notes sound like light, bouncy raindrops",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -871,8 +871,8 @@
     "definition": "音符之间流畅连贯地演奏，没有间断，用弧线（连线）标记",
     "example": "Legato playing sounds smooth like flowing water",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -883,8 +883,8 @@
     "definition": "将重音放在通常较弱的拍点上，造成节奏错位感，爵士乐大量使用",
     "example": "Most pop and jazz music uses syncopation for a groove feel",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -895,8 +895,8 @@
     "definition": "音量逐渐增大的演奏方式，用 < 符号或 cresc. 标记",
     "example": "The orchestra played a crescendo leading to the climax",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -907,8 +907,8 @@
     "definition": "演奏时实时创作而非演奏预先写好的乐谱，爵士乐的灵魂",
     "example": "Jazz musicians improvise solos over chord progressions",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1507,9 +1507,9 @@
     "definition": "通过人类标注者对 AI 输出打分来训练奖励模型，再用强化学习优化 AI 行为的技术",
     "example": "ChatGPT was trained using RLHF to align responses with human preferences",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_057",
@@ -1627,8 +1627,8 @@
     "definition": "确保 AI 输出基于真实可验证的信息，而非凭空生成，通常通过 RAG 或工具调用实现",
     "example": "Grounding the chatbot with a product database ensures it only mentions real products",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1855,8 +1855,8 @@
     "definition": "将 JavaScript 按路由或特性拆分为多个 chunk，按需加载以提升首屏速度",
     "example": "const AdminPage = () => import('./AdminPage.vue')  // 懒加载",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1879,8 +1879,8 @@
     "definition": "服务器向客户端单向推送实时数据的轻量级协议，LLM 流式响应的常用实现方式",
     "example": "const es = new EventSource('/stream')\nes.onmessage = (e) => console.log(e.data)",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1927,8 +1927,8 @@
     "definition": "允许用户授权第三方应用访问其资源而无需暴露密码的标准授权框架",
     "example": "Sign in with Google → authorize → receive access token → call Google APIs",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1939,8 +1939,8 @@
     "definition": "多次执行相同操作产生与一次执行相同结果的特性，HTTP GET/PUT 应是幂等的",
     "example": "DELETE /users/123 called 5 times still results in user being deleted",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1951,8 +1951,8 @@
     "definition": "多个并发操作以不确定顺序执行，导致结果依赖时序而出现难以复现的 bug",
     "example": "Two requests both read count=5, both increment to 6, but expected result was 7",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1987,8 +1987,8 @@
     "definition": "缓存函数调用结果，当相同参数再次传入时直接返回缓存值而不重新计算",
     "example": "const result = useMemo(() => heavyCompute(n), [n])",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1999,8 +1999,8 @@
     "definition": "在内存中用 JavaScript 对象模拟真实 DOM 树，通过 diff 算法最小化实际 DOM 操作",
     "example": "React/Vue maintain a vDOM tree; only changed nodes get real DOM updates",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2047,8 +2047,8 @@
     "definition": "将组件所需的依赖从外部传入而非内部创建，提升可测试性和可替换性的设计原则",
     "example": "class Service { constructor(private db: Database) {} }  // db injected from outside",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2059,8 +2059,8 @@
     "definition": "对象状态变化时自动通知所有订阅者的设计模式，是事件系统和响应式框架的基础",
     "example": "eventEmitter.on('change', handler)  // handler observes emitter",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2071,8 +2071,8 @@
     "definition": "函数捕获其词法作用域中变量的特性，即使外部函数已返回，内部函数仍可访问这些变量",
     "example": "function counter() { let n = 0; return () => ++n }  // 返回的函数捕获了 n",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 1,
+    "next_review": "2026-08-03",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2083,9 +2083,9 @@
     "definition": "JavaScript 运行时处理异步回调的机制：调用栈清空后从任务队列取出待执行任务",
     "example": "setTimeout callback runs after current synchronous code finishes",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_065",
@@ -2131,9 +2131,9 @@
     "definition": "为不支持某特性的旧浏览器提供该特性实现的代码片段",
     "example": "core-js polyfills Array.prototype.flatMap for IE11",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_069",
@@ -2155,9 +2155,9 @@
     "definition": "将大型应用拆分为多个小型独立服务，每个服务负责单一业务能力，可独立部署和扩展",
     "example": "User service + Order service + Payment service → communicate via REST/gRPC",
     "difficulty": 3,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-01",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_023",
@@ -2167,8 +2167,8 @@
     "definition": "多个和弦按特定顺序排列形成的音乐骨架，决定歌曲的情感走向",
     "example": "I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2179,8 +2179,8 @@
     "definition": "乐谱开头标明每小节拍数和基准音符时值的记号，如 4/4 表示每小节四个四分音符",
     "example": "4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2191,8 +2191,8 @@
     "definition": "五线谱开头标明升降号的记号，决定乐曲所在的调式（大调或小调）",
     "example": "Two sharps (F# and C#) indicates D major or B minor key",
     "difficulty": 3,
-    "next_review": "2026-07-31",
-    "review_count": 2,
+    "next_review": "2026-08-07",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2203,8 +2203,8 @@
     "definition": "由全-全-半-全-全-全-半音程排列的七声音阶，听起来明亮、欢快",
     "example": "C major: C D E F G A B C  (W W H W W W H)",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -13087,8 +13087,8 @@
     "definition": "种植业",
     "example": "I have a agriculture.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13099,8 +13099,8 @@
     "definition": "生态环境",
     "example": "This is a environment.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13111,8 +13111,8 @@
     "definition": "主权国家",
     "example": "A country can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13123,8 +13123,8 @@
     "definition": "国家",
     "example": "I have a nation.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13135,8 +13135,8 @@
     "definition": "政区",
     "example": "I have a state.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13147,8 +13147,8 @@
     "definition": "都市",
     "example": "This is a city.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13159,8 +13159,8 @@
     "definition": "市镇",
     "example": "This is a town.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13171,8 +13171,8 @@
     "definition": "村落",
     "example": "This is a village.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13183,8 +13183,8 @@
     "definition": "政治中心",
     "example": "The capital is important.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13195,8 +13195,8 @@
     "definition": "国界",
     "example": "A border can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 4,
+    "next_review": "2026-08-30",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14767,8 +14767,8 @@
     "definition": "活动",
     "example": "I have a event.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14779,8 +14779,8 @@
     "definition": "行动",
     "example": "A activity can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -14791,8 +14791,8 @@
     "definition": "嗜好",
     "example": "A hobby can help you.",
     "difficulty": 2,
-    "next_review": "2026-07-31",
-    "review_count": 3,
+    "next_review": "2026-08-14",
+    "review_count": 4,
     "status": "learning"
   },
   {

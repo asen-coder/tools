@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-30，共 1262 条词汇。
+> 更新于 2026-07-31，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -528,7 +528,7 @@ graph = StateGraph(AgentState)
 graph.add_node('llm', call_llm)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### conditional edge · 条件边  ★★★★
 
@@ -538,7 +538,7 @@ LangGraph 中根据当前状态动态决定流向哪个节点的路由逻辑
 graph.add_conditional_edges('agent', should_continue, {'tools': 'tools', 'end': END})
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### checkpointer · 检查点  ★★★★
 
@@ -549,7 +549,7 @@ memory = MemorySaver()
 graph = graph.compile(checkpointer=memory)
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### human-in-the-loop · 人在回路  ★★★★
 
@@ -559,7 +559,7 @@ graph = graph.compile(checkpointer=memory)
 graph.add_node('human_review', interrupt_before=['execute_code'])
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### subgraph · 子图  ★★★★
 
@@ -569,7 +569,7 @@ LangGraph 中可独立运行、也可嵌套进父图的封装图结构
 parent.add_node('child_graph', child_graph.compile())
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### fine-tuning · 微调  ★★★★
 
@@ -579,7 +579,7 @@ parent.add_node('child_graph', child_graph.compile())
 Fine-tune GPT-4o-mini on customer support data to improve domain accuracy
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### RLHF · 基于人类反馈的强化学习  ★★★★
 
@@ -589,7 +589,7 @@ Fine-tune GPT-4o-mini on customer support data to improve domain accuracy
 ChatGPT was trained using RLHF to align responses with human preferences
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### ReAct · 推理-行动框架  ★★★★
 
@@ -1238,7 +1238,7 @@ JavaScript 运行时处理异步回调的机制：调用栈清空后从任务队
 setTimeout callback runs after current synchronous code finishes
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### polyfill · 兼容填充  ★★★
 
@@ -1248,7 +1248,7 @@ setTimeout callback runs after current synchronous code finishes
 core-js polyfills Array.prototype.flatMap for IE11
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### microservices · 微服务  ★★★
 
@@ -1258,7 +1258,7 @@ core-js polyfills Array.prototype.flatMap for IE11
 User service + Order service + Payment service → communicate via REST/gRPC
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### service worker · Service Worker  ★★★★
 
