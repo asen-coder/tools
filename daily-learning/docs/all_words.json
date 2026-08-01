@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-31",
+  "generated": "2026-08-01",
   "words": [
     {
       "id": "ai_001",
@@ -321,8 +321,8 @@
       "definition": "LangGraph 的核心类，定义以共享状态驱动的有向图工作流",
       "example": "graph = StateGraph(AgentState)\ngraph.add_node('llm', call_llm)",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -333,8 +333,8 @@
       "definition": "LangGraph 中根据当前状态动态决定流向哪个节点的路由逻辑",
       "example": "graph.add_conditional_edges('agent', should_continue, {'tools': 'tools', 'end': END})",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -345,8 +345,8 @@
       "definition": "LangGraph 中保存图执行状态的机制，支持暂停、恢复和人工审核",
       "example": "memory = MemorySaver()\ngraph = graph.compile(checkpointer=memory)",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -357,8 +357,8 @@
       "definition": "在自动化 AI 流程中插入人工审核/确认节点，防止危险操作自动执行",
       "example": "graph.add_node('human_review', interrupt_before=['execute_code'])",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -369,8 +369,8 @@
       "definition": "LangGraph 中可独立运行、也可嵌套进父图的封装图结构",
       "example": "parent.add_node('child_graph', child_graph.compile())",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -381,8 +381,8 @@
       "definition": "在预训练大模型基础上，用特定领域数据继续训练以适应专用任务",
       "example": "Fine-tune GPT-4o-mini on customer support data to improve domain accuracy",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -465,8 +465,8 @@
       "definition": "将子元素的事件监听绑定到父元素，利用事件冒泡减少监听器数量",
       "example": "list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -477,8 +477,8 @@
       "definition": "内层函数能访问并记住外层函数作用域变量的特性，即使外层已执行完毕",
       "example": "function counter() { let n=0; return () => ++n }  // returned fn is a closure",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -489,8 +489,8 @@
       "definition": "代表未来某个异步操作结果的对象，状态只能从 pending 变为 fulfilled 或 rejected",
       "example": "fetch('/api').then(r => r.json()).catch(err => console.error(err))",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -501,8 +501,8 @@
       "definition": "限制函数在连续触发时只在最后一次停止后才执行，常用于搜索输入",
       "example": "const search = debounce(query => api.search(query), 300)",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -573,8 +573,8 @@
       "definition": "在客户端激活服务端渲染的静态 HTML，绑定事件使其具有交互能力",
       "example": "SSR renders HTML on server; hydration makes it interactive in browser",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -585,8 +585,8 @@
       "definition": "在服务器上生成完整 HTML 再发送给浏览器，首屏快、SEO 好",
       "example": "Nuxt.js/Next.js use SSR; initial page is rendered on the server",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -597,8 +597,8 @@
       "definition": "打包时自动移除未被引用的代码，减小最终 bundle 体积",
       "example": "import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -921,9 +921,9 @@
       "definition": "两条或多条独立旋律线同时演奏并在和声上形成协调关系的作曲技术",
       "example": "Bach's fugues are masterpieces of contrapuntal writing",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_020",
@@ -933,9 +933,9 @@
       "definition": "在音乐作品中从一个调性转换到另一个调性的作曲技法",
       "example": "The song modulated from C major to E major for the final chorus",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_021",
@@ -945,9 +945,9 @@
       "definition": "同时存在两种或多种不同节奏型的音乐手法，如 3 对 2 或 4 对 3",
       "example": "West African drumming often features complex polyrhythms",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_022",
@@ -957,9 +957,9 @@
       "definition": "听起来紧张、不稳定、'需要解决'的音程或和弦组合",
       "example": "A tritone interval sounds tense and dissonant",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_001",
@@ -1509,8 +1509,8 @@
       "definition": "通过人类标注者对 AI 输出打分来训练奖励模型，再用强化学习优化 AI 行为的技术",
       "example": "ChatGPT was trained using RLHF to align responses with human preferences",
       "difficulty": 4,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1557,9 +1557,9 @@
       "definition": "让 AI 交替进行推理（Reasoning）和工具调用（Acting），用于构建复杂任务智能体",
       "example": "Thought: I need to search → Action: search('query') → Observation: result",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_061",
@@ -1605,9 +1605,9 @@
       "definition": "Transformer 模型的核心，让模型在处理每个 token 时动态关注最相关的部分",
       "example": "Self-attention allows 'bank' to attend to 'river' or 'money' based on context",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "ai_065",
@@ -2085,8 +2085,8 @@
       "definition": "JavaScript 运行时处理异步回调的机制：调用栈清空后从任务队列取出待执行任务",
       "example": "setTimeout callback runs after current synchronous code finishes",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2133,8 +2133,8 @@
       "definition": "为不支持某特性的旧浏览器提供该特性实现的代码片段",
       "example": "core-js polyfills Array.prototype.flatMap for IE11",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2157,8 +2157,8 @@
       "definition": "将大型应用拆分为多个小型独立服务，每个服务负责单一业务能力，可独立部署和扩展",
       "example": "User service + Order service + Payment service → communicate via REST/gRPC",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 1,
+      "next_review": "2026-08-04",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -2217,8 +2217,8 @@
       "definition": "由全-半-全-全-半-全-全音程排列的七声音阶，听起来忧郁、深沉",
       "example": "A minor: A B C D E F G A  (natural minor, relative to C major)",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2229,8 +2229,8 @@
       "definition": "两个音符之间的音高距离，以度数（unison/third/fifth/octave）表示",
       "example": "C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2241,8 +2241,8 @@
       "definition": "由五个音符构成的音阶，在流行、蓝调、中国传统音乐中广泛使用",
       "example": "C major pentatonic: C D E G A  (remove 4th and 7th from major scale)",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2253,8 +2253,8 @@
       "definition": "演奏或演唱时音高快速微小的周期性波动，增加音符的表现力和温暖感",
       "example": "Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2265,8 +2265,8 @@
       "definition": "音乐中音量强弱的变化，从最弱（ppp）到最强（fff），是表达情感的重要手段",
       "example": "mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2277,9 +2277,9 @@
       "definition": "告知演奏者延长音符或休止符时值（超过正常时值）的记号，时长由演奏者判断",
       "example": "Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_033",
@@ -2289,9 +2289,9 @@
       "definition": "乐曲结束前的收尾段落，通常从主体旋律中独立出来，以强烈的结束感收束",
       "example": "The coda begins at measure 120 after the D.S. al Coda marking",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_034",
@@ -2301,8 +2301,8 @@
       "definition": "指示演奏逐渐加快速度的术语，常缩写为 accel.",
       "example": "The piece builds tension with an accelerando before the climactic final chord",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2313,8 +2313,8 @@
       "definition": "指示演奏逐渐放慢速度的术语，常缩写为 rit. 或 ritard.",
       "example": "The conductor signals a ritardando for the ending phrase",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2325,8 +2325,8 @@
       "definition": "将一段音乐整体移高或降低固定音程，改变调性但保持旋律和声的内部关系不变",
       "example": "Transpose 'Happy Birthday' from C to G so it fits your vocal range",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2337,9 +2337,9 @@
       "definition": "乐曲从一个调性过渡到另一个调性的技术，为音乐增加色彩变化和情绪张力",
       "example": "The chorus modulates from C major to E major for an uplifting effect",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_038",
@@ -2349,9 +2349,9 @@
       "definition": "弦乐器演奏技术：用手指拨弦而非用琴弓拉奏，音色短促、颗粒感强",
       "example": "Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture",
       "difficulty": 4,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-02",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_039",
@@ -2361,8 +2361,8 @@
       "definition": "将重音移至通常不强的拍子（如弱拍或拍的弱部），制造推拉感，是爵士和流行音乐的特征",
       "example": "The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2373,8 +2373,8 @@
       "definition": "使不同乐器或声音听起来不同的音质特征，即使音高相同也各有其独特的声音质地",
       "example": "A violin and flute playing the same A4 note sound different due to their timbre",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2397,8 +2397,8 @@
       "definition": "指示音符要平滑连接、无明显间隔地演奏，与断奏（staccato）相对",
       "example": "Play this melody legato—like a singer breathing between phrases, not choppy",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2409,8 +2409,8 @@
       "definition": "指示音符要短促分离地演奏，每个音符之间有明显间隔，通常以小圆点标记",
       "example": "The staccato eighth notes in the opening give a playful, bouncy character",
       "difficulty": 3,
-      "next_review": "2026-08-01",
-      "review_count": 2,
+      "next_review": "2026-08-08",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2421,8 +2421,8 @@
       "definition": "和弦音符不同时发音、而是按顺序一个个弹奏，像竖琴拨弦的效果",
       "example": "Roll the chord from bottom to top—play it as an arpeggio, not a block chord",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 3,
+      "next_review": "2026-08-15",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -13209,8 +13209,8 @@
       "definition": "帝国",
       "example": "A empire can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13221,8 +13221,8 @@
       "definition": "王国",
       "example": "This is a kingdom.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13233,8 +13233,8 @@
       "definition": "共和政体",
       "example": "A republic can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13245,8 +13245,8 @@
       "definition": "民主制",
       "example": "A democracy can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13257,8 +13257,8 @@
       "definition": "武装冲突",
       "example": "The war is important.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13269,8 +13269,8 @@
       "definition": "和平状态",
       "example": "A peace can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13281,8 +13281,8 @@
       "definition": "打斗",
       "example": "This is fight.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13293,8 +13293,8 @@
       "definition": "战斗",
       "example": "This is a battle.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13305,8 +13305,8 @@
       "definition": "获胜",
       "example": "I have a victory.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13317,8 +13317,8 @@
       "definition": "战败",
       "example": "This is defeat.",
       "difficulty": 2,
-      "next_review": "2026-08-01",
-      "review_count": 4,
+      "next_review": "2026-08-31",
+      "review_count": 5,
       "status": "learning"
     },
     {

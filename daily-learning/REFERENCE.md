@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-07-31，共 1262 条词汇。
+> 更新于 2026-08-01，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -599,7 +599,7 @@ ChatGPT was trained using RLHF to align responses with human preferences
 Thought: I need to search → Action: search('query') → Observation: result
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### attention mechanism · 注意力机制  ★★★★
 
@@ -609,7 +609,7 @@ Transformer 模型的核心，让模型在处理每个 token 时动态关注最�
 Self-attention allows 'bank' to attend to 'river' or 'money' based on context
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### LLM · 大语言模型  ★★★★★
 
@@ -1692,7 +1692,7 @@ The staccato eighth notes in the opening give a playful, bouncy character
 Bach's fugues are masterpieces of contrapuntal writing
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### modulation · 转调  ★★★★
 
@@ -1702,7 +1702,7 @@ Bach's fugues are masterpieces of contrapuntal writing
 The song modulated from C major to E major for the final chorus
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### polyrhythm · 复合节奏  ★★★★
 
@@ -1712,7 +1712,7 @@ The song modulated from C major to E major for the final chorus
 West African drumming often features complex polyrhythms
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### dissonance · 不协和音  ★★★★
 
@@ -1722,7 +1722,7 @@ West African drumming often features complex polyrhythms
 A tritone interval sounds tense and dissonant
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### fermata · 延音记号  ★★★★
 
@@ -1732,7 +1732,7 @@ A tritone interval sounds tense and dissonant
 Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### coda · 尾奏段落  ★★★★
 
@@ -1742,7 +1742,7 @@ Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect
 The coda begins at measure 120 after the D.S. al Coda marking
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### modulation · 转调  ★★★★
 
@@ -1752,7 +1752,7 @@ The coda begins at measure 120 after the D.S. al Coda marking
 The chorus modulates from C major to E major for an uplifting effect
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### pizzicato · 拨弦  ★★★★
 
@@ -1762,7 +1762,7 @@ The chorus modulates from C major to E major for an uplifting effect
 Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### ostinato · 固定音型  ★★★★
 
