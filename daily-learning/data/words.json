@@ -7,9 +7,9 @@
     "definition": "基于海量文本训练、能理解和生成自然语言的大型神经网络模型",
     "example": "from langchain_openai import ChatOpenAI\nllm = ChatOpenAI(model='gpt-4o')",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_002",
@@ -19,9 +19,9 @@
     "definition": "发送给语言模型的输入文本，直接决定模型输出质量",
     "example": "prompt = 'Summarize the following text in one sentence: {text}'",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_003",
@@ -31,9 +31,9 @@
     "definition": "LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字",
     "example": "'Hello world' is typically 2 tokens; pricing is per token",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_004",
@@ -43,9 +43,9 @@
     "definition": "LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联",
     "example": "chain = prompt | llm | output_parser",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "ai_005",
@@ -511,8 +511,8 @@
     "definition": "限制函数在固定时间间隔内最多执行一次，常用于滚动/窗口 resize",
     "example": "window.addEventListener('scroll', throttle(handleScroll, 100))",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -523,8 +523,8 @@
     "definition": "按需加载资源（图片、组件、路由等），而非页面初始化时全部加载",
     "example": "const UserProfile = defineAsyncComponent(() => import('./UserProfile.vue'))",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -535,8 +535,8 @@
     "definition": "用户在屏幕上实际可见的网页区域，响应式设计的基准参照",
     "example": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -547,8 +547,8 @@
     "definition": "用有意义的标签（article/section/header）描述内容结构，而非全用 div",
     "example": "<article><h2>Title</h2><p>Content</p></article>  // vs <div><div>...",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -559,8 +559,8 @@
     "definition": "确保网页对所有用户（包括残障人士）可用的设计实践，简称 a11y",
     "example": "<button aria-label='Close dialog'>×</button>  // screen reader can read it",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -607,8 +607,8 @@
     "definition": "用 JS 对象模拟 DOM 树，通过 diff 算法找最小变更再批量更新真实 DOM",
     "example": "React/Vue use virtual DOM to minimize expensive real DOM operations",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -619,8 +619,8 @@
     "definition": "在独立后台线程运行脚本，避免复杂计算阻塞主线程导致页面卡顿",
     "example": "const worker = new Worker('compute.js')  // runs off the main thread",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -631,8 +631,8 @@
     "definition": "缓存函数调用结果，相同参数直接返回缓存值，避免重复计算",
     "example": "const memoized = useMemo(() => expensiveCalc(data), [data])",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -643,8 +643,8 @@
     "definition": "结合网页和原生应用优势的 Web 应用，可离线访问、可安装到桌面",
     "example": "Service Worker + Web App Manifest = PWA capabilities",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -655,9 +655,9 @@
     "definition": "在浏览器后台运行的脚本，可拦截网络请求实现离线缓存和推送通知",
     "example": "self.addEventListener('fetch', e => e.respondWith(caches.match(e.request)))",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_024",
@@ -667,9 +667,9 @@
     "definition": "将组件内部 DOM 封装成独立作用域，外部 CSS 无法穿透影响内部样式",
     "example": "Web Components use shadow DOM for style encapsulation",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_025",
@@ -679,9 +679,9 @@
     "definition": "将大型前端应用拆分成多个可独立开发、部署的小应用的架构模式",
     "example": "qiankun / Module Federation enable micro-frontend architectures",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "prog_026",
@@ -691,9 +691,9 @@
     "definition": "渲染引擎能中断低优先级渲染去处理高优先级更新，保持 UI 响应",
     "example": "React 18's concurrent mode can pause rendering to handle user input first",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_001",
@@ -919,8 +919,8 @@
     "definition": "两条或多条独立旋律线同时演奏并在和声上形成协调关系的作曲技术",
     "example": "Bach's fugues are masterpieces of contrapuntal writing",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -931,8 +931,8 @@
     "definition": "在音乐作品中从一个调性转换到另一个调性的作曲技法",
     "example": "The song modulated from C major to E major for the final chorus",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -943,8 +943,8 @@
     "definition": "同时存在两种或多种不同节奏型的音乐手法，如 3 对 2 或 4 对 3",
     "example": "West African drumming often features complex polyrhythms",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -955,8 +955,8 @@
     "definition": "听起来紧张、不稳定、'需要解决'的音程或和弦组合",
     "example": "A tritone interval sounds tense and dissonant",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1555,8 +1555,8 @@
     "definition": "让 AI 交替进行推理（Reasoning）和工具调用（Acting），用于构建复杂任务智能体",
     "example": "Thought: I need to search → Action: search('query') → Observation: result",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1603,8 +1603,8 @@
     "definition": "Transformer 模型的核心，让模型在处理每个 token 时动态关注最相关的部分",
     "example": "Self-attention allows 'bank' to attend to 'river' or 'money' based on context",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -1651,8 +1651,8 @@
     "definition": "Vue 3 中将对象/数组转为深层响应式的函数，无需 .value 访问",
     "example": "const state = reactive({ count: 0, user: { name: 'Alice' } })\nstate.count++",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1663,8 +1663,8 @@
     "definition": "Vue 3 中基于其他响应式数据派生的只读属性，自动追踪依赖并缓存结果",
     "example": "const doubled = computed(() => count.value * 2)",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1675,8 +1675,8 @@
     "definition": "Vue 3 中监听特定响应式数据变化并执行副作用的 API",
     "example": "watch(count, (newVal, oldVal) => { console.log(`${oldVal} → ${newVal}`) })",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1687,8 +1687,8 @@
     "definition": "Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 useRouter、useFetch）",
     "example": "function useMousePosition() { const x = ref(0); return { x, y } }",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1699,8 +1699,8 @@
     "definition": "Vue 组件中供父组件注入内容的占位符，实现组件内容的灵活定制",
     "example": "<MyCard><template #title>Hello</template></MyCard>",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1711,8 +1711,8 @@
     "definition": "Vue 3 中实现跨层级组件通信的 API，祖先 provide，后代 inject，无需 props 逐层传递",
     "example": "provide('theme', 'dark')  // 祖先\nconst theme = inject('theme') // 后代",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1723,8 +1723,8 @@
     "definition": "Vue 3 setup script 中声明组件接收的 props 及其类型约束的编译器宏",
     "example": "const props = defineProps<{ title: string; count?: number }>()",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 3,
+    "next_review": "2026-08-16",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1735,8 +1735,8 @@
     "definition": "Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏",
     "example": "const emit = defineEmits<{ change: [value: string]; close: [] }>()",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1759,8 +1759,8 @@
     "definition": "TypeScript 中让函数、类或接口适配多种类型而保持类型安全的参数化类型机制",
     "example": "function identity<T>(arg: T): T { return arg }\nidentity<string>('hello')",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1783,8 +1783,8 @@
     "definition": "TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器理解运行时类型",
     "example": "if (typeof x === 'string') { x.toUpperCase() } // x is string here",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1843,8 +1843,8 @@
     "definition": "打包时静态分析代码，删除未被引用的模块和导出，减小最终 bundle 体积",
     "example": "Import { only, what, you, need } from 'library'  // unused exports are dropped",
     "difficulty": 3,
-    "next_review": "2026-08-02",
-    "review_count": 2,
+    "next_review": "2026-08-09",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2275,8 +2275,8 @@
     "definition": "告知演奏者延长音符或休止符时值（超过正常时值）的记号，时长由演奏者判断",
     "example": "Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2287,8 +2287,8 @@
     "definition": "乐曲结束前的收尾段落，通常从主体旋律中独立出来，以强烈的结束感收束",
     "example": "The coda begins at measure 120 after the D.S. al Coda marking",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2335,8 +2335,8 @@
     "definition": "乐曲从一个调性过渡到另一个调性的技术，为音乐增加色彩变化和情绪张力",
     "example": "The chorus modulates from C major to E major for an uplifting effect",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2347,8 +2347,8 @@
     "definition": "弦乐器演奏技术：用手指拨弦而非用琴弓拉奏，音色短促、颗粒感强",
     "example": "Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture",
     "difficulty": 4,
-    "next_review": "2026-08-02",
-    "review_count": 1,
+    "next_review": "2026-08-05",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -2383,9 +2383,9 @@
     "definition": "在乐曲中反复出现的固定节奏或旋律模式，是流行歌曲和古典作品的常见结构基础",
     "example": "Pachelbel's Canon is built on a repeating bass ostinato of 8 notes",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_042",
@@ -2431,9 +2431,9 @@
     "definition": "演奏时灵活调整节奏速度，不受节拍器约束，根据音乐表达需要自由加快或放慢",
     "example": "Chopin's nocturnes are meant to be played with rubato—feel the music, not the beat",
     "difficulty": 4,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-03",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "music_046",
@@ -13327,8 +13327,8 @@
     "definition": "军人",
     "example": "I have a soldier.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13339,8 +13339,8 @@
     "definition": "武装力量",
     "example": "A army can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13351,8 +13351,8 @@
     "definition": "兵器",
     "example": "This is a weapon.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13363,8 +13363,8 @@
     "definition": "火器",
     "example": "The gun is important.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13375,8 +13375,8 @@
     "definition": "爆炸物",
     "example": "I have a bomb.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13387,8 +13387,8 @@
     "definition": "武力",
     "example": "I have a violence.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13399,8 +13399,8 @@
     "definition": "违法行为",
     "example": "The crime is important.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13411,8 +13411,8 @@
     "definition": "监禁场所",
     "example": "A prison can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13423,8 +13423,8 @@
     "definition": "司法机构",
     "example": "A court can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13435,8 +13435,8 @@
     "definition": "审判者",
     "example": "I have a judge.",
     "difficulty": 2,
-    "next_review": "2026-08-02",
-    "review_count": 4,
+    "next_review": "2026-09-01",
+    "review_count": 5,
     "status": "learning"
   },
   {

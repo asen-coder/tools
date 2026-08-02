@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-08-01，共 1262 条词汇。
+> 更新于 2026-08-02，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -620,7 +620,7 @@ from langchain_openai import ChatOpenAI
 llm = ChatOpenAI(model='gpt-4o')
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### prompt · 提示词  ★★★★★
 
@@ -630,7 +630,7 @@ llm = ChatOpenAI(model='gpt-4o')
 prompt = 'Summarize the following text in one sentence: {text}'
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### token · 词元  ★★★★★
 
@@ -640,7 +640,7 @@ LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉�
 'Hello world' is typically 2 tokens; pricing is per token
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### chain · 链  ★★★★★
 
@@ -650,7 +650,7 @@ LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按�
 chain = prompt | llm | output_parser
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### inference · 推理  ★★★★★
 
@@ -1268,7 +1268,7 @@ User service + Order service + Payment service → communicate via REST/gRPC
 self.addEventListener('fetch', e => e.respondWith(caches.match(e.request)))
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### shadow DOM · Shadow DOM  ★★★★
 
@@ -1278,7 +1278,7 @@ self.addEventListener('fetch', e => e.respondWith(caches.match(e.request)))
 Web Components use shadow DOM for style encapsulation
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### micro-frontend · 微前端  ★★★★
 
@@ -1288,7 +1288,7 @@ Web Components use shadow DOM for style encapsulation
 qiankun / Module Federation enable micro-frontend architectures
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### concurrent rendering · 并发渲染  ★★★★
 
@@ -1298,7 +1298,7 @@ qiankun / Module Federation enable micro-frontend architectures
 React 18's concurrent mode can pause rendering to handle user input first
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### component · 组件  ★★★★★
 
@@ -1772,7 +1772,7 @@ Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture
 Pachelbel's Canon is built on a repeating bass ostinato of 8 notes
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### rubato · 弹性速度  ★★★★
 
@@ -1782,7 +1782,7 @@ Pachelbel's Canon is built on a repeating bass ostinato of 8 notes
 Chopin's nocturnes are meant to be played with rubato—feel the music, not the beat
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### note · 音符  ★★★★★
 
