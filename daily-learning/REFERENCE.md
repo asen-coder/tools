@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-08-02，共 1262 条词汇。
+> 更新于 2026-08-03，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -660,7 +660,7 @@ chain = prompt | llm | output_parser
 response = llm.invoke('What is RAG?')  # inference call
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### model · 模型  ★★★★★
 
@@ -670,7 +670,7 @@ response = llm.invoke('What is RAG?')  # inference call
 llm = ChatOpenAI(model='gpt-4o-mini')  # select a model
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### system prompt · 系统提示词  ★★★★★
 
@@ -680,7 +680,7 @@ llm = ChatOpenAI(model='gpt-4o-mini')  # select a model
 You are a helpful assistant. Always respond in Chinese.
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ## 编程 / 前端
 
