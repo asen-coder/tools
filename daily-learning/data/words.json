@@ -7,8 +7,8 @@
     "definition": "基于海量文本训练、能理解和生成自然语言的大型神经网络模型",
     "example": "from langchain_openai import ChatOpenAI\nllm = ChatOpenAI(model='gpt-4o')",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -19,8 +19,8 @@
     "definition": "发送给语言模型的输入文本，直接决定模型输出质量",
     "example": "prompt = 'Summarize the following text in one sentence: {text}'",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -31,8 +31,8 @@
     "definition": "LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字",
     "example": "'Hello world' is typically 2 tokens; pricing is per token",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -43,8 +43,8 @@
     "definition": "LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联",
     "example": "chain = prompt | llm | output_parser",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -655,8 +655,8 @@
     "definition": "在浏览器后台运行的脚本，可拦截网络请求实现离线缓存和推送通知",
     "example": "self.addEventListener('fetch', e => e.respondWith(caches.match(e.request)))",
     "difficulty": 4,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -667,8 +667,8 @@
     "definition": "将组件内部 DOM 封装成独立作用域，外部 CSS 无法穿透影响内部样式",
     "example": "Web Components use shadow DOM for style encapsulation",
     "difficulty": 4,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -679,8 +679,8 @@
     "definition": "将大型前端应用拆分成多个可独立开发、部署的小应用的架构模式",
     "example": "qiankun / Module Federation enable micro-frontend architectures",
     "difficulty": 4,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -691,8 +691,8 @@
     "definition": "渲染引擎能中断低优先级渲染去处理高优先级更新，保持 UI 响应",
     "example": "React 18's concurrent mode can pause rendering to handle user input first",
     "difficulty": 4,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -1339,8 +1339,8 @@
     "definition": "LangGraph 的核心数据结构，定义节点（操作）和边（流转路径）构成的有向图",
     "example": "graph = StateGraph(State)\ngraph.add_node('research', research_node)\ngraph.add_edge('research', 'write')",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1351,8 +1351,8 @@
     "definition": "LangGraph 在每个节点执行后保存的完整状态快照，用于断点续跑和人工干预",
     "example": "memory = MemorySaver()\ngraph = builder.compile(checkpointer=memory)",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1363,8 +1363,8 @@
     "definition": "在 AI 工作流中设置人工审核节点，让人类在关键决策点审批或修正",
     "example": "graph.compile(interrupt_before=['sensitive_action'])",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1375,8 +1375,8 @@
     "definition": "多个专职 AI 智能体协同工作，分别负责不同子任务（如研究员 + 写手 + 审稿人）",
     "example": "supervisor → researcher → writer → reviewer",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1459,8 +1459,8 @@
     "definition": "衡量两个向量方向接近程度的指标（-1 到 1），向量数据库检索的核心算法",
     "example": "similarity = dot(a, b) / (norm(a) * norm(b))",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1495,8 +1495,8 @@
     "definition": "将模型权重从高精度浮点数压缩为低精度整数，减少内存占用和推理延迟",
     "example": "llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1519,8 +1519,8 @@
     "definition": "无需针对性训练示例，直接让模型执行从未见过的任务的能力",
     "example": "GPT-4 can classify sentiment zero-shot by just describing the task in the prompt",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1543,8 +1543,8 @@
     "definition": "让模型在给出最终答案前显式写出中间推理步骤，显著提升复杂问题的准确率",
     "example": "Let's think step by step: first calculate X, then Y, therefore Z.",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1579,8 +1579,8 @@
     "definition": "防止 AI 输出有害内容或越界行为的安全机制，包括输入过滤和输出校验",
     "example": "Input guardrail blocks prompt injection; output guardrail checks for PII",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1615,8 +1615,8 @@
     "definition": "LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的性能",
     "example": "This deployment achieves 200 tokens/sec throughput on A100 GPU",
     "difficulty": 3,
-    "next_review": "2026-08-06",
-    "review_count": 3,
+    "next_review": "2026-08-20",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2383,8 +2383,8 @@
     "definition": "在乐曲中反复出现的固定节奏或旋律模式，是流行歌曲和古典作品的常见结构基础",
     "example": "Pachelbel's Canon is built on a repeating bass ostinato of 8 notes",
     "difficulty": 4,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -2431,8 +2431,8 @@
     "definition": "演奏时灵活调整节奏速度，不受节拍器约束，根据音乐表达需要自由加快或放慢",
     "example": "Chopin's nocturnes are meant to be played with rubato—feel the music, not the beat",
     "difficulty": 4,
-    "next_review": "2026-08-06",
-    "review_count": 2,
+    "next_review": "2026-08-13",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3019,8 +3019,8 @@
     "definition": "甜点",
     "example": "The cake is important.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3031,8 +3031,8 @@
     "definition": "零食",
     "example": "This is a cookie.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3043,8 +3043,8 @@
     "definition": "甜食",
     "example": "I have a chocolate.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3055,8 +3055,8 @@
     "definition": "甜食",
     "example": "This is a candy.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3067,8 +3067,8 @@
     "definition": "调味品",
     "example": "A sugar can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3079,8 +3079,8 @@
     "definition": "调味品",
     "example": "A salt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3091,8 +3091,8 @@
     "definition": "生命必需",
     "example": "A water can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3103,8 +3103,8 @@
     "definition": "饮料",
     "example": "The juice is important.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3115,8 +3115,8 @@
     "definition": "饮品",
     "example": "The tea is important.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3127,8 +3127,8 @@
     "definition": "提神饮品",
     "example": "A coffee can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-06",
-    "review_count": 1,
+    "next_review": "2026-08-09",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3139,9 +3139,9 @@
     "definition": "液体食物",
     "example": "The soup is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_029",
@@ -3151,9 +3151,9 @@
     "definition": "蔬菜混合",
     "example": "This is a salad.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_030",
@@ -3163,9 +3163,9 @@
     "definition": "植物食物",
     "example": "This is a vegetable.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_031",
@@ -3175,9 +3175,9 @@
     "definition": "红色蔬菜",
     "example": "I have a tomato.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_032",
@@ -3187,9 +3187,9 @@
     "definition": "块茎类蔬菜",
     "example": "The potato is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_033",
@@ -3199,9 +3199,9 @@
     "definition": "橙色根茎",
     "example": "A carrot can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_034",
@@ -3211,9 +3211,9 @@
     "definition": "调味蔬菜",
     "example": "The onion is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_035",
@@ -3223,9 +3223,9 @@
     "definition": "叶菜类",
     "example": "This is a cabbage.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_036",
@@ -3235,9 +3235,9 @@
     "definition": "调味蔬菜",
     "example": "This is a pepper.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_037",
@@ -3247,9 +3247,9 @@
     "definition": "奶制品",
     "example": "The butter is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-07",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_038",
@@ -13807,8 +13807,8 @@
     "definition": "纸张",
     "example": "A paper can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13819,8 +13819,8 @@
     "definition": "论文",
     "example": "The article is important.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13831,8 +13831,8 @@
     "definition": "新闻纸",
     "example": "I have a newspaper.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13843,8 +13843,8 @@
     "definition": "期刊",
     "example": "A magazine can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13855,8 +13855,8 @@
     "definition": "虚构长篇",
     "example": "I have a novel.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13867,8 +13867,8 @@
     "definition": "韵文",
     "example": "I have a poem.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13879,8 +13879,8 @@
     "definition": "文学作品",
     "example": "This is a literature.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13891,8 +13891,8 @@
     "definition": "词汇",
     "example": "A word can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13903,8 +13903,8 @@
     "definition": "句子",
     "example": "I have a sentence.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -13915,8 +13915,8 @@
     "definition": "段落",
     "example": "This is a paragraph.",
     "difficulty": 2,
-    "next_review": "2026-08-06",
-    "review_count": 4,
+    "next_review": "2026-09-05",
+    "review_count": 5,
     "status": "learning"
   },
   {
