@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-06",
+  "generated": "2026-08-07",
   "words": [
     {
       "id": "ai_001",
@@ -57,8 +57,8 @@
       "definition": "使用已训练好的模型对新输入进行预测或生成的过程",
       "example": "response = llm.invoke('What is RAG?')  # inference call",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -69,8 +69,8 @@
       "definition": "从数据中学习规律并做出预测或生成的数学系统",
       "example": "llm = ChatOpenAI(model='gpt-4o-mini')  # select a model",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -849,8 +849,8 @@
       "definition": "将和弦各音依次单独弹奏而非同时发声，常用于钢琴和吉他",
       "example": "Playing C-E-G one by one upward is a C major arpeggio",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -861,8 +861,8 @@
       "definition": "短促分离地弹奏每个音符，在音符上方或下方标记小圆点",
       "example": "Staccato notes sound like light, bouncy raindrops",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -873,8 +873,8 @@
       "definition": "音符之间流畅连贯地演奏，没有间断，用弧线（连线）标记",
       "example": "Legato playing sounds smooth like flowing water",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -885,8 +885,8 @@
       "definition": "将重音放在通常较弱的拍点上，造成节奏错位感，爵士乐大量使用",
       "example": "Most pop and jazz music uses syncopation for a groove feel",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -897,8 +897,8 @@
       "definition": "音量逐渐增大的演奏方式，用 < 符号或 cresc. 标记",
       "example": "The orchestra played a crescendo leading to the climax",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -909,8 +909,8 @@
       "definition": "演奏时实时创作而非演奏预先写好的乐谱，爵士乐的灵魂",
       "example": "Jazz musicians improvise solos over chord progressions",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1425,8 +1425,8 @@
       "definition": "对话开始前设置 AI 角色、规则和约束的特殊指令",
       "example": "You are a helpful assistant. Always respond in Chinese.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1629,8 +1629,8 @@
       "definition": "确保 AI 输出基于真实可验证的信息，而非凭空生成，通常通过 RAG 或工具调用实现",
       "example": "Grounding the chatbot with a product database ensures it only mentions real products",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2169,8 +2169,8 @@
       "definition": "多个和弦按特定顺序排列形成的音乐骨架，决定歌曲的情感走向",
       "example": "I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2181,8 +2181,8 @@
       "definition": "乐谱开头标明每小节拍数和基准音符时值的记号，如 4/4 表示每小节四个四分音符",
       "example": "4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2193,8 +2193,8 @@
       "definition": "五线谱开头标明升降号的记号，决定乐曲所在的调式（大调或小调）",
       "example": "Two sharps (F# and C#) indicates D major or B minor key",
       "difficulty": 3,
-      "next_review": "2026-08-07",
-      "review_count": 3,
+      "next_review": "2026-08-21",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2817,8 +2817,8 @@
       "definition": "常见水果",
       "example": "A apple can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2829,8 +2829,8 @@
       "definition": "黄色长形水果",
       "example": "The banana is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2841,8 +2841,8 @@
       "definition": "橙色水果",
       "example": "I have a orange.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2853,8 +2853,8 @@
       "definition": "水果",
       "example": "The pear is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2865,8 +2865,8 @@
       "definition": "小颗粒水果",
       "example": "The grape is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2877,8 +2877,8 @@
       "definition": "大型夏季水果",
       "example": "This is a watermelon.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2889,8 +2889,8 @@
       "definition": "红色小水果",
       "example": "The strawberry is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 2,
+      "next_review": "2026-08-14",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3141,8 +3141,8 @@
       "definition": "液体食物",
       "example": "The soup is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3153,8 +3153,8 @@
       "definition": "蔬菜混合",
       "example": "This is a salad.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3165,8 +3165,8 @@
       "definition": "植物食物",
       "example": "This is a vegetable.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3177,8 +3177,8 @@
       "definition": "红色蔬菜",
       "example": "I have a tomato.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3189,8 +3189,8 @@
       "definition": "块茎类蔬菜",
       "example": "The potato is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3201,8 +3201,8 @@
       "definition": "橙色根茎",
       "example": "A carrot can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3213,8 +3213,8 @@
       "definition": "调味蔬菜",
       "example": "The onion is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3225,8 +3225,8 @@
       "definition": "叶菜类",
       "example": "This is a cabbage.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3237,8 +3237,8 @@
       "definition": "调味蔬菜",
       "example": "This is a pepper.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3249,8 +3249,8 @@
       "definition": "奶制品",
       "example": "The butter is important.",
       "difficulty": 5,
-      "next_review": "2026-08-07",
-      "review_count": 1,
+      "next_review": "2026-08-10",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3261,9 +3261,9 @@
       "definition": "奶制品",
       "example": "A cheese can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_039",
@@ -3273,9 +3273,9 @@
       "definition": "冷冻甜食",
       "example": "This is a ice cream.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_040",
@@ -3285,9 +3285,9 @@
       "definition": "第一餐",
       "example": "This is a breakfast.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_041",
@@ -3297,9 +3297,9 @@
       "definition": "第二餐",
       "example": "A lunch can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_042",
@@ -3309,9 +3309,9 @@
       "definition": "最后一餐",
       "example": "A dinner can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_043",
@@ -3321,9 +3321,9 @@
       "definition": "晚间餐",
       "example": "The supper is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_044",
@@ -3333,9 +3333,9 @@
       "definition": "食物单位",
       "example": "The meal is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_045",
@@ -3345,9 +3345,9 @@
       "definition": "用餐场所",
       "example": "The restaurant is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_046",
@@ -3357,9 +3357,9 @@
       "definition": "做饭房间",
       "example": "I have a kitchen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_047",
@@ -3369,9 +3369,9 @@
       "definition": "冷藏设备",
       "example": "I have a fridge.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-08",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_048",
@@ -13929,8 +13929,8 @@
       "definition": "章节",
       "example": "A chapter can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13941,8 +13941,8 @@
       "definition": "作家",
       "example": "A author can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13953,8 +13953,8 @@
       "definition": "作者",
       "example": "This is a writer.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13965,8 +13965,8 @@
       "definition": "阅读者",
       "example": "I have a reader.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13977,8 +13977,8 @@
       "definition": "发行人",
       "example": "I have a publisher.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -13989,8 +13989,8 @@
       "definition": "传媒",
       "example": "The media is important.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14001,8 +14001,8 @@
       "definition": "网络",
       "example": "This is a internet.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14013,8 +14013,8 @@
       "definition": "网络",
       "example": "This is a web.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14025,8 +14025,8 @@
       "definition": "网站",
       "example": "I have a website.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14037,8 +14037,8 @@
       "definition": "网页",
       "example": "A page can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-07",
-      "review_count": 4,
+      "next_review": "2026-09-06",
+      "review_count": 5,
       "status": "learning"
     },
     {
