@@ -1,7 +1,370 @@
 {
-  "date": "2026-08-08",
-  "day_of_week": "周六",
+  "date": "2026-08-09",
+  "day_of_week": "周日",
   "new_words": [
+    {
+      "id": "gen_058",
+      "category": "general",
+      "en": "father",
+      "zh": "父亲",
+      "definition": "爸爸",
+      "example": "This is a father.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_059",
+      "category": "general",
+      "en": "mother",
+      "zh": "母亲",
+      "definition": "妈妈",
+      "example": "This is a mother.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_060",
+      "category": "general",
+      "en": "parent",
+      "zh": "父母",
+      "definition": "双亲",
+      "example": "I have a parent.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_061",
+      "category": "general",
+      "en": "brother",
+      "zh": "兄弟",
+      "definition": "哥哥弟弟",
+      "example": "A brother can help you.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_062",
+      "category": "general",
+      "en": "sister",
+      "zh": "姐妹",
+      "definition": "姐姐妹妹",
+      "example": "A sister can help you.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_063",
+      "category": "general",
+      "en": "son",
+      "zh": "儿子",
+      "definition": "男性孩子",
+      "example": "I have a son.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_064",
+      "category": "general",
+      "en": "daughter",
+      "zh": "女儿",
+      "definition": "女性孩子",
+      "example": "The daughter is important.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_065",
+      "category": "general",
+      "en": "child",
+      "zh": "孩子",
+      "definition": "儿童",
+      "example": "The child is important.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_066",
+      "category": "general",
+      "en": "baby",
+      "zh": "婴儿",
+      "definition": "幼童",
+      "example": "This is a baby.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    },
+    {
+      "id": "gen_067",
+      "category": "general",
+      "en": "boy",
+      "zh": "男孩",
+      "definition": "男性儿童",
+      "example": "I have a boy.",
+      "difficulty": 5,
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
+    }
+  ],
+  "new_sentences": [],
+  "vocab_reviews": [
+    {
+      "id": "prog_019",
+      "category": "programming",
+      "en": "virtual DOM",
+      "zh": "虚拟 DOM",
+      "definition": "用 JS 对象模拟 DOM 树，通过 diff 算法找最小变更再批量更新真实 DOM",
+      "example": "React/Vue use virtual DOM to minimize expensive real DOM operations",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_020",
+      "category": "programming",
+      "en": "web worker",
+      "zh": "Web Worker",
+      "definition": "在独立后台线程运行脚本，避免复杂计算阻塞主线程导致页面卡顿",
+      "example": "const worker = new Worker('compute.js')  // runs off the main thread",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_021",
+      "category": "programming",
+      "en": "memoization",
+      "zh": "记忆化",
+      "definition": "缓存函数调用结果，相同参数直接返回缓存值，避免重复计算",
+      "example": "const memoized = useMemo(() => expensiveCalc(data), [data])",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_022",
+      "category": "programming",
+      "en": "PWA",
+      "zh": "渐进式 Web 应用",
+      "definition": "结合网页和原生应用优势的 Web 应用，可离线访问、可安装到桌面",
+      "example": "Service Worker + Web App Manifest = PWA capabilities",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_031",
+      "category": "programming",
+      "en": "composable",
+      "zh": "组合式函数",
+      "definition": "Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 useRouter、useFetch）",
+      "example": "function useMousePosition() { const x = ref(0); return { x, y } }",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_033",
+      "category": "programming",
+      "en": "provide / inject",
+      "zh": "依赖注入（Vue）",
+      "definition": "Vue 3 中实现跨层级组件通信的 API，祖先 provide，后代 inject，无需 props 逐层传递",
+      "example": "provide('theme', 'dark')  // 祖先\nconst theme = inject('theme') // 后代",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_035",
+      "category": "programming",
+      "en": "defineEmits",
+      "zh": "声明 emits",
+      "definition": "Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏",
+      "example": "const emit = defineEmits<{ change: [value: string]; close: [] }>()",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_037",
+      "category": "programming",
+      "en": "generic",
+      "zh": "泛型",
+      "definition": "TypeScript 中让函数、类或接口适配多种类型而保持类型安全的参数化类型机制",
+      "example": "function identity<T>(arg: T): T { return arg }\nidentity<string>('hello')",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_039",
+      "category": "programming",
+      "en": "type guard",
+      "zh": "类型守卫",
+      "definition": "TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器理解运行时类型",
+      "example": "if (typeof x === 'string') { x.toUpperCase() } // x is string here",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "prog_044",
+      "category": "programming",
+      "en": "tree shaking",
+      "zh": "摇树优化",
+      "definition": "打包时静态分析代码，删除未被引用的模块和导出，减小最终 bundle 体积",
+      "example": "Import { only, what, you, need } from 'library'  // unused exports are dropped",
+      "difficulty": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
+      "status": "learning"
+    },
+    {
+      "id": "gen_018",
+      "category": "general",
+      "en": "cake",
+      "zh": "蛋糕",
+      "definition": "甜点",
+      "example": "The cake is important.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_019",
+      "category": "general",
+      "en": "cookie",
+      "zh": "饼干",
+      "definition": "零食",
+      "example": "This is a cookie.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_020",
+      "category": "general",
+      "en": "chocolate",
+      "zh": "巧克力",
+      "definition": "甜食",
+      "example": "I have a chocolate.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_021",
+      "category": "general",
+      "en": "candy",
+      "zh": "糖果",
+      "definition": "甜食",
+      "example": "This is a candy.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_022",
+      "category": "general",
+      "en": "sugar",
+      "zh": "糖",
+      "definition": "调味品",
+      "example": "A sugar can help you.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_023",
+      "category": "general",
+      "en": "salt",
+      "zh": "盐",
+      "definition": "调味品",
+      "example": "A salt can help you.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_024",
+      "category": "general",
+      "en": "water",
+      "zh": "水",
+      "definition": "生命必需",
+      "example": "A water can help you.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_025",
+      "category": "general",
+      "en": "juice",
+      "zh": "果汁",
+      "definition": "饮料",
+      "example": "The juice is important.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_026",
+      "category": "general",
+      "en": "tea",
+      "zh": "茶",
+      "definition": "饮品",
+      "example": "The tea is important.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
+    {
+      "id": "gen_027",
+      "category": "general",
+      "en": "coffee",
+      "zh": "咖啡",
+      "definition": "提神饮品",
+      "example": "A coffee can help you.",
+      "difficulty": 5,
+      "next_review": "2026-08-16",
+      "review_count": 3,
+      "status": "learning"
+    },
     {
       "id": "gen_048",
       "category": "general",
@@ -10,8 +373,8 @@
       "definition": "饮水器具",
       "example": "This is a cup.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -22,8 +385,8 @@
       "definition": "透明杯子",
       "example": "I have a glass.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -34,8 +397,8 @@
       "definition": "餐具",
       "example": "The bowl is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -46,8 +409,8 @@
       "definition": "餐具",
       "example": "I have a plate.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -58,8 +421,8 @@
       "definition": "餐具",
       "example": "I have a fork.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -70,8 +433,8 @@
       "definition": "餐具",
       "example": "This is a spoon.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -82,8 +445,8 @@
       "definition": "切割工具",
       "example": "The knife is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -94,8 +457,8 @@
       "definition": "东方餐具",
       "example": "A chopsticks can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -106,8 +469,8 @@
       "definition": "擦拭用品",
       "example": "A napkin can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -118,501 +481,417 @@
       "definition": "亲属群体",
       "example": "I have a family.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
+      "status": "learning"
+    },
+    {
+      "id": "gen_947",
+      "category": "general",
+      "en": "program",
+      "zh": "程序",
+      "definition": "软件",
+      "example": "I have a program.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_948",
+      "category": "general",
+      "en": "application",
+      "zh": "应用",
+      "definition": "应用程序",
+      "example": "This is a application.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_949",
+      "category": "general",
+      "en": "file",
+      "zh": "文件",
+      "definition": "档案",
+      "example": "I have a file.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_950",
+      "category": "general",
+      "en": "folder",
+      "zh": "文件夹",
+      "definition": "目录",
+      "example": "A folder can help you.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_951",
+      "category": "general",
+      "en": "data",
+      "zh": "数据",
+      "definition": "资料",
+      "example": "I have a data.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_952",
+      "category": "general",
+      "en": "system",
+      "zh": "系统",
+      "definition": "体系",
+      "example": "I have a system.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_953",
+      "category": "general",
+      "en": "network",
+      "zh": "网络",
+      "definition": "网状系统",
+      "example": "This is a network.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_954",
+      "category": "general",
+      "en": "server",
+      "zh": "服务器",
+      "definition": "服务主机",
+      "example": "A server can help you.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_955",
+      "category": "general",
+      "en": "database",
+      "zh": "数据库",
+      "definition": "数据仓库",
+      "example": "I have a database.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_956",
+      "category": "general",
+      "en": "password",
+      "zh": "密码",
+      "definition": "口令",
+      "example": "A password can help you.",
+      "difficulty": 2,
+      "next_review": "2026-09-08",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1015",
+      "category": "general",
+      "en": "become",
+      "phonetic": "/bɪˈkʌm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "变成，成为"
+          ],
+          "examples": [
+            "He became a doctor.",
+            "It's becoming cold."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1016",
+      "category": "general",
+      "en": "let",
+      "phonetic": "/let/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "让，允许",
+            "出租，租给"
+          ],
+          "examples": [
+            "Let me help you.",
+            "Let the house."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1017",
+      "category": "general",
+      "en": "seem",
+      "phonetic": "/siːm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "似乎，好像",
+            "显得"
+          ],
+          "examples": [
+            "He seems happy.",
+            "It seems like rain."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1018",
+      "category": "general",
+      "en": "offer",
+      "phonetic": "/ˈɒfər/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "提供，提出",
+            "出价，开价"
+          ],
+          "examples": [
+            "Offer help.",
+            "Offer $100 for it."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "提供，提议"
+          ],
+          "examples": [
+            "Thank you for your offer."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1019",
+      "category": "general",
+      "en": "pay",
+      "phonetic": "/peɪ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "支付，付款",
+            "付出代价"
+          ],
+          "examples": [
+            "Pay the bill.",
+            "Pay for your mistake."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "工资，薪金"
+          ],
+          "examples": [
+            "Get your pay."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1020",
+      "category": "general",
+      "en": "meet",
+      "phonetic": "/miːt/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "遇见，会见",
+            "满足，符合"
+          ],
+          "examples": [
+            "Meet my friend.",
+            "Meet requirements."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "会议，集会"
+          ],
+          "examples": [
+            "Attend a meet."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1021",
+      "category": "general",
+      "en": "include",
+      "phonetic": "/ɪnˈkluːd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "包括，包含"
+          ],
+          "examples": [
+            "The price includes tax."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1022",
+      "category": "general",
+      "en": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "继续，持续"
+          ],
+          "examples": [
+            "Continue your work."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1023",
+      "category": "general",
+      "en": "set",
+      "phonetic": "/set/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "放，安置",
+            "设定，确立",
+            "（日）落"
+          ],
+          "examples": [
+            "Set the table.",
+            "Set a goal.",
+            "The sun sets in the west."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "一套，一副",
+            "接收机"
+          ],
+          "examples": [
+            "A chess set.",
+            "A TV set."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     }
   ],
-  "new_sentences": [],
-  "vocab_reviews": [
+  "sentence_reviews": [
     {
-      "id": "prog_016",
-      "category": "programming",
-      "en": "hydration",
-      "zh": "水合",
-      "definition": "在客户端激活服务端渲染的静态 HTML，绑定事件使其具有交互能力",
-      "example": "SSR renders HTML on server; hydration makes it interactive in browser",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "prog_017",
-      "category": "programming",
-      "en": "SSR",
-      "zh": "服务端渲染",
-      "definition": "在服务器上生成完整 HTML 再发送给浏览器，首屏快、SEO 好",
-      "example": "Nuxt.js/Next.js use SSR; initial page is rendered on the server",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "prog_018",
-      "category": "programming",
-      "en": "tree shaking",
-      "zh": "摇树优化",
-      "definition": "打包时自动移除未被引用的代码，减小最终 bundle 体积",
-      "example": "import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_028",
-      "category": "music",
-      "en": "interval",
-      "zh": "音程",
-      "definition": "两个音符之间的音高距离，以度数（unison/third/fifth/octave）表示",
-      "example": "C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_034",
-      "category": "music",
-      "en": "accelerando",
-      "zh": "渐快",
-      "definition": "指示演奏逐渐加快速度的术语，常缩写为 accel.",
-      "example": "The piece builds tension with an accelerando before the climactic final chord",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_035",
-      "category": "music",
-      "en": "ritardando",
-      "zh": "渐慢",
-      "definition": "指示演奏逐渐放慢速度的术语，常缩写为 rit. 或 ritard.",
-      "example": "The conductor signals a ritardando for the ending phrase",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_036",
-      "category": "music",
-      "en": "transposition",
-      "zh": "移调",
-      "definition": "将一段音乐整体移高或降低固定音程，改变调性但保持旋律和声的内部关系不变",
-      "example": "Transpose 'Happy Birthday' from C to G so it fits your vocal range",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_039",
-      "category": "music",
-      "en": "syncopation",
-      "zh": "切分节奏",
-      "definition": "将重音移至通常不强的拍子（如弱拍或拍的弱部），制造推拉感，是爵士和流行音乐的特征",
-      "example": "The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_042",
-      "category": "music",
-      "en": "legato",
-      "zh": "连奏",
-      "definition": "指示音符要平滑连接、无明显间隔地演奏，与断奏（staccato）相对",
-      "example": "Play this melody legato—like a singer breathing between phrases, not choppy",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "music_043",
-      "category": "music",
-      "en": "staccato",
-      "zh": "断奏",
-      "definition": "指示音符要短促分离地演奏，每个音符之间有明显间隔，通常以小圆点标记",
-      "example": "The staccato eighth notes in the opening give a playful, bouncy character",
-      "difficulty": 3,
-      "next_review": "2026-08-22",
-      "review_count": 4,
-      "status": "learning"
-    },
-    {
-      "id": "gen_008",
-      "category": "general",
-      "en": "bread",
-      "zh": "面包",
-      "definition": "主食",
-      "example": "The bread is important.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_009",
-      "category": "general",
-      "en": "rice",
-      "zh": "米饭",
-      "definition": "亚洲主食",
-      "example": "I have a rice.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_010",
-      "category": "general",
-      "en": "noodle",
-      "zh": "面条",
-      "definition": "长条状食物",
-      "example": "This is a noodle.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_011",
-      "category": "general",
-      "en": "milk",
-      "zh": "牛奶",
-      "definition": "白色饮料",
-      "example": "The milk is important.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_012",
-      "category": "general",
-      "en": "egg",
-      "zh": "鸡蛋",
-      "definition": "常见食材",
-      "example": "This is a egg.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_013",
-      "category": "general",
-      "en": "meat",
-      "zh": "肉",
-      "definition": "食物总称",
-      "example": "This is a meat.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_014",
-      "category": "general",
-      "en": "chicken",
-      "zh": "鸡肉",
-      "definition": "常见肉类",
-      "example": "This is a chicken.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_015",
-      "category": "general",
-      "en": "fish",
-      "zh": "鱼",
-      "definition": "水产",
-      "example": "I have a fish.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_016",
-      "category": "general",
-      "en": "beef",
-      "zh": "牛肉",
-      "definition": "红色肉类",
-      "example": "I have a beef.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_017",
-      "category": "general",
-      "en": "pork",
-      "zh": "猪肉",
-      "definition": "常见肉类",
-      "example": "This is a pork.",
-      "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
-      "status": "learning"
-    },
-    {
-      "id": "gen_038",
-      "category": "general",
-      "en": "cheese",
-      "zh": "奶酪",
-      "definition": "奶制品",
-      "example": "A cheese can help you.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_039",
-      "category": "general",
-      "en": "ice cream",
-      "zh": "冰淇淋",
-      "definition": "冷冻甜食",
-      "example": "This is a ice cream.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_040",
-      "category": "general",
-      "en": "breakfast",
-      "zh": "早餐",
-      "definition": "第一餐",
-      "example": "This is a breakfast.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_041",
-      "category": "general",
-      "en": "lunch",
-      "zh": "午餐",
-      "definition": "第二餐",
-      "example": "A lunch can help you.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_042",
-      "category": "general",
-      "en": "dinner",
-      "zh": "晚餐",
-      "definition": "最后一餐",
-      "example": "A dinner can help you.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_043",
-      "category": "general",
-      "en": "supper",
-      "zh": "晚饭",
-      "definition": "晚间餐",
-      "example": "The supper is important.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_044",
-      "category": "general",
-      "en": "meal",
-      "zh": "一餐",
-      "definition": "食物单位",
-      "example": "The meal is important.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_045",
-      "category": "general",
-      "en": "restaurant",
-      "zh": "餐厅",
-      "definition": "用餐场所",
-      "example": "The restaurant is important.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_046",
-      "category": "general",
-      "en": "kitchen",
-      "zh": "厨房",
-      "definition": "做饭房间",
-      "example": "I have a kitchen.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_047",
-      "category": "general",
-      "en": "fridge",
-      "zh": "冰箱",
-      "definition": "冷藏设备",
-      "example": "I have a fridge.",
-      "difficulty": 5,
-      "next_review": "2026-08-11",
-      "review_count": 2,
-      "status": "learning"
-    },
-    {
-      "id": "gen_937",
-      "category": "general",
-      "en": "link",
-      "zh": "链接",
-      "definition": "连接",
-      "example": "A link can help you.",
+      "id": "daily_006",
+      "category": "daily",
+      "en": "Could you elaborate on that?",
+      "zh": "你能详细说明一下吗？",
+      "definition": "请求对方对某个观点或情况提供更多细节和解释",
+      "example": "Could you elaborate on that performance issue you mentioned?",
       "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_938",
-      "category": "general",
-      "en": "click",
-      "zh": "点击",
-      "definition": "点击",
-      "example": "You should click it.",
+      "id": "daily_007",
+      "category": "daily",
+      "en": "Let me clarify.",
+      "zh": "让我来说清楚一下。",
+      "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
+      "example": "Let me clarify — I meant the staging environment, not production.",
       "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_939",
-      "category": "general",
-      "en": "screen",
-      "zh": "屏幕",
-      "definition": "显示屏",
-      "example": "I have a screen.",
+      "id": "daily_008",
+      "category": "daily",
+      "en": "I'll get back to you on that.",
+      "zh": "关于这个我稍后回复你。",
+      "definition": "表示需要时间确认后再回答，不立即给出答案",
+      "example": "I'll get back to you on that timeline after checking with the team.",
       "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_940",
-      "category": "general",
-      "en": "monitor",
-      "zh": "显示器",
-      "definition": "屏幕",
-      "example": "I have a monitor.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_941",
-      "category": "general",
-      "en": "keyboard",
-      "zh": "键盘",
-      "definition": "输入设备",
-      "example": "A keyboard can help you.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_942",
-      "category": "general",
-      "en": "computer",
-      "zh": "电脑",
-      "definition": "计算机",
-      "example": "The computer is important.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_943",
-      "category": "general",
-      "en": "laptop",
-      "zh": "笔记本",
-      "definition": "便携电脑",
-      "example": "The laptop is important.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_944",
-      "category": "general",
-      "en": "tablet",
-      "zh": "平板",
-      "definition": "平板电脑",
-      "example": "A tablet can help you.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_945",
-      "category": "general",
-      "en": "software",
-      "zh": "软件",
-      "definition": "程序",
-      "example": "The software is important.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_946",
-      "category": "general",
-      "en": "hardware",
-      "zh": "硬件",
-      "definition": "设备",
-      "example": "I have a hardware.",
-      "difficulty": 2,
-      "next_review": "2026-09-07",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     }
   ],
-  "sentence_reviews": [],
   "stats": {
     "total": 1262,
-    "mastered": 1,
-    "learning": 600,
-    "new": 661,
-    "streak": 55,
-    "total_sessions": 55
+    "mastered": 13,
+    "learning": 610,
+    "new": 651,
+    "streak": 56,
+    "total_sessions": 56
   }
 }

@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-08",
+  "generated": "2026-08-09",
   "words": [
     {
       "id": "ai_001",
@@ -609,8 +609,8 @@
       "definition": "用 JS 对象模拟 DOM 树，通过 diff 算法找最小变更再批量更新真实 DOM",
       "example": "React/Vue use virtual DOM to minimize expensive real DOM operations",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -621,8 +621,8 @@
       "definition": "在独立后台线程运行脚本，避免复杂计算阻塞主线程导致页面卡顿",
       "example": "const worker = new Worker('compute.js')  // runs off the main thread",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -633,8 +633,8 @@
       "definition": "缓存函数调用结果，相同参数直接返回缓存值，避免重复计算",
       "example": "const memoized = useMemo(() => expensiveCalc(data), [data])",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -645,8 +645,8 @@
       "definition": "结合网页和原生应用优势的 Web 应用，可离线访问、可安装到桌面",
       "example": "Service Worker + Web App Manifest = PWA capabilities",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1029,8 +1029,8 @@
       "definition": "请求对方对某个观点或情况提供更多细节和解释",
       "example": "Could you elaborate on that performance issue you mentioned?",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1041,8 +1041,8 @@
       "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
       "example": "Let me clarify — I meant the staging environment, not production.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1053,8 +1053,8 @@
       "definition": "表示需要时间确认后再回答，不立即给出答案",
       "example": "I'll get back to you on that timeline after checking with the team.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1689,8 +1689,8 @@
       "definition": "Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 useRouter、useFetch）",
       "example": "function useMousePosition() { const x = ref(0); return { x, y } }",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1713,8 +1713,8 @@
       "definition": "Vue 3 中实现跨层级组件通信的 API，祖先 provide，后代 inject，无需 props 逐层传递",
       "example": "provide('theme', 'dark')  // 祖先\nconst theme = inject('theme') // 后代",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1737,8 +1737,8 @@
       "definition": "Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏",
       "example": "const emit = defineEmits<{ change: [value: string]; close: [] }>()",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1761,8 +1761,8 @@
       "definition": "TypeScript 中让函数、类或接口适配多种类型而保持类型安全的参数化类型机制",
       "example": "function identity<T>(arg: T): T { return arg }\nidentity<string>('hello')",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1785,8 +1785,8 @@
       "definition": "TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器理解运行时类型",
       "example": "if (typeof x === 'string') { x.toUpperCase() } // x is string here",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1845,8 +1845,8 @@
       "definition": "打包时静态分析代码，删除未被引用的模块和导出，减小最终 bundle 体积",
       "example": "Import { only, what, you, need } from 'library'  // unused exports are dropped",
       "difficulty": 3,
-      "next_review": "2026-08-09",
-      "review_count": 3,
+      "next_review": "2026-08-23",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3021,8 +3021,8 @@
       "definition": "甜点",
       "example": "The cake is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3033,8 +3033,8 @@
       "definition": "零食",
       "example": "This is a cookie.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3045,8 +3045,8 @@
       "definition": "甜食",
       "example": "I have a chocolate.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3057,8 +3057,8 @@
       "definition": "甜食",
       "example": "This is a candy.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3069,8 +3069,8 @@
       "definition": "调味品",
       "example": "A sugar can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3081,8 +3081,8 @@
       "definition": "调味品",
       "example": "A salt can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3093,8 +3093,8 @@
       "definition": "生命必需",
       "example": "A water can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3105,8 +3105,8 @@
       "definition": "饮料",
       "example": "The juice is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3117,8 +3117,8 @@
       "definition": "饮品",
       "example": "The tea is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3129,8 +3129,8 @@
       "definition": "提神饮品",
       "example": "A coffee can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 2,
+      "next_review": "2026-08-16",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3381,8 +3381,8 @@
       "definition": "饮水器具",
       "example": "This is a cup.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3393,8 +3393,8 @@
       "definition": "透明杯子",
       "example": "I have a glass.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3405,8 +3405,8 @@
       "definition": "餐具",
       "example": "The bowl is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3417,8 +3417,8 @@
       "definition": "餐具",
       "example": "I have a plate.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3429,8 +3429,8 @@
       "definition": "餐具",
       "example": "I have a fork.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3441,8 +3441,8 @@
       "definition": "餐具",
       "example": "This is a spoon.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3453,8 +3453,8 @@
       "definition": "切割工具",
       "example": "The knife is important.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3465,8 +3465,8 @@
       "definition": "东方餐具",
       "example": "A chopsticks can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3477,8 +3477,8 @@
       "definition": "擦拭用品",
       "example": "A napkin can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3489,8 +3489,8 @@
       "definition": "亲属群体",
       "example": "I have a family.",
       "difficulty": 5,
-      "next_review": "2026-08-09",
-      "review_count": 1,
+      "next_review": "2026-08-12",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3501,9 +3501,9 @@
       "definition": "爸爸",
       "example": "This is a father.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_059",
@@ -3513,9 +3513,9 @@
       "definition": "妈妈",
       "example": "This is a mother.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_060",
@@ -3525,9 +3525,9 @@
       "definition": "双亲",
       "example": "I have a parent.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_061",
@@ -3537,9 +3537,9 @@
       "definition": "哥哥弟弟",
       "example": "A brother can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_062",
@@ -3549,9 +3549,9 @@
       "definition": "姐姐妹妹",
       "example": "A sister can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_063",
@@ -3561,9 +3561,9 @@
       "definition": "男性孩子",
       "example": "I have a son.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_064",
@@ -3573,9 +3573,9 @@
       "definition": "女性孩子",
       "example": "The daughter is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_065",
@@ -3585,9 +3585,9 @@
       "definition": "儿童",
       "example": "The child is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_066",
@@ -3597,9 +3597,9 @@
       "definition": "幼童",
       "example": "This is a baby.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_067",
@@ -3609,9 +3609,9 @@
       "definition": "男性儿童",
       "example": "I have a boy.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-10",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_068",
@@ -14169,8 +14169,8 @@
       "definition": "软件",
       "example": "I have a program.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14181,8 +14181,8 @@
       "definition": "应用程序",
       "example": "This is a application.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14193,8 +14193,8 @@
       "definition": "档案",
       "example": "I have a file.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14205,8 +14205,8 @@
       "definition": "目录",
       "example": "A folder can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14217,8 +14217,8 @@
       "definition": "资料",
       "example": "I have a data.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14229,8 +14229,8 @@
       "definition": "体系",
       "example": "I have a system.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14241,8 +14241,8 @@
       "definition": "网状系统",
       "example": "This is a network.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14253,8 +14253,8 @@
       "definition": "服务主机",
       "example": "A server can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14265,8 +14265,8 @@
       "definition": "数据仓库",
       "example": "I have a database.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14277,8 +14277,8 @@
       "definition": "口令",
       "example": "A password can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-09",
-      "review_count": 4,
+      "next_review": "2026-09-08",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15006,8 +15006,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15029,8 +15029,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15052,8 +15052,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15084,8 +15084,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15116,8 +15116,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15148,8 +15148,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15169,8 +15169,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15190,8 +15190,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15226,8 +15226,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-09",
-      "review_count": 5,
+      "next_review": "2026-11-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
