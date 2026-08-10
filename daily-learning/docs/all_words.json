@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-09",
+  "generated": "2026-08-10",
   "words": [
     {
       "id": "ai_001",
@@ -81,8 +81,8 @@
       "definition": "带占位符变量的可复用提示结构，运行时填入具体值",
       "example": "template = PromptTemplate.from_template('Translate {text} to {language}')",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -93,8 +93,8 @@
       "definition": "将 LLM 原始文本响应转换为结构化数据（JSON、列表等）的组件",
       "example": "parser = JsonOutputParser(pydantic_object=Recipe)\nchain = prompt | llm | parser",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -105,8 +105,8 @@
       "definition": "将文本转化为固定维度数字向量的表示，语义相似的文本向量距离近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('What is RAG?')",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -117,8 +117,8 @@
       "definition": "根据查询从知识库中找到相关文档的组件，是 RAG 架构的核心",
       "example": "retriever = vectorstore.as_retriever(search_kwargs={'k': 4})",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -129,8 +129,8 @@
       "definition": "存储文档嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "db = Chroma.from_documents(docs, embedding=OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1065,8 +1065,8 @@
       "definition": "表示对方的解释或逻辑是合理的、可以理解的",
       "example": "That makes sense. Using a queue would handle the load spikes.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1077,8 +1077,8 @@
       "definition": "在别人发言后礼貌地加入自己的观点或信息",
       "example": "I'd like to add something — we also need to consider mobile users.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1089,8 +1089,8 @@
       "definition": "允许听众在自己发言时提问或发表意见，营造开放的交流氛围",
       "example": "I'll walk through the architecture. Feel free to interrupt me with questions.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1857,8 +1857,8 @@
       "definition": "将 JavaScript 按路由或特性拆分为多个 chunk，按需加载以提升首屏速度",
       "example": "const AdminPage = () => import('./AdminPage.vue')  // 懒加载",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1881,8 +1881,8 @@
       "definition": "服务器向客户端单向推送实时数据的轻量级协议，LLM 流式响应的常用实现方式",
       "example": "const es = new EventSource('/stream')\nes.onmessage = (e) => console.log(e.data)",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1929,8 +1929,8 @@
       "definition": "允许用户授权第三方应用访问其资源而无需暴露密码的标准授权框架",
       "example": "Sign in with Google → authorize → receive access token → call Google APIs",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1941,8 +1941,8 @@
       "definition": "多次执行相同操作产生与一次执行相同结果的特性，HTTP GET/PUT 应是幂等的",
       "example": "DELETE /users/123 called 5 times still results in user being deleted",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1953,8 +1953,8 @@
       "definition": "多个并发操作以不确定顺序执行，导致结果依赖时序而出现难以复现的 bug",
       "example": "Two requests both read count=5, both increment to 6, but expected result was 7",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1989,8 +1989,8 @@
       "definition": "缓存函数调用结果，当相同参数再次传入时直接返回缓存值而不重新计算",
       "example": "const result = useMemo(() => heavyCompute(n), [n])",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2001,8 +2001,8 @@
       "definition": "在内存中用 JavaScript 对象模拟真实 DOM 树，通过 diff 算法最小化实际 DOM 操作",
       "example": "React/Vue maintain a vDOM tree; only changed nodes get real DOM updates",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2049,8 +2049,8 @@
       "definition": "将组件所需的依赖从外部传入而非内部创建，提升可测试性和可替换性的设计原则",
       "example": "class Service { constructor(private db: Database) {} }  // db injected from outside",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2061,8 +2061,8 @@
       "definition": "对象状态变化时自动通知所有订阅者的设计模式，是事件系统和响应式框架的基础",
       "example": "eventEmitter.on('change', handler)  // handler observes emitter",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2073,8 +2073,8 @@
       "definition": "函数捕获其词法作用域中变量的特性，即使外部函数已返回，内部函数仍可访问这些变量",
       "example": "function counter() { let n = 0; return () => ++n }  // 返回的函数捕获了 n",
       "difficulty": 3,
-      "next_review": "2026-08-10",
-      "review_count": 3,
+      "next_review": "2026-08-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3141,8 +3141,8 @@
       "definition": "液体食物",
       "example": "The soup is important.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3153,8 +3153,8 @@
       "definition": "蔬菜混合",
       "example": "This is a salad.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3165,8 +3165,8 @@
       "definition": "植物食物",
       "example": "This is a vegetable.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3177,8 +3177,8 @@
       "definition": "红色蔬菜",
       "example": "I have a tomato.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3189,8 +3189,8 @@
       "definition": "块茎类蔬菜",
       "example": "The potato is important.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3201,8 +3201,8 @@
       "definition": "橙色根茎",
       "example": "A carrot can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3213,8 +3213,8 @@
       "definition": "调味蔬菜",
       "example": "The onion is important.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3225,8 +3225,8 @@
       "definition": "叶菜类",
       "example": "This is a cabbage.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3237,8 +3237,8 @@
       "definition": "调味蔬菜",
       "example": "This is a pepper.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3249,8 +3249,8 @@
       "definition": "奶制品",
       "example": "The butter is important.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 2,
+      "next_review": "2026-08-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3501,8 +3501,8 @@
       "definition": "爸爸",
       "example": "This is a father.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3513,8 +3513,8 @@
       "definition": "妈妈",
       "example": "This is a mother.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3525,8 +3525,8 @@
       "definition": "双亲",
       "example": "I have a parent.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3537,8 +3537,8 @@
       "definition": "哥哥弟弟",
       "example": "A brother can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3549,8 +3549,8 @@
       "definition": "姐姐妹妹",
       "example": "A sister can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3561,8 +3561,8 @@
       "definition": "男性孩子",
       "example": "I have a son.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3573,8 +3573,8 @@
       "definition": "女性孩子",
       "example": "The daughter is important.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3585,8 +3585,8 @@
       "definition": "儿童",
       "example": "The child is important.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3597,8 +3597,8 @@
       "definition": "幼童",
       "example": "This is a baby.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3609,8 +3609,8 @@
       "definition": "男性儿童",
       "example": "I have a boy.",
       "difficulty": 5,
-      "next_review": "2026-08-10",
-      "review_count": 1,
+      "next_review": "2026-08-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3621,9 +3621,9 @@
       "definition": "女性儿童",
       "example": "The girl is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_069",
@@ -3633,9 +3633,9 @@
       "definition": "成年男性",
       "example": "The man is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_070",
@@ -3645,9 +3645,9 @@
       "definition": "成年女性",
       "example": "I have a woman.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_071",
@@ -3657,9 +3657,9 @@
       "definition": "爷爷外公",
       "example": "This is a grandfather.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_072",
@@ -3669,9 +3669,9 @@
       "definition": "奶奶外婆",
       "example": "This is a grandmother.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_073",
@@ -3681,9 +3681,9 @@
       "definition": "祖父昵称",
       "example": "The grandpa is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_074",
@@ -3693,9 +3693,9 @@
       "definition": "祖母昵称",
       "example": "A grandma can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_075",
@@ -3705,9 +3705,9 @@
       "definition": "父辈男性",
       "example": "The uncle is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_076",
@@ -3717,9 +3717,9 @@
       "definition": "母辈女性",
       "example": "This is a aunt.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_077",
@@ -3729,9 +3729,9 @@
       "definition": "姑姨子女",
       "example": "I have a cousin.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_078",
@@ -14289,8 +14289,8 @@
       "definition": "账号",
       "example": "I have a username.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14301,8 +14301,8 @@
       "definition": "账号",
       "example": "This is a account.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14313,8 +14313,8 @@
       "definition": "登入",
       "example": "This is login.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14325,8 +14325,8 @@
       "definition": "登出",
       "example": "This is logout.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14337,8 +14337,8 @@
       "definition": "登记",
       "example": "Let's register together.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14349,8 +14349,8 @@
       "definition": "签署",
       "example": "This is sign.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14361,8 +14361,8 @@
       "definition": "娱乐",
       "example": "The game is important.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14373,8 +14373,8 @@
       "definition": "体育",
       "example": "The sport is important.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14385,8 +14385,8 @@
       "definition": "竞赛",
       "example": "A match can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14397,8 +14397,8 @@
       "definition": "比赛",
       "example": "This is a competition.",
       "difficulty": 2,
-      "next_review": "2026-08-10",
-      "review_count": 4,
+      "next_review": "2026-09-09",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -15262,8 +15262,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15285,8 +15285,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15306,8 +15306,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15329,8 +15329,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15352,8 +15352,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-08-10",
-      "review_count": 5,
+      "next_review": "2026-11-08",
+      "review_count": 6,
       "status": "learning"
     }
   ]
