@@ -139,8 +139,8 @@
     "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
     "example": "memory = ConversationBufferMemory(return_messages=True)",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -151,8 +151,8 @@
     "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
     "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -163,8 +163,8 @@
     "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
     "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -175,8 +175,8 @@
     "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
     "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -187,8 +187,8 @@
     "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
     "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -319,8 +319,8 @@
     "definition": "LangGraph 的核心类，定义以共享状态驱动的有向图工作流",
     "example": "graph = StateGraph(AgentState)\ngraph.add_node('llm', call_llm)",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -331,8 +331,8 @@
     "definition": "LangGraph 中根据当前状态动态决定流向哪个节点的路由逻辑",
     "example": "graph.add_conditional_edges('agent', should_continue, {'tools': 'tools', 'end': END})",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -343,8 +343,8 @@
     "definition": "LangGraph 中保存图执行状态的机制，支持暂停、恢复和人工审核",
     "example": "memory = MemorySaver()\ngraph = graph.compile(checkpointer=memory)",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -355,8 +355,8 @@
     "definition": "在自动化 AI 流程中插入人工审核/确认节点，防止危险操作自动执行",
     "example": "graph.add_node('human_review', interrupt_before=['execute_code'])",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -367,8 +367,8 @@
     "definition": "LangGraph 中可独立运行、也可嵌套进父图的封装图结构",
     "example": "parent.add_node('child_graph', child_graph.compile())",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -379,8 +379,8 @@
     "definition": "在预训练大模型基础上，用特定领域数据继续训练以适应专用任务",
     "example": "Fine-tune GPT-4o-mini on customer support data to improve domain accuracy",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1099,8 +1099,8 @@
     "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
     "example": "That's important but out of scope today. Could we revisit this later?",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1231,8 +1231,8 @@
     "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
     "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1255,8 +1255,8 @@
     "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
     "example": "chain = prompt | llm | StrOutputParser()",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1267,8 +1267,8 @@
     "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
     "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1291,8 +1291,8 @@
     "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
     "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1303,8 +1303,8 @@
     "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
     "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1507,8 +1507,8 @@
     "definition": "通过人类标注者对 AI 输出打分来训练奖励模型，再用强化学习优化 AI 行为的技术",
     "example": "ChatGPT was trained using RLHF to align responses with human preferences",
     "difficulty": 4,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2083,8 +2083,8 @@
     "definition": "JavaScript 运行时处理异步回调的机制：调用栈清空后从任务队列取出待执行任务",
     "example": "setTimeout callback runs after current synchronous code finishes",
     "difficulty": 3,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2131,8 +2131,8 @@
     "definition": "为不支持某特性的旧浏览器提供该特性实现的代码片段",
     "example": "core-js polyfills Array.prototype.flatMap for IE11",
     "difficulty": 3,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2155,8 +2155,8 @@
     "definition": "将大型应用拆分为多个小型独立服务，每个服务负责单一业务能力，可独立部署和扩展",
     "example": "User service + Order service + Payment service → communicate via REST/gRPC",
     "difficulty": 3,
-    "next_review": "2026-08-11",
-    "review_count": 3,
+    "next_review": "2026-08-25",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2467,8 +2467,8 @@
     "definition": "请求对方在事情发生前预先告知，以便有时间准备",
     "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2479,8 +2479,8 @@
     "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
     "example": "I'll loop you in on the email thread with the client so you're up to speed.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 5,
+    "next_review": "2026-11-09",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -3259,8 +3259,8 @@
     "definition": "奶制品",
     "example": "A cheese can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3271,8 +3271,8 @@
     "definition": "冷冻甜食",
     "example": "This is a ice cream.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3283,8 +3283,8 @@
     "definition": "第一餐",
     "example": "This is a breakfast.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3295,8 +3295,8 @@
     "definition": "第二餐",
     "example": "A lunch can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3307,8 +3307,8 @@
     "definition": "最后一餐",
     "example": "A dinner can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3319,8 +3319,8 @@
     "definition": "晚间餐",
     "example": "The supper is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3331,8 +3331,8 @@
     "definition": "食物单位",
     "example": "The meal is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3343,8 +3343,8 @@
     "definition": "用餐场所",
     "example": "The restaurant is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3355,8 +3355,8 @@
     "definition": "做饭房间",
     "example": "I have a kitchen.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3367,8 +3367,8 @@
     "definition": "冷藏设备",
     "example": "I have a fridge.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 2,
+    "next_review": "2026-08-18",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3619,8 +3619,8 @@
     "definition": "女性儿童",
     "example": "The girl is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3631,8 +3631,8 @@
     "definition": "成年男性",
     "example": "The man is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3643,8 +3643,8 @@
     "definition": "成年女性",
     "example": "I have a woman.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3655,8 +3655,8 @@
     "definition": "爷爷外公",
     "example": "This is a grandfather.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3667,8 +3667,8 @@
     "definition": "奶奶外婆",
     "example": "This is a grandmother.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3679,8 +3679,8 @@
     "definition": "祖父昵称",
     "example": "The grandpa is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3691,8 +3691,8 @@
     "definition": "祖母昵称",
     "example": "A grandma can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3703,8 +3703,8 @@
     "definition": "父辈男性",
     "example": "The uncle is important.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3715,8 +3715,8 @@
     "definition": "母辈女性",
     "example": "This is a aunt.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3727,8 +3727,8 @@
     "definition": "姑姨子女",
     "example": "I have a cousin.",
     "difficulty": 5,
-    "next_review": "2026-08-11",
-    "review_count": 1,
+    "next_review": "2026-08-14",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -3739,9 +3739,9 @@
     "definition": "好友",
     "example": "The friend is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_079",
@@ -3751,9 +3751,9 @@
     "definition": "同班同学",
     "example": "The classmate is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_080",
@@ -3763,9 +3763,9 @@
     "definition": "教育者",
     "example": "A teacher can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_081",
@@ -3775,9 +3775,9 @@
     "definition": "学习者",
     "example": "I have a student.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_082",
@@ -3787,9 +3787,9 @@
     "definition": "医疗工作者",
     "example": "This is a doctor.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_083",
@@ -3799,9 +3799,9 @@
     "definition": "护理工作者",
     "example": "This is a nurse.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_084",
@@ -3811,9 +3811,9 @@
     "definition": "执法人员",
     "example": "A police can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_085",
@@ -3823,9 +3823,9 @@
     "definition": "驾驶者",
     "example": "A driver can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_086",
@@ -3835,9 +3835,9 @@
     "definition": "农业工作者",
     "example": "This is a farmer.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_087",
@@ -3847,9 +3847,9 @@
     "definition": "劳动者",
     "example": "The worker is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-12",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_088",
@@ -14407,8 +14407,8 @@
     "definition": "比赛",
     "example": "I have a contest.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14419,8 +14419,8 @@
     "definition": "联赛",
     "example": "This is a tournament.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14431,8 +14431,8 @@
     "definition": "锦标赛",
     "example": "A championship can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14443,8 +14443,8 @@
     "definition": "联盟",
     "example": "This is a league.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14455,8 +14455,8 @@
     "definition": "训练师",
     "example": "The coach is important.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14467,8 +14467,8 @@
     "definition": "爱好者",
     "example": "This is a fan.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14479,8 +14479,8 @@
     "definition": "听众",
     "example": "This is a audience.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14491,8 +14491,8 @@
     "definition": "旁观者",
     "example": "This is a spectator.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14503,8 +14503,8 @@
     "definition": "大众",
     "example": "I have a crowd.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -14515,8 +14515,8 @@
     "definition": "歌曲",
     "example": "I have a song.",
     "difficulty": 2,
-    "next_review": "2026-08-11",
-    "review_count": 4,
+    "next_review": "2026-09-10",
+    "review_count": 5,
     "status": "learning"
   },
   {
