@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-11",
+  "generated": "2026-08-12",
   "words": [
     {
       "id": "ai_001",
@@ -921,8 +921,8 @@
       "definition": "两条或多条独立旋律线同时演奏并在和声上形成协调关系的作曲技术",
       "example": "Bach's fugues are masterpieces of contrapuntal writing",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -933,8 +933,8 @@
       "definition": "在音乐作品中从一个调性转换到另一个调性的作曲技法",
       "example": "The song modulated from C major to E major for the final chorus",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -945,8 +945,8 @@
       "definition": "同时存在两种或多种不同节奏型的音乐手法，如 3 对 2 或 4 对 3",
       "example": "West African drumming often features complex polyrhythms",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -957,8 +957,8 @@
       "definition": "听起来紧张、不稳定、'需要解决'的音程或和弦组合",
       "example": "A tritone interval sounds tense and dissonant",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1317,8 +1317,8 @@
       "definition": "LangChain 中从各种数据源（PDF、网页、数据库）读取内容并转为 Document 对象的组件",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1389,8 +1389,8 @@
       "definition": "在预训练大模型基础上用小规模领域数据进一步训练，使其适配特定任务",
       "example": "Fine-tuned GPT-3.5 on customer support data to improve response accuracy",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1401,8 +1401,8 @@
       "definition": "LLM 生成看似可信但实际上错误或虚构内容的问题，是当前 AI 的主要挑战之一",
       "example": "The model hallucinated a fake citation to support its argument",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1413,8 +1413,8 @@
       "definition": "LLM 在单次推理时能接收和处理的最大 token 数量，决定可处理文档的长度",
       "example": "Claude's context window is 200K tokens, allowing entire codebases as input",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1437,8 +1437,8 @@
       "definition": "控制 LLM 输出随机性的参数，0 最确定，1 以上最随机",
       "example": "llm = ChatOpenAI(temperature=0.0)  # 适合代码生成等精确任务",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1449,8 +1449,8 @@
       "definition": "将文本转换为能捕捉语义的高维稠密向量，相似含义的文本向量距离更近",
       "example": "embeddings = OpenAIEmbeddings()\nvector = embeddings.embed_query('hello world')",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1473,8 +1473,8 @@
       "definition": "基于语义相似度而非关键词匹配的搜索方式，能理解查询的实际含义",
       "example": "Searching 'how to cook pasta' returns recipes even without exact keyword match",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1485,8 +1485,8 @@
       "definition": "能同时处理多种数据类型（文本、图像、音频、视频）的 AI 模型能力",
       "example": "GPT-4V can analyze both text and images in the same conversation",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1533,8 +1533,8 @@
       "definition": "在提示词中提供少量示例（2-10 个）来引导模型完成特定格式或任务的技术",
       "example": "Providing 3 input-output pairs in the prompt to demonstrate the desired format",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1557,8 +1557,8 @@
       "definition": "让 AI 交替进行推理（Reasoning）和工具调用（Acting），用于构建复杂任务智能体",
       "example": "Thought: I need to search → Action: search('query') → Observation: result",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -1569,8 +1569,8 @@
       "definition": "LangChain 官方的 LLM 应用调试和监控平台，可追踪每次 LLM 调用的输入输出",
       "example": "LANGCHAIN_TRACING_V2=true  # 启用后所有 chain 调用自动记录",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1605,8 +1605,8 @@
       "definition": "Transformer 模型的核心，让模型在处理每个 token 时动态关注最相关的部分",
       "example": "Self-attention allows 'bank' to attend to 'river' or 'money' based on context",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2277,8 +2277,8 @@
       "definition": "告知演奏者延长音符或休止符时值（超过正常时值）的记号，时长由演奏者判断",
       "example": "Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2289,8 +2289,8 @@
       "definition": "乐曲结束前的收尾段落，通常从主体旋律中独立出来，以强烈的结束感收束",
       "example": "The coda begins at measure 120 after the D.S. al Coda marking",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2337,8 +2337,8 @@
       "definition": "乐曲从一个调性过渡到另一个调性的技术，为音乐增加色彩变化和情绪张力",
       "example": "The chorus modulates from C major to E major for an uplifting effect",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2349,8 +2349,8 @@
       "definition": "弦乐器演奏技术：用手指拨弦而非用琴弓拉奏，音色短促、颗粒感强",
       "example": "Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture",
       "difficulty": 4,
-      "next_review": "2026-08-12",
-      "review_count": 3,
+      "next_review": "2026-08-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2505,8 +2505,8 @@
       "definition": "告知他人自己因某个阻碍无法推进当前任务，需要帮助或等待解除阻塞",
       "example": "I'm blocked on the payment module until the API keys are provided.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2517,8 +2517,8 @@
       "definition": "询问某项工作的预计完成时间（Estimated Time of Arrival，借用航运术语）",
       "example": "The client just asked for an update. What's the ETA on the bug fix?",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2541,8 +2541,8 @@
       "definition": "用于在总结时表示接下来要简洁地表达复杂内容",
       "example": "In a nutshell, we need to redesign the auth flow to reduce dropout by 30%.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 5,
+      "next_review": "2026-11-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3381,8 +3381,8 @@
       "definition": "饮水器具",
       "example": "This is a cup.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3393,8 +3393,8 @@
       "definition": "透明杯子",
       "example": "I have a glass.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3405,8 +3405,8 @@
       "definition": "餐具",
       "example": "The bowl is important.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3417,8 +3417,8 @@
       "definition": "餐具",
       "example": "I have a plate.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3429,8 +3429,8 @@
       "definition": "餐具",
       "example": "I have a fork.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3441,8 +3441,8 @@
       "definition": "餐具",
       "example": "This is a spoon.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3453,8 +3453,8 @@
       "definition": "切割工具",
       "example": "The knife is important.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3465,8 +3465,8 @@
       "definition": "东方餐具",
       "example": "A chopsticks can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3477,8 +3477,8 @@
       "definition": "擦拭用品",
       "example": "A napkin can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3489,8 +3489,8 @@
       "definition": "亲属群体",
       "example": "I have a family.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 2,
+      "next_review": "2026-08-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3741,8 +3741,8 @@
       "definition": "好友",
       "example": "The friend is important.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3753,8 +3753,8 @@
       "definition": "同班同学",
       "example": "The classmate is important.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3765,8 +3765,8 @@
       "definition": "教育者",
       "example": "A teacher can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3777,8 +3777,8 @@
       "definition": "学习者",
       "example": "I have a student.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3789,8 +3789,8 @@
       "definition": "医疗工作者",
       "example": "This is a doctor.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3801,8 +3801,8 @@
       "definition": "护理工作者",
       "example": "This is a nurse.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3813,8 +3813,8 @@
       "definition": "执法人员",
       "example": "A police can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3825,8 +3825,8 @@
       "definition": "驾驶者",
       "example": "A driver can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3837,8 +3837,8 @@
       "definition": "农业工作者",
       "example": "This is a farmer.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3849,8 +3849,8 @@
       "definition": "劳动者",
       "example": "The worker is important.",
       "difficulty": 5,
-      "next_review": "2026-08-12",
-      "review_count": 1,
+      "next_review": "2026-08-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -3861,9 +3861,9 @@
       "definition": "烹饪者",
       "example": "This is a cook.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_089",
@@ -3873,9 +3873,9 @@
       "definition": "歌唱者",
       "example": "I have a singer.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_090",
@@ -3885,9 +3885,9 @@
       "definition": "舞蹈者",
       "example": "A dancer can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_091",
@@ -3897,9 +3897,9 @@
       "definition": "运动员",
       "example": "I have a player.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_092",
@@ -3909,9 +3909,9 @@
       "definition": "名人",
       "example": "The star is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_093",
@@ -3921,9 +3921,9 @@
       "definition": "英雄人物",
       "example": "I have a hero.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_094",
@@ -3933,9 +3933,9 @@
       "definition": "躯体",
       "example": "The body is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_095",
@@ -3945,9 +3945,9 @@
       "definition": "身体顶部",
       "example": "The head is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_096",
@@ -3957,9 +3957,9 @@
       "definition": "面部",
       "example": "I have a face.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_097",
@@ -3969,9 +3969,9 @@
       "definition": "视觉器官",
       "example": "A eye can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_098",
@@ -14529,8 +14529,8 @@
       "definition": "跳舞",
       "example": "This is dance.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14541,8 +14541,8 @@
       "definition": "音乐演出",
       "example": "The concert is important.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14553,8 +14553,8 @@
       "definition": "表演",
       "example": "I have a performance.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14565,8 +14565,8 @@
       "definition": "影片",
       "example": "This is a movie.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14577,8 +14577,8 @@
       "definition": "影片",
       "example": "The film is important.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14589,8 +14589,8 @@
       "definition": "录像",
       "example": "A video can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14601,8 +14601,8 @@
       "definition": "图像",
       "example": "I have a picture.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14613,8 +14613,8 @@
       "definition": "相片",
       "example": "A photo can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14625,8 +14625,8 @@
       "definition": "照片",
       "example": "This is a photograph.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -14637,8 +14637,8 @@
       "definition": "摄影机",
       "example": "This is a camera.",
       "difficulty": 2,
-      "next_review": "2026-08-12",
-      "review_count": 4,
+      "next_review": "2026-09-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
