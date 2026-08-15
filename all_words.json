@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-14",
+  "generated": "2026-08-15",
   "words": [
     {
       "id": "ai_001",
@@ -465,8 +465,8 @@
       "definition": "将子元素的事件监听绑定到父元素，利用事件冒泡减少监听器数量",
       "example": "list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -477,8 +477,8 @@
       "definition": "内层函数能访问并记住外层函数作用域变量的特性，即使外层已执行完毕",
       "example": "function counter() { let n=0; return () => ++n }  // returned fn is a closure",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -489,8 +489,8 @@
       "definition": "代表未来某个异步操作结果的对象，状态只能从 pending 变为 fulfilled 或 rejected",
       "example": "fetch('/api').then(r => r.json()).catch(err => console.error(err))",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -501,8 +501,8 @@
       "definition": "限制函数在连续触发时只在最后一次停止后才执行，常用于搜索输入",
       "example": "const search = debounce(query => api.search(query), 300)",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2217,8 +2217,8 @@
       "definition": "由全-半-全-全-半-全-全音程排列的七声音阶，听起来忧郁、深沉",
       "example": "A minor: A B C D E F G A  (natural minor, relative to C major)",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2241,8 +2241,8 @@
       "definition": "由五个音符构成的音阶，在流行、蓝调、中国传统音乐中广泛使用",
       "example": "C major pentatonic: C D E G A  (remove 4th and 7th from major scale)",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2253,8 +2253,8 @@
       "definition": "演奏或演唱时音高快速微小的周期性波动，增加音符的表现力和温暖感",
       "example": "Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2265,8 +2265,8 @@
       "definition": "音乐中音量强弱的变化，从最弱（ppp）到最强（fff），是表达情感的重要手段",
       "example": "mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2373,8 +2373,8 @@
       "definition": "使不同乐器或声音听起来不同的音质特征，即使音高相同也各有其独特的声音质地",
       "example": "A violin and flute playing the same A4 note sound different due to their timbre",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2421,8 +2421,8 @@
       "definition": "和弦音符不同时发音、而是按顺序一个个弹奏，像竖琴拨弦的效果",
       "example": "Roll the chord from bottom to top—play it as an arpeggio, not a block chord",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 4,
+      "next_review": "2026-09-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2757,8 +2757,8 @@
       "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
       "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2781,8 +2781,8 @@
       "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
       "example": "Nobody is driving the API documentation. I'll take ownership of this.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2805,8 +2805,8 @@
       "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
       "example": "The migration plan looks rushed. This needs more thought before we commit.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2901,8 +2901,8 @@
       "definition": "主食",
       "example": "The bread is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2913,8 +2913,8 @@
       "definition": "亚洲主食",
       "example": "I have a rice.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2925,8 +2925,8 @@
       "definition": "长条状食物",
       "example": "This is a noodle.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2937,8 +2937,8 @@
       "definition": "白色饮料",
       "example": "The milk is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2949,8 +2949,8 @@
       "definition": "常见食材",
       "example": "This is a egg.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2961,8 +2961,8 @@
       "definition": "食物总称",
       "example": "This is a meat.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2973,8 +2973,8 @@
       "definition": "常见肉类",
       "example": "This is a chicken.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2985,8 +2985,8 @@
       "definition": "水产",
       "example": "I have a fish.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -2997,8 +2997,8 @@
       "definition": "红色肉类",
       "example": "I have a beef.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3009,8 +3009,8 @@
       "definition": "常见肉类",
       "example": "This is a pork.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 3,
+      "next_review": "2026-08-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3741,8 +3741,8 @@
       "definition": "好友",
       "example": "The friend is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3753,8 +3753,8 @@
       "definition": "同班同学",
       "example": "The classmate is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3765,8 +3765,8 @@
       "definition": "教育者",
       "example": "A teacher can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3777,8 +3777,8 @@
       "definition": "学习者",
       "example": "I have a student.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3789,8 +3789,8 @@
       "definition": "医疗工作者",
       "example": "This is a doctor.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3801,8 +3801,8 @@
       "definition": "护理工作者",
       "example": "This is a nurse.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3813,8 +3813,8 @@
       "definition": "执法人员",
       "example": "A police can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3825,8 +3825,8 @@
       "definition": "驾驶者",
       "example": "A driver can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3837,8 +3837,8 @@
       "definition": "农业工作者",
       "example": "This is a farmer.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -3849,8 +3849,8 @@
       "definition": "劳动者",
       "example": "The worker is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 2,
+      "next_review": "2026-08-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4101,8 +4101,8 @@
       "definition": "手部分支",
       "example": "The finger is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4113,8 +4113,8 @@
       "definition": "第一指",
       "example": "A thumb can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4125,8 +4125,8 @@
       "definition": "躯干上部",
       "example": "A chest can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4137,8 +4137,8 @@
       "definition": "躯干后部",
       "example": "This is a back.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4149,8 +4149,8 @@
       "definition": "消化器官",
       "example": "This is a stomach.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4161,8 +4161,8 @@
       "definition": "下肢",
       "example": "The leg is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4173,8 +4173,8 @@
       "definition": "腿部关节",
       "example": "A knee can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4185,8 +4185,8 @@
       "definition": "下肢末端",
       "example": "The foot is important.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4197,8 +4197,8 @@
       "definition": "足部分支",
       "example": "A toe can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4209,8 +4209,8 @@
       "definition": "身体表层",
       "example": "A skin can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-15",
-      "review_count": 1,
+      "next_review": "2026-08-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4221,9 +4221,9 @@
       "definition": "体液",
       "example": "The blood is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_119",
@@ -4233,9 +4233,9 @@
       "definition": "循环器官",
       "example": "The heart is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_120",
@@ -4245,9 +4245,9 @@
       "definition": "思维器官",
       "example": "I have a brain.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_121",
@@ -4257,9 +4257,9 @@
       "definition": "服装总称",
       "example": "I have a clothes.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_122",
@@ -4269,9 +4269,9 @@
       "definition": "上装",
       "example": "A shirt can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_123",
@@ -4281,9 +4281,9 @@
       "definition": "短袖上衣",
       "example": "This is a T-shirt.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_124",
@@ -4293,9 +4293,9 @@
       "definition": "外衣",
       "example": "A coat can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_125",
@@ -4305,9 +4305,9 @@
       "definition": "短外套",
       "example": "I have a jacket.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_126",
@@ -4317,9 +4317,9 @@
       "definition": "女装",
       "example": "This is a dress.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_127",
@@ -4329,9 +4329,9 @@
       "definition": "女装下装",
       "example": "A skirt can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-16",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_128",
@@ -11289,8 +11289,8 @@
       "definition": "学识",
       "example": "A knowledge can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11301,8 +11301,8 @@
       "definition": "消息",
       "example": "The information is important.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11313,8 +11313,8 @@
       "definition": "消息",
       "example": "The news is important.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11325,8 +11325,8 @@
       "definition": "讯息",
       "example": "The message is important.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11337,8 +11337,8 @@
       "definition": "叙述",
       "example": "A story can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11349,8 +11349,8 @@
       "definition": "故事",
       "example": "The tale is important.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11361,8 +11361,8 @@
       "definition": "传说",
       "example": "I have a legend.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11373,8 +11373,8 @@
       "definition": "过去事件",
       "example": "A history can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11385,8 +11385,8 @@
       "definition": "真实",
       "example": "I have a fact.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11397,8 +11397,8 @@
       "definition": "真实",
       "example": "The truth is important.",
       "difficulty": 2,
-      "next_review": "2026-08-15",
-      "review_count": 5,
+      "next_review": "2026-11-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
