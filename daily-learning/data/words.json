@@ -511,8 +511,8 @@
     "definition": "限制函数在固定时间间隔内最多执行一次，常用于滚动/窗口 resize",
     "example": "window.addEventListener('scroll', throttle(handleScroll, 100))",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -523,8 +523,8 @@
     "definition": "按需加载资源（图片、组件、路由等），而非页面初始化时全部加载",
     "example": "const UserProfile = defineAsyncComponent(() => import('./UserProfile.vue'))",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -535,8 +535,8 @@
     "definition": "用户在屏幕上实际可见的网页区域，响应式设计的基准参照",
     "example": "<meta name='viewport' content='width=device-width, initial-scale=1'>",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -547,8 +547,8 @@
     "definition": "用有意义的标签（article/section/header）描述内容结构，而非全用 div",
     "example": "<article><h2>Title</h2><p>Content</p></article>  // vs <div><div>...",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -559,8 +559,8 @@
     "definition": "确保网页对所有用户（包括残障人士）可用的设计实践，简称 a11y",
     "example": "<button aria-label='Close dialog'>×</button>  // screen reader can read it",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1111,8 +1111,8 @@
     "definition": "在讨论其他内容后返回到之前未解决的话题",
     "example": "We got sidetracked. Let's circle back to the deployment timeline.",
     "difficulty": 3,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1123,8 +1123,8 @@
     "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
     "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
     "difficulty": 3,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1135,8 +1135,8 @@
     "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
     "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
     "difficulty": 3,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1651,8 +1651,8 @@
     "definition": "Vue 3 中将对象/数组转为深层响应式的函数，无需 .value 访问",
     "example": "const state = reactive({ count: 0, user: { name: 'Alice' } })\nstate.count++",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1663,8 +1663,8 @@
     "definition": "Vue 3 中基于其他响应式数据派生的只读属性，自动追踪依赖并缓存结果",
     "example": "const doubled = computed(() => count.value * 2)",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1675,8 +1675,8 @@
     "definition": "Vue 3 中监听特定响应式数据变化并执行副作用的 API",
     "example": "watch(count, (newVal, oldVal) => { console.log(`${oldVal} → ${newVal}`) })",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1699,8 +1699,8 @@
     "definition": "Vue 组件中供父组件注入内容的占位符，实现组件内容的灵活定制",
     "example": "<MyCard><template #title>Hello</template></MyCard>",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1723,8 +1723,8 @@
     "definition": "Vue 3 setup script 中声明组件接收的 props 及其类型约束的编译器宏",
     "example": "const props = defineProps<{ title: string; count?: number }>()",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 4,
+    "next_review": "2026-09-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3019,8 +3019,8 @@
     "definition": "甜点",
     "example": "The cake is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3031,8 +3031,8 @@
     "definition": "零食",
     "example": "This is a cookie.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3043,8 +3043,8 @@
     "definition": "甜食",
     "example": "I have a chocolate.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3055,8 +3055,8 @@
     "definition": "甜食",
     "example": "This is a candy.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3067,8 +3067,8 @@
     "definition": "调味品",
     "example": "A sugar can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3079,8 +3079,8 @@
     "definition": "调味品",
     "example": "A salt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3091,8 +3091,8 @@
     "definition": "生命必需",
     "example": "A water can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3103,8 +3103,8 @@
     "definition": "饮料",
     "example": "The juice is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3115,8 +3115,8 @@
     "definition": "饮品",
     "example": "The tea is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3127,8 +3127,8 @@
     "definition": "提神饮品",
     "example": "A coffee can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 3,
+    "next_review": "2026-08-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3859,8 +3859,8 @@
     "definition": "烹饪者",
     "example": "This is a cook.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3871,8 +3871,8 @@
     "definition": "歌唱者",
     "example": "I have a singer.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3883,8 +3883,8 @@
     "definition": "舞蹈者",
     "example": "A dancer can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3895,8 +3895,8 @@
     "definition": "运动员",
     "example": "I have a player.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3907,8 +3907,8 @@
     "definition": "名人",
     "example": "The star is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3919,8 +3919,8 @@
     "definition": "英雄人物",
     "example": "I have a hero.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3931,8 +3931,8 @@
     "definition": "躯体",
     "example": "The body is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3943,8 +3943,8 @@
     "definition": "身体顶部",
     "example": "The head is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3955,8 +3955,8 @@
     "definition": "面部",
     "example": "I have a face.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -3967,8 +3967,8 @@
     "definition": "视觉器官",
     "example": "A eye can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 2,
+    "next_review": "2026-08-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4219,8 +4219,8 @@
     "definition": "体液",
     "example": "The blood is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4231,8 +4231,8 @@
     "definition": "循环器官",
     "example": "The heart is important.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4243,8 +4243,8 @@
     "definition": "思维器官",
     "example": "I have a brain.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4255,8 +4255,8 @@
     "definition": "服装总称",
     "example": "I have a clothes.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4267,8 +4267,8 @@
     "definition": "上装",
     "example": "A shirt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4279,8 +4279,8 @@
     "definition": "短袖上衣",
     "example": "This is a T-shirt.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4291,8 +4291,8 @@
     "definition": "外衣",
     "example": "A coat can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4303,8 +4303,8 @@
     "definition": "短外套",
     "example": "I have a jacket.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4315,8 +4315,8 @@
     "definition": "女装",
     "example": "This is a dress.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4327,8 +4327,8 @@
     "definition": "女装下装",
     "example": "A skirt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-16",
-    "review_count": 1,
+    "next_review": "2026-08-19",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4339,9 +4339,9 @@
     "definition": "下装",
     "example": "I have a pants.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_129",
@@ -4351,9 +4351,9 @@
     "definition": "蓝色长裤",
     "example": "The jeans is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_130",
@@ -4363,9 +4363,9 @@
     "definition": "短下装",
     "example": "The shorts is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_131",
@@ -4375,9 +4375,9 @@
     "definition": "足部服装",
     "example": "This is a shoes.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_132",
@@ -4387,9 +4387,9 @@
     "definition": "足部用品",
     "example": "I have a sock.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_133",
@@ -4399,9 +4399,9 @@
     "definition": "头部服装",
     "example": "This is a hat.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_134",
@@ -4411,9 +4411,9 @@
     "definition": "有帽檐帽子",
     "example": "I have a cap.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_135",
@@ -4423,9 +4423,9 @@
     "definition": "手部服装",
     "example": "This is a glove.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_136",
@@ -4435,9 +4435,9 @@
     "definition": "颈部用品",
     "example": "The scarf is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_137",
@@ -4447,9 +4447,9 @@
     "definition": "腰部用品",
     "example": "A belt can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-17",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_138",
@@ -11407,8 +11407,8 @@
     "definition": "隐藏",
     "example": "This is a secret.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11419,8 +11419,8 @@
     "definition": "未知",
     "example": "The mystery is important.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11431,8 +11431,8 @@
     "definition": "难题",
     "example": "The puzzle is important.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11443,8 +11443,8 @@
     "definition": "谜题",
     "example": "This is a riddle.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11455,8 +11455,8 @@
     "definition": "难题",
     "example": "The problem is important.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11467,8 +11467,8 @@
     "definition": "解答",
     "example": "This is a solution.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11479,8 +11479,8 @@
     "definition": "outcome",
     "example": "A result can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11491,8 +11491,8 @@
     "definition": "理由",
     "example": "This is a reason.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11503,8 +11503,8 @@
     "definition": "导致",
     "example": "A cause can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11515,8 +11515,8 @@
     "definition": "影响",
     "example": "I have a effect.",
     "difficulty": 2,
-    "next_review": "2026-08-16",
-    "review_count": 5,
+    "next_review": "2026-11-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
