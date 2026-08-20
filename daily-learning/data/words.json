@@ -1195,8 +1195,8 @@
     "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
     "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
     "difficulty": 4,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1207,8 +1207,8 @@
     "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
     "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
     "difficulty": 4,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1219,8 +1219,8 @@
     "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
     "example": "This is getting detailed. Let's table this for now and take it offline.",
     "difficulty": 4,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1339,8 +1339,8 @@
     "definition": "LangGraph 的核心数据结构，定义节点（操作）和边（流转路径）构成的有向图",
     "example": "graph = StateGraph(State)\ngraph.add_node('research', research_node)\ngraph.add_edge('research', 'write')",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1351,8 +1351,8 @@
     "definition": "LangGraph 在每个节点执行后保存的完整状态快照，用于断点续跑和人工干预",
     "example": "memory = MemorySaver()\ngraph = builder.compile(checkpointer=memory)",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1363,8 +1363,8 @@
     "definition": "在 AI 工作流中设置人工审核节点，让人类在关键决策点审批或修正",
     "example": "graph.compile(interrupt_before=['sensitive_action'])",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1375,8 +1375,8 @@
     "definition": "多个专职 AI 智能体协同工作，分别负责不同子任务（如研究员 + 写手 + 审稿人）",
     "example": "supervisor → researcher → writer → reviewer",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1459,8 +1459,8 @@
     "definition": "衡量两个向量方向接近程度的指标（-1 到 1），向量数据库检索的核心算法",
     "example": "similarity = dot(a, b) / (norm(a) * norm(b))",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1495,8 +1495,8 @@
     "definition": "将模型权重从高精度浮点数压缩为低精度整数，减少内存占用和推理延迟",
     "example": "llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1519,8 +1519,8 @@
     "definition": "无需针对性训练示例，直接让模型执行从未见过的任务的能力",
     "example": "GPT-4 can classify sentiment zero-shot by just describing the task in the prompt",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1543,8 +1543,8 @@
     "definition": "让模型在给出最终答案前显式写出中间推理步骤，显著提升复杂问题的准确率",
     "example": "Let's think step by step: first calculate X, then Y, therefore Z.",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1579,8 +1579,8 @@
     "definition": "防止 AI 输出有害内容或越界行为的安全机制，包括输入过滤和输出校验",
     "example": "Input guardrail blocks prompt injection; output guardrail checks for PII",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1615,8 +1615,8 @@
     "definition": "LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的性能",
     "example": "This deployment achieves 200 tokens/sec throughput on A100 GPU",
     "difficulty": 3,
-    "next_review": "2026-08-20",
-    "review_count": 4,
+    "next_review": "2026-09-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3499,8 +3499,8 @@
     "definition": "爸爸",
     "example": "This is a father.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3511,8 +3511,8 @@
     "definition": "妈妈",
     "example": "This is a mother.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3523,8 +3523,8 @@
     "definition": "双亲",
     "example": "I have a parent.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3535,8 +3535,8 @@
     "definition": "哥哥弟弟",
     "example": "A brother can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3547,8 +3547,8 @@
     "definition": "姐姐妹妹",
     "example": "A sister can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3559,8 +3559,8 @@
     "definition": "男性孩子",
     "example": "I have a son.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3571,8 +3571,8 @@
     "definition": "女性孩子",
     "example": "The daughter is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3583,8 +3583,8 @@
     "definition": "儿童",
     "example": "The child is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3595,8 +3595,8 @@
     "definition": "幼童",
     "example": "This is a baby.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3607,8 +3607,8 @@
     "definition": "男性儿童",
     "example": "I have a boy.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 3,
+    "next_review": "2026-09-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4339,8 +4339,8 @@
     "definition": "下装",
     "example": "I have a pants.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4351,8 +4351,8 @@
     "definition": "蓝色长裤",
     "example": "The jeans is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4363,8 +4363,8 @@
     "definition": "短下装",
     "example": "The shorts is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4375,8 +4375,8 @@
     "definition": "足部服装",
     "example": "This is a shoes.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4387,8 +4387,8 @@
     "definition": "足部用品",
     "example": "I have a sock.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4399,8 +4399,8 @@
     "definition": "头部服装",
     "example": "This is a hat.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4411,8 +4411,8 @@
     "definition": "有帽檐帽子",
     "example": "I have a cap.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4423,8 +4423,8 @@
     "definition": "手部服装",
     "example": "This is a glove.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4435,8 +4435,8 @@
     "definition": "颈部用品",
     "example": "The scarf is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4447,8 +4447,8 @@
     "definition": "腰部用品",
     "example": "A belt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 2,
+    "next_review": "2026-08-27",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4699,8 +4699,8 @@
     "definition": "坐具",
     "example": "I have a chair.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4711,8 +4711,8 @@
     "definition": "软座椅",
     "example": "The sofa is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4723,8 +4723,8 @@
     "definition": "藏书家具",
     "example": "This is a bookshelf.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4735,8 +4735,8 @@
     "definition": "照明器具",
     "example": "A lamp can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4747,8 +4747,8 @@
     "definition": "计时器具",
     "example": "I have a clock.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4759,8 +4759,8 @@
     "definition": "反射器具",
     "example": "A mirror can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4771,8 +4771,8 @@
     "definition": "地面装饰",
     "example": "A rug can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4783,8 +4783,8 @@
     "definition": "遮光装饰",
     "example": "This is a curtain.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4795,8 +4795,8 @@
     "definition": "保暖用品",
     "example": "I have a blanket.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4807,8 +4807,8 @@
     "definition": "睡眠支撑",
     "example": "The pillow is important.",
     "difficulty": 5,
-    "next_review": "2026-08-20",
-    "review_count": 1,
+    "next_review": "2026-08-23",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4819,9 +4819,9 @@
     "definition": "教育场所",
     "example": "A school can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_169",
@@ -4831,9 +4831,9 @@
     "definition": "学习房间",
     "example": "A classroom can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_170",
@@ -4843,9 +4843,9 @@
     "definition": "藏书场所",
     "example": "The library is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_171",
@@ -4855,9 +4855,9 @@
     "definition": "运动场所",
     "example": "The playground is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_172",
@@ -4867,9 +4867,9 @@
     "definition": "工作房间",
     "example": "The office is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_173",
@@ -4879,9 +4879,9 @@
     "definition": "教学板",
     "example": "The blackboard is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_174",
@@ -4891,9 +4891,9 @@
     "definition": "书写工具",
     "example": "I have a chalk.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_175",
@@ -4903,9 +4903,9 @@
     "definition": "阅读材料",
     "example": "I have a book.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_176",
@@ -4915,9 +4915,9 @@
     "definition": "书写工具",
     "example": "This is a pen.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_177",
@@ -4927,9 +4927,9 @@
     "definition": "绘画工具",
     "example": "I have a pencil.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-21",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_178",
@@ -11887,8 +11887,8 @@
     "definition": "满足",
     "example": "Can you satisfy?",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11899,8 +11899,8 @@
     "definition": "失望",
     "example": "Let's disappoint together.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11911,8 +11911,8 @@
     "definition": "烦恼",
     "example": "This is upset.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11923,8 +11923,8 @@
     "definition": "抚慰",
     "example": "You should comfort it.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11935,8 +11935,8 @@
     "definition": "激励",
     "example": "I encourage every day.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11947,8 +11947,8 @@
     "definition": "鼓舞",
     "example": "You should inspire it.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11959,8 +11959,8 @@
     "definition": "驱动",
     "example": "I motivate every day.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11971,8 +11971,8 @@
     "definition": "劝服",
     "example": "Can you persuade?",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11983,8 +11983,8 @@
     "definition": "说服",
     "example": "You should convince it.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11995,8 +11995,8 @@
     "definition": "相信",
     "example": "You should trust it.",
     "difficulty": 2,
-    "next_review": "2026-08-20",
-    "review_count": 5,
+    "next_review": "2026-11-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
