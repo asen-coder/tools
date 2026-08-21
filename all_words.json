@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-20",
+  "generated": "2026-08-21",
   "words": [
     {
       "id": "ai_001",
@@ -849,8 +849,8 @@
       "definition": "将和弦各音依次单独弹奏而非同时发声，常用于钢琴和吉他",
       "example": "Playing C-E-G one by one upward is a C major arpeggio",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -861,8 +861,8 @@
       "definition": "短促分离地弹奏每个音符，在音符上方或下方标记小圆点",
       "example": "Staccato notes sound like light, bouncy raindrops",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -873,8 +873,8 @@
       "definition": "音符之间流畅连贯地演奏，没有间断，用弧线（连线）标记",
       "example": "Legato playing sounds smooth like flowing water",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -885,8 +885,8 @@
       "definition": "将重音放在通常较弱的拍点上，造成节奏错位感，爵士乐大量使用",
       "example": "Most pop and jazz music uses syncopation for a groove feel",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -897,8 +897,8 @@
       "definition": "音量逐渐增大的演奏方式，用 < 符号或 cresc. 标记",
       "example": "The orchestra played a crescendo leading to the climax",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -909,8 +909,8 @@
       "definition": "演奏时实时创作而非演奏预先写好的乐谱，爵士乐的灵魂",
       "example": "Jazz musicians improvise solos over chord progressions",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -969,8 +969,8 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -981,8 +981,8 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1629,8 +1629,8 @@
       "definition": "确保 AI 输出基于真实可验证的信息，而非凭空生成，通常通过 RAG 或工具调用实现",
       "example": "Grounding the chatbot with a product database ensures it only mentions real products",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2169,8 +2169,8 @@
       "definition": "多个和弦按特定顺序排列形成的音乐骨架，决定歌曲的情感走向",
       "example": "I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2181,8 +2181,8 @@
       "definition": "乐谱开头标明每小节拍数和基准音符时值的记号，如 4/4 表示每小节四个四分音符",
       "example": "4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2193,8 +2193,8 @@
       "definition": "五线谱开头标明升降号的记号，决定乐曲所在的调式（大调或小调）",
       "example": "Two sharps (F# and C#) indicates D major or B minor key",
       "difficulty": 3,
-      "next_review": "2026-08-21",
-      "review_count": 4,
+      "next_review": "2026-09-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2661,8 +2661,8 @@
       "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
       "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
       "difficulty": 4,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3621,8 +3621,8 @@
       "definition": "女性儿童",
       "example": "The girl is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3633,8 +3633,8 @@
       "definition": "成年男性",
       "example": "The man is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3645,8 +3645,8 @@
       "definition": "成年女性",
       "example": "I have a woman.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3657,8 +3657,8 @@
       "definition": "爷爷外公",
       "example": "This is a grandfather.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3669,8 +3669,8 @@
       "definition": "奶奶外婆",
       "example": "This is a grandmother.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3681,8 +3681,8 @@
       "definition": "祖父昵称",
       "example": "The grandpa is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3693,8 +3693,8 @@
       "definition": "祖母昵称",
       "example": "A grandma can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3705,8 +3705,8 @@
       "definition": "父辈男性",
       "example": "The uncle is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3717,8 +3717,8 @@
       "definition": "母辈女性",
       "example": "This is a aunt.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -3729,8 +3729,8 @@
       "definition": "姑姨子女",
       "example": "I have a cousin.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 3,
+      "next_review": "2026-09-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4461,8 +4461,8 @@
       "definition": "携带容器",
       "example": "This is a bag.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4473,8 +4473,8 @@
       "definition": "女性钱包",
       "example": "A purse can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4485,8 +4485,8 @@
       "definition": "男性钱包",
       "example": "I have a wallet.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4497,8 +4497,8 @@
       "definition": "手指饰品",
       "example": "This is a ring.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4509,8 +4509,8 @@
       "definition": "视力矫正",
       "example": "This is a glasses.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4521,8 +4521,8 @@
       "definition": "居住建筑",
       "example": "The house is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4533,8 +4533,8 @@
       "definition": "居住地",
       "example": "This is a home.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4545,8 +4545,8 @@
       "definition": "室内空间",
       "example": "The room is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4557,8 +4557,8 @@
       "definition": "睡眠房间",
       "example": "A bedroom can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4569,8 +4569,8 @@
       "definition": "活动房间",
       "example": "The living room is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 2,
+      "next_review": "2026-08-28",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -4821,8 +4821,8 @@
       "definition": "教育场所",
       "example": "A school can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4833,8 +4833,8 @@
       "definition": "学习房间",
       "example": "A classroom can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4845,8 +4845,8 @@
       "definition": "藏书场所",
       "example": "The library is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4857,8 +4857,8 @@
       "definition": "运动场所",
       "example": "The playground is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4869,8 +4869,8 @@
       "definition": "工作房间",
       "example": "The office is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4881,8 +4881,8 @@
       "definition": "教学板",
       "example": "The blackboard is important.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4893,8 +4893,8 @@
       "definition": "书写工具",
       "example": "I have a chalk.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4905,8 +4905,8 @@
       "definition": "阅读材料",
       "example": "I have a book.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4917,8 +4917,8 @@
       "definition": "书写工具",
       "example": "This is a pen.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4929,8 +4929,8 @@
       "definition": "绘画工具",
       "example": "I have a pencil.",
       "difficulty": 5,
-      "next_review": "2026-08-21",
-      "review_count": 1,
+      "next_review": "2026-08-24",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4941,9 +4941,9 @@
       "definition": "修改工具",
       "example": "I have a eraser.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_179",
@@ -4953,9 +4953,9 @@
       "definition": "测量工具",
       "example": "I have a ruler.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_180",
@@ -4965,9 +4965,9 @@
       "definition": "记录本",
       "example": "I have a notebook.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_181",
@@ -4977,9 +4977,9 @@
       "definition": "携带用品",
       "example": "This is a backpack.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_182",
@@ -4989,9 +4989,9 @@
       "definition": "课后任务",
       "example": "A homework can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_183",
@@ -5001,9 +5001,9 @@
       "definition": "教学单元",
       "example": "The lesson is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_184",
@@ -5013,9 +5013,9 @@
       "definition": "学科",
       "example": "This is a subject.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_185",
@@ -5025,9 +5025,9 @@
       "definition": "计算学科",
       "example": "This is a math.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_186",
@@ -5037,9 +5037,9 @@
       "definition": "语言学科",
       "example": "I have a English.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_187",
@@ -5049,9 +5049,9 @@
       "definition": "语言学科",
       "example": "I have a Chinese.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-22",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_188",
@@ -12009,8 +12009,8 @@
       "definition": "质疑",
       "example": "Let's doubt together.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12021,8 +12021,8 @@
       "definition": "猜测",
       "example": "You should suspect it.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12033,8 +12033,8 @@
       "definition": "假定",
       "example": "You should assume it.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12045,8 +12045,8 @@
       "definition": "假定",
       "example": "Let's suppose together.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12057,8 +12057,8 @@
       "definition": "设想",
       "example": "I imagine every day.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12069,8 +12069,8 @@
       "definition": "明白",
       "example": "Can you realize?",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12081,8 +12081,8 @@
       "definition": "识别",
       "example": "You should recognize it.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12093,8 +12093,8 @@
       "definition": "觉察",
       "example": "Let's notice together.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12105,8 +12105,8 @@
       "definition": "观测",
       "example": "You should observe it.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12117,8 +12117,8 @@
       "definition": "找到",
       "example": "You should discover it.",
       "difficulty": 2,
-      "next_review": "2026-08-21",
-      "review_count": 5,
+      "next_review": "2026-11-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
