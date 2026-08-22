@@ -571,8 +571,8 @@
     "definition": "在客户端激活服务端渲染的静态 HTML，绑定事件使其具有交互能力",
     "example": "SSR renders HTML on server; hydration makes it interactive in browser",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -583,8 +583,8 @@
     "definition": "在服务器上生成完整 HTML 再发送给浏览器，首屏快、SEO 好",
     "example": "Nuxt.js/Next.js use SSR; initial page is rendered on the server",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -595,8 +595,8 @@
     "definition": "打包时自动移除未被引用的代码，减小最终 bundle 体积",
     "example": "import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -991,8 +991,8 @@
     "definition": "表达对对方意见的认可和肯定",
     "example": "That's a good point about performance. We should optimize the query.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1003,8 +1003,8 @@
     "definition": "表示与对方观点一致",
     "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1015,8 +1015,8 @@
     "definition": "邀请对方继续发言或开始做某件事",
     "example": "You wanted to share the test results? Please go ahead.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2227,8 +2227,8 @@
     "definition": "两个音符之间的音高距离，以度数（unison/third/fifth/octave）表示",
     "example": "C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2299,8 +2299,8 @@
     "definition": "指示演奏逐渐加快速度的术语，常缩写为 accel.",
     "example": "The piece builds tension with an accelerando before the climactic final chord",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2311,8 +2311,8 @@
     "definition": "指示演奏逐渐放慢速度的术语，常缩写为 rit. 或 ritard.",
     "example": "The conductor signals a ritardando for the ending phrase",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2323,8 +2323,8 @@
     "definition": "将一段音乐整体移高或降低固定音程，改变调性但保持旋律和声的内部关系不变",
     "example": "Transpose 'Happy Birthday' from C to G so it fits your vocal range",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2359,8 +2359,8 @@
     "definition": "将重音移至通常不强的拍子（如弱拍或拍的弱部），制造推拉感，是爵士和流行音乐的特征",
     "example": "The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2395,8 +2395,8 @@
     "definition": "指示音符要平滑连接、无明显间隔地演奏，与断奏（staccato）相对",
     "example": "Play this melody legato—like a singer breathing between phrases, not choppy",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2407,8 +2407,8 @@
     "definition": "指示音符要短促分离地演奏，每个音符之间有明显间隔，通常以小圆点标记",
     "example": "The staccato eighth notes in the opening give a playful, bouncy character",
     "difficulty": 3,
-    "next_review": "2026-08-22",
-    "review_count": 4,
+    "next_review": "2026-09-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3739,8 +3739,8 @@
     "definition": "好友",
     "example": "The friend is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3751,8 +3751,8 @@
     "definition": "同班同学",
     "example": "The classmate is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3763,8 +3763,8 @@
     "definition": "教育者",
     "example": "A teacher can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3775,8 +3775,8 @@
     "definition": "学习者",
     "example": "I have a student.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3787,8 +3787,8 @@
     "definition": "医疗工作者",
     "example": "This is a doctor.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3799,8 +3799,8 @@
     "definition": "护理工作者",
     "example": "This is a nurse.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3811,8 +3811,8 @@
     "definition": "执法人员",
     "example": "A police can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3823,8 +3823,8 @@
     "definition": "驾驶者",
     "example": "A driver can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3835,8 +3835,8 @@
     "definition": "农业工作者",
     "example": "This is a farmer.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3847,8 +3847,8 @@
     "definition": "劳动者",
     "example": "The worker is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 3,
+    "next_review": "2026-09-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4579,8 +4579,8 @@
     "definition": "洗浴房间",
     "example": "I have a bathroom.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4591,8 +4591,8 @@
     "definition": "卫生间",
     "example": "The toilet is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4603,8 +4603,8 @@
     "definition": "室内地面",
     "example": "The floor is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4615,8 +4615,8 @@
     "definition": "室内顶部",
     "example": "I have a ceiling.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4627,8 +4627,8 @@
     "definition": "分隔结构",
     "example": "The wall is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4639,8 +4639,8 @@
     "definition": "出入口",
     "example": "This is a door.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4651,8 +4651,8 @@
     "definition": "采光口",
     "example": "The window is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4663,8 +4663,8 @@
     "definition": "睡眠家具",
     "example": "I have a bed.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4675,8 +4675,8 @@
     "definition": "学习办公",
     "example": "I have a desk.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4687,8 +4687,8 @@
     "definition": "平面家具",
     "example": "This is a table.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 2,
+    "next_review": "2026-08-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4939,8 +4939,8 @@
     "definition": "修改工具",
     "example": "I have a eraser.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4951,8 +4951,8 @@
     "definition": "测量工具",
     "example": "I have a ruler.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4963,8 +4963,8 @@
     "definition": "记录本",
     "example": "I have a notebook.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4975,8 +4975,8 @@
     "definition": "携带用品",
     "example": "This is a backpack.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4987,8 +4987,8 @@
     "definition": "课后任务",
     "example": "A homework can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -4999,8 +4999,8 @@
     "definition": "教学单元",
     "example": "The lesson is important.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5011,8 +5011,8 @@
     "definition": "学科",
     "example": "This is a subject.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5023,8 +5023,8 @@
     "definition": "计算学科",
     "example": "This is a math.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5035,8 +5035,8 @@
     "definition": "语言学科",
     "example": "I have a English.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5047,8 +5047,8 @@
     "definition": "语言学科",
     "example": "I have a Chinese.",
     "difficulty": 5,
-    "next_review": "2026-08-22",
-    "review_count": 1,
+    "next_review": "2026-08-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5059,9 +5059,9 @@
     "definition": "自然学科",
     "example": "This is a science.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_189",
@@ -5071,9 +5071,9 @@
     "definition": "艺术学科",
     "example": "The art is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_190",
@@ -5083,9 +5083,9 @@
     "definition": "声音艺术",
     "example": "This is a music.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_191",
@@ -5095,9 +5095,9 @@
     "definition": "运动课程",
     "example": "This is a PE.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_192",
@@ -5107,9 +5107,9 @@
     "definition": "测试评估",
     "example": "The exam is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_193",
@@ -5119,9 +5119,9 @@
     "definition": "检验",
     "example": "A test can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_194",
@@ -5131,9 +5131,9 @@
     "definition": "年级或分数",
     "example": "This is a grade.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_195",
@@ -5143,9 +5143,9 @@
     "definition": "成绩",
     "example": "This is a score.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_196",
@@ -5155,9 +5155,9 @@
     "definition": "解答",
     "example": "This is a answer.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_197",
@@ -5167,9 +5167,9 @@
     "definition": "疑问",
     "example": "The question is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_198",
@@ -12127,8 +12127,8 @@
     "definition": "创造",
     "example": "Let's invent together.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12139,8 +12139,8 @@
     "definition": "创作",
     "example": "You should create it.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12151,8 +12151,8 @@
     "definition": "规划",
     "example": "You should design it.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12163,8 +12163,8 @@
     "definition": "制造",
     "example": "Can you produce?",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12175,8 +12175,8 @@
     "definition": "开发",
     "example": "Can you develop?",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12187,8 +12187,8 @@
     "definition": "改善",
     "example": "You should improve it.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12199,8 +12199,8 @@
     "definition": "增长",
     "example": "You should increase it.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12211,8 +12211,8 @@
     "definition": "降低",
     "example": "Let's decrease together.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12223,8 +12223,8 @@
     "definition": "提升",
     "example": "I raise every day.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12235,8 +12235,8 @@
     "definition": "减少",
     "example": "Let's lower together.",
     "difficulty": 2,
-    "next_review": "2026-08-22",
-    "review_count": 5,
+    "next_review": "2026-11-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
