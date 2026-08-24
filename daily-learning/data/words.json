@@ -1855,8 +1855,8 @@
     "definition": "将 JavaScript 按路由或特性拆分为多个 chunk，按需加载以提升首屏速度",
     "example": "const AdminPage = () => import('./AdminPage.vue')  // 懒加载",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1879,8 +1879,8 @@
     "definition": "服务器向客户端单向推送实时数据的轻量级协议，LLM 流式响应的常用实现方式",
     "example": "const es = new EventSource('/stream')\nes.onmessage = (e) => console.log(e.data)",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1927,8 +1927,8 @@
     "definition": "允许用户授权第三方应用访问其资源而无需暴露密码的标准授权框架",
     "example": "Sign in with Google → authorize → receive access token → call Google APIs",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1939,8 +1939,8 @@
     "definition": "多次执行相同操作产生与一次执行相同结果的特性，HTTP GET/PUT 应是幂等的",
     "example": "DELETE /users/123 called 5 times still results in user being deleted",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1951,8 +1951,8 @@
     "definition": "多个并发操作以不确定顺序执行，导致结果依赖时序而出现难以复现的 bug",
     "example": "Two requests both read count=5, both increment to 6, but expected result was 7",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1987,8 +1987,8 @@
     "definition": "缓存函数调用结果，当相同参数再次传入时直接返回缓存值而不重新计算",
     "example": "const result = useMemo(() => heavyCompute(n), [n])",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1999,8 +1999,8 @@
     "definition": "在内存中用 JavaScript 对象模拟真实 DOM 树，通过 diff 算法最小化实际 DOM 操作",
     "example": "React/Vue maintain a vDOM tree; only changed nodes get real DOM updates",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2047,8 +2047,8 @@
     "definition": "将组件所需的依赖从外部传入而非内部创建，提升可测试性和可替换性的设计原则",
     "example": "class Service { constructor(private db: Database) {} }  // db injected from outside",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2059,8 +2059,8 @@
     "definition": "对象状态变化时自动通知所有订阅者的设计模式，是事件系统和响应式框架的基础",
     "example": "eventEmitter.on('change', handler)  // handler observes emitter",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2071,8 +2071,8 @@
     "definition": "函数捕获其词法作用域中变量的特性，即使外部函数已返回，内部函数仍可访问这些变量",
     "example": "function counter() { let n = 0; return () => ++n }  // 返回的函数捕获了 n",
     "difficulty": 3,
-    "next_review": "2026-08-24",
-    "review_count": 4,
+    "next_review": "2026-09-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2635,8 +2635,8 @@
     "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
     "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2683,8 +2683,8 @@
     "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
     "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2695,8 +2695,8 @@
     "definition": "请求对方对某个观点或说法做更详细的解释",
     "example": "You mentioned scalability concerns—can you elaborate on that?",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -3979,8 +3979,8 @@
     "definition": "听觉器官",
     "example": "A ear can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -3991,8 +3991,8 @@
     "definition": "嗅觉器官",
     "example": "A nose can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4003,8 +4003,8 @@
     "definition": "说话进食",
     "example": "I have a mouth.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4015,8 +4015,8 @@
     "definition": "咀嚼器官",
     "example": "I have a tooth.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4027,8 +4027,8 @@
     "definition": "味觉器官",
     "example": "A tongue can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4039,8 +4039,8 @@
     "definition": "头部毛发",
     "example": "The hair is important.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4051,8 +4051,8 @@
     "definition": "头部与身体连接",
     "example": "I have a neck.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4063,8 +4063,8 @@
     "definition": "上肢连接处",
     "example": "I have a shoulder.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4075,8 +4075,8 @@
     "definition": "上肢",
     "example": "The arm is important.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4087,8 +4087,8 @@
     "definition": "上肢末端",
     "example": "I have a hand.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 3,
+    "next_review": "2026-09-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4819,8 +4819,8 @@
     "definition": "教育场所",
     "example": "A school can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4831,8 +4831,8 @@
     "definition": "学习房间",
     "example": "A classroom can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4843,8 +4843,8 @@
     "definition": "藏书场所",
     "example": "The library is important.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4855,8 +4855,8 @@
     "definition": "运动场所",
     "example": "The playground is important.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4867,8 +4867,8 @@
     "definition": "工作房间",
     "example": "The office is important.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4879,8 +4879,8 @@
     "definition": "教学板",
     "example": "The blackboard is important.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4891,8 +4891,8 @@
     "definition": "书写工具",
     "example": "I have a chalk.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4903,8 +4903,8 @@
     "definition": "阅读材料",
     "example": "I have a book.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4915,8 +4915,8 @@
     "definition": "书写工具",
     "example": "This is a pen.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -4927,8 +4927,8 @@
     "definition": "绘画工具",
     "example": "I have a pencil.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 2,
+    "next_review": "2026-08-31",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5179,8 +5179,8 @@
     "definition": "研习",
     "example": "Can you study?",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5191,8 +5191,8 @@
     "definition": "获得知识",
     "example": "Can you learn?",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5203,8 +5203,8 @@
     "definition": "传授知识",
     "example": "You should teach it.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5215,8 +5215,8 @@
     "definition": "看文字",
     "example": "You should read it.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5227,8 +5227,8 @@
     "definition": "文字表达",
     "example": "Let's write together.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5239,8 +5239,8 @@
     "definition": "图形表达",
     "example": "You should draw it.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5251,8 +5251,8 @@
     "definition": "计算数量",
     "example": "Can you count?",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5263,8 +5263,8 @@
     "definition": "思维",
     "example": "Can you think?",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5275,8 +5275,8 @@
     "definition": "领会",
     "example": "You should understand it.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5287,8 +5287,8 @@
     "definition": "记忆",
     "example": "You should remember it.",
     "difficulty": 5,
-    "next_review": "2026-08-24",
-    "review_count": 1,
+    "next_review": "2026-08-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5299,9 +5299,9 @@
     "definition": "遗忘",
     "example": "You should forget it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_209",
@@ -5311,9 +5311,9 @@
     "definition": "了解",
     "example": "You should know it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_210",
@@ -5323,9 +5323,9 @@
     "definition": "视觉属性",
     "example": "I have a color.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_211",
@@ -5335,9 +5335,9 @@
     "definition": "像血",
     "example": "This is red.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_212",
@@ -5347,9 +5347,9 @@
     "definition": "像天空",
     "example": "A blue {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_213",
@@ -5359,9 +5359,9 @@
     "definition": "像植物",
     "example": "This is green.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_214",
@@ -5371,9 +5371,9 @@
     "definition": "像太阳",
     "example": "This is yellow.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_215",
@@ -5383,9 +5383,9 @@
     "definition": "紫葡萄色",
     "example": "This is purple.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_216",
@@ -5395,9 +5395,9 @@
     "definition": "浅红色",
     "example": "It is very pink.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_217",
@@ -5407,9 +5407,9 @@
     "definition": "像大地",
     "example": "It is very brown.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_218",
@@ -12367,8 +12367,8 @@
     "definition": "达成",
     "example": "Let's achieve together.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12379,8 +12379,8 @@
     "definition": "实现",
     "example": "Let's accomplish together.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12391,8 +12391,8 @@
     "definition": "完整",
     "example": "You should complete it.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12403,8 +12403,8 @@
     "definition": "职业",
     "example": "This is a job.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12415,8 +12415,8 @@
     "definition": "事业",
     "example": "I have a career.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12427,8 +12427,8 @@
     "definition": "专业",
     "example": "The profession is important.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12439,8 +12439,8 @@
     "definition": "生意",
     "example": "A business can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12451,8 +12451,8 @@
     "definition": "企业",
     "example": "A company can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12463,8 +12463,8 @@
     "definition": "制造场所",
     "example": "A factory can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12475,8 +12475,8 @@
     "definition": "店铺",
     "example": "A shop can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-24",
-    "review_count": 5,
+    "next_review": "2026-11-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
