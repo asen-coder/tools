@@ -919,8 +919,8 @@
     "definition": "两条或多条独立旋律线同时演奏并在和声上形成协调关系的作曲技术",
     "example": "Bach's fugues are masterpieces of contrapuntal writing",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -931,8 +931,8 @@
     "definition": "在音乐作品中从一个调性转换到另一个调性的作曲技法",
     "example": "The song modulated from C major to E major for the final chorus",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -943,8 +943,8 @@
     "definition": "同时存在两种或多种不同节奏型的音乐手法，如 3 对 2 或 4 对 3",
     "example": "West African drumming often features complex polyrhythms",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -955,8 +955,8 @@
     "definition": "听起来紧张、不稳定、'需要解决'的音程或和弦组合",
     "example": "A tritone interval sounds tense and dissonant",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1555,8 +1555,8 @@
     "definition": "让 AI 交替进行推理（Reasoning）和工具调用（Acting），用于构建复杂任务智能体",
     "example": "Thought: I need to search → Action: search('query') → Observation: result",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1603,8 +1603,8 @@
     "definition": "Transformer 模型的核心，让模型在处理每个 token 时动态关注最相关的部分",
     "example": "Self-attention allows 'bank' to attend to 'river' or 'money' based on context",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2275,8 +2275,8 @@
     "definition": "告知演奏者延长音符或休止符时值（超过正常时值）的记号，时长由演奏者判断",
     "example": "Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2287,8 +2287,8 @@
     "definition": "乐曲结束前的收尾段落，通常从主体旋律中独立出来，以强烈的结束感收束",
     "example": "The coda begins at measure 120 after the D.S. al Coda marking",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2335,8 +2335,8 @@
     "definition": "乐曲从一个调性过渡到另一个调性的技术，为音乐增加色彩变化和情绪张力",
     "example": "The chorus modulates from C major to E major for an uplifting effect",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2347,8 +2347,8 @@
     "definition": "弦乐器演奏技术：用手指拨弦而非用琴弓拉奏，音色短促、颗粒感强",
     "example": "Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture",
     "difficulty": 4,
-    "next_review": "2026-08-26",
-    "review_count": 4,
+    "next_review": "2026-09-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4219,8 +4219,8 @@
     "definition": "体液",
     "example": "The blood is important.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4231,8 +4231,8 @@
     "definition": "循环器官",
     "example": "The heart is important.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4243,8 +4243,8 @@
     "definition": "思维器官",
     "example": "I have a brain.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4255,8 +4255,8 @@
     "definition": "服装总称",
     "example": "I have a clothes.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4267,8 +4267,8 @@
     "definition": "上装",
     "example": "A shirt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4279,8 +4279,8 @@
     "definition": "短袖上衣",
     "example": "This is a T-shirt.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4291,8 +4291,8 @@
     "definition": "外衣",
     "example": "A coat can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4303,8 +4303,8 @@
     "definition": "短外套",
     "example": "I have a jacket.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4315,8 +4315,8 @@
     "definition": "女装",
     "example": "This is a dress.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4327,8 +4327,8 @@
     "definition": "女装下装",
     "example": "A skirt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 3,
+    "next_review": "2026-09-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5059,8 +5059,8 @@
     "definition": "自然学科",
     "example": "This is a science.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5071,8 +5071,8 @@
     "definition": "艺术学科",
     "example": "The art is important.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5083,8 +5083,8 @@
     "definition": "声音艺术",
     "example": "This is a music.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5095,8 +5095,8 @@
     "definition": "运动课程",
     "example": "This is a PE.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5107,8 +5107,8 @@
     "definition": "测试评估",
     "example": "The exam is important.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5119,8 +5119,8 @@
     "definition": "检验",
     "example": "A test can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5131,8 +5131,8 @@
     "definition": "年级或分数",
     "example": "This is a grade.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5143,8 +5143,8 @@
     "definition": "成绩",
     "example": "This is a score.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5155,8 +5155,8 @@
     "definition": "解答",
     "example": "This is a answer.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5167,8 +5167,8 @@
     "definition": "疑问",
     "example": "The question is important.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 2,
+    "next_review": "2026-09-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5419,8 +5419,8 @@
     "definition": "像夜晚",
     "example": "This is black.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5431,8 +5431,8 @@
     "definition": "像雪",
     "example": "It is very white.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5443,8 +5443,8 @@
     "definition": "中性色",
     "example": "This is gray.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5455,8 +5455,8 @@
     "definition": "明亮",
     "example": "This is light.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5467,8 +5467,8 @@
     "definition": "暗淡",
     "example": "A dark {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5479,8 +5479,8 @@
     "definition": "圆的",
     "example": "A round {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5491,8 +5491,8 @@
     "definition": "方的",
     "example": "A square {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5503,8 +5503,8 @@
     "definition": "长度大",
     "example": "A long {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5515,8 +5515,8 @@
     "definition": "长度小",
     "example": "It is very short.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5527,8 +5527,8 @@
     "definition": "高度大",
     "example": "A tall {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-26",
-    "review_count": 1,
+    "next_review": "2026-08-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5539,9 +5539,9 @@
     "definition": "体积大",
     "example": "A big {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_229",
@@ -5551,9 +5551,9 @@
     "definition": "体积小",
     "example": "It is very small.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_230",
@@ -5563,9 +5563,9 @@
     "definition": "尺寸大",
     "example": "A large {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_231",
@@ -5575,9 +5575,9 @@
     "definition": "尺寸小",
     "example": "It is very little.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_232",
@@ -5587,9 +5587,9 @@
     "definition": "重量大",
     "example": "A heavy {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_233",
@@ -5599,9 +5599,9 @@
     "definition": "厚度大",
     "example": "A thick {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_234",
@@ -5611,9 +5611,9 @@
     "definition": "厚度小",
     "example": "This is thin.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_235",
@@ -5623,9 +5623,9 @@
     "definition": "宽度大",
     "example": "This is wide.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_236",
@@ -5635,9 +5635,9 @@
     "definition": "宽度小",
     "example": "A narrow {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_237",
@@ -5647,9 +5647,9 @@
     "definition": "生物",
     "example": "A animal can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_238",
@@ -12607,8 +12607,8 @@
     "definition": "访客",
     "example": "This is a guest.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12619,8 +12619,8 @@
     "definition": "消费者",
     "example": "This is a customer.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12631,8 +12631,8 @@
     "definition": "委托人",
     "example": "A client can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12643,8 +12643,8 @@
     "definition": "雇主",
     "example": "The boss is important.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12655,8 +12655,8 @@
     "definition": "管理者",
     "example": "I have a manager.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12667,8 +12667,8 @@
     "definition": "带头人",
     "example": "A leader can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12679,8 +12679,8 @@
     "definition": "雇员",
     "example": "A employee can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12691,8 +12691,8 @@
     "definition": "全体职员",
     "example": "A staff can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12703,8 +12703,8 @@
     "definition": "队伍",
     "example": "A team can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12715,8 +12715,8 @@
     "definition": "群体",
     "example": "The group is important.",
     "difficulty": 2,
-    "next_review": "2026-08-26",
-    "review_count": 5,
+    "next_review": "2026-11-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
