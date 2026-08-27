@@ -7,8 +7,8 @@
     "definition": "基于海量文本训练、能理解和生成自然语言的大型神经网络模型",
     "example": "from langchain_openai import ChatOpenAI\nllm = ChatOpenAI(model='gpt-4o')",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -19,8 +19,8 @@
     "definition": "发送给语言模型的输入文本，直接决定模型输出质量",
     "example": "prompt = 'Summarize the following text in one sentence: {text}'",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -31,8 +31,8 @@
     "definition": "LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字",
     "example": "'Hello world' is typically 2 tokens; pricing is per token",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -43,8 +43,8 @@
     "definition": "LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联",
     "example": "chain = prompt | llm | output_parser",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -655,8 +655,8 @@
     "definition": "在浏览器后台运行的脚本，可拦截网络请求实现离线缓存和推送通知",
     "example": "self.addEventListener('fetch', e => e.respondWith(caches.match(e.request)))",
     "difficulty": 4,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -667,8 +667,8 @@
     "definition": "将组件内部 DOM 封装成独立作用域，外部 CSS 无法穿透影响内部样式",
     "example": "Web Components use shadow DOM for style encapsulation",
     "difficulty": 4,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -679,8 +679,8 @@
     "definition": "将大型前端应用拆分成多个可独立开发、部署的小应用的架构模式",
     "example": "qiankun / Module Federation enable micro-frontend architectures",
     "difficulty": 4,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -691,8 +691,8 @@
     "definition": "渲染引擎能中断低优先级渲染去处理高优先级更新，保持 UI 响应",
     "example": "React 18's concurrent mode can pause rendering to handle user input first",
     "difficulty": 4,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2383,8 +2383,8 @@
     "definition": "在乐曲中反复出现的固定节奏或旋律模式，是流行歌曲和古典作品的常见结构基础",
     "example": "Pachelbel's Canon is built on a repeating bass ostinato of 8 notes",
     "difficulty": 4,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2431,8 +2431,8 @@
     "definition": "演奏时灵活调整节奏速度，不受节拍器约束，根据音乐表达需要自由加快或放慢",
     "example": "Chopin's nocturnes are meant to be played with rubato—feel the music, not the beat",
     "difficulty": 4,
-    "next_review": "2026-08-27",
-    "review_count": 4,
+    "next_review": "2026-09-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4339,8 +4339,8 @@
     "definition": "下装",
     "example": "I have a pants.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4351,8 +4351,8 @@
     "definition": "蓝色长裤",
     "example": "The jeans is important.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4363,8 +4363,8 @@
     "definition": "短下装",
     "example": "The shorts is important.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4375,8 +4375,8 @@
     "definition": "足部服装",
     "example": "This is a shoes.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4387,8 +4387,8 @@
     "definition": "足部用品",
     "example": "I have a sock.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4399,8 +4399,8 @@
     "definition": "头部服装",
     "example": "This is a hat.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4411,8 +4411,8 @@
     "definition": "有帽檐帽子",
     "example": "I have a cap.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4423,8 +4423,8 @@
     "definition": "手部服装",
     "example": "This is a glove.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4435,8 +4435,8 @@
     "definition": "颈部用品",
     "example": "The scarf is important.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4447,8 +4447,8 @@
     "definition": "腰部用品",
     "example": "A belt can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 3,
+    "next_review": "2026-09-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5179,8 +5179,8 @@
     "definition": "研习",
     "example": "Can you study?",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5191,8 +5191,8 @@
     "definition": "获得知识",
     "example": "Can you learn?",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5203,8 +5203,8 @@
     "definition": "传授知识",
     "example": "You should teach it.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5215,8 +5215,8 @@
     "definition": "看文字",
     "example": "You should read it.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5227,8 +5227,8 @@
     "definition": "文字表达",
     "example": "Let's write together.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5239,8 +5239,8 @@
     "definition": "图形表达",
     "example": "You should draw it.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5251,8 +5251,8 @@
     "definition": "计算数量",
     "example": "Can you count?",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5263,8 +5263,8 @@
     "definition": "思维",
     "example": "Can you think?",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5275,8 +5275,8 @@
     "definition": "领会",
     "example": "You should understand it.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5287,8 +5287,8 @@
     "definition": "记忆",
     "example": "You should remember it.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 2,
+    "next_review": "2026-09-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5539,8 +5539,8 @@
     "definition": "体积大",
     "example": "A big {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5551,8 +5551,8 @@
     "definition": "体积小",
     "example": "It is very small.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5563,8 +5563,8 @@
     "definition": "尺寸大",
     "example": "A large {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5575,8 +5575,8 @@
     "definition": "尺寸小",
     "example": "It is very little.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5587,8 +5587,8 @@
     "definition": "重量大",
     "example": "A heavy {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5599,8 +5599,8 @@
     "definition": "厚度大",
     "example": "A thick {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5611,8 +5611,8 @@
     "definition": "厚度小",
     "example": "This is thin.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5623,8 +5623,8 @@
     "definition": "宽度大",
     "example": "This is wide.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5635,8 +5635,8 @@
     "definition": "宽度小",
     "example": "A narrow {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5647,8 +5647,8 @@
     "definition": "生物",
     "example": "A animal can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-27",
-    "review_count": 1,
+    "next_review": "2026-08-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5659,9 +5659,9 @@
     "definition": "宠物",
     "example": "A dog can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_239",
@@ -5671,9 +5671,9 @@
     "definition": "宠物",
     "example": "I have a cat.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_240",
@@ -5683,9 +5683,9 @@
     "definition": "飞行动物",
     "example": "I have a bird.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_241",
@@ -5695,9 +5695,9 @@
     "definition": "小动物",
     "example": "I have a rabbit.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_242",
@@ -5707,9 +5707,9 @@
     "definition": "水禽",
     "example": "The duck is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_243",
@@ -5719,9 +5719,9 @@
     "definition": "家畜",
     "example": "The pig is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_244",
@@ -5731,9 +5731,9 @@
     "definition": "家畜",
     "example": "This is a cow.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_245",
@@ -5743,9 +5743,9 @@
     "definition": "家畜",
     "example": "I have a horse.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_246",
@@ -5755,9 +5755,9 @@
     "definition": "家畜",
     "example": "A sheep can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_247",
@@ -5767,9 +5767,9 @@
     "definition": "家畜",
     "example": "I have a goat.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_248",
@@ -12727,8 +12727,8 @@
     "definition": "合作者",
     "example": "The partner is important.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12739,8 +12739,8 @@
     "definition": "附近居民",
     "example": "The neighbor is important.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12751,8 +12751,8 @@
     "definition": "不认识的人",
     "example": "I have a stranger.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12763,8 +12763,8 @@
     "definition": "敌对方",
     "example": "This is a enemy.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12775,8 +12775,8 @@
     "definition": "社会群体",
     "example": "A society can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12787,8 +12787,8 @@
     "definition": "共同体",
     "example": "The community is important.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12799,8 +12799,8 @@
     "definition": "大众",
     "example": "This is public.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12811,8 +12811,8 @@
     "definition": "人民",
     "example": "The people is important.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12823,8 +12823,8 @@
     "definition": "国民",
     "example": "I have a citizen.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12835,8 +12835,8 @@
     "definition": "政权",
     "example": "The government is important.",
     "difficulty": 2,
-    "next_review": "2026-08-27",
-    "review_count": 5,
+    "next_review": "2026-11-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
