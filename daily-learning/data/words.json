@@ -55,8 +55,8 @@
     "definition": "使用已训练好的模型对新输入进行预测或生成的过程",
     "example": "response = llm.invoke('What is RAG?')  # inference call",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -67,8 +67,8 @@
     "definition": "从数据中学习规律并做出预测或生成的数学系统",
     "example": "llm = ChatOpenAI(model='gpt-4o-mini')  # select a model",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -1423,8 +1423,8 @@
     "definition": "对话开始前设置 AI 角色、规则和约束的特殊指令",
     "example": "You are a helpful assistant. Always respond in Chinese.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2815,8 +2815,8 @@
     "definition": "常见水果",
     "example": "A apple can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2827,8 +2827,8 @@
     "definition": "黄色长形水果",
     "example": "The banana is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2839,8 +2839,8 @@
     "definition": "橙色水果",
     "example": "I have a orange.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2851,8 +2851,8 @@
     "definition": "水果",
     "example": "The pear is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2863,8 +2863,8 @@
     "definition": "小颗粒水果",
     "example": "The grape is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2875,8 +2875,8 @@
     "definition": "大型夏季水果",
     "example": "This is a watermelon.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -2887,8 +2887,8 @@
     "definition": "红色小水果",
     "example": "The strawberry is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 4,
+    "next_review": "2026-09-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4459,8 +4459,8 @@
     "definition": "携带容器",
     "example": "This is a bag.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4471,8 +4471,8 @@
     "definition": "女性钱包",
     "example": "A purse can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4483,8 +4483,8 @@
     "definition": "男性钱包",
     "example": "I have a wallet.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4495,8 +4495,8 @@
     "definition": "手指饰品",
     "example": "This is a ring.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4507,8 +4507,8 @@
     "definition": "视力矫正",
     "example": "This is a glasses.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4519,8 +4519,8 @@
     "definition": "居住建筑",
     "example": "The house is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4531,8 +4531,8 @@
     "definition": "居住地",
     "example": "This is a home.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4543,8 +4543,8 @@
     "definition": "室内空间",
     "example": "The room is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4555,8 +4555,8 @@
     "definition": "睡眠房间",
     "example": "A bedroom can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4567,8 +4567,8 @@
     "definition": "活动房间",
     "example": "The living room is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 3,
+    "next_review": "2026-09-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5299,8 +5299,8 @@
     "definition": "遗忘",
     "example": "You should forget it.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5311,8 +5311,8 @@
     "definition": "了解",
     "example": "You should know it.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5323,8 +5323,8 @@
     "definition": "视觉属性",
     "example": "I have a color.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5335,8 +5335,8 @@
     "definition": "像血",
     "example": "This is red.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5347,8 +5347,8 @@
     "definition": "像天空",
     "example": "A blue {noun}.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5359,8 +5359,8 @@
     "definition": "像植物",
     "example": "This is green.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5371,8 +5371,8 @@
     "definition": "像太阳",
     "example": "This is yellow.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5383,8 +5383,8 @@
     "definition": "紫葡萄色",
     "example": "This is purple.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5395,8 +5395,8 @@
     "definition": "浅红色",
     "example": "It is very pink.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5407,8 +5407,8 @@
     "definition": "像大地",
     "example": "It is very brown.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 2,
+    "next_review": "2026-09-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5659,8 +5659,8 @@
     "definition": "宠物",
     "example": "A dog can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5671,8 +5671,8 @@
     "definition": "宠物",
     "example": "I have a cat.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5683,8 +5683,8 @@
     "definition": "飞行动物",
     "example": "I have a bird.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5695,8 +5695,8 @@
     "definition": "小动物",
     "example": "I have a rabbit.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5707,8 +5707,8 @@
     "definition": "水禽",
     "example": "The duck is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5719,8 +5719,8 @@
     "definition": "家畜",
     "example": "The pig is important.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5731,8 +5731,8 @@
     "definition": "家畜",
     "example": "This is a cow.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5743,8 +5743,8 @@
     "definition": "家畜",
     "example": "I have a horse.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5755,8 +5755,8 @@
     "definition": "家畜",
     "example": "A sheep can help you.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5767,8 +5767,8 @@
     "definition": "家畜",
     "example": "I have a goat.",
     "difficulty": 5,
-    "next_review": "2026-08-28",
-    "review_count": 1,
+    "next_review": "2026-08-31",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -5779,9 +5779,9 @@
     "definition": "啮齿动物",
     "example": "A mouse can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_249",
@@ -5791,9 +5791,9 @@
     "definition": "大型动物",
     "example": "A elephant can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_250",
@@ -5803,9 +5803,9 @@
     "definition": "猛兽",
     "example": "The lion is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_251",
@@ -5815,9 +5815,9 @@
     "definition": "猛兽",
     "example": "The tiger is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_252",
@@ -5827,9 +5827,9 @@
     "definition": "灵长类",
     "example": "A monkey can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_253",
@@ -5839,9 +5839,9 @@
     "definition": "中国国宝",
     "example": "This is a panda.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_254",
@@ -5851,9 +5851,9 @@
     "definition": "大型动物",
     "example": "The bear is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_255",
@@ -5863,9 +5863,9 @@
     "definition": "犬科",
     "example": "I have a fox.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_256",
@@ -5875,9 +5875,9 @@
     "definition": "犬科",
     "example": "I have a wolf.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_257",
@@ -5887,9 +5887,9 @@
     "definition": "草食动物",
     "example": "The deer is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-08-29",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_258",
@@ -12847,8 +12847,8 @@
     "definition": "政治活动",
     "example": "I have a politics.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12859,8 +12859,8 @@
     "definition": "投票",
     "example": "The election is important.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12871,8 +12871,8 @@
     "definition": "表决",
     "example": "This is vote.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12883,8 +12883,8 @@
     "definition": "法规",
     "example": "A law can help you.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12895,8 +12895,8 @@
     "definition": "规章",
     "example": "The rule is important.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12907,8 +12907,8 @@
     "definition": "方针",
     "example": "This is a policy.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12919,8 +12919,8 @@
     "definition": "力量",
     "example": "The power is important.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12931,8 +12931,8 @@
     "definition": "权力",
     "example": "This is a authority.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12943,8 +12943,8 @@
     "definition": "自由权",
     "example": "I have a freedom.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12955,8 +12955,8 @@
     "definition": "责任",
     "example": "I have a duty.",
     "difficulty": 2,
-    "next_review": "2026-08-28",
-    "review_count": 5,
+    "next_review": "2026-11-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
