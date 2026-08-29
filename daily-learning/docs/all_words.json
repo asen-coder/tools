@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-28",
+  "generated": "2026-08-29",
   "words": [
     {
       "id": "ai_001",
@@ -2901,8 +2901,8 @@
       "definition": "主食",
       "example": "The bread is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2913,8 +2913,8 @@
       "definition": "亚洲主食",
       "example": "I have a rice.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2925,8 +2925,8 @@
       "definition": "长条状食物",
       "example": "This is a noodle.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2937,8 +2937,8 @@
       "definition": "白色饮料",
       "example": "The milk is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2949,8 +2949,8 @@
       "definition": "常见食材",
       "example": "This is a egg.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2961,8 +2961,8 @@
       "definition": "食物总称",
       "example": "This is a meat.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2973,8 +2973,8 @@
       "definition": "常见肉类",
       "example": "This is a chicken.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2985,8 +2985,8 @@
       "definition": "水产",
       "example": "I have a fish.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2997,8 +2997,8 @@
       "definition": "红色肉类",
       "example": "I have a beef.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3009,8 +3009,8 @@
       "definition": "常见肉类",
       "example": "This is a pork.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 4,
+      "next_review": "2026-09-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4581,8 +4581,8 @@
       "definition": "洗浴房间",
       "example": "I have a bathroom.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4593,8 +4593,8 @@
       "definition": "卫生间",
       "example": "The toilet is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4605,8 +4605,8 @@
       "definition": "室内地面",
       "example": "The floor is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4617,8 +4617,8 @@
       "definition": "室内顶部",
       "example": "I have a ceiling.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4629,8 +4629,8 @@
       "definition": "分隔结构",
       "example": "The wall is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4641,8 +4641,8 @@
       "definition": "出入口",
       "example": "This is a door.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4653,8 +4653,8 @@
       "definition": "采光口",
       "example": "The window is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4665,8 +4665,8 @@
       "definition": "睡眠家具",
       "example": "I have a bed.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4677,8 +4677,8 @@
       "definition": "学习办公",
       "example": "I have a desk.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4689,8 +4689,8 @@
       "definition": "平面家具",
       "example": "This is a table.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 3,
+      "next_review": "2026-09-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -5421,8 +5421,8 @@
       "definition": "像夜晚",
       "example": "This is black.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5433,8 +5433,8 @@
       "definition": "像雪",
       "example": "It is very white.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5445,8 +5445,8 @@
       "definition": "中性色",
       "example": "This is gray.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5457,8 +5457,8 @@
       "definition": "明亮",
       "example": "This is light.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5469,8 +5469,8 @@
       "definition": "暗淡",
       "example": "A dark {noun}.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5481,8 +5481,8 @@
       "definition": "圆的",
       "example": "A round {noun}.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5493,8 +5493,8 @@
       "definition": "方的",
       "example": "A square {noun}.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5505,8 +5505,8 @@
       "definition": "长度大",
       "example": "A long {noun}.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5517,8 +5517,8 @@
       "definition": "长度小",
       "example": "It is very short.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5529,8 +5529,8 @@
       "definition": "高度大",
       "example": "A tall {noun}.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 2,
+      "next_review": "2026-09-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5781,8 +5781,8 @@
       "definition": "啮齿动物",
       "example": "A mouse can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5793,8 +5793,8 @@
       "definition": "大型动物",
       "example": "A elephant can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5805,8 +5805,8 @@
       "definition": "猛兽",
       "example": "The lion is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5817,8 +5817,8 @@
       "definition": "猛兽",
       "example": "The tiger is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5829,8 +5829,8 @@
       "definition": "灵长类",
       "example": "A monkey can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5841,8 +5841,8 @@
       "definition": "中国国宝",
       "example": "This is a panda.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5853,8 +5853,8 @@
       "definition": "大型动物",
       "example": "The bear is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5865,8 +5865,8 @@
       "definition": "犬科",
       "example": "I have a fox.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5877,8 +5877,8 @@
       "definition": "犬科",
       "example": "I have a wolf.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5889,8 +5889,8 @@
       "definition": "草食动物",
       "example": "The deer is important.",
       "difficulty": 5,
-      "next_review": "2026-08-29",
-      "review_count": 1,
+      "next_review": "2026-09-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -5901,9 +5901,9 @@
       "definition": "条纹马",
       "example": "This is a zebra.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_259",
@@ -5913,9 +5913,9 @@
       "definition": "长脖子",
       "example": "A giraffe can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_260",
@@ -5925,9 +5925,9 @@
       "definition": "有袋类",
       "example": "I have a kangaroo.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_261",
@@ -5937,9 +5937,9 @@
       "definition": "南极鸟",
       "example": "I have a penguin.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_262",
@@ -5949,9 +5949,9 @@
       "definition": "猛禽",
       "example": "The eagle is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_263",
@@ -5961,9 +5961,9 @@
       "definition": "夜行猛禽",
       "example": "The owl is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_264",
@@ -5973,9 +5973,9 @@
       "definition": "爬行动物",
       "example": "A snake can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_265",
@@ -5985,9 +5985,9 @@
       "definition": "两栖动物",
       "example": "This is a frog.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_266",
@@ -5997,9 +5997,9 @@
       "definition": "爬行动物",
       "example": "This is a turtle.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_267",
@@ -6009,9 +6009,9 @@
       "definition": "昆虫",
       "example": "A butterfly can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-08-30",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_268",
@@ -12969,8 +12969,8 @@
       "definition": "职责",
       "example": "I have a responsibility.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12981,8 +12981,8 @@
       "definition": "文明",
       "example": "This is a culture.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12993,8 +12993,8 @@
       "definition": "惯例",
       "example": "I have a tradition.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13005,8 +13005,8 @@
       "definition": "风俗",
       "example": "This is a custom.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13017,8 +13017,8 @@
       "definition": "信仰",
       "example": "This is a religion.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13029,8 +13029,8 @@
       "definition": "交流工具",
       "example": "I have a language.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13041,8 +13041,8 @@
       "definition": "培养",
       "example": "This is a education.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13053,8 +13053,8 @@
       "definition": "科技",
       "example": "I have a technology.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13065,8 +13065,8 @@
       "definition": "经济体系",
       "example": "The economy is important.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13077,8 +13077,8 @@
       "definition": "制造业",
       "example": "This is a industry.",
       "difficulty": 2,
-      "next_review": "2026-08-29",
-      "review_count": 5,
+      "next_review": "2026-11-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
