@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-30",
+  "generated": "2026-08-31",
   "words": [
     {
       "id": "ai_001",
@@ -3141,8 +3141,8 @@
       "definition": "液体食物",
       "example": "The soup is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3153,8 +3153,8 @@
       "definition": "蔬菜混合",
       "example": "This is a salad.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3165,8 +3165,8 @@
       "definition": "植物食物",
       "example": "This is a vegetable.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3177,8 +3177,8 @@
       "definition": "红色蔬菜",
       "example": "I have a tomato.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3189,8 +3189,8 @@
       "definition": "块茎类蔬菜",
       "example": "The potato is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3201,8 +3201,8 @@
       "definition": "橙色根茎",
       "example": "A carrot can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3213,8 +3213,8 @@
       "definition": "调味蔬菜",
       "example": "The onion is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3225,8 +3225,8 @@
       "definition": "叶菜类",
       "example": "This is a cabbage.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3237,8 +3237,8 @@
       "definition": "调味蔬菜",
       "example": "This is a pepper.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -3249,8 +3249,8 @@
       "definition": "奶制品",
       "example": "The butter is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 4,
+      "next_review": "2026-09-30",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4821,8 +4821,8 @@
       "definition": "教育场所",
       "example": "A school can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4833,8 +4833,8 @@
       "definition": "学习房间",
       "example": "A classroom can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4845,8 +4845,8 @@
       "definition": "藏书场所",
       "example": "The library is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4857,8 +4857,8 @@
       "definition": "运动场所",
       "example": "The playground is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4869,8 +4869,8 @@
       "definition": "工作房间",
       "example": "The office is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4881,8 +4881,8 @@
       "definition": "教学板",
       "example": "The blackboard is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4893,8 +4893,8 @@
       "definition": "书写工具",
       "example": "I have a chalk.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4905,8 +4905,8 @@
       "definition": "阅读材料",
       "example": "I have a book.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4917,8 +4917,8 @@
       "definition": "书写工具",
       "example": "This is a pen.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -4929,8 +4929,8 @@
       "definition": "绘画工具",
       "example": "I have a pencil.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 3,
+      "next_review": "2026-09-14",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -5661,8 +5661,8 @@
       "definition": "宠物",
       "example": "A dog can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5673,8 +5673,8 @@
       "definition": "宠物",
       "example": "I have a cat.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5685,8 +5685,8 @@
       "definition": "飞行动物",
       "example": "I have a bird.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5697,8 +5697,8 @@
       "definition": "小动物",
       "example": "I have a rabbit.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5709,8 +5709,8 @@
       "definition": "水禽",
       "example": "The duck is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5721,8 +5721,8 @@
       "definition": "家畜",
       "example": "The pig is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5733,8 +5733,8 @@
       "definition": "家畜",
       "example": "This is a cow.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5745,8 +5745,8 @@
       "definition": "家畜",
       "example": "I have a horse.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5757,8 +5757,8 @@
       "definition": "家畜",
       "example": "A sheep can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5769,8 +5769,8 @@
       "definition": "家畜",
       "example": "I have a goat.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 2,
+      "next_review": "2026-09-07",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6021,8 +6021,8 @@
       "definition": "昆虫",
       "example": "This is a bee.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6033,8 +6033,8 @@
       "definition": "昆虫",
       "example": "The ant is important.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6045,8 +6045,8 @@
       "definition": "节肢动物",
       "example": "A spider can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6057,8 +6057,8 @@
       "definition": "昆虫",
       "example": "This is a fly.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6069,8 +6069,8 @@
       "definition": "昆虫",
       "example": "I have a mosquito.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6081,8 +6081,8 @@
       "definition": "自然界",
       "example": "This is a nature.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6093,8 +6093,8 @@
       "definition": "恒星",
       "example": "A sun can help you.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6105,8 +6105,8 @@
       "definition": "卫星",
       "example": "This is a moon.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6117,8 +6117,8 @@
       "definition": "苍穹",
       "example": "I have a sky.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6129,8 +6129,8 @@
       "definition": "水汽凝结",
       "example": "I have a cloud.",
       "difficulty": 5,
-      "next_review": "2026-08-31",
-      "review_count": 1,
+      "next_review": "2026-09-03",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -6141,9 +6141,9 @@
       "definition": "降水",
       "example": "A rain can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_279",
@@ -6153,9 +6153,9 @@
       "definition": "固态降水",
       "example": "This is a snow.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_280",
@@ -6165,9 +6165,9 @@
       "definition": "空气流动",
       "example": "I have a wind.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_281",
@@ -6177,9 +6177,9 @@
       "definition": "恶劣天气",
       "example": "A storm can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_282",
@@ -6189,9 +6189,9 @@
       "definition": "大气放电",
       "example": "A lightning can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_283",
@@ -6201,9 +6201,9 @@
       "definition": "大气声响",
       "example": "A thunder can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_284",
@@ -6213,9 +6213,9 @@
       "definition": "大气光学",
       "example": "The rainbow is important.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_285",
@@ -6225,9 +6225,9 @@
       "definition": "能见度低",
       "example": "I have a fog.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_286",
@@ -6237,9 +6237,9 @@
       "definition": "固态水",
       "example": "This is a ice.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_287",
@@ -6249,9 +6249,9 @@
       "definition": "燃烧",
       "example": "A fire can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-01",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_288",
@@ -13209,8 +13209,8 @@
       "definition": "帝国",
       "example": "A empire can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13221,8 +13221,8 @@
       "definition": "王国",
       "example": "This is a kingdom.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13233,8 +13233,8 @@
       "definition": "共和政体",
       "example": "A republic can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13245,8 +13245,8 @@
       "definition": "民主制",
       "example": "A democracy can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13257,8 +13257,8 @@
       "definition": "武装冲突",
       "example": "The war is important.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13269,8 +13269,8 @@
       "definition": "和平状态",
       "example": "A peace can help you.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13281,8 +13281,8 @@
       "definition": "打斗",
       "example": "This is fight.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13293,8 +13293,8 @@
       "definition": "战斗",
       "example": "This is a battle.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13305,8 +13305,8 @@
       "definition": "获胜",
       "example": "I have a victory.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -13317,8 +13317,8 @@
       "definition": "战败",
       "example": "This is defeat.",
       "difficulty": 2,
-      "next_review": "2026-08-31",
-      "review_count": 5,
+      "next_review": "2026-11-29",
+      "review_count": 6,
       "status": "learning"
     },
     {
