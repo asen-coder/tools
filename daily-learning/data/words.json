@@ -3259,8 +3259,8 @@
     "definition": "奶制品",
     "example": "A cheese can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3271,8 +3271,8 @@
     "definition": "冷冻甜食",
     "example": "This is a ice cream.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3283,8 +3283,8 @@
     "definition": "第一餐",
     "example": "This is a breakfast.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3295,8 +3295,8 @@
     "definition": "第二餐",
     "example": "A lunch can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3307,8 +3307,8 @@
     "definition": "最后一餐",
     "example": "A dinner can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3319,8 +3319,8 @@
     "definition": "晚间餐",
     "example": "The supper is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3331,8 +3331,8 @@
     "definition": "食物单位",
     "example": "The meal is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3343,8 +3343,8 @@
     "definition": "用餐场所",
     "example": "The restaurant is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3355,8 +3355,8 @@
     "definition": "做饭房间",
     "example": "I have a kitchen.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3367,8 +3367,8 @@
     "definition": "冷藏设备",
     "example": "I have a fridge.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 4,
+    "next_review": "2026-10-01",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4939,8 +4939,8 @@
     "definition": "修改工具",
     "example": "I have a eraser.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4951,8 +4951,8 @@
     "definition": "测量工具",
     "example": "I have a ruler.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4963,8 +4963,8 @@
     "definition": "记录本",
     "example": "I have a notebook.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4975,8 +4975,8 @@
     "definition": "携带用品",
     "example": "This is a backpack.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4987,8 +4987,8 @@
     "definition": "课后任务",
     "example": "A homework can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -4999,8 +4999,8 @@
     "definition": "教学单元",
     "example": "The lesson is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5011,8 +5011,8 @@
     "definition": "学科",
     "example": "This is a subject.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5023,8 +5023,8 @@
     "definition": "计算学科",
     "example": "This is a math.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5035,8 +5035,8 @@
     "definition": "语言学科",
     "example": "I have a English.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5047,8 +5047,8 @@
     "definition": "语言学科",
     "example": "I have a Chinese.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 3,
+    "next_review": "2026-09-15",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5779,8 +5779,8 @@
     "definition": "啮齿动物",
     "example": "A mouse can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5791,8 +5791,8 @@
     "definition": "大型动物",
     "example": "A elephant can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5803,8 +5803,8 @@
     "definition": "猛兽",
     "example": "The lion is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5815,8 +5815,8 @@
     "definition": "猛兽",
     "example": "The tiger is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5827,8 +5827,8 @@
     "definition": "灵长类",
     "example": "A monkey can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5839,8 +5839,8 @@
     "definition": "中国国宝",
     "example": "This is a panda.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5851,8 +5851,8 @@
     "definition": "大型动物",
     "example": "The bear is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5863,8 +5863,8 @@
     "definition": "犬科",
     "example": "I have a fox.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5875,8 +5875,8 @@
     "definition": "犬科",
     "example": "I have a wolf.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5887,8 +5887,8 @@
     "definition": "草食动物",
     "example": "The deer is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 2,
+    "next_review": "2026-09-08",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6139,8 +6139,8 @@
     "definition": "降水",
     "example": "A rain can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6151,8 +6151,8 @@
     "definition": "固态降水",
     "example": "This is a snow.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6163,8 +6163,8 @@
     "definition": "空气流动",
     "example": "I have a wind.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6175,8 +6175,8 @@
     "definition": "恶劣天气",
     "example": "A storm can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6187,8 +6187,8 @@
     "definition": "大气放电",
     "example": "A lightning can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6199,8 +6199,8 @@
     "definition": "大气声响",
     "example": "A thunder can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6211,8 +6211,8 @@
     "definition": "大气光学",
     "example": "The rainbow is important.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6223,8 +6223,8 @@
     "definition": "能见度低",
     "example": "I have a fog.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6235,8 +6235,8 @@
     "definition": "固态水",
     "example": "This is a ice.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6247,8 +6247,8 @@
     "definition": "燃烧",
     "example": "A fire can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-01",
-    "review_count": 1,
+    "next_review": "2026-09-04",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6259,9 +6259,9 @@
     "definition": "水体",
     "example": "The river is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_289",
@@ -6271,9 +6271,9 @@
     "definition": "水体",
     "example": "The lake is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_290",
@@ -6283,9 +6283,9 @@
     "definition": "水体",
     "example": "A sea can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_291",
@@ -6295,9 +6295,9 @@
     "definition": "水域",
     "example": "This is a ocean.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_292",
@@ -6307,9 +6307,9 @@
     "definition": "海岸",
     "example": "The beach is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_293",
@@ -6319,9 +6319,9 @@
     "definition": "陆地",
     "example": "A island can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_294",
@@ -6331,9 +6331,9 @@
     "definition": "高地",
     "example": "The mountain is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_295",
@@ -6343,9 +6343,9 @@
     "definition": "隆起",
     "example": "I have a hill.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_296",
@@ -6355,9 +6355,9 @@
     "definition": "树木密集",
     "example": "This is a forest.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_297",
@@ -6367,9 +6367,9 @@
     "definition": "木本植物",
     "example": "I have a tree.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-02",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_298",
@@ -13327,8 +13327,8 @@
     "definition": "军人",
     "example": "I have a soldier.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13339,8 +13339,8 @@
     "definition": "武装力量",
     "example": "A army can help you.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13351,8 +13351,8 @@
     "definition": "兵器",
     "example": "This is a weapon.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13363,8 +13363,8 @@
     "definition": "火器",
     "example": "The gun is important.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13375,8 +13375,8 @@
     "definition": "爆炸物",
     "example": "I have a bomb.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13387,8 +13387,8 @@
     "definition": "武力",
     "example": "I have a violence.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13399,8 +13399,8 @@
     "definition": "违法行为",
     "example": "The crime is important.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13411,8 +13411,8 @@
     "definition": "监禁场所",
     "example": "A prison can help you.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13423,8 +13423,8 @@
     "definition": "司法机构",
     "example": "A court can help you.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13435,8 +13435,8 @@
     "definition": "审判者",
     "example": "I have a judge.",
     "difficulty": 2,
-    "next_review": "2026-09-01",
-    "review_count": 5,
+    "next_review": "2026-11-30",
+    "review_count": 6,
     "status": "learning"
   },
   {
