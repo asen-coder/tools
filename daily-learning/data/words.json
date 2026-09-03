@@ -3499,8 +3499,8 @@
     "definition": "爸爸",
     "example": "This is a father.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3511,8 +3511,8 @@
     "definition": "妈妈",
     "example": "This is a mother.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3523,8 +3523,8 @@
     "definition": "双亲",
     "example": "I have a parent.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3535,8 +3535,8 @@
     "definition": "哥哥弟弟",
     "example": "A brother can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3547,8 +3547,8 @@
     "definition": "姐姐妹妹",
     "example": "A sister can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3559,8 +3559,8 @@
     "definition": "男性孩子",
     "example": "I have a son.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3571,8 +3571,8 @@
     "definition": "女性孩子",
     "example": "The daughter is important.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3583,8 +3583,8 @@
     "definition": "儿童",
     "example": "The child is important.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3595,8 +3595,8 @@
     "definition": "幼童",
     "example": "This is a baby.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -3607,8 +3607,8 @@
     "definition": "男性儿童",
     "example": "I have a boy.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 4,
+    "next_review": "2026-10-03",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5179,8 +5179,8 @@
     "definition": "研习",
     "example": "Can you study?",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5191,8 +5191,8 @@
     "definition": "获得知识",
     "example": "Can you learn?",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5203,8 +5203,8 @@
     "definition": "传授知识",
     "example": "You should teach it.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5215,8 +5215,8 @@
     "definition": "看文字",
     "example": "You should read it.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5227,8 +5227,8 @@
     "definition": "文字表达",
     "example": "Let's write together.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5239,8 +5239,8 @@
     "definition": "图形表达",
     "example": "You should draw it.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5251,8 +5251,8 @@
     "definition": "计算数量",
     "example": "Can you count?",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5263,8 +5263,8 @@
     "definition": "思维",
     "example": "Can you think?",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5275,8 +5275,8 @@
     "definition": "领会",
     "example": "You should understand it.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -5287,8 +5287,8 @@
     "definition": "记忆",
     "example": "You should remember it.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 3,
+    "next_review": "2026-09-17",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6019,8 +6019,8 @@
     "definition": "昆虫",
     "example": "This is a bee.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6031,8 +6031,8 @@
     "definition": "昆虫",
     "example": "The ant is important.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6043,8 +6043,8 @@
     "definition": "节肢动物",
     "example": "A spider can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6055,8 +6055,8 @@
     "definition": "昆虫",
     "example": "This is a fly.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6067,8 +6067,8 @@
     "definition": "昆虫",
     "example": "I have a mosquito.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6079,8 +6079,8 @@
     "definition": "自然界",
     "example": "This is a nature.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6091,8 +6091,8 @@
     "definition": "恒星",
     "example": "A sun can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6103,8 +6103,8 @@
     "definition": "卫星",
     "example": "This is a moon.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6115,8 +6115,8 @@
     "definition": "苍穹",
     "example": "I have a sky.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6127,8 +6127,8 @@
     "definition": "水汽凝结",
     "example": "I have a cloud.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 2,
+    "next_review": "2026-09-10",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -6379,8 +6379,8 @@
     "definition": "草本植物",
     "example": "I have a grass.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6391,8 +6391,8 @@
     "definition": "植物器官",
     "example": "A flower can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6403,8 +6403,8 @@
     "definition": "植物器官",
     "example": "The leaf is important.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6415,8 +6415,8 @@
     "definition": "矿物",
     "example": "I have a rock.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6427,8 +6427,8 @@
     "definition": "石材",
     "example": "I have a stone.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6439,8 +6439,8 @@
     "definition": "颗粒物",
     "example": "I have a sand.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6451,8 +6451,8 @@
     "definition": "土壤",
     "example": "I have a dirt.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6463,8 +6463,8 @@
     "definition": "星球",
     "example": "The earth is important.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6475,8 +6475,8 @@
     "definition": "全球",
     "example": "I have a world.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6487,8 +6487,8 @@
     "definition": "时刻或时长",
     "example": "The time is important.",
     "difficulty": 5,
-    "next_review": "2026-09-03",
-    "review_count": 1,
+    "next_review": "2026-09-06",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -6499,9 +6499,9 @@
     "definition": "24小时",
     "example": "This is a day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_309",
@@ -6511,9 +6511,9 @@
     "definition": "黑暗时段",
     "example": "I have a night.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_310",
@@ -6523,9 +6523,9 @@
     "definition": "一天开始",
     "example": "A morning can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_311",
@@ -6535,9 +6535,9 @@
     "definition": "中午后",
     "example": "A afternoon can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_312",
@@ -6547,9 +6547,9 @@
     "definition": "日落后",
     "example": "I have a evening.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_313",
@@ -6559,9 +6559,9 @@
     "definition": "正午",
     "example": "This is a noon.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_314",
@@ -6571,9 +6571,9 @@
     "definition": "零点",
     "example": "The midnight is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_315",
@@ -6583,9 +6583,9 @@
     "definition": "当前日",
     "example": "The today is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_316",
@@ -6595,9 +6595,9 @@
     "definition": "次日",
     "example": "A tomorrow can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_317",
@@ -6607,9 +6607,9 @@
     "definition": "前日",
     "example": "This is a yesterday.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-04",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_318",
@@ -13567,8 +13567,8 @@
     "definition": "投递",
     "example": "This is post.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13579,8 +13579,8 @@
     "definition": "信件",
     "example": "I have a mail.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13591,8 +13591,8 @@
     "definition": "位置",
     "example": "This is a address.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13603,8 +13603,8 @@
     "definition": "数字",
     "example": "The number is important.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13615,8 +13615,8 @@
     "definition": "编码",
     "example": "The code is important.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13627,8 +13627,8 @@
     "definition": "讯号",
     "example": "This is a signal.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13639,8 +13639,8 @@
     "definition": "声响",
     "example": "I have a sound.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13651,8 +13651,8 @@
     "definition": "杂音",
     "example": "This is a noise.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13663,8 +13663,8 @@
     "definition": "嗓音",
     "example": "I have a voice.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -13675,8 +13675,8 @@
     "definition": "讲话",
     "example": "I have a speech.",
     "difficulty": 2,
-    "next_review": "2026-09-03",
-    "review_count": 5,
+    "next_review": "2026-12-02",
+    "review_count": 6,
     "status": "learning"
   },
   {
