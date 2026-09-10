@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-09",
+  "generated": "2026-09-10",
   "words": [
     {
       "id": "ai_001",
@@ -4341,8 +4341,8 @@
       "definition": "下装",
       "example": "I have a pants.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4353,8 +4353,8 @@
       "definition": "蓝色长裤",
       "example": "The jeans is important.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4365,8 +4365,8 @@
       "definition": "短下装",
       "example": "The shorts is important.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4377,8 +4377,8 @@
       "definition": "足部服装",
       "example": "This is a shoes.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4389,8 +4389,8 @@
       "definition": "足部用品",
       "example": "I have a sock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4401,8 +4401,8 @@
       "definition": "头部服装",
       "example": "This is a hat.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4413,8 +4413,8 @@
       "definition": "有帽檐帽子",
       "example": "I have a cap.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4425,8 +4425,8 @@
       "definition": "手部服装",
       "example": "This is a glove.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4437,8 +4437,8 @@
       "definition": "颈部用品",
       "example": "The scarf is important.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4449,8 +4449,8 @@
       "definition": "腰部用品",
       "example": "A belt can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 4,
+      "next_review": "2026-10-10",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6021,8 +6021,8 @@
       "definition": "昆虫",
       "example": "This is a bee.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6033,8 +6033,8 @@
       "definition": "昆虫",
       "example": "The ant is important.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6045,8 +6045,8 @@
       "definition": "节肢动物",
       "example": "A spider can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6057,8 +6057,8 @@
       "definition": "昆虫",
       "example": "This is a fly.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6069,8 +6069,8 @@
       "definition": "昆虫",
       "example": "I have a mosquito.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6081,8 +6081,8 @@
       "definition": "自然界",
       "example": "This is a nature.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6093,8 +6093,8 @@
       "definition": "恒星",
       "example": "A sun can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6105,8 +6105,8 @@
       "definition": "卫星",
       "example": "This is a moon.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6117,8 +6117,8 @@
       "definition": "苍穹",
       "example": "I have a sky.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6129,8 +6129,8 @@
       "definition": "水汽凝结",
       "example": "I have a cloud.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 3,
+      "next_review": "2026-09-24",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6861,8 +6861,8 @@
       "definition": "水分少",
       "example": "A dry {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6873,8 +6873,8 @@
       "definition": "星期一",
       "example": "The Monday is important.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6885,8 +6885,8 @@
       "definition": "星期二",
       "example": "A Tuesday can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6897,8 +6897,8 @@
       "definition": "星期三",
       "example": "A Wednesday can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6909,8 +6909,8 @@
       "definition": "星期四",
       "example": "I have a Thursday.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6921,8 +6921,8 @@
       "definition": "星期五",
       "example": "A Friday can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6933,8 +6933,8 @@
       "definition": "星期六",
       "example": "I have a Saturday.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6945,8 +6945,8 @@
       "definition": "星期日",
       "example": "I have a Sunday.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6957,8 +6957,8 @@
       "definition": "第一个月",
       "example": "This is a January.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6969,8 +6969,8 @@
       "definition": "第二个月",
       "example": "I have a February.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 2,
+      "next_review": "2026-09-17",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7221,8 +7221,8 @@
       "definition": "数字11",
       "example": "It's eleven o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7233,8 +7233,8 @@
       "definition": "数字12",
       "example": "I have twelve books.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7245,8 +7245,8 @@
       "definition": "数字13",
       "example": "It's thirteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7257,8 +7257,8 @@
       "definition": "数字14",
       "example": "I have fourteen books.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7269,8 +7269,8 @@
       "definition": "数字15",
       "example": "It's fifteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7281,8 +7281,8 @@
       "definition": "数字16",
       "example": "It's sixteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7293,8 +7293,8 @@
       "definition": "数字17",
       "example": "I have seventeen books.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7305,8 +7305,8 @@
       "definition": "数字18",
       "example": "It's eighteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7317,8 +7317,8 @@
       "definition": "数字19",
       "example": "It's nineteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7329,8 +7329,8 @@
       "definition": "数字20",
       "example": "I have twenty books.",
       "difficulty": 5,
-      "next_review": "2026-09-10",
-      "review_count": 1,
+      "next_review": "2026-09-13",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7341,9 +7341,9 @@
       "definition": "数字30",
       "example": "I have thirty books.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_379",
@@ -7353,9 +7353,9 @@
       "definition": "数字40",
       "example": "It's forty o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_380",
@@ -7365,9 +7365,9 @@
       "definition": "数字50",
       "example": "I have fifty books.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_381",
@@ -7377,9 +7377,9 @@
       "definition": "数字60",
       "example": "It's sixty o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_382",
@@ -7389,9 +7389,9 @@
       "definition": "数字70",
       "example": "It's seventy o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_383",
@@ -7401,9 +7401,9 @@
       "definition": "数字80",
       "example": "It's eighty o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_384",
@@ -7413,9 +7413,9 @@
       "definition": "数字90",
       "example": "I have ninety books.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_385",
@@ -7425,9 +7425,9 @@
       "definition": "数字100",
       "example": "It's hundred o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_386",
@@ -7437,9 +7437,9 @@
       "definition": "数字1000",
       "example": "It's thousand o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_387",
@@ -7449,9 +7449,9 @@
       "definition": "数字1000000",
       "example": "It's million o'clock.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-11",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_388",
@@ -14409,8 +14409,8 @@
       "definition": "比赛",
       "example": "I have a contest.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14421,8 +14421,8 @@
       "definition": "联赛",
       "example": "This is a tournament.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14433,8 +14433,8 @@
       "definition": "锦标赛",
       "example": "A championship can help you.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14445,8 +14445,8 @@
       "definition": "联盟",
       "example": "This is a league.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14457,8 +14457,8 @@
       "definition": "训练师",
       "example": "The coach is important.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14469,8 +14469,8 @@
       "definition": "爱好者",
       "example": "This is a fan.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14481,8 +14481,8 @@
       "definition": "听众",
       "example": "This is a audience.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14493,8 +14493,8 @@
       "definition": "旁观者",
       "example": "This is a spectator.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14505,8 +14505,8 @@
       "definition": "大众",
       "example": "I have a crowd.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14517,8 +14517,8 @@
       "definition": "歌曲",
       "example": "I have a song.",
       "difficulty": 2,
-      "next_review": "2026-09-10",
-      "review_count": 5,
+      "next_review": "2026-12-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
