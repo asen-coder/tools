@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-10",
+  "generated": "2026-09-11",
   "words": [
     {
       "id": "ai_001",
@@ -4461,8 +4461,8 @@
       "definition": "携带容器",
       "example": "This is a bag.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4473,8 +4473,8 @@
       "definition": "女性钱包",
       "example": "A purse can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4485,8 +4485,8 @@
       "definition": "男性钱包",
       "example": "I have a wallet.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4497,8 +4497,8 @@
       "definition": "手指饰品",
       "example": "This is a ring.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4509,8 +4509,8 @@
       "definition": "视力矫正",
       "example": "This is a glasses.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4521,8 +4521,8 @@
       "definition": "居住建筑",
       "example": "The house is important.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4533,8 +4533,8 @@
       "definition": "居住地",
       "example": "This is a home.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4545,8 +4545,8 @@
       "definition": "室内空间",
       "example": "The room is important.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4557,8 +4557,8 @@
       "definition": "睡眠房间",
       "example": "A bedroom can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4569,8 +4569,8 @@
       "definition": "活动房间",
       "example": "The living room is important.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 4,
+      "next_review": "2026-10-11",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6141,8 +6141,8 @@
       "definition": "降水",
       "example": "A rain can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6153,8 +6153,8 @@
       "definition": "固态降水",
       "example": "This is a snow.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6165,8 +6165,8 @@
       "definition": "空气流动",
       "example": "I have a wind.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6177,8 +6177,8 @@
       "definition": "恶劣天气",
       "example": "A storm can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6189,8 +6189,8 @@
       "definition": "大气放电",
       "example": "A lightning can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6201,8 +6201,8 @@
       "definition": "大气声响",
       "example": "A thunder can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6213,8 +6213,8 @@
       "definition": "大气光学",
       "example": "The rainbow is important.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6225,8 +6225,8 @@
       "definition": "能见度低",
       "example": "I have a fog.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6237,8 +6237,8 @@
       "definition": "固态水",
       "example": "This is a ice.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6249,8 +6249,8 @@
       "definition": "燃烧",
       "example": "A fire can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 3,
+      "next_review": "2026-09-25",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6981,8 +6981,8 @@
       "definition": "第三个月",
       "example": "This is a March.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -6993,8 +6993,8 @@
       "definition": "第四个月",
       "example": "I have a April.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7005,8 +7005,8 @@
       "definition": "第五个月",
       "example": "This is a May.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7017,8 +7017,8 @@
       "definition": "第六个月",
       "example": "The June is important.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7029,8 +7029,8 @@
       "definition": "第七个月",
       "example": "A July can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7041,8 +7041,8 @@
       "definition": "第八个月",
       "example": "I have a August.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7053,8 +7053,8 @@
       "definition": "第九个月",
       "example": "A September can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7065,8 +7065,8 @@
       "definition": "第十个月",
       "example": "A October can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7077,8 +7077,8 @@
       "definition": "第十一月",
       "example": "This is a November.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7089,8 +7089,8 @@
       "definition": "第十二月",
       "example": "The December is important.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 2,
+      "next_review": "2026-09-18",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7341,8 +7341,8 @@
       "definition": "数字30",
       "example": "I have thirty books.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7353,8 +7353,8 @@
       "definition": "数字40",
       "example": "It's forty o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7365,8 +7365,8 @@
       "definition": "数字50",
       "example": "I have fifty books.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7377,8 +7377,8 @@
       "definition": "数字60",
       "example": "It's sixty o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7389,8 +7389,8 @@
       "definition": "数字70",
       "example": "It's seventy o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7401,8 +7401,8 @@
       "definition": "数字80",
       "example": "It's eighty o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7413,8 +7413,8 @@
       "definition": "数字90",
       "example": "I have ninety books.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7425,8 +7425,8 @@
       "definition": "数字100",
       "example": "It's hundred o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7437,8 +7437,8 @@
       "definition": "数字1000",
       "example": "It's thousand o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7449,8 +7449,8 @@
       "definition": "数字1000000",
       "example": "It's million o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-11",
-      "review_count": 1,
+      "next_review": "2026-09-14",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7461,9 +7461,9 @@
       "definition": "序数词1",
       "example": "It is very first.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_389",
@@ -7473,9 +7473,9 @@
       "definition": "序数词2",
       "example": "A second {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_390",
@@ -7485,9 +7485,9 @@
       "definition": "序数词3",
       "example": "A third {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_391",
@@ -7497,9 +7497,9 @@
       "definition": "序数词4",
       "example": "This is fourth.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_392",
@@ -7509,9 +7509,9 @@
       "definition": "序数词5",
       "example": "It is very fifth.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_393",
@@ -7521,9 +7521,9 @@
       "definition": "序数词6",
       "example": "A sixth {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_394",
@@ -7533,9 +7533,9 @@
       "definition": "序数词7",
       "example": "It is very seventh.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_395",
@@ -7545,9 +7545,9 @@
       "definition": "序数词8",
       "example": "This is eighth.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_396",
@@ -7557,9 +7557,9 @@
       "definition": "序数词9",
       "example": "This is ninth.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_397",
@@ -7569,9 +7569,9 @@
       "definition": "序数词10",
       "example": "It is very tenth.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-12",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_398",
@@ -14529,8 +14529,8 @@
       "definition": "跳舞",
       "example": "This is dance.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14541,8 +14541,8 @@
       "definition": "音乐演出",
       "example": "The concert is important.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14553,8 +14553,8 @@
       "definition": "表演",
       "example": "I have a performance.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14565,8 +14565,8 @@
       "definition": "影片",
       "example": "This is a movie.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14577,8 +14577,8 @@
       "definition": "影片",
       "example": "The film is important.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14589,8 +14589,8 @@
       "definition": "录像",
       "example": "A video can help you.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14601,8 +14601,8 @@
       "definition": "图像",
       "example": "I have a picture.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14613,8 +14613,8 @@
       "definition": "相片",
       "example": "A photo can help you.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14625,8 +14625,8 @@
       "definition": "照片",
       "example": "This is a photograph.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14637,8 +14637,8 @@
       "definition": "摄影机",
       "example": "This is a camera.",
       "difficulty": 2,
-      "next_review": "2026-09-11",
-      "review_count": 5,
+      "next_review": "2026-12-10",
+      "review_count": 6,
       "status": "learning"
     },
     {
