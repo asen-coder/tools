@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-11",
+  "generated": "2026-09-12",
   "words": [
     {
       "id": "ai_001",
@@ -4581,8 +4581,8 @@
       "definition": "洗浴房间",
       "example": "I have a bathroom.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4593,8 +4593,8 @@
       "definition": "卫生间",
       "example": "The toilet is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4605,8 +4605,8 @@
       "definition": "室内地面",
       "example": "The floor is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4617,8 +4617,8 @@
       "definition": "室内顶部",
       "example": "I have a ceiling.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4629,8 +4629,8 @@
       "definition": "分隔结构",
       "example": "The wall is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4641,8 +4641,8 @@
       "definition": "出入口",
       "example": "This is a door.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4653,8 +4653,8 @@
       "definition": "采光口",
       "example": "The window is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4665,8 +4665,8 @@
       "definition": "睡眠家具",
       "example": "I have a bed.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4677,8 +4677,8 @@
       "definition": "学习办公",
       "example": "I have a desk.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -4689,8 +4689,8 @@
       "definition": "平面家具",
       "example": "This is a table.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 4,
+      "next_review": "2026-10-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6261,8 +6261,8 @@
       "definition": "水体",
       "example": "The river is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6273,8 +6273,8 @@
       "definition": "水体",
       "example": "The lake is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6285,8 +6285,8 @@
       "definition": "水体",
       "example": "A sea can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6297,8 +6297,8 @@
       "definition": "水域",
       "example": "This is a ocean.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6309,8 +6309,8 @@
       "definition": "海岸",
       "example": "The beach is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6321,8 +6321,8 @@
       "definition": "陆地",
       "example": "A island can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6333,8 +6333,8 @@
       "definition": "高地",
       "example": "The mountain is important.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6345,8 +6345,8 @@
       "definition": "隆起",
       "example": "I have a hill.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6357,8 +6357,8 @@
       "definition": "树木密集",
       "example": "This is a forest.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6369,8 +6369,8 @@
       "definition": "木本植物",
       "example": "I have a tree.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 3,
+      "next_review": "2026-09-26",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7101,8 +7101,8 @@
       "definition": "数字1",
       "example": "It's one o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7113,8 +7113,8 @@
       "definition": "数字2",
       "example": "It's two o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7125,8 +7125,8 @@
       "definition": "数字3",
       "example": "I have three books.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7137,8 +7137,8 @@
       "definition": "数字4",
       "example": "It's four o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7149,8 +7149,8 @@
       "definition": "数字5",
       "example": "I have five books.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7161,8 +7161,8 @@
       "definition": "数字6",
       "example": "It's six o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7173,8 +7173,8 @@
       "definition": "数字7",
       "example": "I have seven books.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7185,8 +7185,8 @@
       "definition": "数字8",
       "example": "I have eight books.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7197,8 +7197,8 @@
       "definition": "数字9",
       "example": "I have nine books.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7209,8 +7209,8 @@
       "definition": "数字10",
       "example": "I have ten books.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 2,
+      "next_review": "2026-09-19",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7461,8 +7461,8 @@
       "definition": "序数词1",
       "example": "It is very first.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7473,8 +7473,8 @@
       "definition": "序数词2",
       "example": "A second {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7485,8 +7485,8 @@
       "definition": "序数词3",
       "example": "A third {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7497,8 +7497,8 @@
       "definition": "序数词4",
       "example": "This is fourth.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7509,8 +7509,8 @@
       "definition": "序数词5",
       "example": "It is very fifth.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7521,8 +7521,8 @@
       "definition": "序数词6",
       "example": "A sixth {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7533,8 +7533,8 @@
       "definition": "序数词7",
       "example": "It is very seventh.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7545,8 +7545,8 @@
       "definition": "序数词8",
       "example": "This is eighth.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7557,8 +7557,8 @@
       "definition": "序数词9",
       "example": "This is ninth.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7569,8 +7569,8 @@
       "definition": "序数词10",
       "example": "It is very tenth.",
       "difficulty": 5,
-      "next_review": "2026-09-12",
-      "review_count": 1,
+      "next_review": "2026-09-15",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7581,9 +7581,9 @@
       "definition": "位置介词",
       "example": "Go in the door.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_399",
@@ -7593,9 +7593,9 @@
       "definition": "位置介词",
       "example": "Go on the door.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_400",
@@ -7605,9 +7605,9 @@
       "definition": "位置介词",
       "example": "The book is under the table.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_401",
@@ -7617,9 +7617,9 @@
       "definition": "位置介词",
       "example": "The book is above the table.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_402",
@@ -7629,9 +7629,9 @@
       "definition": "位置介词",
       "example": "The book is below the table.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_403",
@@ -7641,9 +7641,9 @@
       "definition": "位置介词",
       "example": "Go near the door.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_404",
@@ -7653,9 +7653,9 @@
       "definition": "距离大",
       "example": "It is very far.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_405",
@@ -7665,9 +7665,9 @@
       "definition": "位置副词",
       "example": "Do it here.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_406",
@@ -7677,9 +7677,9 @@
       "definition": "位置副词",
       "example": "Do it there.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_407",
@@ -7689,9 +7689,9 @@
       "definition": "疑问副词",
       "example": "He runs where.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-13",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_408",
@@ -14649,8 +14649,8 @@
       "definition": "电视",
       "example": "I have a television.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14661,8 +14661,8 @@
       "definition": "电视",
       "example": "A TV can help you.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14673,8 +14673,8 @@
       "definition": "广播",
       "example": "I have a radio.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14685,8 +14685,8 @@
       "definition": "光盘",
       "example": "I have a CD.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14697,8 +14697,8 @@
       "definition": "数字光盘",
       "example": "The DVD is important.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14709,8 +14709,8 @@
       "definition": "美术馆",
       "example": "The gallery is important.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14721,8 +14721,8 @@
       "definition": "展示",
       "example": "The exhibition is important.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14733,8 +14733,8 @@
       "definition": "庆典",
       "example": "I have a festival.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14745,8 +14745,8 @@
       "definition": "庆典",
       "example": "I have a celebration.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14757,8 +14757,8 @@
       "definition": "派对",
       "example": "This is a party.",
       "difficulty": 2,
-      "next_review": "2026-09-12",
-      "review_count": 5,
+      "next_review": "2026-12-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
