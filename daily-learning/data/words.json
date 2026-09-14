@@ -463,8 +463,8 @@
     "definition": "将子元素的事件监听绑定到父元素，利用事件冒泡减少监听器数量",
     "example": "list.addEventListener('click', e => { if (e.target.matches('li')) handle(e) })",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -475,8 +475,8 @@
     "definition": "内层函数能访问并记住外层函数作用域变量的特性，即使外层已执行完毕",
     "example": "function counter() { let n=0; return () => ++n }  // returned fn is a closure",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -487,8 +487,8 @@
     "definition": "代表未来某个异步操作结果的对象，状态只能从 pending 变为 fulfilled 或 rejected",
     "example": "fetch('/api').then(r => r.json()).catch(err => console.error(err))",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -499,8 +499,8 @@
     "definition": "限制函数在连续触发时只在最后一次停止后才执行，常用于搜索输入",
     "example": "const search = debounce(query => api.search(query), 300)",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2215,8 +2215,8 @@
     "definition": "由全-半-全-全-半-全-全音程排列的七声音阶，听起来忧郁、深沉",
     "example": "A minor: A B C D E F G A  (natural minor, relative to C major)",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2239,8 +2239,8 @@
     "definition": "由五个音符构成的音阶，在流行、蓝调、中国传统音乐中广泛使用",
     "example": "C major pentatonic: C D E G A  (remove 4th and 7th from major scale)",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2251,8 +2251,8 @@
     "definition": "演奏或演唱时音高快速微小的周期性波动，增加音符的表现力和温暖感",
     "example": "Classical violinists use wide vibrato; jazz guitarists prefer narrow, fast vibrato",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2263,8 +2263,8 @@
     "definition": "音乐中音量强弱的变化，从最弱（ppp）到最强（fff），是表达情感的重要手段",
     "example": "mp (mezzo-piano) → mf (mezzo-forte) → f (forte) → ff (fortissimo)",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2371,8 +2371,8 @@
     "definition": "使不同乐器或声音听起来不同的音质特征，即使音高相同也各有其独特的声音质地",
     "example": "A violin and flute playing the same A4 note sound different due to their timbre",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2419,8 +2419,8 @@
     "definition": "和弦音符不同时发音、而是按顺序一个个弹奏，像竖琴拨弦的效果",
     "example": "Roll the chord from bottom to top—play it as an arpeggio, not a block chord",
     "difficulty": 2,
-    "next_review": "2026-09-14",
-    "review_count": 5,
+    "next_review": "2026-12-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -4819,8 +4819,8 @@
     "definition": "教育场所",
     "example": "A school can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4831,8 +4831,8 @@
     "definition": "学习房间",
     "example": "A classroom can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4843,8 +4843,8 @@
     "definition": "藏书场所",
     "example": "The library is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4855,8 +4855,8 @@
     "definition": "运动场所",
     "example": "The playground is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4867,8 +4867,8 @@
     "definition": "工作房间",
     "example": "The office is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4879,8 +4879,8 @@
     "definition": "教学板",
     "example": "The blackboard is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4891,8 +4891,8 @@
     "definition": "书写工具",
     "example": "I have a chalk.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4903,8 +4903,8 @@
     "definition": "阅读材料",
     "example": "I have a book.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4915,8 +4915,8 @@
     "definition": "书写工具",
     "example": "This is a pen.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -4927,8 +4927,8 @@
     "definition": "绘画工具",
     "example": "I have a pencil.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 4,
+    "next_review": "2026-10-14",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6499,8 +6499,8 @@
     "definition": "24小时",
     "example": "This is a day.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6511,8 +6511,8 @@
     "definition": "黑暗时段",
     "example": "I have a night.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6523,8 +6523,8 @@
     "definition": "一天开始",
     "example": "A morning can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6535,8 +6535,8 @@
     "definition": "中午后",
     "example": "A afternoon can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6547,8 +6547,8 @@
     "definition": "日落后",
     "example": "I have a evening.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6559,8 +6559,8 @@
     "definition": "正午",
     "example": "This is a noon.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6571,8 +6571,8 @@
     "definition": "零点",
     "example": "The midnight is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6583,8 +6583,8 @@
     "definition": "当前日",
     "example": "The today is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6595,8 +6595,8 @@
     "definition": "次日",
     "example": "A tomorrow can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6607,8 +6607,8 @@
     "definition": "前日",
     "example": "This is a yesterday.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 3,
+    "next_review": "2026-09-28",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7339,8 +7339,8 @@
     "definition": "数字30",
     "example": "I have thirty books.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7351,8 +7351,8 @@
     "definition": "数字40",
     "example": "It's forty o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7363,8 +7363,8 @@
     "definition": "数字50",
     "example": "I have fifty books.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7375,8 +7375,8 @@
     "definition": "数字60",
     "example": "It's sixty o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7387,8 +7387,8 @@
     "definition": "数字70",
     "example": "It's seventy o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7399,8 +7399,8 @@
     "definition": "数字80",
     "example": "It's eighty o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7411,8 +7411,8 @@
     "definition": "数字90",
     "example": "I have ninety books.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7423,8 +7423,8 @@
     "definition": "数字100",
     "example": "It's hundred o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7435,8 +7435,8 @@
     "definition": "数字1000",
     "example": "It's thousand o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7447,8 +7447,8 @@
     "definition": "数字1000000",
     "example": "It's million o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 2,
+    "next_review": "2026-09-21",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7699,8 +7699,8 @@
     "definition": "方向",
     "example": "This is left.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7711,8 +7711,8 @@
     "definition": "方向",
     "example": "This is right.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7723,8 +7723,8 @@
     "definition": "位置",
     "example": "I have a front.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7735,8 +7735,8 @@
     "definition": "中间",
     "example": "I have a center.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7747,8 +7747,8 @@
     "definition": "转角",
     "example": "The corner is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7759,8 +7759,8 @@
     "definition": "旁边",
     "example": "The side is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7771,8 +7771,8 @@
     "definition": "中部",
     "example": "The middle is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7783,8 +7783,8 @@
     "definition": "上面",
     "example": "A top can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7795,8 +7795,8 @@
     "definition": "下面",
     "example": "The bottom is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7807,8 +7807,8 @@
     "definition": "内部",
     "example": "The inside is important.",
     "difficulty": 5,
-    "next_review": "2026-09-14",
-    "review_count": 1,
+    "next_review": "2026-09-17",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -7819,9 +7819,9 @@
     "definition": "外部",
     "example": "I have a outside.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_419",
@@ -7831,9 +7831,9 @@
     "definition": "方向",
     "example": "He runs up.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_420",
@@ -7843,9 +7843,9 @@
     "definition": "方向",
     "example": "He runs down.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_421",
@@ -7855,9 +7855,9 @@
     "definition": "位置",
     "example": "This is upstairs.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_422",
@@ -7867,9 +7867,9 @@
     "definition": "位置",
     "example": "This is downstairs.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_423",
@@ -7879,9 +7879,9 @@
     "definition": "交通工具",
     "example": "I have a car.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_424",
@@ -7891,9 +7891,9 @@
     "definition": "公共交通",
     "example": "This is a bus.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_425",
@@ -7903,9 +7903,9 @@
     "definition": "轨道交通",
     "example": "A train can help you.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_426",
@@ -7915,9 +7915,9 @@
     "definition": "城市轨道交通",
     "example": "The subway is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_427",
@@ -7927,9 +7927,9 @@
     "definition": "空中交通",
     "example": "This is a plane.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-15",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_428",
