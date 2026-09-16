@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "words": [
     {
       "id": "ai_001",
@@ -1749,8 +1749,8 @@
       "definition": "Vue 3 官方状态管理库，比 Vuex 更简单，支持 Composition API 和 TypeScript",
       "example": "const useStore = defineStore('main', () => { const count = ref(0); return { count } })",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1773,8 +1773,8 @@
       "definition": "TypeScript 中表示一个值可以是多种类型之一的类型声明，用 | 分隔",
       "example": "type ID = string | number\nfunction getUser(id: ID) { ... }",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1797,8 +1797,8 @@
       "definition": "安全访问深层属性的语法（?.），在遇到 null/undefined 时短路返回 undefined",
       "example": "const city = user?.address?.city ?? 'Unknown'",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1809,8 +1809,8 @@
       "definition": "当左侧为 null 或 undefined 时返回右侧值的运算符（??），不会跳过 0 和空字符串",
       "example": "const port = config.port ?? 3000  // 0 不会触发右侧",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1833,8 +1833,8 @@
       "definition": "开发时修改文件后无需刷新页面、只替换变更模块并保留应用状态的技术",
       "example": "Save a Vue file → component updates in browser without losing form state",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1869,8 +1869,8 @@
       "definition": "浏览器安全机制，限制跨域请求，服务端通过设置响应头来允许特定来源访问",
       "example": "Access-Control-Allow-Origin: https://myapp.com",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1893,8 +1893,8 @@
       "definition": "在单个 TCP 连接上实现全双工实时通信的协议，适合聊天室、实时协作等场景",
       "example": "const ws = new WebSocket('wss://api.example.com/ws')\nws.send(JSON.stringify({action: 'join'}))",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1917,8 +1917,8 @@
       "definition": "用于在各方之间安全传递声明的紧凑型令牌，包含 Header.Payload.Signature 三部分",
       "example": "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1965,8 +1965,8 @@
       "definition": "在事件停止触发一段时间后才执行回调，避免高频事件（如输入）重复调用",
       "example": "const debouncedSearch = debounce(search, 300)  // 停止输入 300ms 后才搜索",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1977,8 +1977,8 @@
       "definition": "限制函数在固定时间间隔内最多执行一次，适合 scroll/resize 等高频事件",
       "example": "const throttledScroll = throttle(handleScroll, 100)  // 100ms 最多执行一次",
       "difficulty": 2,
-      "next_review": "2026-09-16",
-      "review_count": 5,
+      "next_review": "2026-12-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5061,8 +5061,8 @@
       "definition": "自然学科",
       "example": "This is a science.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5073,8 +5073,8 @@
       "definition": "艺术学科",
       "example": "The art is important.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5085,8 +5085,8 @@
       "definition": "声音艺术",
       "example": "This is a music.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5097,8 +5097,8 @@
       "definition": "运动课程",
       "example": "This is a PE.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5109,8 +5109,8 @@
       "definition": "测试评估",
       "example": "The exam is important.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5121,8 +5121,8 @@
       "definition": "检验",
       "example": "A test can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5133,8 +5133,8 @@
       "definition": "年级或分数",
       "example": "This is a grade.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5145,8 +5145,8 @@
       "definition": "成绩",
       "example": "This is a score.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5157,8 +5157,8 @@
       "definition": "解答",
       "example": "This is a answer.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5169,8 +5169,8 @@
       "definition": "疑问",
       "example": "The question is important.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 4,
+      "next_review": "2026-10-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6741,8 +6741,8 @@
       "definition": "阳光充足",
       "example": "It is very sunny.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6753,8 +6753,8 @@
       "definition": "云多",
       "example": "It is very cloudy.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6765,8 +6765,8 @@
       "definition": "风大",
       "example": "This is windy.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6777,8 +6777,8 @@
       "definition": "降雨",
       "example": "This is rainy.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6789,8 +6789,8 @@
       "definition": "降雪",
       "example": "This is snowy.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6801,8 +6801,8 @@
       "definition": "温度高",
       "example": "This is hot.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6813,8 +6813,8 @@
       "definition": "温度适中",
       "example": "It is very warm.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6825,8 +6825,8 @@
       "definition": "温度略低",
       "example": "A cool {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6837,8 +6837,8 @@
       "definition": "温度低",
       "example": "This is cold.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6849,8 +6849,8 @@
       "definition": "水分多",
       "example": "A wet {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 3,
+      "next_review": "2026-09-30",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7581,8 +7581,8 @@
       "definition": "位置介词",
       "example": "Go in the door.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7593,8 +7593,8 @@
       "definition": "位置介词",
       "example": "Go on the door.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7605,8 +7605,8 @@
       "definition": "位置介词",
       "example": "The book is under the table.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7617,8 +7617,8 @@
       "definition": "位置介词",
       "example": "The book is above the table.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7629,8 +7629,8 @@
       "definition": "位置介词",
       "example": "The book is below the table.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7641,8 +7641,8 @@
       "definition": "位置介词",
       "example": "Go near the door.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7653,8 +7653,8 @@
       "definition": "距离大",
       "example": "It is very far.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7665,8 +7665,8 @@
       "definition": "位置副词",
       "example": "Do it here.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7677,8 +7677,8 @@
       "definition": "位置副词",
       "example": "Do it there.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7689,8 +7689,8 @@
       "definition": "疑问副词",
       "example": "He runs where.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 2,
+      "next_review": "2026-09-23",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7941,8 +7941,8 @@
       "definition": "水上交通",
       "example": "A ship can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7953,8 +7953,8 @@
       "definition": "水上载具",
       "example": "A boat can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7965,8 +7965,8 @@
       "definition": "个人交通",
       "example": "A bike can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7977,8 +7977,8 @@
       "definition": "两轮车",
       "example": "This is a bicycle.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -7989,8 +7989,8 @@
       "definition": "机动车",
       "example": "I have a motorcycle.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8001,8 +8001,8 @@
       "definition": "付费交通",
       "example": "The taxi is important.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8013,8 +8013,8 @@
       "definition": "货车",
       "example": "A truck can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8025,8 +8025,8 @@
       "definition": "医疗车辆",
       "example": "I have a ambulance.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8037,8 +8037,8 @@
       "definition": "消防车辆",
       "example": "A fire engine can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8049,8 +8049,8 @@
       "definition": "执法车辆",
       "example": "This is a police car.",
       "difficulty": 5,
-      "next_review": "2026-09-16",
-      "review_count": 1,
+      "next_review": "2026-09-19",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8061,9 +8061,9 @@
       "definition": "行车通道",
       "example": "I have a road.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_439",
@@ -8073,9 +8073,9 @@
       "definition": "城市道路",
       "example": "This is a street.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_440",
@@ -8085,9 +8085,9 @@
       "definition": "路径",
       "example": "I have a way.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_441",
@@ -8097,9 +8097,9 @@
       "definition": "步行道",
       "example": "A path can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_442",
@@ -8109,9 +8109,9 @@
       "definition": "跨越建筑",
       "example": "A bridge can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_443",
@@ -8121,9 +8121,9 @@
       "definition": "地下通道",
       "example": "This is a tunnel.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_444",
@@ -8133,9 +8133,9 @@
       "definition": "跨越",
       "example": "Can you cross?",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_445",
@@ -8145,9 +8145,9 @@
       "definition": "改变方向",
       "example": "Can you turn?",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_446",
@@ -8157,9 +8157,9 @@
       "definition": "停下",
       "example": "Let's stop together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_447",
@@ -8169,9 +8169,9 @@
       "definition": "前往",
       "example": "You should go it.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-17",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_448",
