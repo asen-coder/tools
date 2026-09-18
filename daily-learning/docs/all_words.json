@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-17",
+  "generated": "2026-09-18",
   "words": [
     {
       "id": "ai_001",
@@ -237,8 +237,8 @@
       "definition": "能自主规划步骤、调用工具并根据结果决定下一步行动的 AI 系统",
       "example": "agent = create_react_agent(llm, tools=[search_tool, calculator])",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -249,8 +249,8 @@
       "definition": "LLM 在生成过程中请求执行外部函数（搜索、计算等）并获取结果的能力",
       "example": "@tool\ndef get_weather(city: str) -> str:\n    return weather_api(city)",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -261,8 +261,8 @@
       "definition": "模型自信地生成听起来合理但实际上错误或捏造的内容",
       "example": "RAG helps reduce hallucination by grounding answers in real documents",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -273,8 +273,8 @@
       "definition": "模型单次能处理的最大 token 数量，超出则需截断或用其他策略",
       "example": "GPT-4o has a 128k context window; Claude 3.5 has 200k",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -285,8 +285,8 @@
       "definition": "监听链/代理执行过程中各阶段事件（开始、结束、错误）的钩子机制",
       "example": "chain.invoke(input, config={'callbacks': [StreamingHandler()]})",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -297,8 +297,8 @@
       "definition": "让模型在给出最终答案前逐步展示推理过程的提示技术",
       "example": "prompt = 'Think step by step before answering: {question}'",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -309,8 +309,8 @@
       "definition": "LLM 逐 token 输出内容而非等待全部生成完再返回，改善用户体验",
       "example": "for chunk in chain.stream({'question': 'What is LCEL?'}):\n    print(chunk, end='')",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1245,8 +1245,8 @@
       "definition": "在聊天提示模板中动态插入一组消息（如历史记录）的占位符组件",
       "example": "MessagesPlaceholder(variable_name=\"chat_history\")",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1281,8 +1281,8 @@
       "definition": "将外部知识检索结果注入 LLM 上下文，弥补模型知识截止日期的局限",
       "example": "rag_chain = retriever | format_docs | prompt | llm | StrOutputParser()",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1329,8 +1329,8 @@
       "definition": "LLM 根据用户意图决定调用哪些预定义工具（函数）并传入参数的能力",
       "example": "@tool\ndef search_web(query: str) -> str:\n    return results",
       "difficulty": 3,
-      "next_review": "2026-09-18",
-      "review_count": 5,
+      "next_review": "2026-12-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5301,8 +5301,8 @@
       "definition": "遗忘",
       "example": "You should forget it.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5313,8 +5313,8 @@
       "definition": "了解",
       "example": "You should know it.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5325,8 +5325,8 @@
       "definition": "视觉属性",
       "example": "I have a color.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5337,8 +5337,8 @@
       "definition": "像血",
       "example": "This is red.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5349,8 +5349,8 @@
       "definition": "像天空",
       "example": "A blue {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5361,8 +5361,8 @@
       "definition": "像植物",
       "example": "This is green.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5373,8 +5373,8 @@
       "definition": "像太阳",
       "example": "This is yellow.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5385,8 +5385,8 @@
       "definition": "紫葡萄色",
       "example": "This is purple.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5397,8 +5397,8 @@
       "definition": "浅红色",
       "example": "It is very pink.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5409,8 +5409,8 @@
       "definition": "像大地",
       "example": "It is very brown.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 4,
+      "next_review": "2026-10-18",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6981,8 +6981,8 @@
       "definition": "第三个月",
       "example": "This is a March.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -6993,8 +6993,8 @@
       "definition": "第四个月",
       "example": "I have a April.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7005,8 +7005,8 @@
       "definition": "第五个月",
       "example": "This is a May.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7017,8 +7017,8 @@
       "definition": "第六个月",
       "example": "The June is important.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7029,8 +7029,8 @@
       "definition": "第七个月",
       "example": "A July can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7041,8 +7041,8 @@
       "definition": "第八个月",
       "example": "I have a August.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7053,8 +7053,8 @@
       "definition": "第九个月",
       "example": "A September can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7065,8 +7065,8 @@
       "definition": "第十个月",
       "example": "A October can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7077,8 +7077,8 @@
       "definition": "第十一月",
       "example": "This is a November.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7089,8 +7089,8 @@
       "definition": "第十二月",
       "example": "The December is important.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 3,
+      "next_review": "2026-10-02",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7821,8 +7821,8 @@
       "definition": "外部",
       "example": "I have a outside.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7833,8 +7833,8 @@
       "definition": "方向",
       "example": "He runs up.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7845,8 +7845,8 @@
       "definition": "方向",
       "example": "He runs down.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7857,8 +7857,8 @@
       "definition": "位置",
       "example": "This is upstairs.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7869,8 +7869,8 @@
       "definition": "位置",
       "example": "This is downstairs.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7881,8 +7881,8 @@
       "definition": "交通工具",
       "example": "I have a car.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7893,8 +7893,8 @@
       "definition": "公共交通",
       "example": "This is a bus.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7905,8 +7905,8 @@
       "definition": "轨道交通",
       "example": "A train can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7917,8 +7917,8 @@
       "definition": "城市轨道交通",
       "example": "The subway is important.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -7929,8 +7929,8 @@
       "definition": "空中交通",
       "example": "This is a plane.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 2,
+      "next_review": "2026-09-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8181,8 +8181,8 @@
       "definition": "靠近",
       "example": "I come every day.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8193,8 +8193,8 @@
       "definition": "离去",
       "example": "I leave every day.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8205,8 +8205,8 @@
       "definition": "抵达",
       "example": "Let's arrive together.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8217,8 +8217,8 @@
       "definition": "进去",
       "example": "Can you enter?",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8229,8 +8229,8 @@
       "definition": "离开",
       "example": "I exit every day.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8241,8 +8241,8 @@
       "definition": "开车",
       "example": "Let's drive together.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8253,8 +8253,8 @@
       "definition": "骑车",
       "example": "Let's ride together.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8265,8 +8265,8 @@
       "definition": "走路",
       "example": "Let's walk together.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8277,8 +8277,8 @@
       "definition": "跑步",
       "example": "I run every day.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8289,8 +8289,8 @@
       "definition": "跳跃",
       "example": "You should jump it.",
       "difficulty": 5,
-      "next_review": "2026-09-18",
-      "review_count": 1,
+      "next_review": "2026-09-21",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8301,9 +8301,9 @@
       "definition": "水上运动",
       "example": "I swim every day.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_459",
@@ -8313,9 +8313,9 @@
       "definition": "出行",
       "example": "Let's travel together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_460",
@@ -8325,9 +8325,9 @@
       "definition": "短途",
       "example": "I have a trip.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_461",
@@ -8337,9 +8337,9 @@
       "definition": "观光",
       "example": "I have a tour.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_462",
@@ -8349,9 +8349,9 @@
       "definition": "访问",
       "example": "I visit every day.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_463",
@@ -8361,9 +8361,9 @@
       "definition": "导航图",
       "example": "I have a map.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_464",
@@ -8373,9 +8373,9 @@
       "definition": "凭证",
       "example": "This is a ticket.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_465",
@@ -8385,9 +8385,9 @@
       "definition": "出行者",
       "example": "I have a passenger.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_466",
@@ -8397,9 +8397,9 @@
       "definition": "乘车点",
       "example": "A station can help you.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_467",
@@ -8409,9 +8409,9 @@
       "definition": "航空枢纽",
       "example": "This is a airport.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-19",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_468",
