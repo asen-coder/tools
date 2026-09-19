@@ -1339,8 +1339,8 @@
     "definition": "LangGraph 的核心数据结构，定义节点（操作）和边（流转路径）构成的有向图",
     "example": "graph = StateGraph(State)\ngraph.add_node('research', research_node)\ngraph.add_edge('research', 'write')",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1351,8 +1351,8 @@
     "definition": "LangGraph 在每个节点执行后保存的完整状态快照，用于断点续跑和人工干预",
     "example": "memory = MemorySaver()\ngraph = builder.compile(checkpointer=memory)",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1363,8 +1363,8 @@
     "definition": "在 AI 工作流中设置人工审核节点，让人类在关键决策点审批或修正",
     "example": "graph.compile(interrupt_before=['sensitive_action'])",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1375,8 +1375,8 @@
     "definition": "多个专职 AI 智能体协同工作，分别负责不同子任务（如研究员 + 写手 + 审稿人）",
     "example": "supervisor → researcher → writer → reviewer",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1459,8 +1459,8 @@
     "definition": "衡量两个向量方向接近程度的指标（-1 到 1），向量数据库检索的核心算法",
     "example": "similarity = dot(a, b) / (norm(a) * norm(b))",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1495,8 +1495,8 @@
     "definition": "将模型权重从高精度浮点数压缩为低精度整数，减少内存占用和推理延迟",
     "example": "llama.cpp runs LLaMA-3 with 4-bit quantization on consumer hardware",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1519,8 +1519,8 @@
     "definition": "无需针对性训练示例，直接让模型执行从未见过的任务的能力",
     "example": "GPT-4 can classify sentiment zero-shot by just describing the task in the prompt",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1543,8 +1543,8 @@
     "definition": "让模型在给出最终答案前显式写出中间推理步骤，显著提升复杂问题的准确率",
     "example": "Let's think step by step: first calculate X, then Y, therefore Z.",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1579,8 +1579,8 @@
     "definition": "防止 AI 输出有害内容或越界行为的安全机制，包括输入过滤和输出校验",
     "example": "Input guardrail blocks prompt injection; output guardrail checks for PII",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1615,8 +1615,8 @@
     "definition": "LLM 服务每秒能处理的 token 数量，衡量模型在高并发场景下的性能",
     "example": "This deployment achieves 200 tokens/sec throughput on A100 GPU",
     "difficulty": 3,
-    "next_review": "2026-09-19",
-    "review_count": 5,
+    "next_review": "2026-12-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5419,8 +5419,8 @@
     "definition": "像夜晚",
     "example": "This is black.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5431,8 +5431,8 @@
     "definition": "像雪",
     "example": "It is very white.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5443,8 +5443,8 @@
     "definition": "中性色",
     "example": "This is gray.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5455,8 +5455,8 @@
     "definition": "明亮",
     "example": "This is light.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5467,8 +5467,8 @@
     "definition": "暗淡",
     "example": "A dark {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5479,8 +5479,8 @@
     "definition": "圆的",
     "example": "A round {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5491,8 +5491,8 @@
     "definition": "方的",
     "example": "A square {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5503,8 +5503,8 @@
     "definition": "长度大",
     "example": "A long {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5515,8 +5515,8 @@
     "definition": "长度小",
     "example": "It is very short.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5527,8 +5527,8 @@
     "definition": "高度大",
     "example": "A tall {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 4,
+    "next_review": "2026-10-19",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -7099,8 +7099,8 @@
     "definition": "数字1",
     "example": "It's one o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7111,8 +7111,8 @@
     "definition": "数字2",
     "example": "It's two o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7123,8 +7123,8 @@
     "definition": "数字3",
     "example": "I have three books.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7135,8 +7135,8 @@
     "definition": "数字4",
     "example": "It's four o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7147,8 +7147,8 @@
     "definition": "数字5",
     "example": "I have five books.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7159,8 +7159,8 @@
     "definition": "数字6",
     "example": "It's six o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7171,8 +7171,8 @@
     "definition": "数字7",
     "example": "I have seven books.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7183,8 +7183,8 @@
     "definition": "数字8",
     "example": "I have eight books.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7195,8 +7195,8 @@
     "definition": "数字9",
     "example": "I have nine books.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7207,8 +7207,8 @@
     "definition": "数字10",
     "example": "I have ten books.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 3,
+    "next_review": "2026-10-03",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7939,8 +7939,8 @@
     "definition": "水上交通",
     "example": "A ship can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7951,8 +7951,8 @@
     "definition": "水上载具",
     "example": "A boat can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7963,8 +7963,8 @@
     "definition": "个人交通",
     "example": "A bike can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7975,8 +7975,8 @@
     "definition": "两轮车",
     "example": "This is a bicycle.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7987,8 +7987,8 @@
     "definition": "机动车",
     "example": "I have a motorcycle.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -7999,8 +7999,8 @@
     "definition": "付费交通",
     "example": "The taxi is important.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8011,8 +8011,8 @@
     "definition": "货车",
     "example": "A truck can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8023,8 +8023,8 @@
     "definition": "医疗车辆",
     "example": "I have a ambulance.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8035,8 +8035,8 @@
     "definition": "消防车辆",
     "example": "A fire engine can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8047,8 +8047,8 @@
     "definition": "执法车辆",
     "example": "This is a police car.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 2,
+    "next_review": "2026-09-26",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8299,8 +8299,8 @@
     "definition": "水上运动",
     "example": "I swim every day.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8311,8 +8311,8 @@
     "definition": "出行",
     "example": "Let's travel together.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8323,8 +8323,8 @@
     "definition": "短途",
     "example": "I have a trip.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8335,8 +8335,8 @@
     "definition": "观光",
     "example": "I have a tour.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8347,8 +8347,8 @@
     "definition": "访问",
     "example": "I visit every day.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8359,8 +8359,8 @@
     "definition": "导航图",
     "example": "I have a map.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8371,8 +8371,8 @@
     "definition": "凭证",
     "example": "This is a ticket.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8383,8 +8383,8 @@
     "definition": "出行者",
     "example": "I have a passenger.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8395,8 +8395,8 @@
     "definition": "乘车点",
     "example": "A station can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8407,8 +8407,8 @@
     "definition": "航空枢纽",
     "example": "This is a airport.",
     "difficulty": 5,
-    "next_review": "2026-09-19",
-    "review_count": 1,
+    "next_review": "2026-09-22",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8419,9 +8419,9 @@
     "definition": "住宿场所",
     "example": "The hotel is important.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_469",
@@ -8431,9 +8431,9 @@
     "definition": "执行",
     "example": "Can you do?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_470",
@@ -8443,9 +8443,9 @@
     "definition": "创造",
     "example": "I make every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_471",
@@ -8455,9 +8455,9 @@
     "definition": "获取",
     "example": "You should get it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_472",
@@ -8467,9 +8467,9 @@
     "definition": "赠送",
     "example": "You should give it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_473",
@@ -8479,9 +8479,9 @@
     "definition": "取",
     "example": "You should take it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_474",
@@ -8491,9 +8491,9 @@
     "definition": "拿来",
     "example": "Let's bring together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_475",
@@ -8503,9 +8503,9 @@
     "definition": "显示",
     "example": "You should show it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_476",
@@ -8515,9 +8515,9 @@
     "definition": "告知",
     "example": "I tell every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_477",
@@ -8527,9 +8527,9 @@
     "definition": "表达",
     "example": "You should say it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-20",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_478",
