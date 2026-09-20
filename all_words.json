@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-19",
+  "generated": "2026-09-20",
   "words": [
     {
       "id": "ai_001",
@@ -849,8 +849,8 @@
       "definition": "将和弦各音依次单独弹奏而非同时发声，常用于钢琴和吉他",
       "example": "Playing C-E-G one by one upward is a C major arpeggio",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -861,8 +861,8 @@
       "definition": "短促分离地弹奏每个音符，在音符上方或下方标记小圆点",
       "example": "Staccato notes sound like light, bouncy raindrops",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -873,8 +873,8 @@
       "definition": "音符之间流畅连贯地演奏，没有间断，用弧线（连线）标记",
       "example": "Legato playing sounds smooth like flowing water",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -885,8 +885,8 @@
       "definition": "将重音放在通常较弱的拍点上，造成节奏错位感，爵士乐大量使用",
       "example": "Most pop and jazz music uses syncopation for a groove feel",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -897,8 +897,8 @@
       "definition": "音量逐渐增大的演奏方式，用 < 符号或 cresc. 标记",
       "example": "The orchestra played a crescendo leading to the climax",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -909,8 +909,8 @@
       "definition": "演奏时实时创作而非演奏预先写好的乐谱，爵士乐的灵魂",
       "example": "Jazz musicians improvise solos over chord progressions",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -1629,8 +1629,8 @@
       "definition": "确保 AI 输出基于真实可验证的信息，而非凭空生成，通常通过 RAG 或工具调用实现",
       "example": "Grounding the chatbot with a product database ensures it only mentions real products",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2169,8 +2169,8 @@
       "definition": "多个和弦按特定顺序排列形成的音乐骨架，决定歌曲的情感走向",
       "example": "I-V-vi-IV (C-G-Am-F) is the most commonly used pop chord progression",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2181,8 +2181,8 @@
       "definition": "乐谱开头标明每小节拍数和基准音符时值的记号，如 4/4 表示每小节四个四分音符",
       "example": "4/4 is common in pop; 3/4 is waltz; 6/8 gives a compound duple feel",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2193,8 +2193,8 @@
       "definition": "五线谱开头标明升降号的记号，决定乐曲所在的调式（大调或小调）",
       "example": "Two sharps (F# and C#) indicates D major or B minor key",
       "difficulty": 3,
-      "next_review": "2026-09-20",
-      "review_count": 5,
+      "next_review": "2026-12-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5541,8 +5541,8 @@
       "definition": "体积大",
       "example": "A big {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5553,8 +5553,8 @@
       "definition": "体积小",
       "example": "It is very small.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5565,8 +5565,8 @@
       "definition": "尺寸大",
       "example": "A large {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5577,8 +5577,8 @@
       "definition": "尺寸小",
       "example": "It is very little.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5589,8 +5589,8 @@
       "definition": "重量大",
       "example": "A heavy {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5601,8 +5601,8 @@
       "definition": "厚度大",
       "example": "A thick {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5613,8 +5613,8 @@
       "definition": "厚度小",
       "example": "This is thin.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5625,8 +5625,8 @@
       "definition": "宽度大",
       "example": "This is wide.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5637,8 +5637,8 @@
       "definition": "宽度小",
       "example": "A narrow {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -5649,8 +5649,8 @@
       "definition": "生物",
       "example": "A animal can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 4,
+      "next_review": "2026-10-20",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7221,8 +7221,8 @@
       "definition": "数字11",
       "example": "It's eleven o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7233,8 +7233,8 @@
       "definition": "数字12",
       "example": "I have twelve books.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7245,8 +7245,8 @@
       "definition": "数字13",
       "example": "It's thirteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7257,8 +7257,8 @@
       "definition": "数字14",
       "example": "I have fourteen books.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7269,8 +7269,8 @@
       "definition": "数字15",
       "example": "It's fifteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7281,8 +7281,8 @@
       "definition": "数字16",
       "example": "It's sixteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7293,8 +7293,8 @@
       "definition": "数字17",
       "example": "I have seventeen books.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7305,8 +7305,8 @@
       "definition": "数字18",
       "example": "It's eighteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7317,8 +7317,8 @@
       "definition": "数字19",
       "example": "It's nineteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -7329,8 +7329,8 @@
       "definition": "数字20",
       "example": "I have twenty books.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 3,
+      "next_review": "2026-10-04",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8061,8 +8061,8 @@
       "definition": "行车通道",
       "example": "I have a road.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8073,8 +8073,8 @@
       "definition": "城市道路",
       "example": "This is a street.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8085,8 +8085,8 @@
       "definition": "路径",
       "example": "I have a way.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8097,8 +8097,8 @@
       "definition": "步行道",
       "example": "A path can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8109,8 +8109,8 @@
       "definition": "跨越建筑",
       "example": "A bridge can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8121,8 +8121,8 @@
       "definition": "地下通道",
       "example": "This is a tunnel.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8133,8 +8133,8 @@
       "definition": "跨越",
       "example": "Can you cross?",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8145,8 +8145,8 @@
       "definition": "改变方向",
       "example": "Can you turn?",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8157,8 +8157,8 @@
       "definition": "停下",
       "example": "Let's stop together.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8169,8 +8169,8 @@
       "definition": "前往",
       "example": "You should go it.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 2,
+      "next_review": "2026-09-27",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -8421,8 +8421,8 @@
       "definition": "住宿场所",
       "example": "The hotel is important.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8433,8 +8433,8 @@
       "definition": "执行",
       "example": "Can you do?",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8445,8 +8445,8 @@
       "definition": "创造",
       "example": "I make every day.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8457,8 +8457,8 @@
       "definition": "获取",
       "example": "You should get it.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8469,8 +8469,8 @@
       "definition": "赠送",
       "example": "You should give it.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8481,8 +8481,8 @@
       "definition": "取",
       "example": "You should take it.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8493,8 +8493,8 @@
       "definition": "拿来",
       "example": "Let's bring together.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8505,8 +8505,8 @@
       "definition": "显示",
       "example": "You should show it.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8517,8 +8517,8 @@
       "definition": "告知",
       "example": "I tell every day.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8529,8 +8529,8 @@
       "definition": "表达",
       "example": "You should say it.",
       "difficulty": 5,
-      "next_review": "2026-09-20",
-      "review_count": 1,
+      "next_review": "2026-09-23",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -8541,9 +8541,9 @@
       "definition": "提问",
       "example": "Let's ask together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_479",
@@ -8553,9 +8553,9 @@
       "definition": "讲话",
       "example": "Can you speak?",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_480",
@@ -8565,9 +8565,9 @@
       "definition": "交流",
       "example": "Let's talk together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_481",
@@ -8577,9 +8577,9 @@
       "definition": "大声说",
       "example": "Let's shout together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_482",
@@ -8589,9 +8589,9 @@
       "definition": "小声说",
       "example": "Let's whisper together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_483",
@@ -8601,9 +8601,9 @@
       "definition": "喊或打电话",
       "example": "Can you call?",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_484",
@@ -8613,9 +8613,9 @@
       "definition": "流泪",
       "example": "Let's cry together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_485",
@@ -8625,9 +8625,9 @@
       "definition": "发笑",
       "example": "Can you laugh?",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_486",
@@ -8637,9 +8637,9 @@
       "definition": "露出笑容",
       "example": "Let's smile together.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_487",
@@ -8649,9 +8649,9 @@
       "definition": "娱乐",
       "example": "You should play it.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-21",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_488",
