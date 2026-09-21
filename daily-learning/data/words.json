@@ -571,8 +571,8 @@
     "definition": "在客户端激活服务端渲染的静态 HTML，绑定事件使其具有交互能力",
     "example": "SSR renders HTML on server; hydration makes it interactive in browser",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -583,8 +583,8 @@
     "definition": "在服务器上生成完整 HTML 再发送给浏览器，首屏快、SEO 好",
     "example": "Nuxt.js/Next.js use SSR; initial page is rendered on the server",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -595,8 +595,8 @@
     "definition": "打包时自动移除未被引用的代码，减小最终 bundle 体积",
     "example": "import { ref } from 'vue'  // only 'ref' is bundled, not entire Vue",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2227,8 +2227,8 @@
     "definition": "两个音符之间的音高距离，以度数（unison/third/fifth/octave）表示",
     "example": "C to G is a perfect fifth (7 semitones); C to E is a major third (4 semitones)",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2299,8 +2299,8 @@
     "definition": "指示演奏逐渐加快速度的术语，常缩写为 accel.",
     "example": "The piece builds tension with an accelerando before the climactic final chord",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2311,8 +2311,8 @@
     "definition": "指示演奏逐渐放慢速度的术语，常缩写为 rit. 或 ritard.",
     "example": "The conductor signals a ritardando for the ending phrase",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2323,8 +2323,8 @@
     "definition": "将一段音乐整体移高或降低固定音程，改变调性但保持旋律和声的内部关系不变",
     "example": "Transpose 'Happy Birthday' from C to G so it fits your vocal range",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2359,8 +2359,8 @@
     "definition": "将重音移至通常不强的拍子（如弱拍或拍的弱部），制造推拉感，是爵士和流行音乐的特征",
     "example": "The ska rhythm accents the offbeats (2 and 4) creating a syncopated feel",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2395,8 +2395,8 @@
     "definition": "指示音符要平滑连接、无明显间隔地演奏，与断奏（staccato）相对",
     "example": "Play this melody legato—like a singer breathing between phrases, not choppy",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2407,8 +2407,8 @@
     "definition": "指示音符要短促分离地演奏，每个音符之间有明显间隔，通常以小圆点标记",
     "example": "The staccato eighth notes in the opening give a playful, bouncy character",
     "difficulty": 3,
-    "next_review": "2026-09-21",
-    "review_count": 5,
+    "next_review": "2026-12-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5659,8 +5659,8 @@
     "definition": "宠物",
     "example": "A dog can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5671,8 +5671,8 @@
     "definition": "宠物",
     "example": "I have a cat.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5683,8 +5683,8 @@
     "definition": "飞行动物",
     "example": "I have a bird.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5695,8 +5695,8 @@
     "definition": "小动物",
     "example": "I have a rabbit.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5707,8 +5707,8 @@
     "definition": "水禽",
     "example": "The duck is important.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5719,8 +5719,8 @@
     "definition": "家畜",
     "example": "The pig is important.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5731,8 +5731,8 @@
     "definition": "家畜",
     "example": "This is a cow.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5743,8 +5743,8 @@
     "definition": "家畜",
     "example": "I have a horse.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5755,8 +5755,8 @@
     "definition": "家畜",
     "example": "A sheep can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5767,8 +5767,8 @@
     "definition": "家畜",
     "example": "I have a goat.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 4,
+    "next_review": "2026-10-21",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -7339,8 +7339,8 @@
     "definition": "数字30",
     "example": "I have thirty books.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7351,8 +7351,8 @@
     "definition": "数字40",
     "example": "It's forty o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7363,8 +7363,8 @@
     "definition": "数字50",
     "example": "I have fifty books.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7375,8 +7375,8 @@
     "definition": "数字60",
     "example": "It's sixty o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7387,8 +7387,8 @@
     "definition": "数字70",
     "example": "It's seventy o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7399,8 +7399,8 @@
     "definition": "数字80",
     "example": "It's eighty o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7411,8 +7411,8 @@
     "definition": "数字90",
     "example": "I have ninety books.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7423,8 +7423,8 @@
     "definition": "数字100",
     "example": "It's hundred o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7435,8 +7435,8 @@
     "definition": "数字1000",
     "example": "It's thousand o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7447,8 +7447,8 @@
     "definition": "数字1000000",
     "example": "It's million o'clock.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 3,
+    "next_review": "2026-10-05",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8179,8 +8179,8 @@
     "definition": "靠近",
     "example": "I come every day.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8191,8 +8191,8 @@
     "definition": "离去",
     "example": "I leave every day.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8203,8 +8203,8 @@
     "definition": "抵达",
     "example": "Let's arrive together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8215,8 +8215,8 @@
     "definition": "进去",
     "example": "Can you enter?",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8227,8 +8227,8 @@
     "definition": "离开",
     "example": "I exit every day.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8239,8 +8239,8 @@
     "definition": "开车",
     "example": "Let's drive together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8251,8 +8251,8 @@
     "definition": "骑车",
     "example": "Let's ride together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8263,8 +8263,8 @@
     "definition": "走路",
     "example": "Let's walk together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8275,8 +8275,8 @@
     "definition": "跑步",
     "example": "I run every day.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8287,8 +8287,8 @@
     "definition": "跳跃",
     "example": "You should jump it.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 2,
+    "next_review": "2026-09-28",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8539,8 +8539,8 @@
     "definition": "提问",
     "example": "Let's ask together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8551,8 +8551,8 @@
     "definition": "讲话",
     "example": "Can you speak?",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8563,8 +8563,8 @@
     "definition": "交流",
     "example": "Let's talk together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8575,8 +8575,8 @@
     "definition": "大声说",
     "example": "Let's shout together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8587,8 +8587,8 @@
     "definition": "小声说",
     "example": "Let's whisper together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8599,8 +8599,8 @@
     "definition": "喊或打电话",
     "example": "Can you call?",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8611,8 +8611,8 @@
     "definition": "流泪",
     "example": "Let's cry together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8623,8 +8623,8 @@
     "definition": "发笑",
     "example": "Can you laugh?",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8635,8 +8635,8 @@
     "definition": "露出笑容",
     "example": "Let's smile together.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8647,8 +8647,8 @@
     "definition": "娱乐",
     "example": "You should play it.",
     "difficulty": 5,
-    "next_review": "2026-09-21",
-    "review_count": 1,
+    "next_review": "2026-09-24",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8659,9 +8659,9 @@
     "definition": "劳动",
     "example": "Can you work?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_489",
@@ -8671,9 +8671,9 @@
     "definition": "睡眠",
     "example": "I sleep every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_490",
@@ -8683,9 +8683,9 @@
     "definition": "苏醒",
     "example": "Can you wake?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_491",
@@ -8695,9 +8695,9 @@
     "definition": "梦境",
     "example": "Can you dream?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_492",
@@ -8707,9 +8707,9 @@
     "definition": "进食",
     "example": "You should eat it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_493",
@@ -8719,9 +8719,9 @@
     "definition": "饮用",
     "example": "You should drink it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_494",
@@ -8731,9 +8731,9 @@
     "definition": "尝试味道",
     "example": "Let's taste together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_495",
@@ -8743,9 +8743,9 @@
     "definition": "嗅觉",
     "example": "You should smell it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_496",
@@ -8755,9 +8755,9 @@
     "definition": "听觉",
     "example": "Can you hear?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_497",
@@ -8767,9 +8767,9 @@
     "definition": "倾听",
     "example": "Let's listen together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-22",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_498",
