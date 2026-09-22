@@ -607,8 +607,8 @@
     "definition": "用 JS 对象模拟 DOM 树，通过 diff 算法找最小变更再批量更新真实 DOM",
     "example": "React/Vue use virtual DOM to minimize expensive real DOM operations",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -619,8 +619,8 @@
     "definition": "在独立后台线程运行脚本，避免复杂计算阻塞主线程导致页面卡顿",
     "example": "const worker = new Worker('compute.js')  // runs off the main thread",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -631,8 +631,8 @@
     "definition": "缓存函数调用结果，相同参数直接返回缓存值，避免重复计算",
     "example": "const memoized = useMemo(() => expensiveCalc(data), [data])",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -643,8 +643,8 @@
     "definition": "结合网页和原生应用优势的 Web 应用，可离线访问、可安装到桌面",
     "example": "Service Worker + Web App Manifest = PWA capabilities",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1687,8 +1687,8 @@
     "definition": "Vue 3 中封装有状态逻辑的可复用函数，约定以 use 开头（如 useRouter、useFetch）",
     "example": "function useMousePosition() { const x = ref(0); return { x, y } }",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1711,8 +1711,8 @@
     "definition": "Vue 3 中实现跨层级组件通信的 API，祖先 provide，后代 inject，无需 props 逐层传递",
     "example": "provide('theme', 'dark')  // 祖先\nconst theme = inject('theme') // 后代",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1735,8 +1735,8 @@
     "definition": "Vue 3 setup script 中声明组件可触发的自定义事件的编译器宏",
     "example": "const emit = defineEmits<{ change: [value: string]; close: [] }>()",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1759,8 +1759,8 @@
     "definition": "TypeScript 中让函数、类或接口适配多种类型而保持类型安全的参数化类型机制",
     "example": "function identity<T>(arg: T): T { return arg }\nidentity<string>('hello')",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1783,8 +1783,8 @@
     "definition": "TypeScript 中在代码分支中缩窄变量类型范围的技术，让编译器理解运行时类型",
     "example": "if (typeof x === 'string') { x.toUpperCase() } // x is string here",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1843,8 +1843,8 @@
     "definition": "打包时静态分析代码，删除未被引用的模块和导出，减小最终 bundle 体积",
     "example": "Import { only, what, you, need } from 'library'  // unused exports are dropped",
     "difficulty": 3,
-    "next_review": "2026-09-22",
-    "review_count": 5,
+    "next_review": "2026-12-21",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5779,8 +5779,8 @@
     "definition": "啮齿动物",
     "example": "A mouse can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5791,8 +5791,8 @@
     "definition": "大型动物",
     "example": "A elephant can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5803,8 +5803,8 @@
     "definition": "猛兽",
     "example": "The lion is important.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5815,8 +5815,8 @@
     "definition": "猛兽",
     "example": "The tiger is important.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5827,8 +5827,8 @@
     "definition": "灵长类",
     "example": "A monkey can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5839,8 +5839,8 @@
     "definition": "中国国宝",
     "example": "This is a panda.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5851,8 +5851,8 @@
     "definition": "大型动物",
     "example": "The bear is important.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5863,8 +5863,8 @@
     "definition": "犬科",
     "example": "I have a fox.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5875,8 +5875,8 @@
     "definition": "犬科",
     "example": "I have a wolf.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -5887,8 +5887,8 @@
     "definition": "草食动物",
     "example": "The deer is important.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 4,
+    "next_review": "2026-10-22",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -7459,8 +7459,8 @@
     "definition": "序数词1",
     "example": "It is very first.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7471,8 +7471,8 @@
     "definition": "序数词2",
     "example": "A second {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7483,8 +7483,8 @@
     "definition": "序数词3",
     "example": "A third {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7495,8 +7495,8 @@
     "definition": "序数词4",
     "example": "This is fourth.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7507,8 +7507,8 @@
     "definition": "序数词5",
     "example": "It is very fifth.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7519,8 +7519,8 @@
     "definition": "序数词6",
     "example": "A sixth {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7531,8 +7531,8 @@
     "definition": "序数词7",
     "example": "It is very seventh.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7543,8 +7543,8 @@
     "definition": "序数词8",
     "example": "This is eighth.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7555,8 +7555,8 @@
     "definition": "序数词9",
     "example": "This is ninth.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7567,8 +7567,8 @@
     "definition": "序数词10",
     "example": "It is very tenth.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 3,
+    "next_review": "2026-10-06",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8299,8 +8299,8 @@
     "definition": "水上运动",
     "example": "I swim every day.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8311,8 +8311,8 @@
     "definition": "出行",
     "example": "Let's travel together.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8323,8 +8323,8 @@
     "definition": "短途",
     "example": "I have a trip.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8335,8 +8335,8 @@
     "definition": "观光",
     "example": "I have a tour.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8347,8 +8347,8 @@
     "definition": "访问",
     "example": "I visit every day.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8359,8 +8359,8 @@
     "definition": "导航图",
     "example": "I have a map.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8371,8 +8371,8 @@
     "definition": "凭证",
     "example": "This is a ticket.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8383,8 +8383,8 @@
     "definition": "出行者",
     "example": "I have a passenger.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8395,8 +8395,8 @@
     "definition": "乘车点",
     "example": "A station can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8407,8 +8407,8 @@
     "definition": "航空枢纽",
     "example": "This is a airport.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 2,
+    "next_review": "2026-09-29",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8659,8 +8659,8 @@
     "definition": "劳动",
     "example": "Can you work?",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8671,8 +8671,8 @@
     "definition": "睡眠",
     "example": "I sleep every day.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8683,8 +8683,8 @@
     "definition": "苏醒",
     "example": "Can you wake?",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8695,8 +8695,8 @@
     "definition": "梦境",
     "example": "Can you dream?",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8707,8 +8707,8 @@
     "definition": "进食",
     "example": "You should eat it.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8719,8 +8719,8 @@
     "definition": "饮用",
     "example": "You should drink it.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8731,8 +8731,8 @@
     "definition": "尝试味道",
     "example": "Let's taste together.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8743,8 +8743,8 @@
     "definition": "嗅觉",
     "example": "You should smell it.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8755,8 +8755,8 @@
     "definition": "听觉",
     "example": "Can you hear?",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8767,8 +8767,8 @@
     "definition": "倾听",
     "example": "Let's listen together.",
     "difficulty": 5,
-    "next_review": "2026-09-22",
-    "review_count": 1,
+    "next_review": "2026-09-25",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8779,9 +8779,9 @@
     "definition": "视觉",
     "example": "You should see it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_499",
@@ -8791,9 +8791,9 @@
     "definition": "观看",
     "example": "Can you look?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_500",
@@ -8803,9 +8803,9 @@
     "definition": "感知",
     "example": "You should feel it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_501",
@@ -8815,9 +8815,9 @@
     "definition": "触碰",
     "example": "I touch every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_502",
@@ -8827,9 +8827,9 @@
     "definition": "抓住",
     "example": "I hold every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_503",
@@ -8839,9 +8839,9 @@
     "definition": "携带",
     "example": "Can you carry?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_504",
@@ -8851,9 +8851,9 @@
     "definition": "拖动",
     "example": "Let's pull together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_505",
@@ -8863,9 +8863,9 @@
     "definition": "推动",
     "example": "Can you push?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_506",
@@ -8875,9 +8875,9 @@
     "definition": "开启",
     "example": "Let's open together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_507",
@@ -8887,9 +8887,9 @@
     "definition": "关上",
     "example": "You should close it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-23",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_508",
