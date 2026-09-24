@@ -319,8 +319,8 @@
     "definition": "LangGraph 的核心类，定义以共享状态驱动的有向图工作流",
     "example": "graph = StateGraph(AgentState)\ngraph.add_node('llm', call_llm)",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -331,8 +331,8 @@
     "definition": "LangGraph 中根据当前状态动态决定流向哪个节点的路由逻辑",
     "example": "graph.add_conditional_edges('agent', should_continue, {'tools': 'tools', 'end': END})",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -343,8 +343,8 @@
     "definition": "LangGraph 中保存图执行状态的机制，支持暂停、恢复和人工审核",
     "example": "memory = MemorySaver()\ngraph = graph.compile(checkpointer=memory)",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -355,8 +355,8 @@
     "definition": "在自动化 AI 流程中插入人工审核/确认节点，防止危险操作自动执行",
     "example": "graph.add_node('human_review', interrupt_before=['execute_code'])",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -367,8 +367,8 @@
     "definition": "LangGraph 中可独立运行、也可嵌套进父图的封装图结构",
     "example": "parent.add_node('child_graph', child_graph.compile())",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -379,8 +379,8 @@
     "definition": "在预训练大模型基础上，用特定领域数据继续训练以适应专用任务",
     "example": "Fine-tune GPT-4o-mini on customer support data to improve domain accuracy",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1507,8 +1507,8 @@
     "definition": "通过人类标注者对 AI 输出打分来训练奖励模型，再用强化学习优化 AI 行为的技术",
     "example": "ChatGPT was trained using RLHF to align responses with human preferences",
     "difficulty": 4,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2083,8 +2083,8 @@
     "definition": "JavaScript 运行时处理异步回调的机制：调用栈清空后从任务队列取出待执行任务",
     "example": "setTimeout callback runs after current synchronous code finishes",
     "difficulty": 3,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2131,8 +2131,8 @@
     "definition": "为不支持某特性的旧浏览器提供该特性实现的代码片段",
     "example": "core-js polyfills Array.prototype.flatMap for IE11",
     "difficulty": 3,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2155,8 +2155,8 @@
     "definition": "将大型应用拆分为多个小型独立服务，每个服务负责单一业务能力，可独立部署和扩展",
     "example": "User service + Order service + Payment service → communicate via REST/gRPC",
     "difficulty": 3,
-    "next_review": "2026-09-24",
-    "review_count": 5,
+    "next_review": "2026-12-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6019,8 +6019,8 @@
     "definition": "昆虫",
     "example": "This is a bee.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6031,8 +6031,8 @@
     "definition": "昆虫",
     "example": "The ant is important.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6043,8 +6043,8 @@
     "definition": "节肢动物",
     "example": "A spider can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6055,8 +6055,8 @@
     "definition": "昆虫",
     "example": "This is a fly.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6067,8 +6067,8 @@
     "definition": "昆虫",
     "example": "I have a mosquito.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6079,8 +6079,8 @@
     "definition": "自然界",
     "example": "This is a nature.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6091,8 +6091,8 @@
     "definition": "恒星",
     "example": "A sun can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6103,8 +6103,8 @@
     "definition": "卫星",
     "example": "This is a moon.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6115,8 +6115,8 @@
     "definition": "苍穹",
     "example": "I have a sky.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6127,8 +6127,8 @@
     "definition": "水汽凝结",
     "example": "I have a cloud.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 4,
+    "next_review": "2026-10-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -7699,8 +7699,8 @@
     "definition": "方向",
     "example": "This is left.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7711,8 +7711,8 @@
     "definition": "方向",
     "example": "This is right.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7723,8 +7723,8 @@
     "definition": "位置",
     "example": "I have a front.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7735,8 +7735,8 @@
     "definition": "中间",
     "example": "I have a center.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7747,8 +7747,8 @@
     "definition": "转角",
     "example": "The corner is important.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7759,8 +7759,8 @@
     "definition": "旁边",
     "example": "The side is important.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7771,8 +7771,8 @@
     "definition": "中部",
     "example": "The middle is important.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7783,8 +7783,8 @@
     "definition": "上面",
     "example": "A top can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7795,8 +7795,8 @@
     "definition": "下面",
     "example": "The bottom is important.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7807,8 +7807,8 @@
     "definition": "内部",
     "example": "The inside is important.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 3,
+    "next_review": "2026-10-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8539,8 +8539,8 @@
     "definition": "提问",
     "example": "Let's ask together.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8551,8 +8551,8 @@
     "definition": "讲话",
     "example": "Can you speak?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8563,8 +8563,8 @@
     "definition": "交流",
     "example": "Let's talk together.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8575,8 +8575,8 @@
     "definition": "大声说",
     "example": "Let's shout together.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8587,8 +8587,8 @@
     "definition": "小声说",
     "example": "Let's whisper together.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8599,8 +8599,8 @@
     "definition": "喊或打电话",
     "example": "Can you call?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8611,8 +8611,8 @@
     "definition": "流泪",
     "example": "Let's cry together.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8623,8 +8623,8 @@
     "definition": "发笑",
     "example": "Can you laugh?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8635,8 +8635,8 @@
     "definition": "露出笑容",
     "example": "Let's smile together.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8647,8 +8647,8 @@
     "definition": "娱乐",
     "example": "You should play it.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 2,
+    "next_review": "2026-10-01",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8899,8 +8899,8 @@
     "definition": "启动",
     "example": "Can you start?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8911,8 +8911,8 @@
     "definition": "着手",
     "example": "Can you begin?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8923,8 +8923,8 @@
     "definition": "结束",
     "example": "You should finish it.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8935,8 +8935,8 @@
     "definition": "终止",
     "example": "You should end it.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8947,8 +8947,8 @@
     "definition": "等候",
     "example": "You should wait it.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8959,8 +8959,8 @@
     "definition": "协助",
     "example": "You should help it.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8971,8 +8971,8 @@
     "definition": "喜爱",
     "example": "Can you love?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8983,8 +8983,8 @@
     "definition": "喜好",
     "example": "I like every day.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -8995,8 +8995,8 @@
     "definition": "厌恶",
     "example": "Can you hate?",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9007,8 +9007,8 @@
     "definition": "希望",
     "example": "You should want it.",
     "difficulty": 5,
-    "next_review": "2026-09-24",
-    "review_count": 1,
+    "next_review": "2026-09-27",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9019,9 +9019,9 @@
     "definition": "必需",
     "example": "I need every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_519",
@@ -9031,9 +9031,9 @@
     "definition": "期盼",
     "example": "Let's hope together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_520",
@@ -9043,9 +9043,9 @@
     "definition": "渴望",
     "example": "You should wish it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_521",
@@ -9055,9 +9055,9 @@
     "definition": "试",
     "example": "I try every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_522",
@@ -9067,9 +9067,9 @@
     "definition": "应用",
     "example": "I use every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_523",
@@ -9079,9 +9079,9 @@
     "definition": "维持",
     "example": "You should keep it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_524",
@@ -9091,9 +9091,9 @@
     "definition": "变化",
     "example": "You should change it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_525",
@@ -9103,9 +9103,9 @@
     "definition": "运动",
     "example": "You should move it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_526",
@@ -9115,9 +9115,9 @@
     "definition": "放置",
     "example": "You should put it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_527",
@@ -9127,9 +9127,9 @@
     "definition": "安放",
     "example": "Let's place together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-25",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_528",
