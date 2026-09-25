@@ -919,8 +919,8 @@
     "definition": "两条或多条独立旋律线同时演奏并在和声上形成协调关系的作曲技术",
     "example": "Bach's fugues are masterpieces of contrapuntal writing",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -931,8 +931,8 @@
     "definition": "在音乐作品中从一个调性转换到另一个调性的作曲技法",
     "example": "The song modulated from C major to E major for the final chorus",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -943,8 +943,8 @@
     "definition": "同时存在两种或多种不同节奏型的音乐手法，如 3 对 2 或 4 对 3",
     "example": "West African drumming often features complex polyrhythms",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -955,8 +955,8 @@
     "definition": "听起来紧张、不稳定、'需要解决'的音程或和弦组合",
     "example": "A tritone interval sounds tense and dissonant",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1555,8 +1555,8 @@
     "definition": "让 AI 交替进行推理（Reasoning）和工具调用（Acting），用于构建复杂任务智能体",
     "example": "Thought: I need to search → Action: search('query') → Observation: result",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1603,8 +1603,8 @@
     "definition": "Transformer 模型的核心，让模型在处理每个 token 时动态关注最相关的部分",
     "example": "Self-attention allows 'bank' to attend to 'river' or 'money' based on context",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2275,8 +2275,8 @@
     "definition": "告知演奏者延长音符或休止符时值（超过正常时值）的记号，时长由演奏者判断",
     "example": "Beethoven's 'fate motif' uses a fermata on the fourth note for dramatic effect",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2287,8 +2287,8 @@
     "definition": "乐曲结束前的收尾段落，通常从主体旋律中独立出来，以强烈的结束感收束",
     "example": "The coda begins at measure 120 after the D.S. al Coda marking",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2335,8 +2335,8 @@
     "definition": "乐曲从一个调性过渡到另一个调性的技术，为音乐增加色彩变化和情绪张力",
     "example": "The chorus modulates from C major to E major for an uplifting effect",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2347,8 +2347,8 @@
     "definition": "弦乐器演奏技术：用手指拨弦而非用琴弓拉奏，音色短促、颗粒感强",
     "example": "Stravinsky's 'Firebird' features pizzicato strings creating a mysterious texture",
     "difficulty": 4,
-    "next_review": "2026-09-25",
-    "review_count": 5,
+    "next_review": "2026-12-24",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6139,8 +6139,8 @@
     "definition": "降水",
     "example": "A rain can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6151,8 +6151,8 @@
     "definition": "固态降水",
     "example": "This is a snow.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6163,8 +6163,8 @@
     "definition": "空气流动",
     "example": "I have a wind.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6175,8 +6175,8 @@
     "definition": "恶劣天气",
     "example": "A storm can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6187,8 +6187,8 @@
     "definition": "大气放电",
     "example": "A lightning can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6199,8 +6199,8 @@
     "definition": "大气声响",
     "example": "A thunder can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6211,8 +6211,8 @@
     "definition": "大气光学",
     "example": "The rainbow is important.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6223,8 +6223,8 @@
     "definition": "能见度低",
     "example": "I have a fog.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6235,8 +6235,8 @@
     "definition": "固态水",
     "example": "This is a ice.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6247,8 +6247,8 @@
     "definition": "燃烧",
     "example": "A fire can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 4,
+    "next_review": "2026-10-25",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -7819,8 +7819,8 @@
     "definition": "外部",
     "example": "I have a outside.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7831,8 +7831,8 @@
     "definition": "方向",
     "example": "He runs up.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7843,8 +7843,8 @@
     "definition": "方向",
     "example": "He runs down.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7855,8 +7855,8 @@
     "definition": "位置",
     "example": "This is upstairs.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7867,8 +7867,8 @@
     "definition": "位置",
     "example": "This is downstairs.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7879,8 +7879,8 @@
     "definition": "交通工具",
     "example": "I have a car.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7891,8 +7891,8 @@
     "definition": "公共交通",
     "example": "This is a bus.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7903,8 +7903,8 @@
     "definition": "轨道交通",
     "example": "A train can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7915,8 +7915,8 @@
     "definition": "城市轨道交通",
     "example": "The subway is important.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7927,8 +7927,8 @@
     "definition": "空中交通",
     "example": "This is a plane.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 3,
+    "next_review": "2026-10-09",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8659,8 +8659,8 @@
     "definition": "劳动",
     "example": "Can you work?",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8671,8 +8671,8 @@
     "definition": "睡眠",
     "example": "I sleep every day.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8683,8 +8683,8 @@
     "definition": "苏醒",
     "example": "Can you wake?",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8695,8 +8695,8 @@
     "definition": "梦境",
     "example": "Can you dream?",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8707,8 +8707,8 @@
     "definition": "进食",
     "example": "You should eat it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8719,8 +8719,8 @@
     "definition": "饮用",
     "example": "You should drink it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8731,8 +8731,8 @@
     "definition": "尝试味道",
     "example": "Let's taste together.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8743,8 +8743,8 @@
     "definition": "嗅觉",
     "example": "You should smell it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8755,8 +8755,8 @@
     "definition": "听觉",
     "example": "Can you hear?",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8767,8 +8767,8 @@
     "definition": "倾听",
     "example": "Let's listen together.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 2,
+    "next_review": "2026-10-02",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -9019,8 +9019,8 @@
     "definition": "必需",
     "example": "I need every day.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9031,8 +9031,8 @@
     "definition": "期盼",
     "example": "Let's hope together.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9043,8 +9043,8 @@
     "definition": "渴望",
     "example": "You should wish it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9055,8 +9055,8 @@
     "definition": "试",
     "example": "I try every day.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9067,8 +9067,8 @@
     "definition": "应用",
     "example": "I use every day.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9079,8 +9079,8 @@
     "definition": "维持",
     "example": "You should keep it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9091,8 +9091,8 @@
     "definition": "变化",
     "example": "You should change it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9103,8 +9103,8 @@
     "definition": "运动",
     "example": "You should move it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9115,8 +9115,8 @@
     "definition": "放置",
     "example": "You should put it.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9127,8 +9127,8 @@
     "definition": "安放",
     "example": "Let's place together.",
     "difficulty": 5,
-    "next_review": "2026-09-25",
-    "review_count": 1,
+    "next_review": "2026-09-28",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9139,9 +9139,9 @@
     "definition": "坐下",
     "example": "Can you sit?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_529",
@@ -9151,9 +9151,9 @@
     "definition": "站立",
     "example": "You should stand it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_530",
@@ -9163,9 +9163,9 @@
     "definition": "卧倒",
     "example": "I lie every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_531",
@@ -9175,9 +9175,9 @@
     "definition": "跌倒",
     "example": "I fall every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_532",
@@ -9187,9 +9187,9 @@
     "definition": "上升",
     "example": "Can you rise?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_533",
@@ -9199,9 +9199,9 @@
     "definition": "抬高",
     "example": "Can you lift?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_534",
@@ -9211,9 +9211,9 @@
     "definition": "落下",
     "example": "Let's drop together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_535",
@@ -9223,9 +9223,9 @@
     "definition": "拾起",
     "example": "You should pick it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_536",
@@ -9235,9 +9235,9 @@
     "definition": "切割",
     "example": "You should cut it.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_537",
@@ -9247,9 +9247,9 @@
     "definition": "损坏",
     "example": "I break every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-26",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_538",
