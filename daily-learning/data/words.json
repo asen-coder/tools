@@ -7,8 +7,8 @@
     "definition": "基于海量文本训练、能理解和生成自然语言的大型神经网络模型",
     "example": "from langchain_openai import ChatOpenAI\nllm = ChatOpenAI(model='gpt-4o')",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -19,8 +19,8 @@
     "definition": "发送给语言模型的输入文本，直接决定模型输出质量",
     "example": "prompt = 'Summarize the following text in one sentence: {text}'",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -31,8 +31,8 @@
     "definition": "LLM 处理文本的基本单位，约等于 0.75 个英文单词或 1-2 个汉字",
     "example": "'Hello world' is typically 2 tokens; pricing is per token",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -43,8 +43,8 @@
     "definition": "LangChain 的核心概念，将多个组件（LLM、提示、解析器等）按顺序串联",
     "example": "chain = prompt | llm | output_parser",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -655,8 +655,8 @@
     "definition": "在浏览器后台运行的脚本，可拦截网络请求实现离线缓存和推送通知",
     "example": "self.addEventListener('fetch', e => e.respondWith(caches.match(e.request)))",
     "difficulty": 4,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -667,8 +667,8 @@
     "definition": "将组件内部 DOM 封装成独立作用域，外部 CSS 无法穿透影响内部样式",
     "example": "Web Components use shadow DOM for style encapsulation",
     "difficulty": 4,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -679,8 +679,8 @@
     "definition": "将大型前端应用拆分成多个可独立开发、部署的小应用的架构模式",
     "example": "qiankun / Module Federation enable micro-frontend architectures",
     "difficulty": 4,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -691,8 +691,8 @@
     "definition": "渲染引擎能中断低优先级渲染去处理高优先级更新，保持 UI 响应",
     "example": "React 18's concurrent mode can pause rendering to handle user input first",
     "difficulty": 4,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2383,8 +2383,8 @@
     "definition": "在乐曲中反复出现的固定节奏或旋律模式，是流行歌曲和古典作品的常见结构基础",
     "example": "Pachelbel's Canon is built on a repeating bass ostinato of 8 notes",
     "difficulty": 4,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2431,8 +2431,8 @@
     "definition": "演奏时灵活调整节奏速度，不受节拍器约束，根据音乐表达需要自由加快或放慢",
     "example": "Chopin's nocturnes are meant to be played with rubato—feel the music, not the beat",
     "difficulty": 4,
-    "next_review": "2026-09-26",
-    "review_count": 5,
+    "next_review": "2026-12-25",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6259,8 +6259,8 @@
     "definition": "水体",
     "example": "The river is important.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6271,8 +6271,8 @@
     "definition": "水体",
     "example": "The lake is important.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6283,8 +6283,8 @@
     "definition": "水体",
     "example": "A sea can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6295,8 +6295,8 @@
     "definition": "水域",
     "example": "This is a ocean.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6307,8 +6307,8 @@
     "definition": "海岸",
     "example": "The beach is important.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6319,8 +6319,8 @@
     "definition": "陆地",
     "example": "A island can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6331,8 +6331,8 @@
     "definition": "高地",
     "example": "The mountain is important.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6343,8 +6343,8 @@
     "definition": "隆起",
     "example": "I have a hill.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6355,8 +6355,8 @@
     "definition": "树木密集",
     "example": "This is a forest.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6367,8 +6367,8 @@
     "definition": "木本植物",
     "example": "I have a tree.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 4,
+    "next_review": "2026-10-26",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -7939,8 +7939,8 @@
     "definition": "水上交通",
     "example": "A ship can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7951,8 +7951,8 @@
     "definition": "水上载具",
     "example": "A boat can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7963,8 +7963,8 @@
     "definition": "个人交通",
     "example": "A bike can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7975,8 +7975,8 @@
     "definition": "两轮车",
     "example": "This is a bicycle.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7987,8 +7987,8 @@
     "definition": "机动车",
     "example": "I have a motorcycle.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -7999,8 +7999,8 @@
     "definition": "付费交通",
     "example": "The taxi is important.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8011,8 +8011,8 @@
     "definition": "货车",
     "example": "A truck can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8023,8 +8023,8 @@
     "definition": "医疗车辆",
     "example": "I have a ambulance.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8035,8 +8035,8 @@
     "definition": "消防车辆",
     "example": "A fire engine can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8047,8 +8047,8 @@
     "definition": "执法车辆",
     "example": "This is a police car.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 3,
+    "next_review": "2026-10-10",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8779,8 +8779,8 @@
     "definition": "视觉",
     "example": "You should see it.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8791,8 +8791,8 @@
     "definition": "观看",
     "example": "Can you look?",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8803,8 +8803,8 @@
     "definition": "感知",
     "example": "You should feel it.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8815,8 +8815,8 @@
     "definition": "触碰",
     "example": "I touch every day.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8827,8 +8827,8 @@
     "definition": "抓住",
     "example": "I hold every day.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8839,8 +8839,8 @@
     "definition": "携带",
     "example": "Can you carry?",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8851,8 +8851,8 @@
     "definition": "拖动",
     "example": "Let's pull together.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8863,8 +8863,8 @@
     "definition": "推动",
     "example": "Can you push?",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8875,8 +8875,8 @@
     "definition": "开启",
     "example": "Let's open together.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8887,8 +8887,8 @@
     "definition": "关上",
     "example": "You should close it.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 2,
+    "next_review": "2026-10-03",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -9139,8 +9139,8 @@
     "definition": "坐下",
     "example": "Can you sit?",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9151,8 +9151,8 @@
     "definition": "站立",
     "example": "You should stand it.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9163,8 +9163,8 @@
     "definition": "卧倒",
     "example": "I lie every day.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9175,8 +9175,8 @@
     "definition": "跌倒",
     "example": "I fall every day.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9187,8 +9187,8 @@
     "definition": "上升",
     "example": "Can you rise?",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9199,8 +9199,8 @@
     "definition": "抬高",
     "example": "Can you lift?",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9211,8 +9211,8 @@
     "definition": "落下",
     "example": "Let's drop together.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9223,8 +9223,8 @@
     "definition": "拾起",
     "example": "You should pick it.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9235,8 +9235,8 @@
     "definition": "切割",
     "example": "You should cut it.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9247,8 +9247,8 @@
     "definition": "损坏",
     "example": "I break every day.",
     "difficulty": 5,
-    "next_review": "2026-09-26",
-    "review_count": 1,
+    "next_review": "2026-09-29",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9259,9 +9259,9 @@
     "definition": "修复",
     "example": "Can you fix?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_539",
@@ -9271,9 +9271,9 @@
     "definition": "建筑",
     "example": "I build every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_540",
@@ -9283,9 +9283,9 @@
     "definition": "成长",
     "example": "Let's grow together.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_541",
@@ -9295,9 +9295,9 @@
     "definition": "死亡",
     "example": "Can you die?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_542",
@@ -9307,9 +9307,9 @@
     "definition": "居住",
     "example": "Can you live?",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_543",
@@ -9319,9 +9319,9 @@
     "definition": "诞生",
     "example": "I born every day.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_544",
@@ -9331,9 +9331,9 @@
     "definition": "优质",
     "example": "A good {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_545",
@@ -9343,9 +9343,9 @@
     "definition": "劣质",
     "example": "A bad {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_546",
@@ -9355,9 +9355,9 @@
     "definition": "高兴",
     "example": "It is very happy.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_547",
@@ -9367,9 +9367,9 @@
     "definition": "难过",
     "example": "It is very sad.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-27",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_548",
