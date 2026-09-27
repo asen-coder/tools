@@ -55,8 +55,8 @@
     "definition": "使用已训练好的模型对新输入进行预测或生成的过程",
     "example": "response = llm.invoke('What is RAG?')  # inference call",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -67,8 +67,8 @@
     "definition": "从数据中学习规律并做出预测或生成的数学系统",
     "example": "llm = ChatOpenAI(model='gpt-4o-mini')  # select a model",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -1423,8 +1423,8 @@
     "definition": "对话开始前设置 AI 角色、规则和约束的特殊指令",
     "example": "You are a helpful assistant. Always respond in Chinese.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2815,8 +2815,8 @@
     "definition": "常见水果",
     "example": "A apple can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2827,8 +2827,8 @@
     "definition": "黄色长形水果",
     "example": "The banana is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2839,8 +2839,8 @@
     "definition": "橙色水果",
     "example": "I have a orange.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2851,8 +2851,8 @@
     "definition": "水果",
     "example": "The pear is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2863,8 +2863,8 @@
     "definition": "小颗粒水果",
     "example": "The grape is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2875,8 +2875,8 @@
     "definition": "大型夏季水果",
     "example": "This is a watermelon.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -2887,8 +2887,8 @@
     "definition": "红色小水果",
     "example": "The strawberry is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 5,
+    "next_review": "2026-12-26",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6379,8 +6379,8 @@
     "definition": "草本植物",
     "example": "I have a grass.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6391,8 +6391,8 @@
     "definition": "植物器官",
     "example": "A flower can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6403,8 +6403,8 @@
     "definition": "植物器官",
     "example": "The leaf is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6415,8 +6415,8 @@
     "definition": "矿物",
     "example": "I have a rock.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6427,8 +6427,8 @@
     "definition": "石材",
     "example": "I have a stone.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6439,8 +6439,8 @@
     "definition": "颗粒物",
     "example": "I have a sand.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6451,8 +6451,8 @@
     "definition": "土壤",
     "example": "I have a dirt.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6463,8 +6463,8 @@
     "definition": "星球",
     "example": "The earth is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6475,8 +6475,8 @@
     "definition": "全球",
     "example": "I have a world.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -6487,8 +6487,8 @@
     "definition": "时刻或时长",
     "example": "The time is important.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 4,
+    "next_review": "2026-10-27",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8059,8 +8059,8 @@
     "definition": "行车通道",
     "example": "I have a road.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8071,8 +8071,8 @@
     "definition": "城市道路",
     "example": "This is a street.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8083,8 +8083,8 @@
     "definition": "路径",
     "example": "I have a way.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8095,8 +8095,8 @@
     "definition": "步行道",
     "example": "A path can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8107,8 +8107,8 @@
     "definition": "跨越建筑",
     "example": "A bridge can help you.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8119,8 +8119,8 @@
     "definition": "地下通道",
     "example": "This is a tunnel.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8131,8 +8131,8 @@
     "definition": "跨越",
     "example": "Can you cross?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8143,8 +8143,8 @@
     "definition": "改变方向",
     "example": "Can you turn?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8155,8 +8155,8 @@
     "definition": "停下",
     "example": "Let's stop together.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8167,8 +8167,8 @@
     "definition": "前往",
     "example": "You should go it.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 3,
+    "next_review": "2026-10-11",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -8899,8 +8899,8 @@
     "definition": "启动",
     "example": "Can you start?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8911,8 +8911,8 @@
     "definition": "着手",
     "example": "Can you begin?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8923,8 +8923,8 @@
     "definition": "结束",
     "example": "You should finish it.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8935,8 +8935,8 @@
     "definition": "终止",
     "example": "You should end it.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8947,8 +8947,8 @@
     "definition": "等候",
     "example": "You should wait it.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8959,8 +8959,8 @@
     "definition": "协助",
     "example": "You should help it.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8971,8 +8971,8 @@
     "definition": "喜爱",
     "example": "Can you love?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8983,8 +8983,8 @@
     "definition": "喜好",
     "example": "I like every day.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -8995,8 +8995,8 @@
     "definition": "厌恶",
     "example": "Can you hate?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -9007,8 +9007,8 @@
     "definition": "希望",
     "example": "You should want it.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 2,
+    "next_review": "2026-10-04",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -9259,8 +9259,8 @@
     "definition": "修复",
     "example": "Can you fix?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9271,8 +9271,8 @@
     "definition": "建筑",
     "example": "I build every day.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9283,8 +9283,8 @@
     "definition": "成长",
     "example": "Let's grow together.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9295,8 +9295,8 @@
     "definition": "死亡",
     "example": "Can you die?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9307,8 +9307,8 @@
     "definition": "居住",
     "example": "Can you live?",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9319,8 +9319,8 @@
     "definition": "诞生",
     "example": "I born every day.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9331,8 +9331,8 @@
     "definition": "优质",
     "example": "A good {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9343,8 +9343,8 @@
     "definition": "劣质",
     "example": "A bad {noun}.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9355,8 +9355,8 @@
     "definition": "高兴",
     "example": "It is very happy.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9367,8 +9367,8 @@
     "definition": "难过",
     "example": "It is very sad.",
     "difficulty": 5,
-    "next_review": "2026-09-27",
-    "review_count": 1,
+    "next_review": "2026-09-30",
+    "review_count": 2,
     "status": "learning"
   },
   {
@@ -9379,9 +9379,9 @@
     "definition": "愤怒",
     "example": "A angry {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_549",
@@ -9391,9 +9391,9 @@
     "definition": "恐惧",
     "example": "A afraid {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_550",
@@ -9403,9 +9403,9 @@
     "definition": "无畏",
     "example": "A brave {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_551",
@@ -9415,9 +9415,9 @@
     "definition": "友善",
     "example": "It is very kind.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_552",
@@ -9427,9 +9427,9 @@
     "definition": "友好",
     "example": "This is nice.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_553",
@@ -9439,9 +9439,9 @@
     "definition": "不友善",
     "example": "A mean {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_554",
@@ -9451,9 +9451,9 @@
     "definition": "有教养",
     "example": "This is polite.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_555",
@@ -9463,9 +9463,9 @@
     "definition": "无礼",
     "example": "A rude {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_556",
@@ -9475,9 +9475,9 @@
     "definition": "繁忙",
     "example": "It is very busy.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_557",
@@ -9487,9 +9487,9 @@
     "definition": "有空",
     "example": "A free {noun}.",
     "difficulty": 5,
-    "next_review": "2026-06-15",
-    "review_count": 0,
-    "status": "new"
+    "next_review": "2026-09-28",
+    "review_count": 1,
+    "status": "learning"
   },
   {
     "id": "gen_558",
