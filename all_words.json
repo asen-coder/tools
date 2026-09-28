@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "words": [
     {
       "id": "ai_001",
@@ -2901,8 +2901,8 @@
       "definition": "主食",
       "example": "The bread is important.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2913,8 +2913,8 @@
       "definition": "亚洲主食",
       "example": "I have a rice.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2925,8 +2925,8 @@
       "definition": "长条状食物",
       "example": "This is a noodle.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2937,8 +2937,8 @@
       "definition": "白色饮料",
       "example": "The milk is important.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2949,8 +2949,8 @@
       "definition": "常见食材",
       "example": "This is a egg.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2961,8 +2961,8 @@
       "definition": "食物总称",
       "example": "This is a meat.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2973,8 +2973,8 @@
       "definition": "常见肉类",
       "example": "This is a chicken.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2985,8 +2985,8 @@
       "definition": "水产",
       "example": "I have a fish.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -2997,8 +2997,8 @@
       "definition": "红色肉类",
       "example": "I have a beef.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3009,8 +3009,8 @@
       "definition": "常见肉类",
       "example": "This is a pork.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 5,
+      "next_review": "2026-12-27",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6501,8 +6501,8 @@
       "definition": "24小时",
       "example": "This is a day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6513,8 +6513,8 @@
       "definition": "黑暗时段",
       "example": "I have a night.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6525,8 +6525,8 @@
       "definition": "一天开始",
       "example": "A morning can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6537,8 +6537,8 @@
       "definition": "中午后",
       "example": "A afternoon can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6549,8 +6549,8 @@
       "definition": "日落后",
       "example": "I have a evening.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6561,8 +6561,8 @@
       "definition": "正午",
       "example": "This is a noon.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6573,8 +6573,8 @@
       "definition": "零点",
       "example": "The midnight is important.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6585,8 +6585,8 @@
       "definition": "当前日",
       "example": "The today is important.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6597,8 +6597,8 @@
       "definition": "次日",
       "example": "A tomorrow can help you.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6609,8 +6609,8 @@
       "definition": "前日",
       "example": "This is a yesterday.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 4,
+      "next_review": "2026-10-28",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8181,8 +8181,8 @@
       "definition": "靠近",
       "example": "I come every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8193,8 +8193,8 @@
       "definition": "离去",
       "example": "I leave every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8205,8 +8205,8 @@
       "definition": "抵达",
       "example": "Let's arrive together.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8217,8 +8217,8 @@
       "definition": "进去",
       "example": "Can you enter?",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8229,8 +8229,8 @@
       "definition": "离开",
       "example": "I exit every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8241,8 +8241,8 @@
       "definition": "开车",
       "example": "Let's drive together.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8253,8 +8253,8 @@
       "definition": "骑车",
       "example": "Let's ride together.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8265,8 +8265,8 @@
       "definition": "走路",
       "example": "Let's walk together.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8277,8 +8277,8 @@
       "definition": "跑步",
       "example": "I run every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8289,8 +8289,8 @@
       "definition": "跳跃",
       "example": "You should jump it.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 3,
+      "next_review": "2026-10-12",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -9021,8 +9021,8 @@
       "definition": "必需",
       "example": "I need every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9033,8 +9033,8 @@
       "definition": "期盼",
       "example": "Let's hope together.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9045,8 +9045,8 @@
       "definition": "渴望",
       "example": "You should wish it.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9057,8 +9057,8 @@
       "definition": "试",
       "example": "I try every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9069,8 +9069,8 @@
       "definition": "应用",
       "example": "I use every day.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9081,8 +9081,8 @@
       "definition": "维持",
       "example": "You should keep it.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9093,8 +9093,8 @@
       "definition": "变化",
       "example": "You should change it.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9105,8 +9105,8 @@
       "definition": "运动",
       "example": "You should move it.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9117,8 +9117,8 @@
       "definition": "放置",
       "example": "You should put it.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9129,8 +9129,8 @@
       "definition": "安放",
       "example": "Let's place together.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 2,
+      "next_review": "2026-10-05",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9381,8 +9381,8 @@
       "definition": "愤怒",
       "example": "A angry {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9393,8 +9393,8 @@
       "definition": "恐惧",
       "example": "A afraid {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9405,8 +9405,8 @@
       "definition": "无畏",
       "example": "A brave {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9417,8 +9417,8 @@
       "definition": "友善",
       "example": "It is very kind.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9429,8 +9429,8 @@
       "definition": "友好",
       "example": "This is nice.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9441,8 +9441,8 @@
       "definition": "不友善",
       "example": "A mean {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9453,8 +9453,8 @@
       "definition": "有教养",
       "example": "This is polite.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9465,8 +9465,8 @@
       "definition": "无礼",
       "example": "A rude {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9477,8 +9477,8 @@
       "definition": "繁忙",
       "example": "It is very busy.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9489,8 +9489,8 @@
       "definition": "有空",
       "example": "A free {noun}.",
       "difficulty": 5,
-      "next_review": "2026-09-28",
-      "review_count": 1,
+      "next_review": "2026-10-01",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9501,9 +9501,9 @@
       "definition": "疲劳",
       "example": "A tired {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_559",
@@ -9513,9 +9513,9 @@
       "definition": "饥饿",
       "example": "A hungry {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_560",
@@ -9525,9 +9525,9 @@
       "definition": "口渴",
       "example": "This is thirsty.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_561",
@@ -9537,9 +9537,9 @@
       "definition": "不饿",
       "example": "It is very full.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_562",
@@ -9549,9 +9549,9 @@
       "definition": "生病",
       "example": "This is sick.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_563",
@@ -9561,9 +9561,9 @@
       "definition": "身体好",
       "example": "A well {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_564",
@@ -9573,9 +9573,9 @@
       "definition": "身体好",
       "example": "This is healthy.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_565",
@@ -9585,9 +9585,9 @@
       "definition": "有力",
       "example": "A strong {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_566",
@@ -9597,9 +9597,9 @@
       "definition": "无力",
       "example": "A weak {noun}.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_567",
@@ -9609,9 +9609,9 @@
       "definition": "年纪小",
       "example": "It is very young.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-09-29",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_568",
