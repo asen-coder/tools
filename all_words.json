@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-01",
+  "generated": "2026-10-02",
   "words": [
     {
       "id": "ai_001",
@@ -3381,8 +3381,8 @@
       "definition": "饮水器具",
       "example": "This is a cup.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3393,8 +3393,8 @@
       "definition": "透明杯子",
       "example": "I have a glass.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3405,8 +3405,8 @@
       "definition": "餐具",
       "example": "The bowl is important.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3417,8 +3417,8 @@
       "definition": "餐具",
       "example": "I have a plate.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3429,8 +3429,8 @@
       "definition": "餐具",
       "example": "I have a fork.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3441,8 +3441,8 @@
       "definition": "餐具",
       "example": "This is a spoon.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3453,8 +3453,8 @@
       "definition": "切割工具",
       "example": "The knife is important.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3465,8 +3465,8 @@
       "definition": "东方餐具",
       "example": "A chopsticks can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3477,8 +3477,8 @@
       "definition": "擦拭用品",
       "example": "A napkin can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3489,8 +3489,8 @@
       "definition": "亲属群体",
       "example": "I have a family.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 5,
+      "next_review": "2026-12-31",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6981,8 +6981,8 @@
       "definition": "第三个月",
       "example": "This is a March.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -6993,8 +6993,8 @@
       "definition": "第四个月",
       "example": "I have a April.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7005,8 +7005,8 @@
       "definition": "第五个月",
       "example": "This is a May.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7017,8 +7017,8 @@
       "definition": "第六个月",
       "example": "The June is important.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7029,8 +7029,8 @@
       "definition": "第七个月",
       "example": "A July can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7041,8 +7041,8 @@
       "definition": "第八个月",
       "example": "I have a August.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7053,8 +7053,8 @@
       "definition": "第九个月",
       "example": "A September can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7065,8 +7065,8 @@
       "definition": "第十个月",
       "example": "A October can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7077,8 +7077,8 @@
       "definition": "第十一月",
       "example": "This is a November.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7089,8 +7089,8 @@
       "definition": "第十二月",
       "example": "The December is important.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 4,
+      "next_review": "2026-11-01",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8661,8 +8661,8 @@
       "definition": "劳动",
       "example": "Can you work?",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8673,8 +8673,8 @@
       "definition": "睡眠",
       "example": "I sleep every day.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8685,8 +8685,8 @@
       "definition": "苏醒",
       "example": "Can you wake?",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8697,8 +8697,8 @@
       "definition": "梦境",
       "example": "Can you dream?",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8709,8 +8709,8 @@
       "definition": "进食",
       "example": "You should eat it.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8721,8 +8721,8 @@
       "definition": "饮用",
       "example": "You should drink it.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8733,8 +8733,8 @@
       "definition": "尝试味道",
       "example": "Let's taste together.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8745,8 +8745,8 @@
       "definition": "嗅觉",
       "example": "You should smell it.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8757,8 +8757,8 @@
       "definition": "听觉",
       "example": "Can you hear?",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8769,8 +8769,8 @@
       "definition": "倾听",
       "example": "Let's listen together.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 3,
+      "next_review": "2026-10-16",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -9501,8 +9501,8 @@
       "definition": "疲劳",
       "example": "A tired {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9513,8 +9513,8 @@
       "definition": "饥饿",
       "example": "A hungry {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9525,8 +9525,8 @@
       "definition": "口渴",
       "example": "This is thirsty.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9537,8 +9537,8 @@
       "definition": "不饿",
       "example": "It is very full.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9549,8 +9549,8 @@
       "definition": "生病",
       "example": "This is sick.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9561,8 +9561,8 @@
       "definition": "身体好",
       "example": "A well {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9573,8 +9573,8 @@
       "definition": "身体好",
       "example": "This is healthy.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9585,8 +9585,8 @@
       "definition": "有力",
       "example": "A strong {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9597,8 +9597,8 @@
       "definition": "无力",
       "example": "A weak {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9609,8 +9609,8 @@
       "definition": "年纪小",
       "example": "It is very young.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 2,
+      "next_review": "2026-10-09",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9861,8 +9861,8 @@
       "definition": "迅速",
       "example": "It is very fast.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9873,8 +9873,8 @@
       "definition": "迟缓",
       "example": "It is very slow.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9885,8 +9885,8 @@
       "definition": "提前",
       "example": "A early {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9897,8 +9897,8 @@
       "definition": "迟到",
       "example": "It is very late.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9909,8 +9909,8 @@
       "definition": "错误",
       "example": "A wrong {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9921,8 +9921,8 @@
       "definition": "真实",
       "example": "It is very true.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9933,8 +9933,8 @@
       "definition": "虚假",
       "example": "It is very false.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9945,8 +9945,8 @@
       "definition": "肯定",
       "example": "It is very sure.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9957,8 +9957,8 @@
       "definition": "就绪",
       "example": "This is ready.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9969,8 +9969,8 @@
       "definition": "一样",
       "example": "This is same.",
       "difficulty": 5,
-      "next_review": "2026-10-02",
-      "review_count": 1,
+      "next_review": "2026-10-05",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9981,9 +9981,9 @@
       "definition": "差异",
       "example": "This is different.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_599",
@@ -9993,9 +9993,9 @@
       "definition": "第一人称",
       "example": "Give I the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_600",
@@ -10005,9 +10005,9 @@
       "definition": "第二人称",
       "example": "Give you the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_601",
@@ -10017,9 +10017,9 @@
       "definition": "第三人称阳性",
       "example": "Give he the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_602",
@@ -10029,9 +10029,9 @@
       "definition": "第三人称阴性",
       "example": "Give she the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_603",
@@ -10041,9 +10041,9 @@
       "definition": "第三人称中性",
       "example": "Give it the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_604",
@@ -10053,9 +10053,9 @@
       "definition": "第一人称复数",
       "example": "Give we the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_605",
@@ -10065,9 +10065,9 @@
       "definition": "第三人称复数",
       "example": "they is my friend.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_606",
@@ -10077,9 +10077,9 @@
       "definition": "物主代词",
       "example": "Give my the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_607",
@@ -10089,9 +10089,9 @@
       "definition": "物主代词",
       "example": "your is my friend.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-03",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_608",
