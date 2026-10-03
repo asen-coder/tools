@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-02",
+  "generated": "2026-10-03",
   "words": [
     {
       "id": "ai_001",
@@ -3501,8 +3501,8 @@
       "definition": "爸爸",
       "example": "This is a father.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3513,8 +3513,8 @@
       "definition": "妈妈",
       "example": "This is a mother.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3525,8 +3525,8 @@
       "definition": "双亲",
       "example": "I have a parent.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3537,8 +3537,8 @@
       "definition": "哥哥弟弟",
       "example": "A brother can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3549,8 +3549,8 @@
       "definition": "姐姐妹妹",
       "example": "A sister can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3561,8 +3561,8 @@
       "definition": "男性孩子",
       "example": "I have a son.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3573,8 +3573,8 @@
       "definition": "女性孩子",
       "example": "The daughter is important.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3585,8 +3585,8 @@
       "definition": "儿童",
       "example": "The child is important.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3597,8 +3597,8 @@
       "definition": "幼童",
       "example": "This is a baby.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -3609,8 +3609,8 @@
       "definition": "男性儿童",
       "example": "I have a boy.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 5,
+      "next_review": "2027-01-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7101,8 +7101,8 @@
       "definition": "数字1",
       "example": "It's one o'clock.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7113,8 +7113,8 @@
       "definition": "数字2",
       "example": "It's two o'clock.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7125,8 +7125,8 @@
       "definition": "数字3",
       "example": "I have three books.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7137,8 +7137,8 @@
       "definition": "数字4",
       "example": "It's four o'clock.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7149,8 +7149,8 @@
       "definition": "数字5",
       "example": "I have five books.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7161,8 +7161,8 @@
       "definition": "数字6",
       "example": "It's six o'clock.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7173,8 +7173,8 @@
       "definition": "数字7",
       "example": "I have seven books.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7185,8 +7185,8 @@
       "definition": "数字8",
       "example": "I have eight books.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7197,8 +7197,8 @@
       "definition": "数字9",
       "example": "I have nine books.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7209,8 +7209,8 @@
       "definition": "数字10",
       "example": "I have ten books.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 4,
+      "next_review": "2026-11-02",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8781,8 +8781,8 @@
       "definition": "视觉",
       "example": "You should see it.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8793,8 +8793,8 @@
       "definition": "观看",
       "example": "Can you look?",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8805,8 +8805,8 @@
       "definition": "感知",
       "example": "You should feel it.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8817,8 +8817,8 @@
       "definition": "触碰",
       "example": "I touch every day.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8829,8 +8829,8 @@
       "definition": "抓住",
       "example": "I hold every day.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8841,8 +8841,8 @@
       "definition": "携带",
       "example": "Can you carry?",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8853,8 +8853,8 @@
       "definition": "拖动",
       "example": "Let's pull together.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8865,8 +8865,8 @@
       "definition": "推动",
       "example": "Can you push?",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8877,8 +8877,8 @@
       "definition": "开启",
       "example": "Let's open together.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -8889,8 +8889,8 @@
       "definition": "关上",
       "example": "You should close it.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 3,
+      "next_review": "2026-10-17",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -9621,8 +9621,8 @@
       "definition": "年纪大",
       "example": "It is very old.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9633,8 +9633,8 @@
       "definition": "新的",
       "example": "It is very new.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9645,8 +9645,8 @@
       "definition": "漂亮",
       "example": "It is very beautiful.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9657,8 +9657,8 @@
       "definition": "难看",
       "example": "A ugly {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9669,8 +9669,8 @@
       "definition": "整洁",
       "example": "A clean {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9681,8 +9681,8 @@
       "definition": "污浊",
       "example": "A dirty {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9693,8 +9693,8 @@
       "definition": "有钱",
       "example": "A rich {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9705,8 +9705,8 @@
       "definition": "没钱",
       "example": "A poor {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9717,8 +9717,8 @@
       "definition": "价低",
       "example": "A cheap {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9729,8 +9729,8 @@
       "definition": "价高",
       "example": "This is expensive.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 2,
+      "next_review": "2026-10-10",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -9981,8 +9981,8 @@
       "definition": "差异",
       "example": "This is different.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -9993,8 +9993,8 @@
       "definition": "第一人称",
       "example": "Give I the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10005,8 +10005,8 @@
       "definition": "第二人称",
       "example": "Give you the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10017,8 +10017,8 @@
       "definition": "第三人称阳性",
       "example": "Give he the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10029,8 +10029,8 @@
       "definition": "第三人称阴性",
       "example": "Give she the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10041,8 +10041,8 @@
       "definition": "第三人称中性",
       "example": "Give it the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10053,8 +10053,8 @@
       "definition": "第一人称复数",
       "example": "Give we the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10065,8 +10065,8 @@
       "definition": "第三人称复数",
       "example": "they is my friend.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10077,8 +10077,8 @@
       "definition": "物主代词",
       "example": "Give my the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10089,8 +10089,8 @@
       "definition": "物主代词",
       "example": "your is my friend.",
       "difficulty": 5,
-      "next_review": "2026-10-03",
-      "review_count": 1,
+      "next_review": "2026-10-06",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -10101,9 +10101,9 @@
       "definition": "物主代词",
       "example": "Give his the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_609",
@@ -10113,9 +10113,9 @@
       "definition": "物主代词",
       "example": "Give her the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_610",
@@ -10125,9 +10125,9 @@
       "definition": "物主代词",
       "example": "Give its the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_611",
@@ -10137,9 +10137,9 @@
       "definition": "物主代词",
       "example": "our is my friend.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_612",
@@ -10149,9 +10149,9 @@
       "definition": "物主代词",
       "example": "Give their the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_613",
@@ -10161,9 +10161,9 @@
       "definition": "指示代词",
       "example": "this is my friend.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_614",
@@ -10173,9 +10173,9 @@
       "definition": "指示代词",
       "example": "Give that the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_615",
@@ -10185,9 +10185,9 @@
       "definition": "指示代词复数",
       "example": "these is my friend.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_616",
@@ -10197,9 +10197,9 @@
       "definition": "指示代词复数",
       "example": "Give those the pen.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_617",
@@ -10209,9 +10209,9 @@
       "definition": "疑问代词",
       "example": "who is my friend.",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-04",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "gen_618",
