@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-10-11，共 1262 条词汇。
+> 更新于 2026-10-12，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1792,7 +1792,7 @@ Chopin's nocturnes are meant to be played with rubato—feel the music, not the 
 C, D, E, F, G, A, B are the 7 natural notes
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### beat · 拍  ★★★★★
 
@@ -1802,7 +1802,7 @@ C, D, E, F, G, A, B are the 7 natural notes
 A 4/4 time signature has 4 beats per measure
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### tempo · 速度  ★★★★★
 
@@ -1812,7 +1812,7 @@ A 4/4 time signature has 4 beats per measure
 120 BPM is a common tempo; 60 BPM feels like a slow heartbeat
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### melody · 旋律  ★★★★★
 
@@ -1822,7 +1822,7 @@ A 4/4 time signature has 4 beats per measure
 The melody is what you hum when you remember a song
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### chord · 和弦  ★★★★★
 
@@ -1832,7 +1832,7 @@ The melody is what you hum when you remember a song
 C major chord = C + E + G played together
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### rhythm · 节奏  ★★★★★
 
@@ -1842,7 +1842,7 @@ C major chord = C + E + G played together
 A drum kit primarily provides the rhythm in a band
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### counterpoint · 对位法  ★★★★★
 
