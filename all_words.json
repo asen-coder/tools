@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-12",
+  "generated": "2026-10-13",
   "words": [
     {
       "id": "ai_001",
@@ -393,9 +393,9 @@
       "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
       "example": "<UserCard :name='user.name' @click='handleClick' />",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_002",
@@ -405,9 +405,9 @@
       "definition": "父组件向子组件传递数据的机制，单向数据流",
       "example": "defineProps<{ title: string; count: number }>()",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_003",
@@ -417,9 +417,9 @@
       "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
       "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_004",
@@ -429,9 +429,9 @@
       "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
       "example": "const data = await fetch('/api/users').then(r => r.json())",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_005",
@@ -441,9 +441,9 @@
       "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
       "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_006",
@@ -453,9 +453,9 @@
       "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
       "example": "document.getElementById('app')  // access DOM node",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_007",
@@ -705,8 +705,8 @@
       "definition": "表示特定音高和时值的音乐符号，是音乐的基本构成单位",
       "example": "C, D, E, F, G, A, B are the 7 natural notes",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -717,8 +717,8 @@
       "definition": "音乐中规律性重复的基本时间单位，就像心跳的节律",
       "example": "A 4/4 time signature has 4 beats per measure",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -729,8 +729,8 @@
       "definition": "音乐演奏的快慢，用 BPM（每分钟拍数）表示",
       "example": "120 BPM is a common tempo; 60 BPM feels like a slow heartbeat",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -741,8 +741,8 @@
       "definition": "一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'",
       "example": "The melody is what you hum when you remember a song",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -753,8 +753,8 @@
       "definition": "三个或更多不同音高的音符同时发声的组合",
       "example": "C major chord = C + E + G played together",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -765,8 +765,8 @@
       "definition": "音符时值长短和强弱的规律性排列模式",
       "example": "A drum kit primarily provides the rhythm in a band",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -1641,9 +1641,9 @@
       "definition": "Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改",
       "example": "const count = ref(0)\ncount.value++\nconsole.log(count.value) // 1",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_028",
@@ -1821,9 +1821,9 @@
       "definition": "基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包",
       "example": "npm create vite@latest my-app -- --template vue-ts",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "prog_043",
@@ -2445,9 +2445,9 @@
       "definition": "两条或多条旋律线同时演奏并保持和声关系的作曲技术，巴赫是最杰出的代表",
       "example": "Bach's 'Crab Canon' is a masterpiece of counterpoint",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "music_047",
@@ -2457,9 +2457,9 @@
       "definition": "两种或多种不同节奏同时进行，是非洲打击乐和现代爵士的重要特征",
       "example": "3 against 2 polyrhythm: right hand plays triplets while left plays eighth notes",
       "difficulty": 5,
-      "next_review": "2026-06-15",
-      "review_count": 0,
-      "status": "new"
+      "next_review": "2026-10-14",
+      "review_count": 1,
+      "status": "learning"
     },
     {
       "id": "daily_023",
@@ -4701,8 +4701,8 @@
       "definition": "坐具",
       "example": "I have a chair.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4713,8 +4713,8 @@
       "definition": "软座椅",
       "example": "The sofa is important.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4725,8 +4725,8 @@
       "definition": "藏书家具",
       "example": "This is a bookshelf.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4737,8 +4737,8 @@
       "definition": "照明器具",
       "example": "A lamp can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4749,8 +4749,8 @@
       "definition": "计时器具",
       "example": "I have a clock.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4761,8 +4761,8 @@
       "definition": "反射器具",
       "example": "A mirror can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4773,8 +4773,8 @@
       "definition": "地面装饰",
       "example": "A rug can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4785,8 +4785,8 @@
       "definition": "遮光装饰",
       "example": "This is a curtain.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4797,8 +4797,8 @@
       "definition": "保暖用品",
       "example": "I have a blanket.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4809,8 +4809,8 @@
       "definition": "睡眠支撑",
       "example": "The pillow is important.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 5,
+      "next_review": "2027-01-11",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8301,8 +8301,8 @@
       "definition": "水上运动",
       "example": "I swim every day.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8313,8 +8313,8 @@
       "definition": "出行",
       "example": "Let's travel together.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8325,8 +8325,8 @@
       "definition": "短途",
       "example": "I have a trip.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8337,8 +8337,8 @@
       "definition": "观光",
       "example": "I have a tour.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8349,8 +8349,8 @@
       "definition": "访问",
       "example": "I visit every day.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8361,8 +8361,8 @@
       "definition": "导航图",
       "example": "I have a map.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8373,8 +8373,8 @@
       "definition": "凭证",
       "example": "This is a ticket.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8385,8 +8385,8 @@
       "definition": "出行者",
       "example": "I have a passenger.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8397,8 +8397,8 @@
       "definition": "乘车点",
       "example": "A station can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8409,8 +8409,8 @@
       "definition": "航空枢纽",
       "example": "This is a airport.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 4,
+      "next_review": "2026-11-12",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9981,8 +9981,8 @@
       "definition": "差异",
       "example": "This is different.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -9993,8 +9993,8 @@
       "definition": "第一人称",
       "example": "Give I the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10005,8 +10005,8 @@
       "definition": "第二人称",
       "example": "Give you the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10017,8 +10017,8 @@
       "definition": "第三人称阳性",
       "example": "Give he the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10029,8 +10029,8 @@
       "definition": "第三人称阴性",
       "example": "Give she the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10041,8 +10041,8 @@
       "definition": "第三人称中性",
       "example": "Give it the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10053,8 +10053,8 @@
       "definition": "第一人称复数",
       "example": "Give we the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10065,8 +10065,8 @@
       "definition": "第三人称复数",
       "example": "they is my friend.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10077,8 +10077,8 @@
       "definition": "物主代词",
       "example": "Give my the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10089,8 +10089,8 @@
       "definition": "物主代词",
       "example": "your is my friend.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 3,
+      "next_review": "2026-10-27",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10821,8 +10821,8 @@
       "definition": "频率零",
       "example": "He runs never.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10833,8 +10833,8 @@
       "definition": "任何时间",
       "example": "Do it ever.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10845,8 +10845,8 @@
       "definition": "刚才",
       "example": "Do it just.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10857,8 +10857,8 @@
       "definition": "当前",
       "example": "She speaks now.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10869,8 +10869,8 @@
       "definition": "当时",
       "example": "Do it then.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10881,8 +10881,8 @@
       "definition": "不久",
       "example": "He runs soon.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10893,8 +10893,8 @@
       "definition": "重复",
       "example": "He runs again.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10905,8 +10905,8 @@
       "definition": "频率",
       "example": "Do it once.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10917,8 +10917,8 @@
       "definition": "频率",
       "example": "She speaks twice.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -10929,8 +10929,8 @@
       "definition": "共同",
       "example": "She speaks together.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 2,
+      "next_review": "2026-10-20",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11181,8 +11181,8 @@
       "definition": "惊叹",
       "example": "This is wow.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11193,8 +11193,8 @@
       "definition": "招呼",
       "example": "This is hey.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11205,8 +11205,8 @@
       "definition": "同意",
       "example": "This is ok.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -11217,8 +11217,8 @@
       "definition": "同意",
       "example": "This is okay.",
       "difficulty": 5,
-      "next_review": "2026-10-13",
-      "review_count": 1,
+      "next_review": "2026-10-16",
+      "review_count": 2,
       "status": "learning"
     },
     {
