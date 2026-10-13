@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-10-12，共 1262 条词汇。
+> 更新于 2026-10-13，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1308,7 +1308,7 @@ React 18's concurrent mode can pause rendering to handle user input first
 <UserCard :name='user.name' @click='handleClick' />
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### props · 属性  ★★★★★
 
@@ -1318,7 +1318,7 @@ React 18's concurrent mode can pause rendering to handle user input first
 defineProps<{ title: string; count: number }>()
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### callback · 回调函数  ★★★★★
 
@@ -1328,7 +1328,7 @@ defineProps<{ title: string; count: number }>()
 setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### API · 应用编程接口  ★★★★★
 
@@ -1338,7 +1338,7 @@ setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback
 const data = await fetch('/api/users').then(r => r.json())
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### async · 异步  ★★★★★
 
@@ -1348,7 +1348,7 @@ const data = await fetch('/api/users').then(r => r.json())
 async function fetchUser(id) { return await api.get(`/users/${id}`) }
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### DOM · 文档对象模型  ★★★★★
 
@@ -1358,7 +1358,7 @@ async function fetchUser(id) { return await api.get(`/users/${id}`) }
 document.getElementById('app')  // access DOM node
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### ref · 响应式引用  ★★★★★
 
@@ -1370,7 +1370,7 @@ count.value++
 console.log(count.value) // 1
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### Vite · Vite（前端构建工具）  ★★★★★
 
@@ -1380,7 +1380,7 @@ console.log(count.value) // 1
 npm create vite@latest my-app -- --template vue-ts
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### REST · REST 架构风格  ★★★★★
 
@@ -1852,7 +1852,7 @@ A drum kit primarily provides the rhythm in a band
 Bach's 'Crab Canon' is a masterpiece of counterpoint
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ### polyrhythm · 复合节奏  ★★★★★
 
@@ -1862,7 +1862,7 @@ Bach's 'Crab Canon' is a masterpiece of counterpoint
 3 against 2 polyrhythm: right hand plays triplets while left plays eighth notes
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ## 日常沟通
 
