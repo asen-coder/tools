@@ -1,6 +1,6 @@
 # 词汇参考文档
 
-> 更新于 2026-10-13，共 1262 条词汇。
+> 更新于 2026-10-14，共 1262 条词汇。
 > 按分类 + 难度排列，难度 ★ 最低，★★★★★ 最高。
 
 ## AI / LangChain / LangGraph
@@ -1390,7 +1390,7 @@ npm create vite@latest my-app -- --template vue-ts
 GET /users/123  →  { id: 123, name: 'Alice' }
 ```
 
-*状态：○ 待学习*
+*状态：✓ 已开始学习*
 
 ## 音乐
 
