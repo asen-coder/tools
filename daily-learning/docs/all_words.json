@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-14",
+  "generated": "2026-10-15",
   "words": [
     {
       "id": "ai_001",
@@ -1905,8 +1905,8 @@
       "definition": "基于 HTTP 方法（GET/POST/PUT/DELETE）设计 API 的架构风格，无状态、资源导向",
       "example": "GET /users/123  →  { id: 123, name: 'Alice' }",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 1,
+      "next_review": "2026-10-18",
+      "review_count": 2,
       "status": "learning"
     },
     {
@@ -4941,8 +4941,8 @@
       "definition": "修改工具",
       "example": "I have a eraser.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4953,8 +4953,8 @@
       "definition": "测量工具",
       "example": "I have a ruler.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4965,8 +4965,8 @@
       "definition": "记录本",
       "example": "I have a notebook.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4977,8 +4977,8 @@
       "definition": "携带用品",
       "example": "This is a backpack.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -4989,8 +4989,8 @@
       "definition": "课后任务",
       "example": "A homework can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5001,8 +5001,8 @@
       "definition": "教学单元",
       "example": "The lesson is important.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5013,8 +5013,8 @@
       "definition": "学科",
       "example": "This is a subject.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5025,8 +5025,8 @@
       "definition": "计算学科",
       "example": "This is a math.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5037,8 +5037,8 @@
       "definition": "语言学科",
       "example": "I have a English.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5049,8 +5049,8 @@
       "definition": "语言学科",
       "example": "I have a Chinese.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 5,
+      "next_review": "2027-01-13",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8541,8 +8541,8 @@
       "definition": "提问",
       "example": "Let's ask together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8553,8 +8553,8 @@
       "definition": "讲话",
       "example": "Can you speak?",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8565,8 +8565,8 @@
       "definition": "交流",
       "example": "Let's talk together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8577,8 +8577,8 @@
       "definition": "大声说",
       "example": "Let's shout together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8589,8 +8589,8 @@
       "definition": "小声说",
       "example": "Let's whisper together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8601,8 +8601,8 @@
       "definition": "喊或打电话",
       "example": "Can you call?",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8613,8 +8613,8 @@
       "definition": "流泪",
       "example": "Let's cry together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8625,8 +8625,8 @@
       "definition": "发笑",
       "example": "Can you laugh?",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8637,8 +8637,8 @@
       "definition": "露出笑容",
       "example": "Let's smile together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8649,8 +8649,8 @@
       "definition": "娱乐",
       "example": "You should play it.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 4,
+      "next_review": "2026-11-14",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10221,8 +10221,8 @@
       "definition": "疑问代词",
       "example": "what is my friend.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10233,8 +10233,8 @@
       "definition": "疑问代词",
       "example": "Give which the pen.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10245,8 +10245,8 @@
       "definition": "疑问副词",
       "example": "Do it when.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10257,8 +10257,8 @@
       "definition": "疑问副词",
       "example": "Do it why.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10269,8 +10269,8 @@
       "definition": "疑问副词",
       "example": "She speaks how.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10281,8 +10281,8 @@
       "definition": "不定冠词",
       "example": "This is a.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10293,8 +10293,8 @@
       "definition": "不定冠词元音前",
       "example": "This is an.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10305,8 +10305,8 @@
       "definition": "定冠词",
       "example": "This is the.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10317,8 +10317,8 @@
       "definition": "部分",
       "example": "This is some.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10329,8 +10329,8 @@
       "definition": "任意",
       "example": "It is very any.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 3,
+      "next_review": "2026-10-29",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11061,8 +11061,8 @@
       "definition": "否定",
       "example": "This is no.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11073,8 +11073,8 @@
       "definition": "礼貌",
       "example": "This is please.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11085,8 +11085,8 @@
       "definition": "感激",
       "example": "Let's thank together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11097,8 +11097,8 @@
       "definition": "问候",
       "example": "This is hello.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11109,8 +11109,8 @@
       "definition": "非正式问候",
       "example": "This is hi.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11121,8 +11121,8 @@
       "definition": "告别",
       "example": "This is goodbye.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11133,8 +11133,8 @@
       "definition": "非正式告别",
       "example": "This is bye.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11145,8 +11145,8 @@
       "definition": "道歉",
       "example": "This is sorry.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11157,8 +11157,8 @@
       "definition": "打扰",
       "example": "Let's excuse together.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -11169,8 +11169,8 @@
       "definition": "感叹",
       "example": "This is oh.",
       "difficulty": 5,
-      "next_review": "2026-10-15",
-      "review_count": 2,
+      "next_review": "2026-10-22",
+      "review_count": 3,
       "status": "learning"
     },
     {
