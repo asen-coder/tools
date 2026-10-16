@@ -703,8 +703,8 @@
     "definition": "表示特定音高和时值的音乐符号，是音乐的基本构成单位",
     "example": "C, D, E, F, G, A, B are the 7 natural notes",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -715,8 +715,8 @@
     "definition": "音乐中规律性重复的基本时间单位，就像心跳的节律",
     "example": "A 4/4 time signature has 4 beats per measure",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -727,8 +727,8 @@
     "definition": "音乐演奏的快慢，用 BPM（每分钟拍数）表示",
     "example": "120 BPM is a common tempo; 60 BPM feels like a slow heartbeat",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -739,8 +739,8 @@
     "definition": "一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'",
     "example": "The melody is what you hum when you remember a song",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -751,8 +751,8 @@
     "definition": "三个或更多不同音高的音符同时发声的组合",
     "example": "C major chord = C + E + G played together",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -763,8 +763,8 @@
     "definition": "音符时值长短和强弱的规律性排列模式",
     "example": "A drum kit primarily provides the rhythm in a band",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -5059,8 +5059,8 @@
     "definition": "自然学科",
     "example": "This is a science.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5071,8 +5071,8 @@
     "definition": "艺术学科",
     "example": "The art is important.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5083,8 +5083,8 @@
     "definition": "声音艺术",
     "example": "This is a music.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5095,8 +5095,8 @@
     "definition": "运动课程",
     "example": "This is a PE.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5107,8 +5107,8 @@
     "definition": "测试评估",
     "example": "The exam is important.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5119,8 +5119,8 @@
     "definition": "检验",
     "example": "A test can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5131,8 +5131,8 @@
     "definition": "年级或分数",
     "example": "This is a grade.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5143,8 +5143,8 @@
     "definition": "成绩",
     "example": "This is a score.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5155,8 +5155,8 @@
     "definition": "解答",
     "example": "This is a answer.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5167,8 +5167,8 @@
     "definition": "疑问",
     "example": "The question is important.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 5,
+    "next_review": "2027-01-14",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8659,8 +8659,8 @@
     "definition": "劳动",
     "example": "Can you work?",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8671,8 +8671,8 @@
     "definition": "睡眠",
     "example": "I sleep every day.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8683,8 +8683,8 @@
     "definition": "苏醒",
     "example": "Can you wake?",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8695,8 +8695,8 @@
     "definition": "梦境",
     "example": "Can you dream?",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8707,8 +8707,8 @@
     "definition": "进食",
     "example": "You should eat it.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8719,8 +8719,8 @@
     "definition": "饮用",
     "example": "You should drink it.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8731,8 +8731,8 @@
     "definition": "尝试味道",
     "example": "Let's taste together.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8743,8 +8743,8 @@
     "definition": "嗅觉",
     "example": "You should smell it.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8755,8 +8755,8 @@
     "definition": "听觉",
     "example": "Can you hear?",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -8767,8 +8767,8 @@
     "definition": "倾听",
     "example": "Let's listen together.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 4,
+    "next_review": "2026-11-15",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -10339,8 +10339,8 @@
     "definition": "全体",
     "example": "This is every.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10351,8 +10351,8 @@
     "definition": "所有",
     "example": "A all {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10363,8 +10363,8 @@
     "definition": "多",
     "example": "A many {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10375,8 +10375,8 @@
     "definition": "不可数多",
     "example": "A much {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10387,8 +10387,8 @@
     "definition": "可数少",
     "example": "This is few.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10399,8 +10399,8 @@
     "definition": "并列",
     "example": "He is rich and happy.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10411,8 +10411,8 @@
     "definition": "选择",
     "example": "He is rich or happy.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10423,8 +10423,8 @@
     "definition": "转折",
     "example": "I like apples but oranges.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10435,8 +10435,8 @@
     "definition": "原因",
     "example": "I like apples because oranges.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10447,8 +10447,8 @@
     "definition": "结果",
     "example": "He is rich so happy.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 3,
+    "next_review": "2026-10-30",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -11179,8 +11179,8 @@
     "definition": "惊叹",
     "example": "This is wow.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11191,8 +11191,8 @@
     "definition": "招呼",
     "example": "This is hey.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11203,8 +11203,8 @@
     "definition": "同意",
     "example": "This is ok.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
@@ -11215,8 +11215,8 @@
     "definition": "同意",
     "example": "This is okay.",
     "difficulty": 5,
-    "next_review": "2026-10-16",
-    "review_count": 2,
+    "next_review": "2026-10-23",
+    "review_count": 3,
     "status": "learning"
   },
   {
