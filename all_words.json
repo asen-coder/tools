@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-16",
+  "generated": "2026-10-17",
   "words": [
     {
       "id": "ai_001",
@@ -393,8 +393,8 @@
       "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
       "example": "<UserCard :name='user.name' @click='handleClick' />",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -405,8 +405,8 @@
       "definition": "父组件向子组件传递数据的机制，单向数据流",
       "example": "defineProps<{ title: string; count: number }>()",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -417,8 +417,8 @@
       "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
       "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -429,8 +429,8 @@
       "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
       "example": "const data = await fetch('/api/users').then(r => r.json())",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -441,8 +441,8 @@
       "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
       "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -453,8 +453,8 @@
       "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
       "example": "document.getElementById('app')  // access DOM node",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1641,8 +1641,8 @@
       "definition": "Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改",
       "example": "const count = ref(0)\ncount.value++\nconsole.log(count.value) // 1",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -1821,8 +1821,8 @@
       "definition": "基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包",
       "example": "npm create vite@latest my-app -- --template vue-ts",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2445,8 +2445,8 @@
       "definition": "两条或多条旋律线同时演奏并保持和声关系的作曲技术，巴赫是最杰出的代表",
       "example": "Bach's 'Crab Canon' is a masterpiece of counterpoint",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -2457,8 +2457,8 @@
       "definition": "两种或多种不同节奏同时进行，是非洲打击乐和现代爵士的重要特征",
       "example": "3 against 2 polyrhythm: right hand plays triplets while left plays eighth notes",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 2,
+      "next_review": "2026-10-24",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5181,8 +5181,8 @@
       "definition": "研习",
       "example": "Can you study?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5193,8 +5193,8 @@
       "definition": "获得知识",
       "example": "Can you learn?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5205,8 +5205,8 @@
       "definition": "传授知识",
       "example": "You should teach it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5217,8 +5217,8 @@
       "definition": "看文字",
       "example": "You should read it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5229,8 +5229,8 @@
       "definition": "文字表达",
       "example": "Let's write together.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5241,8 +5241,8 @@
       "definition": "图形表达",
       "example": "You should draw it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5253,8 +5253,8 @@
       "definition": "计算数量",
       "example": "Can you count?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5265,8 +5265,8 @@
       "definition": "思维",
       "example": "Can you think?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5277,8 +5277,8 @@
       "definition": "领会",
       "example": "You should understand it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5289,8 +5289,8 @@
       "definition": "记忆",
       "example": "You should remember it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 5,
+      "next_review": "2027-01-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8781,8 +8781,8 @@
       "definition": "视觉",
       "example": "You should see it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8793,8 +8793,8 @@
       "definition": "观看",
       "example": "Can you look?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8805,8 +8805,8 @@
       "definition": "感知",
       "example": "You should feel it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8817,8 +8817,8 @@
       "definition": "触碰",
       "example": "I touch every day.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8829,8 +8829,8 @@
       "definition": "抓住",
       "example": "I hold every day.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8841,8 +8841,8 @@
       "definition": "携带",
       "example": "Can you carry?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8853,8 +8853,8 @@
       "definition": "拖动",
       "example": "Let's pull together.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8865,8 +8865,8 @@
       "definition": "推动",
       "example": "Can you push?",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8877,8 +8877,8 @@
       "definition": "开启",
       "example": "Let's open together.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8889,8 +8889,8 @@
       "definition": "关上",
       "example": "You should close it.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 4,
+      "next_review": "2026-11-16",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10461,8 +10461,8 @@
       "definition": "条件",
       "example": "He is rich if happy.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10473,8 +10473,8 @@
       "definition": "期间",
       "example": "I like apples while oranges.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10485,8 +10485,8 @@
       "definition": "时间",
       "example": "This is before.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10497,8 +10497,8 @@
       "definition": "时间",
       "example": "This is after.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10509,8 +10509,8 @@
       "definition": "时间",
       "example": "This is since.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10521,8 +10521,8 @@
       "definition": "时间",
       "example": "This is until.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10533,8 +10533,8 @@
       "definition": "目的",
       "example": "Go for the door.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10545,8 +10545,8 @@
       "definition": "所属",
       "example": "The book is of the table.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10557,8 +10557,8 @@
       "definition": "方向",
       "example": "Go to the door.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10569,8 +10569,8 @@
       "definition": "来源",
       "example": "The book is from the table.",
       "difficulty": 5,
-      "next_review": "2026-10-17",
-      "review_count": 3,
+      "next_review": "2026-10-31",
+      "review_count": 4,
       "status": "learning"
     },
     {
