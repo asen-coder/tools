@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-17",
+  "generated": "2026-10-18",
   "words": [
     {
       "id": "ai_001",
@@ -1905,8 +1905,8 @@
       "definition": "基于 HTTP 方法（GET/POST/PUT/DELETE）设计 API 的架构风格，无状态、资源导向",
       "example": "GET /users/123  →  { id: 123, name: 'Alice' }",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 2,
+      "next_review": "2026-10-25",
+      "review_count": 3,
       "status": "learning"
     },
     {
@@ -5301,8 +5301,8 @@
       "definition": "遗忘",
       "example": "You should forget it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5313,8 +5313,8 @@
       "definition": "了解",
       "example": "You should know it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5325,8 +5325,8 @@
       "definition": "视觉属性",
       "example": "I have a color.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5337,8 +5337,8 @@
       "definition": "像血",
       "example": "This is red.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5349,8 +5349,8 @@
       "definition": "像天空",
       "example": "A blue {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5361,8 +5361,8 @@
       "definition": "像植物",
       "example": "This is green.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5373,8 +5373,8 @@
       "definition": "像太阳",
       "example": "This is yellow.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5385,8 +5385,8 @@
       "definition": "紫葡萄色",
       "example": "This is purple.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5397,8 +5397,8 @@
       "definition": "浅红色",
       "example": "It is very pink.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5409,8 +5409,8 @@
       "definition": "像大地",
       "example": "It is very brown.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 5,
+      "next_review": "2027-01-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8901,8 +8901,8 @@
       "definition": "启动",
       "example": "Can you start?",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8913,8 +8913,8 @@
       "definition": "着手",
       "example": "Can you begin?",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8925,8 +8925,8 @@
       "definition": "结束",
       "example": "You should finish it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8937,8 +8937,8 @@
       "definition": "终止",
       "example": "You should end it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8949,8 +8949,8 @@
       "definition": "等候",
       "example": "You should wait it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8961,8 +8961,8 @@
       "definition": "协助",
       "example": "You should help it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8973,8 +8973,8 @@
       "definition": "喜爱",
       "example": "Can you love?",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8985,8 +8985,8 @@
       "definition": "喜好",
       "example": "I like every day.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -8997,8 +8997,8 @@
       "definition": "厌恶",
       "example": "Can you hate?",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9009,8 +9009,8 @@
       "definition": "希望",
       "example": "You should want it.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 4,
+      "next_review": "2026-11-17",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10581,8 +10581,8 @@
       "definition": "伴随",
       "example": "The book is with the table.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10593,8 +10593,8 @@
       "definition": "缺乏",
       "example": "Go without the door.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10605,8 +10605,8 @@
       "definition": "涉及",
       "example": "Go about the door.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10617,8 +10617,8 @@
       "definition": "方式",
       "example": "The book is by the table.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10629,8 +10629,8 @@
       "definition": "角色",
       "example": "The book is as the table.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10641,8 +10641,8 @@
       "definition": "地点",
       "example": "The book is at the table.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10653,8 +10653,8 @@
       "definition": "程度",
       "example": "Do it very.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10665,8 +10665,8 @@
       "definition": "过度",
       "example": "Do it too.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10677,8 +10677,8 @@
       "definition": "程度",
       "example": "She speaks quite.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -10689,8 +10689,8 @@
       "definition": "确实",
       "example": "Do it really.",
       "difficulty": 5,
-      "next_review": "2026-10-18",
-      "review_count": 3,
+      "next_review": "2026-11-01",
+      "review_count": 4,
       "status": "learning"
     },
     {
