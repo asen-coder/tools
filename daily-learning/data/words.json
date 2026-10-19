@@ -5419,8 +5419,8 @@
     "definition": "像夜晚",
     "example": "This is black.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5431,8 +5431,8 @@
     "definition": "像雪",
     "example": "It is very white.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5443,8 +5443,8 @@
     "definition": "中性色",
     "example": "This is gray.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5455,8 +5455,8 @@
     "definition": "明亮",
     "example": "This is light.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5467,8 +5467,8 @@
     "definition": "暗淡",
     "example": "A dark {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5479,8 +5479,8 @@
     "definition": "圆的",
     "example": "A round {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5491,8 +5491,8 @@
     "definition": "方的",
     "example": "A square {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5503,8 +5503,8 @@
     "definition": "长度大",
     "example": "A long {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5515,8 +5515,8 @@
     "definition": "长度小",
     "example": "It is very short.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5527,8 +5527,8 @@
     "definition": "高度大",
     "example": "A tall {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 5,
+    "next_review": "2027-01-17",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9019,8 +9019,8 @@
     "definition": "必需",
     "example": "I need every day.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9031,8 +9031,8 @@
     "definition": "期盼",
     "example": "Let's hope together.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9043,8 +9043,8 @@
     "definition": "渴望",
     "example": "You should wish it.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9055,8 +9055,8 @@
     "definition": "试",
     "example": "I try every day.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9067,8 +9067,8 @@
     "definition": "应用",
     "example": "I use every day.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9079,8 +9079,8 @@
     "definition": "维持",
     "example": "You should keep it.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9091,8 +9091,8 @@
     "definition": "变化",
     "example": "You should change it.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9103,8 +9103,8 @@
     "definition": "运动",
     "example": "You should move it.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9115,8 +9115,8 @@
     "definition": "放置",
     "example": "You should put it.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9127,8 +9127,8 @@
     "definition": "安放",
     "example": "Let's place together.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 4,
+    "next_review": "2026-11-18",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -10699,8 +10699,8 @@
     "definition": "差不多",
     "example": "He runs almost.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10711,8 +10711,8 @@
     "definition": "完成",
     "example": "Do it already.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10723,8 +10723,8 @@
     "definition": "尚未",
     "example": "Do it yet.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10735,8 +10735,8 @@
     "definition": "持续",
     "example": "He runs still.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10747,8 +10747,8 @@
     "definition": "肯定",
     "example": "He runs also.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10759,8 +10759,8 @@
     "definition": "否定",
     "example": "He runs either.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10771,8 +10771,8 @@
     "definition": "频率高",
     "example": "She speaks always.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10783,8 +10783,8 @@
     "definition": "频率中",
     "example": "He runs usually.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10795,8 +10795,8 @@
     "definition": "频率较高",
     "example": "He runs often.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10807,8 +10807,8 @@
     "definition": "偶尔",
     "example": "Do it sometimes.",
     "difficulty": 5,
-    "next_review": "2026-10-19",
-    "review_count": 3,
+    "next_review": "2026-11-02",
+    "review_count": 4,
     "status": "learning"
   },
   {
