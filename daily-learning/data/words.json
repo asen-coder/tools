@@ -5659,8 +5659,8 @@
     "definition": "宠物",
     "example": "A dog can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5671,8 +5671,8 @@
     "definition": "宠物",
     "example": "I have a cat.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5683,8 +5683,8 @@
     "definition": "飞行动物",
     "example": "I have a bird.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5695,8 +5695,8 @@
     "definition": "小动物",
     "example": "I have a rabbit.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5707,8 +5707,8 @@
     "definition": "水禽",
     "example": "The duck is important.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5719,8 +5719,8 @@
     "definition": "家畜",
     "example": "The pig is important.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5731,8 +5731,8 @@
     "definition": "家畜",
     "example": "This is a cow.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5743,8 +5743,8 @@
     "definition": "家畜",
     "example": "I have a horse.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5755,8 +5755,8 @@
     "definition": "家畜",
     "example": "A sheep can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -5767,8 +5767,8 @@
     "definition": "家畜",
     "example": "I have a goat.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 5,
+    "next_review": "2027-01-19",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9259,8 +9259,8 @@
     "definition": "修复",
     "example": "Can you fix?",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9271,8 +9271,8 @@
     "definition": "建筑",
     "example": "I build every day.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9283,8 +9283,8 @@
     "definition": "成长",
     "example": "Let's grow together.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9295,8 +9295,8 @@
     "definition": "死亡",
     "example": "Can you die?",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9307,8 +9307,8 @@
     "definition": "居住",
     "example": "Can you live?",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9319,8 +9319,8 @@
     "definition": "诞生",
     "example": "I born every day.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9331,8 +9331,8 @@
     "definition": "优质",
     "example": "A good {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9343,8 +9343,8 @@
     "definition": "劣质",
     "example": "A bad {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9355,8 +9355,8 @@
     "definition": "高兴",
     "example": "It is very happy.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9367,8 +9367,8 @@
     "definition": "难过",
     "example": "It is very sad.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 4,
+    "next_review": "2026-11-20",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -10939,8 +10939,8 @@
     "definition": "独自",
     "example": "He runs alone.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10951,8 +10951,8 @@
     "definition": "离开",
     "example": "She speaks away.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10963,8 +10963,8 @@
     "definition": "外出",
     "example": "She speaks out.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10975,8 +10975,8 @@
     "definition": "四周",
     "example": "He runs around.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10987,8 +10987,8 @@
     "definition": "通过",
     "example": "Do it through.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -10999,8 +10999,8 @@
     "definition": "跨越",
     "example": "She speaks across.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -11011,8 +11011,8 @@
     "definition": "顺沿",
     "example": "She speaks along.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -11023,8 +11023,8 @@
     "definition": "后方",
     "example": "He runs behind.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -11035,8 +11035,8 @@
     "definition": "之外",
     "example": "She speaks beyond.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -11047,8 +11047,8 @@
     "definition": "肯定",
     "example": "This is yes.",
     "difficulty": 5,
-    "next_review": "2026-10-21",
-    "review_count": 3,
+    "next_review": "2026-11-04",
+    "review_count": 4,
     "status": "learning"
   },
   {
