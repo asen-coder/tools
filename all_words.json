@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-22",
+  "generated": "2026-10-23",
   "words": [
     {
       "id": "ai_001",
@@ -705,8 +705,8 @@
       "definition": "表示特定音高和时值的音乐符号，是音乐的基本构成单位",
       "example": "C, D, E, F, G, A, B are the 7 natural notes",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -717,8 +717,8 @@
       "definition": "音乐中规律性重复的基本时间单位，就像心跳的节律",
       "example": "A 4/4 time signature has 4 beats per measure",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -729,8 +729,8 @@
       "definition": "音乐演奏的快慢，用 BPM（每分钟拍数）表示",
       "example": "120 BPM is a common tempo; 60 BPM feels like a slow heartbeat",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -741,8 +741,8 @@
       "definition": "一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'",
       "example": "The melody is what you hum when you remember a song",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -753,8 +753,8 @@
       "definition": "三个或更多不同音高的音符同时发声的组合",
       "example": "C major chord = C + E + G played together",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -765,8 +765,8 @@
       "definition": "音符时值长短和强弱的规律性排列模式",
       "example": "A drum kit primarily provides the rhythm in a band",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -5901,8 +5901,8 @@
       "definition": "条纹马",
       "example": "This is a zebra.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5913,8 +5913,8 @@
       "definition": "长脖子",
       "example": "A giraffe can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5925,8 +5925,8 @@
       "definition": "有袋类",
       "example": "I have a kangaroo.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5937,8 +5937,8 @@
       "definition": "南极鸟",
       "example": "I have a penguin.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5949,8 +5949,8 @@
       "definition": "猛禽",
       "example": "The eagle is important.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5961,8 +5961,8 @@
       "definition": "夜行猛禽",
       "example": "The owl is important.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5973,8 +5973,8 @@
       "definition": "爬行动物",
       "example": "A snake can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5985,8 +5985,8 @@
       "definition": "两栖动物",
       "example": "This is a frog.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -5997,8 +5997,8 @@
       "definition": "爬行动物",
       "example": "This is a turtle.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6009,8 +6009,8 @@
       "definition": "昆虫",
       "example": "A butterfly can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 5,
+      "next_review": "2027-01-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9501,8 +9501,8 @@
       "definition": "疲劳",
       "example": "A tired {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9513,8 +9513,8 @@
       "definition": "饥饿",
       "example": "A hungry {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9525,8 +9525,8 @@
       "definition": "口渴",
       "example": "This is thirsty.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9537,8 +9537,8 @@
       "definition": "不饿",
       "example": "It is very full.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9549,8 +9549,8 @@
       "definition": "生病",
       "example": "This is sick.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9561,8 +9561,8 @@
       "definition": "身体好",
       "example": "A well {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9573,8 +9573,8 @@
       "definition": "身体好",
       "example": "This is healthy.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9585,8 +9585,8 @@
       "definition": "有力",
       "example": "A strong {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9597,8 +9597,8 @@
       "definition": "无力",
       "example": "A weak {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9609,8 +9609,8 @@
       "definition": "年纪小",
       "example": "It is very young.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 4,
+      "next_review": "2026-11-22",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -11181,8 +11181,8 @@
       "definition": "惊叹",
       "example": "This is wow.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11193,8 +11193,8 @@
       "definition": "招呼",
       "example": "This is hey.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11205,8 +11205,8 @@
       "definition": "同意",
       "example": "This is ok.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
@@ -11217,8 +11217,8 @@
       "definition": "同意",
       "example": "This is okay.",
       "difficulty": 5,
-      "next_review": "2026-10-23",
-      "review_count": 3,
+      "next_review": "2026-11-06",
+      "review_count": 4,
       "status": "learning"
     },
     {
