@@ -391,8 +391,8 @@
     "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
     "example": "<UserCard :name='user.name' @click='handleClick' />",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -403,8 +403,8 @@
     "definition": "父组件向子组件传递数据的机制，单向数据流",
     "example": "defineProps<{ title: string; count: number }>()",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -415,8 +415,8 @@
     "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
     "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -427,8 +427,8 @@
     "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
     "example": "const data = await fetch('/api/users').then(r => r.json())",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -439,8 +439,8 @@
     "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
     "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -451,8 +451,8 @@
     "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
     "example": "document.getElementById('app')  // access DOM node",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1639,8 +1639,8 @@
     "definition": "Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改",
     "example": "const count = ref(0)\ncount.value++\nconsole.log(count.value) // 1",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -1819,8 +1819,8 @@
     "definition": "基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包",
     "example": "npm create vite@latest my-app -- --template vue-ts",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2443,8 +2443,8 @@
     "definition": "两条或多条旋律线同时演奏并保持和声关系的作曲技术，巴赫是最杰出的代表",
     "example": "Bach's 'Crab Canon' is a masterpiece of counterpoint",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -2455,8 +2455,8 @@
     "definition": "两种或多种不同节奏同时进行，是非洲打击乐和现代爵士的重要特征",
     "example": "3 against 2 polyrhythm: right hand plays triplets while left plays eighth notes",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 3,
+    "next_review": "2026-11-07",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6019,8 +6019,8 @@
     "definition": "昆虫",
     "example": "This is a bee.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6031,8 +6031,8 @@
     "definition": "昆虫",
     "example": "The ant is important.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6043,8 +6043,8 @@
     "definition": "节肢动物",
     "example": "A spider can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6055,8 +6055,8 @@
     "definition": "昆虫",
     "example": "This is a fly.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6067,8 +6067,8 @@
     "definition": "昆虫",
     "example": "I have a mosquito.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6079,8 +6079,8 @@
     "definition": "自然界",
     "example": "This is a nature.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6091,8 +6091,8 @@
     "definition": "恒星",
     "example": "A sun can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6103,8 +6103,8 @@
     "definition": "卫星",
     "example": "This is a moon.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6115,8 +6115,8 @@
     "definition": "苍穹",
     "example": "I have a sky.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6127,8 +6127,8 @@
     "definition": "水汽凝结",
     "example": "I have a cloud.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 5,
+    "next_review": "2027-01-22",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9619,8 +9619,8 @@
     "definition": "年纪大",
     "example": "It is very old.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9631,8 +9631,8 @@
     "definition": "新的",
     "example": "It is very new.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9643,8 +9643,8 @@
     "definition": "漂亮",
     "example": "It is very beautiful.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9655,8 +9655,8 @@
     "definition": "难看",
     "example": "A ugly {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9667,8 +9667,8 @@
     "definition": "整洁",
     "example": "A clean {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9679,8 +9679,8 @@
     "definition": "污浊",
     "example": "A dirty {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9691,8 +9691,8 @@
     "definition": "有钱",
     "example": "A rich {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9703,8 +9703,8 @@
     "definition": "没钱",
     "example": "A poor {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9715,8 +9715,8 @@
     "definition": "价低",
     "example": "A cheap {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9727,8 +9727,8 @@
     "definition": "价高",
     "example": "This is expensive.",
     "difficulty": 5,
-    "next_review": "2026-10-24",
-    "review_count": 4,
+    "next_review": "2026-11-23",
+    "review_count": 5,
     "status": "learning"
   },
   {
