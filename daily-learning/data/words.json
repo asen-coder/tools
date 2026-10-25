@@ -1903,8 +1903,8 @@
     "definition": "基于 HTTP 方法（GET/POST/PUT/DELETE）设计 API 的架构风格，无状态、资源导向",
     "example": "GET /users/123  →  { id: 123, name: 'Alice' }",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 3,
+    "next_review": "2026-11-08",
+    "review_count": 4,
     "status": "learning"
   },
   {
@@ -6139,8 +6139,8 @@
     "definition": "降水",
     "example": "A rain can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6151,8 +6151,8 @@
     "definition": "固态降水",
     "example": "This is a snow.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6163,8 +6163,8 @@
     "definition": "空气流动",
     "example": "I have a wind.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6175,8 +6175,8 @@
     "definition": "恶劣天气",
     "example": "A storm can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6187,8 +6187,8 @@
     "definition": "大气放电",
     "example": "A lightning can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6199,8 +6199,8 @@
     "definition": "大气声响",
     "example": "A thunder can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6211,8 +6211,8 @@
     "definition": "大气光学",
     "example": "The rainbow is important.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6223,8 +6223,8 @@
     "definition": "能见度低",
     "example": "I have a fog.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6235,8 +6235,8 @@
     "definition": "固态水",
     "example": "This is a ice.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -6247,8 +6247,8 @@
     "definition": "燃烧",
     "example": "A fire can help you.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 5,
+    "next_review": "2027-01-23",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9739,8 +9739,8 @@
     "definition": "不难",
     "example": "It is very easy.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9751,8 +9751,8 @@
     "definition": "不易",
     "example": "It is very hard.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9763,8 +9763,8 @@
     "definition": "艰难",
     "example": "A difficult {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9775,8 +9775,8 @@
     "definition": "不复杂",
     "example": "A simple {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9787,8 +9787,8 @@
     "definition": "繁复",
     "example": "A complex {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9799,8 +9799,8 @@
     "definition": "关键",
     "example": "A important {noun}.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9811,8 +9811,8 @@
     "definition": "不安全",
     "example": "It is very dangerous.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9823,8 +9823,8 @@
     "definition": "无危险",
     "example": "It is very safe.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9835,8 +9835,8 @@
     "definition": "无声",
     "example": "It is very quiet.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
@@ -9847,8 +9847,8 @@
     "definition": "喧哗",
     "example": "It is very noisy.",
     "difficulty": 5,
-    "next_review": "2026-10-25",
-    "review_count": 4,
+    "next_review": "2026-11-24",
+    "review_count": 5,
     "status": "learning"
   },
   {
