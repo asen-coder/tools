@@ -1,5 +1,5 @@
 {
-  "generated": "2026-10-25",
+  "generated": "2026-10-26",
   "words": [
     {
       "id": "ai_001",
@@ -6261,8 +6261,8 @@
       "definition": "水体",
       "example": "The river is important.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6273,8 +6273,8 @@
       "definition": "水体",
       "example": "The lake is important.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6285,8 +6285,8 @@
       "definition": "水体",
       "example": "A sea can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6297,8 +6297,8 @@
       "definition": "水域",
       "example": "This is a ocean.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6309,8 +6309,8 @@
       "definition": "海岸",
       "example": "The beach is important.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6321,8 +6321,8 @@
       "definition": "陆地",
       "example": "A island can help you.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6333,8 +6333,8 @@
       "definition": "高地",
       "example": "The mountain is important.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6345,8 +6345,8 @@
       "definition": "隆起",
       "example": "I have a hill.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6357,8 +6357,8 @@
       "definition": "树木密集",
       "example": "This is a forest.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -6369,8 +6369,8 @@
       "definition": "木本植物",
       "example": "I have a tree.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 5,
+      "next_review": "2027-01-24",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9861,8 +9861,8 @@
       "definition": "迅速",
       "example": "It is very fast.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9873,8 +9873,8 @@
       "definition": "迟缓",
       "example": "It is very slow.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9885,8 +9885,8 @@
       "definition": "提前",
       "example": "A early {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9897,8 +9897,8 @@
       "definition": "迟到",
       "example": "It is very late.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9909,8 +9909,8 @@
       "definition": "错误",
       "example": "A wrong {noun}.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9921,8 +9921,8 @@
       "definition": "真实",
       "example": "It is very true.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9933,8 +9933,8 @@
       "definition": "虚假",
       "example": "It is very false.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9945,8 +9945,8 @@
       "definition": "肯定",
       "example": "It is very sure.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9957,8 +9957,8 @@
       "definition": "就绪",
       "example": "This is ready.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -9969,8 +9969,8 @@
       "definition": "一样",
       "example": "This is same.",
       "difficulty": 5,
-      "next_review": "2026-10-26",
-      "review_count": 4,
+      "next_review": "2026-11-25",
+      "review_count": 5,
       "status": "learning"
     },
     {
