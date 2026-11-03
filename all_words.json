@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-02",
+  "generated": "2026-11-03",
   "words": [
     {
       "id": "ai_001",
@@ -7221,8 +7221,8 @@
       "definition": "数字11",
       "example": "It's eleven o'clock.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7233,8 +7233,8 @@
       "definition": "数字12",
       "example": "I have twelve books.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7245,8 +7245,8 @@
       "definition": "数字13",
       "example": "It's thirteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7257,8 +7257,8 @@
       "definition": "数字14",
       "example": "I have fourteen books.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7269,8 +7269,8 @@
       "definition": "数字15",
       "example": "It's fifteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7281,8 +7281,8 @@
       "definition": "数字16",
       "example": "It's sixteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7293,8 +7293,8 @@
       "definition": "数字17",
       "example": "I have seventeen books.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7305,8 +7305,8 @@
       "definition": "数字18",
       "example": "It's eighteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7317,8 +7317,8 @@
       "definition": "数字19",
       "example": "It's nineteen o'clock.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7329,8 +7329,8 @@
       "definition": "数字20",
       "example": "I have twenty books.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 5,
+      "next_review": "2027-02-01",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -10821,8 +10821,8 @@
       "definition": "频率零",
       "example": "He runs never.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10833,8 +10833,8 @@
       "definition": "任何时间",
       "example": "Do it ever.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10845,8 +10845,8 @@
       "definition": "刚才",
       "example": "Do it just.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10857,8 +10857,8 @@
       "definition": "当前",
       "example": "She speaks now.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10869,8 +10869,8 @@
       "definition": "当时",
       "example": "Do it then.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10881,8 +10881,8 @@
       "definition": "不久",
       "example": "He runs soon.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10893,8 +10893,8 @@
       "definition": "重复",
       "example": "He runs again.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10905,8 +10905,8 @@
       "definition": "频率",
       "example": "Do it once.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10917,8 +10917,8 @@
       "definition": "频率",
       "example": "She speaks twice.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -10929,8 +10929,8 @@
       "definition": "共同",
       "example": "She speaks together.",
       "difficulty": 5,
-      "next_review": "2026-11-03",
-      "review_count": 4,
+      "next_review": "2026-12-03",
+      "review_count": 5,
       "status": "learning"
     },
     {
