@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-06",
+  "generated": "2026-11-07",
   "words": [
     {
       "id": "ai_001",
@@ -393,8 +393,8 @@
       "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
       "example": "<UserCard :name='user.name' @click='handleClick' />",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -405,8 +405,8 @@
       "definition": "父组件向子组件传递数据的机制，单向数据流",
       "example": "defineProps<{ title: string; count: number }>()",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -417,8 +417,8 @@
       "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
       "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -429,8 +429,8 @@
       "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
       "example": "const data = await fetch('/api/users').then(r => r.json())",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -441,8 +441,8 @@
       "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
       "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -453,8 +453,8 @@
       "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
       "example": "document.getElementById('app')  // access DOM node",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1029,8 +1029,8 @@
       "definition": "请求对方对某个观点或情况提供更多细节和解释",
       "example": "Could you elaborate on that performance issue you mentioned?",
       "difficulty": 2,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1041,8 +1041,8 @@
       "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
       "example": "Let me clarify — I meant the staging environment, not production.",
       "difficulty": 2,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1053,8 +1053,8 @@
       "definition": "表示需要时间确认后再回答，不立即给出答案",
       "example": "I'll get back to you on that timeline after checking with the team.",
       "difficulty": 2,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1641,8 +1641,8 @@
       "definition": "Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改",
       "example": "const count = ref(0)\ncount.value++\nconsole.log(count.value) // 1",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -1821,8 +1821,8 @@
       "definition": "基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包",
       "example": "npm create vite@latest my-app -- --template vue-ts",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2445,8 +2445,8 @@
       "definition": "两条或多条旋律线同时演奏并保持和声关系的作曲技术，巴赫是最杰出的代表",
       "example": "Bach's 'Crab Canon' is a masterpiece of counterpoint",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -2457,8 +2457,8 @@
       "definition": "两种或多种不同节奏同时进行，是非洲打击乐和现代爵士的重要特征",
       "example": "3 against 2 polyrhythm: right hand plays triplets while left plays eighth notes",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 4,
+      "next_review": "2026-12-07",
+      "review_count": 5,
       "status": "learning"
     },
     {
@@ -7701,8 +7701,8 @@
       "definition": "方向",
       "example": "This is left.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7713,8 +7713,8 @@
       "definition": "方向",
       "example": "This is right.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7725,8 +7725,8 @@
       "definition": "位置",
       "example": "I have a front.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7737,8 +7737,8 @@
       "definition": "中间",
       "example": "I have a center.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7749,8 +7749,8 @@
       "definition": "转角",
       "example": "The corner is important.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7761,8 +7761,8 @@
       "definition": "旁边",
       "example": "The side is important.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7773,8 +7773,8 @@
       "definition": "中部",
       "example": "The middle is important.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7785,8 +7785,8 @@
       "definition": "上面",
       "example": "A top can help you.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7797,8 +7797,8 @@
       "definition": "下面",
       "example": "The bottom is important.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7809,8 +7809,8 @@
       "definition": "内部",
       "example": "The inside is important.",
       "difficulty": 5,
-      "next_review": "2026-11-07",
-      "review_count": 5,
+      "next_review": "2027-02-05",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -15006,8 +15006,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15029,8 +15029,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15052,8 +15052,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15084,8 +15084,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15116,8 +15116,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15148,8 +15148,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15169,8 +15169,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15190,8 +15190,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -15226,8 +15226,8 @@
         }
       ],
       "difficulty": 1,
-      "next_review": "2026-11-07",
-      "review_count": 6,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {

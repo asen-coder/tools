@@ -1,257 +1,536 @@
 {
-  "date": "2026-11-06",
-  "day_of_week": "周五",
+  "date": "2026-11-07",
+  "day_of_week": "周六",
   "new_words": [],
   "new_sentences": [],
   "vocab_reviews": [
     {
-      "id": "music_001",
+      "id": "prog_001",
+      "category": "programming",
+      "en": "component",
+      "zh": "组件",
+      "definition": "封装了模板、逻辑和样式的可复用独立 UI 单元",
+      "example": "<UserCard :name='user.name' @click='handleClick' />",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_002",
+      "category": "programming",
+      "en": "props",
+      "zh": "属性",
+      "definition": "父组件向子组件传递数据的机制，单向数据流",
+      "example": "defineProps<{ title: string; count: number }>()",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_003",
+      "category": "programming",
+      "en": "callback",
+      "zh": "回调函数",
+      "definition": "作为参数传给另一个函数、在某个时机被调用的函数",
+      "example": "setTimeout(() => console.log('done'), 1000)  // arrow fn is the callback",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_004",
+      "category": "programming",
+      "en": "API",
+      "zh": "应用编程接口",
+      "definition": "允许不同软件互相通信的规范，前端主要通过 HTTP API 获取数据",
+      "example": "const data = await fetch('/api/users').then(r => r.json())",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_005",
+      "category": "programming",
+      "en": "async",
+      "zh": "异步",
+      "definition": "不阻塞主线程、允许其他代码继续运行的操作方式",
+      "example": "async function fetchUser(id) { return await api.get(`/users/${id}`) }",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_006",
+      "category": "programming",
+      "en": "DOM",
+      "zh": "文档对象模型",
+      "definition": "浏览器将 HTML 解析成树形结构的内存表示，JS 通过它操作页面",
+      "example": "document.getElementById('app')  // access DOM node",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_027",
+      "category": "programming",
+      "en": "ref",
+      "zh": "响应式引用",
+      "definition": "Vue 3 中将基础类型包装为响应式对象的函数，通过 .value 访问和修改",
+      "example": "const count = ref(0)\ncount.value++\nconsole.log(count.value) // 1",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "prog_042",
+      "category": "programming",
+      "en": "Vite",
+      "zh": "Vite（前端构建工具）",
+      "definition": "基于原生 ESM 的新一代前端构建工具，开发模式极速冷启动，生产使用 Rollup 打包",
+      "example": "npm create vite@latest my-app -- --template vue-ts",
+      "difficulty": 5,
+      "next_review": "2026-12-07",
+      "review_count": 5,
+      "status": "learning"
+    },
+    {
+      "id": "music_046",
       "category": "music",
-      "en": "note",
-      "zh": "音符",
-      "definition": "表示特定音高和时值的音乐符号，是音乐的基本构成单位",
-      "example": "C, D, E, F, G, A, B are the 7 natural notes",
+      "en": "counterpoint",
+      "zh": "对位法",
+      "definition": "两条或多条旋律线同时演奏并保持和声关系的作曲技术，巴赫是最杰出的代表",
+      "example": "Bach's 'Crab Canon' is a masterpiece of counterpoint",
       "difficulty": 5,
-      "next_review": "2026-12-06",
+      "next_review": "2026-12-07",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "music_002",
+      "id": "music_047",
       "category": "music",
-      "en": "beat",
-      "zh": "拍",
-      "definition": "音乐中规律性重复的基本时间单位，就像心跳的节律",
-      "example": "A 4/4 time signature has 4 beats per measure",
+      "en": "polyrhythm",
+      "zh": "复合节奏",
+      "definition": "两种或多种不同节奏同时进行，是非洲打击乐和现代爵士的重要特征",
+      "example": "3 against 2 polyrhythm: right hand plays triplets while left plays eighth notes",
       "difficulty": 5,
-      "next_review": "2026-12-06",
+      "next_review": "2026-12-07",
       "review_count": 5,
       "status": "learning"
     },
     {
-      "id": "music_003",
-      "category": "music",
-      "en": "tempo",
-      "zh": "速度",
-      "definition": "音乐演奏的快慢，用 BPM（每分钟拍数）表示",
-      "example": "120 BPM is a common tempo; 60 BPM feels like a slow heartbeat",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "music_004",
-      "category": "music",
-      "en": "melody",
-      "zh": "旋律",
-      "definition": "一系列音符按时间顺序排列形成的可识别音乐线条，歌曲的'主角'",
-      "example": "The melody is what you hum when you remember a song",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "music_005",
-      "category": "music",
-      "en": "chord",
-      "zh": "和弦",
-      "definition": "三个或更多不同音高的音符同时发声的组合",
-      "example": "C major chord = C + E + G played together",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "music_006",
-      "category": "music",
-      "en": "rhythm",
-      "zh": "节奏",
-      "definition": "音符时值长短和强弱的规律性排列模式",
-      "example": "A drum kit primarily provides the rhythm in a band",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
-      "status": "learning"
-    },
-    {
-      "id": "gen_398",
+      "id": "gen_408",
       "category": "general",
-      "en": "in",
-      "zh": "在...里",
-      "definition": "位置介词",
-      "example": "Go in the door.",
+      "en": "left",
+      "zh": "左边",
+      "definition": "方向",
+      "example": "This is left.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_399",
+      "id": "gen_409",
       "category": "general",
-      "en": "on",
-      "zh": "在...上",
-      "definition": "位置介词",
-      "example": "Go on the door.",
+      "en": "right",
+      "zh": "右边",
+      "definition": "方向",
+      "example": "This is right.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_400",
+      "id": "gen_410",
       "category": "general",
-      "en": "under",
-      "zh": "在...下",
-      "definition": "位置介词",
-      "example": "The book is under the table.",
+      "en": "front",
+      "zh": "前面",
+      "definition": "位置",
+      "example": "I have a front.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_401",
+      "id": "gen_411",
       "category": "general",
-      "en": "above",
-      "zh": "在...上",
-      "definition": "位置介词",
-      "example": "The book is above the table.",
+      "en": "center",
+      "zh": "中心",
+      "definition": "中间",
+      "example": "I have a center.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_402",
+      "id": "gen_412",
       "category": "general",
-      "en": "below",
-      "zh": "在...下",
-      "definition": "位置介词",
-      "example": "The book is below the table.",
+      "en": "corner",
+      "zh": "角落",
+      "definition": "转角",
+      "example": "The corner is important.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_403",
+      "id": "gen_413",
       "category": "general",
-      "en": "near",
-      "zh": "在...附近",
-      "definition": "位置介词",
-      "example": "Go near the door.",
+      "en": "side",
+      "zh": "侧面",
+      "definition": "旁边",
+      "example": "The side is important.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_404",
+      "id": "gen_414",
       "category": "general",
-      "en": "far",
-      "zh": "远",
-      "definition": "距离大",
-      "example": "It is very far.",
+      "en": "middle",
+      "zh": "中间",
+      "definition": "中部",
+      "example": "The middle is important.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_405",
+      "id": "gen_415",
       "category": "general",
-      "en": "here",
-      "zh": "这里",
-      "definition": "位置副词",
-      "example": "Do it here.",
+      "en": "top",
+      "zh": "顶部",
+      "definition": "上面",
+      "example": "A top can help you.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_406",
+      "id": "gen_416",
       "category": "general",
-      "en": "there",
-      "zh": "那里",
-      "definition": "位置副词",
-      "example": "Do it there.",
+      "en": "bottom",
+      "zh": "底部",
+      "definition": "下面",
+      "example": "The bottom is important.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_407",
+      "id": "gen_417",
       "category": "general",
-      "en": "where",
-      "zh": "哪里",
-      "definition": "疑问副词",
-      "example": "He runs where.",
+      "en": "inside",
+      "zh": "里面",
+      "definition": "内部",
+      "example": "The inside is important.",
       "difficulty": 5,
-      "next_review": "2027-02-04",
+      "next_review": "2027-02-05",
       "review_count": 6,
       "status": "learning"
     },
     {
-      "id": "gen_698",
+      "id": "gen_1015",
       "category": "general",
-      "en": "wow",
-      "zh": "哇",
-      "definition": "惊叹",
-      "example": "This is wow.",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
+      "en": "become",
+      "phonetic": "/bɪˈkʌm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "变成，成为"
+          ],
+          "examples": [
+            "He became a doctor.",
+            "It's becoming cold."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
-      "id": "gen_699",
+      "id": "gen_1016",
       "category": "general",
-      "en": "hey",
-      "zh": "嘿",
-      "definition": "招呼",
-      "example": "This is hey.",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
+      "en": "let",
+      "phonetic": "/let/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "让，允许",
+            "出租，租给"
+          ],
+          "examples": [
+            "Let me help you.",
+            "Let the house."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
-      "id": "gen_700",
+      "id": "gen_1017",
       "category": "general",
-      "en": "ok",
-      "zh": "好的",
-      "definition": "同意",
-      "example": "This is ok.",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
+      "en": "seem",
+      "phonetic": "/siːm/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "似乎，好像",
+            "显得"
+          ],
+          "examples": [
+            "He seems happy.",
+            "It seems like rain."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     },
     {
-      "id": "gen_701",
+      "id": "gen_1018",
       "category": "general",
-      "en": "okay",
-      "zh": "可以",
-      "definition": "同意",
-      "example": "This is okay.",
-      "difficulty": 5,
-      "next_review": "2026-12-06",
-      "review_count": 5,
+      "en": "offer",
+      "phonetic": "/ˈɒfər/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "提供，提出",
+            "出价，开价"
+          ],
+          "examples": [
+            "Offer help.",
+            "Offer $100 for it."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "提供，提议"
+          ],
+          "examples": [
+            "Thank you for your offer."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1019",
+      "category": "general",
+      "en": "pay",
+      "phonetic": "/peɪ/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "支付，付款",
+            "付出代价"
+          ],
+          "examples": [
+            "Pay the bill.",
+            "Pay for your mistake."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "工资，薪金"
+          ],
+          "examples": [
+            "Get your pay."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1020",
+      "category": "general",
+      "en": "meet",
+      "phonetic": "/miːt/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "遇见，会见",
+            "满足，符合"
+          ],
+          "examples": [
+            "Meet my friend.",
+            "Meet requirements."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "会议，集会"
+          ],
+          "examples": [
+            "Attend a meet."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1021",
+      "category": "general",
+      "en": "include",
+      "phonetic": "/ɪnˈkluːd/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "包括，包含"
+          ],
+          "examples": [
+            "The price includes tax."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1022",
+      "category": "general",
+      "en": "continue",
+      "phonetic": "/kənˈtɪnjuː/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "继续，持续"
+          ],
+          "examples": [
+            "Continue your work."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "gen_1023",
+      "category": "general",
+      "en": "set",
+      "phonetic": "/set/",
+      "parts": [
+        {
+          "pos": "v",
+          "definitions": [
+            "放，安置",
+            "设定，确立",
+            "（日）落"
+          ],
+          "examples": [
+            "Set the table.",
+            "Set a goal.",
+            "The sun sets in the west."
+          ]
+        },
+        {
+          "pos": "n",
+          "definitions": [
+            "一套，一副",
+            "接收机"
+          ],
+          "examples": [
+            "A chess set.",
+            "A TV set."
+          ]
+        }
+      ],
+      "difficulty": 1,
+      "next_review": "2027-02-05",
+      "review_count": 7,
       "status": "learning"
     }
   ],
-  "sentence_reviews": [],
+  "sentence_reviews": [
+    {
+      "id": "daily_006",
+      "category": "daily",
+      "en": "Could you elaborate on that?",
+      "zh": "你能详细说明一下吗？",
+      "definition": "请求对方对某个观点或情况提供更多细节和解释",
+      "example": "Could you elaborate on that performance issue you mentioned?",
+      "difficulty": 2,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "daily_007",
+      "category": "daily",
+      "en": "Let me clarify.",
+      "zh": "让我来说清楚一下。",
+      "definition": "主动消除误解，对之前表述不够清晰的内容进行澄清",
+      "example": "Let me clarify — I meant the staging environment, not production.",
+      "difficulty": 2,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    },
+    {
+      "id": "daily_008",
+      "category": "daily",
+      "en": "I'll get back to you on that.",
+      "zh": "关于这个我稍后回复你。",
+      "definition": "表示需要时间确认后再回答，不立即给出答案",
+      "example": "I'll get back to you on that timeline after checking with the team.",
+      "difficulty": 2,
+      "next_review": "2027-02-05",
+      "review_count": 7,
+      "status": "learning"
+    }
+  ],
   "stats": {
     "total": 1262,
-    "mastered": 951,
+    "mastered": 961,
     "learning": 1261,
     "new": 0,
-    "streak": 145,
-    "total_sessions": 145
+    "streak": 146,
+    "total_sessions": 146
   }
 }
