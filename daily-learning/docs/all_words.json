@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-08",
+  "generated": "2026-11-09",
   "words": [
     {
       "id": "ai_001",
@@ -141,8 +141,8 @@
       "definition": "在多轮对话中保存上下文历史，让模型记住之前的交流内容",
       "example": "memory = ConversationBufferMemory(return_messages=True)",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -153,8 +153,8 @@
       "definition": "将 PDF、网页、CSV 等各种格式文件转换为 LangChain Document 对象的工具",
       "example": "loader = PyPDFLoader('report.pdf')\ndocs = loader.load()",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -165,8 +165,8 @@
       "definition": "将长文档切分成适合 LLM 上下文窗口大小的小块",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -177,8 +177,8 @@
       "definition": "控制模型输出随机性的参数，0 最确定，1+ 最有创意",
       "example": "llm = ChatOpenAI(temperature=0)  # deterministic output",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -189,8 +189,8 @@
       "definition": "在提示中提供少量输入输出示例，引导模型按期望格式回答",
       "example": "FewShotPromptTemplate(examples=[{'q': '...', 'a': '...'}], ...)",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1101,8 +1101,8 @@
       "definition": "将某个话题推迟到更合适的时机讨论，避免当前跑题",
       "example": "That's important but out of scope today. Could we revisit this later?",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1233,8 +1233,8 @@
       "definition": "LangChain 中用于构建对话提示的模板类，支持 system/human/ai 三种角色消息",
       "example": "prompt = ChatPromptTemplate.from_messages([(\"system\", \"You are {role}\"), (\"human\", \"{input}\")])",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1257,8 +1257,8 @@
       "definition": "将 LLM 返回的字符串解析为结构化对象（JSON、Pydantic 模型等）的组件",
       "example": "chain = prompt | llm | StrOutputParser()",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1269,8 +1269,8 @@
       "definition": "LLM 逐 token 实时输出而非等待完整响应，显著改善用户体验",
       "example": "async for chunk in chain.astream(input):\n    print(chunk, end='', flush=True)",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1293,8 +1293,8 @@
       "definition": "存储文本嵌入向量并支持高效语义相似度搜索的专用数据库",
       "example": "vectorstore = Chroma.from_documents(documents, OpenAIEmbeddings())",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1305,8 +1305,8 @@
       "definition": "将长文档切分为适合向量化和检索的小块（chunk）的工具",
       "example": "splitter = RecursiveCharacterTextSplitter(chunk_size=1000, chunk_overlap=200)",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2469,8 +2469,8 @@
       "definition": "请求对方在事情发生前预先告知，以便有时间准备",
       "example": "If the meeting changes, could you give me a heads-up? I'm back-to-back all morning.",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2481,8 +2481,8 @@
       "definition": "告知对方会将其纳入相关邮件、群组或讨论，让其了解最新进展",
       "example": "I'll loop you in on the email thread with the client so you're up to speed.",
       "difficulty": 2,
-      "next_review": "2026-11-09",
-      "review_count": 6,
+      "next_review": "2027-02-07",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -7941,8 +7941,8 @@
       "definition": "水上交通",
       "example": "A ship can help you.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7953,8 +7953,8 @@
       "definition": "水上载具",
       "example": "A boat can help you.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7965,8 +7965,8 @@
       "definition": "个人交通",
       "example": "A bike can help you.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7977,8 +7977,8 @@
       "definition": "两轮车",
       "example": "This is a bicycle.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -7989,8 +7989,8 @@
       "definition": "机动车",
       "example": "I have a motorcycle.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8001,8 +8001,8 @@
       "definition": "付费交通",
       "example": "The taxi is important.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8013,8 +8013,8 @@
       "definition": "货车",
       "example": "A truck can help you.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8025,8 +8025,8 @@
       "definition": "医疗车辆",
       "example": "I have a ambulance.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8037,8 +8037,8 @@
       "definition": "消防车辆",
       "example": "A fire engine can help you.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8049,8 +8049,8 @@
       "definition": "执法车辆",
       "example": "This is a police car.",
       "difficulty": 5,
-      "next_review": "2026-11-09",
-      "review_count": 5,
+      "next_review": "2027-02-07",
+      "review_count": 6,
       "status": "learning"
     },
     {
