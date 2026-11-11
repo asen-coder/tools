@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-10",
+  "generated": "2026-11-11",
   "words": [
     {
       "id": "ai_001",
@@ -1593,8 +1593,8 @@
       "definition": "将输入文本切分为 token 序列的预处理工具，不同模型使用不同的分词策略",
       "example": "tiktoken.encoding_for_model('gpt-4').encode('Hello world')  # → [9906, 1917]",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2577,8 +2577,8 @@
       "definition": "询问某个方案的利弊得失，要求对方全面分析而非只讲优点",
       "example": "What are the trade-offs between monolith and microservices for our use case?",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2589,8 +2589,8 @@
       "definition": "表达对某个决定或计划存在担忧，礼貌地提出反对意见",
       "example": "I have some concerns about the timeline. Can we review the resource allocation?",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2613,8 +2613,8 @@
       "definition": "要求找出问题的根本原因而非表面症状，是技术复盘的常用问题",
       "example": "The service went down three times this week. What's the root cause?",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -8181,8 +8181,8 @@
       "definition": "靠近",
       "example": "I come every day.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8193,8 +8193,8 @@
       "definition": "离去",
       "example": "I leave every day.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8205,8 +8205,8 @@
       "definition": "抵达",
       "example": "Let's arrive together.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8217,8 +8217,8 @@
       "definition": "进去",
       "example": "Can you enter?",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8229,8 +8229,8 @@
       "definition": "离开",
       "example": "I exit every day.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8241,8 +8241,8 @@
       "definition": "开车",
       "example": "Let's drive together.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8253,8 +8253,8 @@
       "definition": "骑车",
       "example": "Let's ride together.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8265,8 +8265,8 @@
       "definition": "走路",
       "example": "Let's walk together.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8277,8 +8277,8 @@
       "definition": "跑步",
       "example": "I run every day.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8289,8 +8289,8 @@
       "definition": "跳跃",
       "example": "You should jump it.",
       "difficulty": 5,
-      "next_review": "2026-11-11",
-      "review_count": 5,
+      "next_review": "2027-02-09",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -14805,8 +14805,8 @@
       "definition": "娱乐",
       "example": "This is fun.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14817,8 +14817,8 @@
       "definition": "消遣",
       "example": "I have a entertainment.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14829,8 +14829,8 @@
       "definition": "闲暇",
       "example": "The leisure is important.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14841,8 +14841,8 @@
       "definition": "假期",
       "example": "A vacation can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14853,8 +14853,8 @@
       "definition": "节日",
       "example": "I have a holiday.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14865,8 +14865,8 @@
       "definition": "长途旅行",
       "example": "The journey is important.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14877,8 +14877,8 @@
       "definition": "历险",
       "example": "This is a adventure.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14889,8 +14889,8 @@
       "definition": "探险",
       "example": "I explore every day.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -14901,8 +14901,8 @@
       "definition": "扎营",
       "example": "This is camp.",
       "difficulty": 2,
-      "next_review": "2026-11-11",
-      "review_count": 6,
+      "next_review": "2027-02-09",
+      "review_count": 7,
       "status": "learning"
     },
     {
