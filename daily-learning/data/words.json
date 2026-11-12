@@ -2623,8 +2623,8 @@
     "definition": "承认问题尚未根本解决，先采用临时手段绕过问题维持运转",
     "example": "We can't fix the database bottleneck today. Let's add a cache layer as a workaround.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -2671,8 +2671,8 @@
     "definition": "解释某个被质疑的行为其实是符合预期设计的，并非缺陷",
     "example": "The loading spinner on slow connections is working as intended—it's a feature.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -2707,8 +2707,8 @@
     "definition": "在会议或讨论结束时，确认所有人对接下来的行动计划达成共识",
     "example": "Before we wrap up, let's align on the next steps and who owns each item.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -8299,8 +8299,8 @@
     "definition": "水上运动",
     "example": "I swim every day.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8311,8 +8311,8 @@
     "definition": "出行",
     "example": "Let's travel together.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8323,8 +8323,8 @@
     "definition": "短途",
     "example": "I have a trip.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8335,8 +8335,8 @@
     "definition": "观光",
     "example": "I have a tour.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8347,8 +8347,8 @@
     "definition": "访问",
     "example": "I visit every day.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8359,8 +8359,8 @@
     "definition": "导航图",
     "example": "I have a map.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8371,8 +8371,8 @@
     "definition": "凭证",
     "example": "This is a ticket.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8383,8 +8383,8 @@
     "definition": "出行者",
     "example": "I have a passenger.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8395,8 +8395,8 @@
     "definition": "乘车点",
     "example": "A station can help you.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8407,8 +8407,8 @@
     "definition": "航空枢纽",
     "example": "This is a airport.",
     "difficulty": 5,
-    "next_review": "2026-11-12",
-    "review_count": 5,
+    "next_review": "2027-02-10",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11227,8 +11227,8 @@
     "definition": "信任",
     "example": "I believe every day.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11239,8 +11239,8 @@
     "definition": "思维器官",
     "example": "A mind can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11251,8 +11251,8 @@
     "definition": "想法",
     "example": "The idea is important.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11263,8 +11263,8 @@
     "definition": "思维",
     "example": "This is a thought.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11275,8 +11275,8 @@
     "definition": "观点",
     "example": "This is a opinion.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -14911,8 +14911,8 @@
     "definition": "远足",
     "example": "This is hike.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -14923,8 +14923,8 @@
     "definition": "爬山",
     "example": "Can you climb?",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -14935,8 +14935,8 @@
     "definition": "冲浪运动",
     "example": "This is surf.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -14947,8 +14947,8 @@
     "definition": "雪上运动",
     "example": "This is ski.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -14959,8 +14959,8 @@
     "definition": "冰上运动",
     "example": "Let's skate together.",
     "difficulty": 2,
-    "next_review": "2026-11-12",
-    "review_count": 6,
+    "next_review": "2027-02-10",
+    "review_count": 7,
     "status": "learning"
   },
   {
