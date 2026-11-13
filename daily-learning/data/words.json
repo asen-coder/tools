@@ -2755,8 +2755,8 @@
     "definition": "说明某个需求或话题不在当前项目、会议或任务的讨论范围之内",
     "example": "Internationalization is a great idea, but that's out of scope for this MVP.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -2779,8 +2779,8 @@
     "definition": "主动承担某项任务的责任，表明自己将全权推动直至完成",
     "example": "Nobody is driving the API documentation. I'll take ownership of this.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -2803,8 +2803,8 @@
     "definition": "表示当前方案尚不成熟，需要进一步分析和研究再做决定",
     "example": "The migration plan looks rushed. This needs more thought before we commit.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -8419,8 +8419,8 @@
     "definition": "住宿场所",
     "example": "The hotel is important.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8431,8 +8431,8 @@
     "definition": "执行",
     "example": "Can you do?",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8443,8 +8443,8 @@
     "definition": "创造",
     "example": "I make every day.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8455,8 +8455,8 @@
     "definition": "获取",
     "example": "You should get it.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8467,8 +8467,8 @@
     "definition": "赠送",
     "example": "You should give it.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8479,8 +8479,8 @@
     "definition": "取",
     "example": "You should take it.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8491,8 +8491,8 @@
     "definition": "拿来",
     "example": "Let's bring together.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8503,8 +8503,8 @@
     "definition": "显示",
     "example": "You should show it.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8515,8 +8515,8 @@
     "definition": "告知",
     "example": "I tell every day.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8527,8 +8527,8 @@
     "definition": "表达",
     "example": "You should say it.",
     "difficulty": 5,
-    "next_review": "2026-11-13",
-    "review_count": 5,
+    "next_review": "2027-02-11",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11287,8 +11287,8 @@
     "definition": "学识",
     "example": "A knowledge can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11299,8 +11299,8 @@
     "definition": "消息",
     "example": "The information is important.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11311,8 +11311,8 @@
     "definition": "消息",
     "example": "The news is important.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11323,8 +11323,8 @@
     "definition": "讯息",
     "example": "The message is important.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11335,8 +11335,8 @@
     "definition": "叙述",
     "example": "A story can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11347,8 +11347,8 @@
     "definition": "故事",
     "example": "The tale is important.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11359,8 +11359,8 @@
     "definition": "传说",
     "example": "I have a legend.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11371,8 +11371,8 @@
     "definition": "过去事件",
     "example": "A history can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11383,8 +11383,8 @@
     "definition": "真实",
     "example": "I have a fact.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11395,8 +11395,8 @@
     "definition": "真实",
     "example": "The truth is important.",
     "difficulty": 2,
-    "next_review": "2026-11-13",
-    "review_count": 6,
+    "next_review": "2027-02-11",
+    "review_count": 7,
     "status": "learning"
   },
   {
