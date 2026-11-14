@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13",
+  "generated": "2026-11-14",
   "words": [
     {
       "id": "ai_001",
@@ -1113,8 +1113,8 @@
       "definition": "在讨论其他内容后返回到之前未解决的话题",
       "example": "We got sidetracked. Let's circle back to the deployment timeline.",
       "difficulty": 3,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1125,8 +1125,8 @@
       "definition": "核实双方对某件事的理解完全相同，避免误解导致工作偏差",
       "example": "Before we start coding, I want to make sure we're on the same page about the API contract.",
       "difficulty": 3,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1137,8 +1137,8 @@
       "definition": "礼貌地表示不同意某个观点，并准备提出反驳理由",
       "example": "Let me push back on that — a complete rewrite seems risky given the deadline.",
       "difficulty": 3,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -8541,8 +8541,8 @@
       "definition": "提问",
       "example": "Let's ask together.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8553,8 +8553,8 @@
       "definition": "讲话",
       "example": "Can you speak?",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8565,8 +8565,8 @@
       "definition": "交流",
       "example": "Let's talk together.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8577,8 +8577,8 @@
       "definition": "大声说",
       "example": "Let's shout together.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8589,8 +8589,8 @@
       "definition": "小声说",
       "example": "Let's whisper together.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8601,8 +8601,8 @@
       "definition": "喊或打电话",
       "example": "Can you call?",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8613,8 +8613,8 @@
       "definition": "流泪",
       "example": "Let's cry together.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8625,8 +8625,8 @@
       "definition": "发笑",
       "example": "Can you laugh?",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8637,8 +8637,8 @@
       "definition": "露出笑容",
       "example": "Let's smile together.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8649,8 +8649,8 @@
       "definition": "娱乐",
       "example": "You should play it.",
       "difficulty": 5,
-      "next_review": "2026-11-14",
-      "review_count": 5,
+      "next_review": "2027-02-12",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11409,8 +11409,8 @@
       "definition": "隐藏",
       "example": "This is a secret.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11421,8 +11421,8 @@
       "definition": "未知",
       "example": "The mystery is important.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11433,8 +11433,8 @@
       "definition": "难题",
       "example": "The puzzle is important.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11445,8 +11445,8 @@
       "definition": "谜题",
       "example": "This is a riddle.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11457,8 +11457,8 @@
       "definition": "难题",
       "example": "The problem is important.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11469,8 +11469,8 @@
       "definition": "解答",
       "example": "This is a solution.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11481,8 +11481,8 @@
       "definition": "outcome",
       "example": "A result can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11493,8 +11493,8 @@
       "definition": "理由",
       "example": "This is a reason.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11505,8 +11505,8 @@
       "definition": "导致",
       "example": "A cause can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11517,8 +11517,8 @@
       "definition": "影响",
       "example": "I have a effect.",
       "difficulty": 2,
-      "next_review": "2026-11-14",
-      "review_count": 6,
+      "next_review": "2027-02-12",
+      "review_count": 7,
       "status": "learning"
     },
     {
