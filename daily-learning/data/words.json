@@ -1147,8 +1147,8 @@
     "definition": "请对方一步步解释其得出结论的逻辑过程",
     "example": "Could you walk me through your reasoning for choosing Redis over Memcached?",
     "difficulty": 3,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -1159,8 +1159,8 @@
     "definition": "委婉地表示对方的理解或方案与自己的预期有偏差",
     "example": "That's not quite what I had in mind — I was thinking of a lighter solution.",
     "difficulty": 3,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -1171,8 +1171,8 @@
     "definition": "感谢对方直接说出真实看法，即使是批评也是欢迎的",
     "example": "I appreciate your candor about the code quality issues.",
     "difficulty": 3,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -8659,8 +8659,8 @@
     "definition": "劳动",
     "example": "Can you work?",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8671,8 +8671,8 @@
     "definition": "睡眠",
     "example": "I sleep every day.",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8683,8 +8683,8 @@
     "definition": "苏醒",
     "example": "Can you wake?",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8695,8 +8695,8 @@
     "definition": "梦境",
     "example": "Can you dream?",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8707,8 +8707,8 @@
     "definition": "进食",
     "example": "You should eat it.",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8719,8 +8719,8 @@
     "definition": "饮用",
     "example": "You should drink it.",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8731,8 +8731,8 @@
     "definition": "尝试味道",
     "example": "Let's taste together.",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8743,8 +8743,8 @@
     "definition": "嗅觉",
     "example": "You should smell it.",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8755,8 +8755,8 @@
     "definition": "听觉",
     "example": "Can you hear?",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -8767,8 +8767,8 @@
     "definition": "倾听",
     "example": "Let's listen together.",
     "difficulty": 5,
-    "next_review": "2026-11-15",
-    "review_count": 5,
+    "next_review": "2027-02-13",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -11527,8 +11527,8 @@
     "definition": "目标",
     "example": "A purpose can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11539,8 +11539,8 @@
     "definition": "目的",
     "example": "The goal is important.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11551,8 +11551,8 @@
     "definition": "瞄准",
     "example": "I have a aim.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11563,8 +11563,8 @@
     "definition": "规划",
     "example": "This is plan.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11575,8 +11575,8 @@
     "definition": "方式",
     "example": "I have a method.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11587,8 +11587,8 @@
     "definition": "方法",
     "example": "The means is important.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11599,8 +11599,8 @@
     "definition": "程序",
     "example": "I have a step.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11611,8 +11611,8 @@
     "definition": "流程",
     "example": "I have a process.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11623,8 +11623,8 @@
     "definition": "训练",
     "example": "The practice is important.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -11635,8 +11635,8 @@
     "definition": "锻炼",
     "example": "This is a exercise.",
     "difficulty": 2,
-    "next_review": "2026-11-15",
-    "review_count": 6,
+    "next_review": "2027-02-13",
+    "review_count": 7,
     "status": "learning"
   },
   {
