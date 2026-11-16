@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15",
+  "generated": "2026-11-16",
   "words": [
     {
       "id": "ai_001",
@@ -2565,8 +2565,8 @@
       "definition": "礼貌地请求对方解释决定或设计背后的原因和思考过程",
       "example": "What's the rationale behind choosing GraphQL over REST for this project?",
       "difficulty": 3,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2601,8 +2601,8 @@
       "definition": "在讨论中过于纠结细节时提醒大家回到主线，避免因小失大",
       "example": "We only have 20 minutes. Let's not get into the weeds—focus on the three key decisions.",
       "difficulty": 3,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2649,8 +2649,8 @@
       "definition": "礼貌地表示方案背后的某个前提可能不成立，希望重新审视",
       "example": "I want to challenge this assumption that users prefer dark mode.",
       "difficulty": 3,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -8781,8 +8781,8 @@
       "definition": "视觉",
       "example": "You should see it.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8793,8 +8793,8 @@
       "definition": "观看",
       "example": "Can you look?",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8805,8 +8805,8 @@
       "definition": "感知",
       "example": "You should feel it.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8817,8 +8817,8 @@
       "definition": "触碰",
       "example": "I touch every day.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8829,8 +8829,8 @@
       "definition": "抓住",
       "example": "I hold every day.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8841,8 +8841,8 @@
       "definition": "携带",
       "example": "Can you carry?",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8853,8 +8853,8 @@
       "definition": "拖动",
       "example": "Let's pull together.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8865,8 +8865,8 @@
       "definition": "推动",
       "example": "Can you push?",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8877,8 +8877,8 @@
       "definition": "开启",
       "example": "Let's open together.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8889,8 +8889,8 @@
       "definition": "关上",
       "example": "You should close it.",
       "difficulty": 5,
-      "next_review": "2026-11-16",
-      "review_count": 5,
+      "next_review": "2027-02-14",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11649,8 +11649,8 @@
       "definition": "培养",
       "example": "I have a training.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11661,8 +11661,8 @@
       "definition": "经历",
       "example": "A experience can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11673,8 +11673,8 @@
       "definition": "本领",
       "example": "The skill is important.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11685,8 +11685,8 @@
       "definition": "才能",
       "example": "A ability can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11697,8 +11697,8 @@
       "definition": "才华",
       "example": "This is a talent.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11709,8 +11709,8 @@
       "definition": "礼物",
       "example": "I have a gift.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11721,8 +11721,8 @@
       "definition": "喜爱",
       "example": "Let's enjoy together.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11733,8 +11733,8 @@
       "definition": "偏好",
       "example": "Can you prefer?",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11745,8 +11745,8 @@
       "definition": "在意",
       "example": "You should care it.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11757,8 +11757,8 @@
       "definition": "忧虑",
       "example": "You should worry it.",
       "difficulty": 2,
-      "next_review": "2026-11-16",
-      "review_count": 6,
+      "next_review": "2027-02-14",
+      "review_count": 7,
       "status": "learning"
     },
     {
