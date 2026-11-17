@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "words": [
     {
       "id": "ai_001",
@@ -1185,8 +1185,8 @@
       "definition": "在项目开始前确保所有人对目标、范围和交付物有相同的理解",
       "example": "Before sprint planning, I want to level-set on our expectations for this feature.",
       "difficulty": 4,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2733,8 +2733,8 @@
       "definition": "礼貌地请求将某个话题暂时搁置，待当前讨论结束或另择时间再回来处理",
       "example": "That's a great point. Can we put a pin in that and revisit after the demo?",
       "difficulty": 3,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2793,8 +2793,8 @@
       "definition": "要求做出有意义的推进，而非停留在讨论或小步骤，强调要有明显可见的结果",
       "example": "We've been planning for two weeks. It's time to move the needle and ship something.",
       "difficulty": 3,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -8901,8 +8901,8 @@
       "definition": "启动",
       "example": "Can you start?",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8913,8 +8913,8 @@
       "definition": "着手",
       "example": "Can you begin?",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8925,8 +8925,8 @@
       "definition": "结束",
       "example": "You should finish it.",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8937,8 +8937,8 @@
       "definition": "终止",
       "example": "You should end it.",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8949,8 +8949,8 @@
       "definition": "等候",
       "example": "You should wait it.",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8961,8 +8961,8 @@
       "definition": "协助",
       "example": "You should help it.",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8973,8 +8973,8 @@
       "definition": "喜爱",
       "example": "Can you love?",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8985,8 +8985,8 @@
       "definition": "喜好",
       "example": "I like every day.",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -8997,8 +8997,8 @@
       "definition": "厌恶",
       "example": "Can you hate?",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9009,8 +9009,8 @@
       "definition": "希望",
       "example": "You should want it.",
       "difficulty": 5,
-      "next_review": "2026-11-17",
-      "review_count": 5,
+      "next_review": "2027-02-15",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11769,8 +11769,8 @@
       "definition": "害怕",
       "example": "This is fear.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11781,8 +11781,8 @@
       "definition": "畏惧",
       "example": "I dread every day.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11793,8 +11793,8 @@
       "definition": "惊慌",
       "example": "This is panic.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11805,8 +11805,8 @@
       "definition": "吃惊",
       "example": "This is surprise.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11817,8 +11817,8 @@
       "definition": "惊愕",
       "example": "This is shock.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11829,8 +11829,8 @@
       "definition": "惊叹",
       "example": "I amaze every day.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11841,8 +11841,8 @@
       "definition": "惊愕",
       "example": "Can you astonish?",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11853,8 +11853,8 @@
       "definition": "激动",
       "example": "You should excite it.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11865,8 +11865,8 @@
       "definition": "厌烦",
       "example": "I bore every day.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11877,8 +11877,8 @@
       "definition": "关注",
       "example": "Let's interest together.",
       "difficulty": 2,
-      "next_review": "2026-11-17",
-      "review_count": 6,
+      "next_review": "2027-02-15",
+      "review_count": 7,
       "status": "learning"
     },
     {
