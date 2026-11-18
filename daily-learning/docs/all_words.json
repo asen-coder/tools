@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-17",
+  "generated": "2026-11-18",
   "words": [
     {
       "id": "ai_001",
@@ -1197,8 +1197,8 @@
       "definition": "明确并确认每个人对本次工作最终输出物的理解一致",
       "example": "Let's align on the key deliverables — is it the API docs or the demo as well?",
       "difficulty": 4,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1209,8 +1209,8 @@
       "definition": "委婉指出团队成员对同一件事的理解存在不一致的情况",
       "example": "There seems to be some misalignment — you said 'done' means tested, they said it means deployed.",
       "difficulty": 4,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -1221,8 +1221,8 @@
       "definition": "将当前争论搁置，留到会议后小范围单独讨论，避免浪费集体时间",
       "example": "This is getting detailed. Let's table this for now and take it offline.",
       "difficulty": 4,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -9021,8 +9021,8 @@
       "definition": "必需",
       "example": "I need every day.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9033,8 +9033,8 @@
       "definition": "期盼",
       "example": "Let's hope together.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9045,8 +9045,8 @@
       "definition": "渴望",
       "example": "You should wish it.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9057,8 +9057,8 @@
       "definition": "试",
       "example": "I try every day.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9069,8 +9069,8 @@
       "definition": "应用",
       "example": "I use every day.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9081,8 +9081,8 @@
       "definition": "维持",
       "example": "You should keep it.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9093,8 +9093,8 @@
       "definition": "变化",
       "example": "You should change it.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9105,8 +9105,8 @@
       "definition": "运动",
       "example": "You should move it.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9117,8 +9117,8 @@
       "definition": "放置",
       "example": "You should put it.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9129,8 +9129,8 @@
       "definition": "安放",
       "example": "Let's place together.",
       "difficulty": 5,
-      "next_review": "2026-11-18",
-      "review_count": 5,
+      "next_review": "2027-02-16",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -11889,8 +11889,8 @@
       "definition": "满足",
       "example": "Can you satisfy?",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11901,8 +11901,8 @@
       "definition": "失望",
       "example": "Let's disappoint together.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11913,8 +11913,8 @@
       "definition": "烦恼",
       "example": "This is upset.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11925,8 +11925,8 @@
       "definition": "抚慰",
       "example": "You should comfort it.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11937,8 +11937,8 @@
       "definition": "激励",
       "example": "I encourage every day.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11949,8 +11949,8 @@
       "definition": "鼓舞",
       "example": "You should inspire it.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11961,8 +11961,8 @@
       "definition": "驱动",
       "example": "I motivate every day.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11973,8 +11973,8 @@
       "definition": "劝服",
       "example": "Can you persuade?",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11985,8 +11985,8 @@
       "definition": "说服",
       "example": "You should convince it.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -11997,8 +11997,8 @@
       "definition": "相信",
       "example": "You should trust it.",
       "difficulty": 2,
-      "next_review": "2026-11-18",
-      "review_count": 6,
+      "next_review": "2027-02-16",
+      "review_count": 7,
       "status": "learning"
     },
     {
