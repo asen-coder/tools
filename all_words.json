@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-18",
+  "generated": "2026-11-19",
   "words": [
     {
       "id": "ai_001",
@@ -969,8 +969,8 @@
       "definition": "礼貌请求对方重复刚才说的内容",
       "example": "Sorry, could you repeat that? The connection was breaking up.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -981,8 +981,8 @@
       "definition": "表示你已理解对方说的内容",
       "example": "I understand the requirements. I'll start working on it today.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2661,8 +2661,8 @@
       "definition": "提醒大家当前关注的点可能与真正问题无关，是错误的追踪方向",
       "example": "The CSS error might be a red herring. The real bug is in the data fetching.",
       "difficulty": 4,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -9141,8 +9141,8 @@
       "definition": "坐下",
       "example": "Can you sit?",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9153,8 +9153,8 @@
       "definition": "站立",
       "example": "You should stand it.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9165,8 +9165,8 @@
       "definition": "卧倒",
       "example": "I lie every day.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9177,8 +9177,8 @@
       "definition": "跌倒",
       "example": "I fall every day.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9189,8 +9189,8 @@
       "definition": "上升",
       "example": "Can you rise?",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9201,8 +9201,8 @@
       "definition": "抬高",
       "example": "Can you lift?",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9213,8 +9213,8 @@
       "definition": "落下",
       "example": "Let's drop together.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9225,8 +9225,8 @@
       "definition": "拾起",
       "example": "You should pick it.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9237,8 +9237,8 @@
       "definition": "切割",
       "example": "You should cut it.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9249,8 +9249,8 @@
       "definition": "损坏",
       "example": "I break every day.",
       "difficulty": 5,
-      "next_review": "2026-11-19",
-      "review_count": 5,
+      "next_review": "2027-02-17",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12009,8 +12009,8 @@
       "definition": "质疑",
       "example": "Let's doubt together.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12021,8 +12021,8 @@
       "definition": "猜测",
       "example": "You should suspect it.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12033,8 +12033,8 @@
       "definition": "假定",
       "example": "You should assume it.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12045,8 +12045,8 @@
       "definition": "假定",
       "example": "Let's suppose together.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12057,8 +12057,8 @@
       "definition": "设想",
       "example": "I imagine every day.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12069,8 +12069,8 @@
       "definition": "明白",
       "example": "Can you realize?",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12081,8 +12081,8 @@
       "definition": "识别",
       "example": "You should recognize it.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12093,8 +12093,8 @@
       "definition": "觉察",
       "example": "Let's notice together.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12105,8 +12105,8 @@
       "definition": "观测",
       "example": "You should observe it.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12117,8 +12117,8 @@
       "definition": "找到",
       "example": "You should discover it.",
       "difficulty": 2,
-      "next_review": "2026-11-19",
-      "review_count": 6,
+      "next_review": "2027-02-17",
+      "review_count": 7,
       "status": "learning"
     },
     {
