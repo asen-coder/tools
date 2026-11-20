@@ -991,8 +991,8 @@
     "definition": "表达对对方意见的认可和肯定",
     "example": "That's a good point about performance. We should optimize the query.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -1003,8 +1003,8 @@
     "definition": "表示与对方观点一致",
     "example": "I agree. Using TypeScript would reduce runtime errors significantly.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -1015,8 +1015,8 @@
     "definition": "邀请对方继续发言或开始做某件事",
     "example": "You wanted to share the test results? Please go ahead.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -9259,8 +9259,8 @@
     "definition": "修复",
     "example": "Can you fix?",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9271,8 +9271,8 @@
     "definition": "建筑",
     "example": "I build every day.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9283,8 +9283,8 @@
     "definition": "成长",
     "example": "Let's grow together.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9295,8 +9295,8 @@
     "definition": "死亡",
     "example": "Can you die?",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9307,8 +9307,8 @@
     "definition": "居住",
     "example": "Can you live?",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9319,8 +9319,8 @@
     "definition": "诞生",
     "example": "I born every day.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9331,8 +9331,8 @@
     "definition": "优质",
     "example": "A good {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9343,8 +9343,8 @@
     "definition": "劣质",
     "example": "A bad {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9355,8 +9355,8 @@
     "definition": "高兴",
     "example": "It is very happy.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9367,8 +9367,8 @@
     "definition": "难过",
     "example": "It is very sad.",
     "difficulty": 5,
-    "next_review": "2026-11-20",
-    "review_count": 5,
+    "next_review": "2027-02-18",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12127,8 +12127,8 @@
     "definition": "创造",
     "example": "Let's invent together.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12139,8 +12139,8 @@
     "definition": "创作",
     "example": "You should create it.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12151,8 +12151,8 @@
     "definition": "规划",
     "example": "You should design it.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12163,8 +12163,8 @@
     "definition": "制造",
     "example": "Can you produce?",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12175,8 +12175,8 @@
     "definition": "开发",
     "example": "Can you develop?",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12187,8 +12187,8 @@
     "definition": "改善",
     "example": "You should improve it.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12199,8 +12199,8 @@
     "definition": "增长",
     "example": "You should increase it.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12211,8 +12211,8 @@
     "definition": "降低",
     "example": "Let's decrease together.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12223,8 +12223,8 @@
     "definition": "提升",
     "example": "I raise every day.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12235,8 +12235,8 @@
     "definition": "减少",
     "example": "Let's lower together.",
     "difficulty": 2,
-    "next_review": "2026-11-20",
-    "review_count": 6,
+    "next_review": "2027-02-18",
+    "review_count": 7,
     "status": "learning"
   },
   {
