@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "words": [
     {
       "id": "ai_001",
@@ -2493,8 +2493,8 @@
       "definition": "约定一次短暂会面或通话，让团队成员了解彼此的最新进展",
       "example": "Before the sprint review, let's sync up for 15 minutes to align on the demo flow.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2529,8 +2529,8 @@
       "definition": "说明项目进度滞后，没有按原定时间线推进",
       "example": "We're behind schedule by two days. Should we cut scope or add resources?",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2553,8 +2553,8 @@
       "definition": "认可对方的意见合理有据，表示接受或值得考虑，即使不完全同意",
       "example": "That's a fair point about test coverage. Let's add more unit tests before merging.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -9381,8 +9381,8 @@
       "definition": "愤怒",
       "example": "A angry {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9393,8 +9393,8 @@
       "definition": "恐惧",
       "example": "A afraid {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9405,8 +9405,8 @@
       "definition": "无畏",
       "example": "A brave {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9417,8 +9417,8 @@
       "definition": "友善",
       "example": "It is very kind.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9429,8 +9429,8 @@
       "definition": "友好",
       "example": "This is nice.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9441,8 +9441,8 @@
       "definition": "不友善",
       "example": "A mean {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9453,8 +9453,8 @@
       "definition": "有教养",
       "example": "This is polite.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9465,8 +9465,8 @@
       "definition": "无礼",
       "example": "A rude {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9477,8 +9477,8 @@
       "definition": "繁忙",
       "example": "It is very busy.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9489,8 +9489,8 @@
       "definition": "有空",
       "example": "A free {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-21",
-      "review_count": 5,
+      "next_review": "2027-02-19",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12249,8 +12249,8 @@
       "definition": "扩张",
       "example": "You should expand it.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12261,8 +12261,8 @@
       "definition": "缩减",
       "example": "You should reduce it.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12273,8 +12273,8 @@
       "definition": "节约",
       "example": "I save every day.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12285,8 +12285,8 @@
       "definition": "消耗",
       "example": "You should spend it.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12297,8 +12297,8 @@
       "definition": "挥霍",
       "example": "You should waste it.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12309,8 +12309,8 @@
       "definition": "失去",
       "example": "I lose every day.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12321,8 +12321,8 @@
       "definition": "得到",
       "example": "I gain every day.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12333,8 +12333,8 @@
       "definition": "获胜",
       "example": "I win every day.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12345,8 +12345,8 @@
       "definition": "未成功",
       "example": "I fail every day.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12357,8 +12357,8 @@
       "definition": "达成",
       "example": "Let's succeed together.",
       "difficulty": 2,
-      "next_review": "2026-11-21",
-      "review_count": 6,
+      "next_review": "2027-02-19",
+      "review_count": 7,
       "status": "learning"
     },
     {
