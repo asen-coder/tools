@@ -2635,8 +2635,8 @@
     "definition": "说明某个 bug 或问题已被记录在案，团队清楚其存在",
     "example": "The lag on the search page is a known issue. It's tracked as BUG-421.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -2683,8 +2683,8 @@
     "definition": "给出正面反馈，表示对方的思路或方案大方向正确，值得继续深化",
     "example": "Your proposal is on the right track. Let's flesh out the implementation details.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -2695,8 +2695,8 @@
     "definition": "请求对方对某个观点或说法做更详细的解释",
     "example": "You mentioned scalability concerns—can you elaborate on that?",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -9499,8 +9499,8 @@
     "definition": "疲劳",
     "example": "A tired {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9511,8 +9511,8 @@
     "definition": "饥饿",
     "example": "A hungry {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9523,8 +9523,8 @@
     "definition": "口渴",
     "example": "This is thirsty.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9535,8 +9535,8 @@
     "definition": "不饿",
     "example": "It is very full.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9547,8 +9547,8 @@
     "definition": "生病",
     "example": "This is sick.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9559,8 +9559,8 @@
     "definition": "身体好",
     "example": "A well {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9571,8 +9571,8 @@
     "definition": "身体好",
     "example": "This is healthy.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9583,8 +9583,8 @@
     "definition": "有力",
     "example": "A strong {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9595,8 +9595,8 @@
     "definition": "无力",
     "example": "A weak {noun}.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -9607,8 +9607,8 @@
     "definition": "年纪小",
     "example": "It is very young.",
     "difficulty": 5,
-    "next_review": "2026-11-22",
-    "review_count": 5,
+    "next_review": "2027-02-20",
+    "review_count": 6,
     "status": "learning"
   },
   {
@@ -12367,8 +12367,8 @@
     "definition": "达成",
     "example": "Let's achieve together.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12379,8 +12379,8 @@
     "definition": "实现",
     "example": "Let's accomplish together.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12391,8 +12391,8 @@
     "definition": "完整",
     "example": "You should complete it.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12403,8 +12403,8 @@
     "definition": "职业",
     "example": "This is a job.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12415,8 +12415,8 @@
     "definition": "事业",
     "example": "I have a career.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12427,8 +12427,8 @@
     "definition": "专业",
     "example": "The profession is important.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12439,8 +12439,8 @@
     "definition": "生意",
     "example": "A business can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12451,8 +12451,8 @@
     "definition": "企业",
     "example": "A company can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12463,8 +12463,8 @@
     "definition": "制造场所",
     "example": "A factory can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
@@ -12475,8 +12475,8 @@
     "definition": "店铺",
     "example": "A shop can help you.",
     "difficulty": 2,
-    "next_review": "2026-11-22",
-    "review_count": 6,
+    "next_review": "2027-02-20",
+    "review_count": 7,
     "status": "learning"
   },
   {
