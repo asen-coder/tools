@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-22",
+  "generated": "2026-11-23",
   "words": [
     {
       "id": "ai_001",
@@ -2721,8 +2721,8 @@
       "definition": "表示自己会继续推进某个事项，并在适当时候反馈进展",
       "example": "I don't have the answer right now, but I'll follow up on this by Thursday.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2745,8 +2745,8 @@
       "definition": "礼貌地表示没有理解对方说的内容，请求重新解释",
       "example": "I'm not sure I follow—could you walk me through the flow again with an example?",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -2769,8 +2769,8 @@
       "definition": "表示所有准备工作已就绪，可以开始执行某项工作或进入下一阶段",
       "example": "Tests are passing, staging looks clean—we're good to go for the release.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -9621,8 +9621,8 @@
       "definition": "年纪大",
       "example": "It is very old.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9633,8 +9633,8 @@
       "definition": "新的",
       "example": "It is very new.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9645,8 +9645,8 @@
       "definition": "漂亮",
       "example": "It is very beautiful.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9657,8 +9657,8 @@
       "definition": "难看",
       "example": "A ugly {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9669,8 +9669,8 @@
       "definition": "整洁",
       "example": "A clean {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9681,8 +9681,8 @@
       "definition": "污浊",
       "example": "A dirty {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9693,8 +9693,8 @@
       "definition": "有钱",
       "example": "A rich {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9705,8 +9705,8 @@
       "definition": "没钱",
       "example": "A poor {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9717,8 +9717,8 @@
       "definition": "价低",
       "example": "A cheap {noun}.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -9729,8 +9729,8 @@
       "definition": "价高",
       "example": "This is expensive.",
       "difficulty": 5,
-      "next_review": "2026-11-23",
-      "review_count": 5,
+      "next_review": "2027-02-21",
+      "review_count": 6,
       "status": "learning"
     },
     {
@@ -12489,8 +12489,8 @@
       "definition": "店铺",
       "example": "This is a store.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12501,8 +12501,8 @@
       "definition": "交易场所",
       "example": "I have a market.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12513,8 +12513,8 @@
       "definition": "金融机构",
       "example": "I have a bank.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12525,8 +12525,8 @@
       "definition": "医疗机构",
       "example": "The hospital is important.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12537,8 +12537,8 @@
       "definition": "高等院校",
       "example": "This is a college.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12549,8 +12549,8 @@
       "definition": "高等学府",
       "example": "A university can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12561,8 +12561,8 @@
       "definition": "展览场所",
       "example": "This is a museum.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12573,8 +12573,8 @@
       "definition": "演出场所",
       "example": "A theater can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12585,8 +12585,8 @@
       "definition": "放映场所",
       "example": "A cinema can help you.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
@@ -12597,8 +12597,8 @@
       "definition": "休闲场所",
       "example": "This is a cafe.",
       "difficulty": 2,
-      "next_review": "2026-11-23",
-      "review_count": 6,
+      "next_review": "2027-02-21",
+      "review_count": 7,
       "status": "learning"
     },
     {
